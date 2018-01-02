@@ -1,0 +1,6952 @@
+# Copyright (C) 2017 Highend
+# This file is distributed under the same license as the Highend package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Highend\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e;_ex:1,2c;_n:1,2;_n_noop:1,2;_nx:1,2,4c;_nx_noop:1,2,3c;_x:1,2c;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: 404.php:17
+msgid "File not Found"
+msgstr ""
+
+#: 404.php:18
+msgid "Sorry, but we couldn't find the content you were looking for."
+msgstr ""
+
+#: 404.php:19
+msgid "Back to our Home"
+msgstr ""
+
+#: archive.php:107, loop-blog-minimal.php:34, search.php:95, includes/shortcodes.php:106, includes/widgets/widget-latest-posts.php:106, hbframework/admin/utilities/class-sidebar-manager.php:311
+msgid "No Title"
+msgstr ""
+
+#: archive.php:122, search.php:110
+msgid "No results found."
+msgstr ""
+
+#: comments.php:12
+msgid "This post is password protected. Enter the password to view comments."
+msgstr ""
+
+#: comments.php:22
+msgid "No Comments"
+msgstr ""
+
+#: comments.php:22, single-faq.php:80, single-gallery.php:82, single.php:137, includes/shortcodes.php:1786
+msgid "1 Comment"
+msgstr ""
+
+#: comments.php:22, single-faq.php:80, single-gallery.php:82, single.php:137
+msgid "% Comments"
+msgstr ""
+
+#: comments.php:23
+msgid "Leave your reply."
+msgstr ""
+
+#: comments.php:73
+msgid "Leave a Reply"
+msgstr ""
+
+#: comments.php:74
+msgid "Leave a Reply to %s"
+msgstr ""
+
+#: comments.php:75
+msgid "Cancel Reply"
+msgstr ""
+
+#: comments.php:76
+msgid "Submit Comment"
+msgstr ""
+
+#: comments.php:82
+msgid "You must be <a href=\"%s\">logged in</a> to post a comment."
+msgstr ""
+
+#: comments.php:88
+msgid "Logged in as <a href=\"%1$s\">%2$s</a>. <a href=\"%3$s\" title=\"Log out of this account\">Log out?</a>"
+msgstr ""
+
+#: comments.php:102
+msgid "Name (Required)"
+msgstr ""
+
+#: comments.php:107
+msgid "Email (Required)"
+msgstr ""
+
+#: comments.php:112
+msgid "Website"
+msgstr ""
+
+#: comments.php:149, admin/metaboxes/meta-testimonials.php:5, includes/widgets/widget-latest-posts-simple.php:198
+msgid "Author"
+msgstr ""
+
+#: comments.php:154
+msgid " at "
+msgstr ""
+
+#: comments.php:160
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: footer.php:124
+msgid "Prev"
+msgstr ""
+
+#: footer.php:131
+msgid "Next"
+msgstr ""
+
+#: footer.php:152
+msgid "Please add widgets to this widgetized area (\"Side Panel Section\") in Appearance > Widgets."
+msgstr ""
+
+#: footer.php:165
+msgid "Type and press Enter to search"
+msgstr ""
+
+#: functions.php:48
+msgid "Main Menu"
+msgstr ""
+
+#: functions.php:49
+msgid "Footer Menu"
+msgstr ""
+
+#: functions.php:50
+msgid "Mobile Menu"
+msgstr ""
+
+#: functions.php:51
+msgid "One Page Menu"
+msgstr ""
+
+#: functions.php:87, admin/theme-options.php:32, admin/theme-options.php:1809, admin/metaboxes/meta-layout-settings.php:6, admin/metaboxes/meta-portfolio-layout-settings.php:5
+msgid "Default Sidebar"
+msgstr ""
+
+#: functions.php:89
+msgid "This is a default sidebar for widgets. You can create unlimited sidebars in Highend > Sidebar Manager. You need to select this sidebar in page meta settings to display it."
+msgstr ""
+
+#: functions.php:98
+msgid "Side Panel Section"
+msgstr ""
+
+#: functions.php:100
+msgid "Add your widgets for the side panel section here. Make sure you have enabled the offset side panel section option in Highend Options > Layout Settings > Header Settings."
+msgstr ""
+
+#: functions.php:110
+msgid "This is an area for widgets. Drag and drop your widgets here."
+msgstr ""
+
+#: functions.php:267, functions.php:268, hbframework/hooks.php:135, hbframework/admin/pages/class-about-page.php:129, hbframework/admin/pages/class-about-page.php:131
+msgid "Highend Options"
+msgstr ""
+
+#: functions.php:285
+msgid "Portfolio Template Settings"
+msgstr ""
+
+#: functions.php:297
+msgid "Portfolio Page Settings"
+msgstr ""
+
+#: functions.php:309
+msgid "Portfolio Layout Settings"
+msgstr ""
+
+#: functions.php:325
+msgid "Pricing Settings"
+msgstr ""
+
+#: functions.php:339
+msgid "Fullwidth Gallery Template Settings"
+msgstr ""
+
+#: functions.php:351
+msgid "Standard Gallery Template Settings"
+msgstr ""
+
+#: functions.php:363
+msgid "Gallery Settings"
+msgstr ""
+
+#: functions.php:378
+msgid "Testimonial Settings"
+msgstr ""
+
+#: functions.php:392
+msgid "Team Layout Settings"
+msgstr ""
+
+#: functions.php:405
+msgid "Team Member Settings"
+msgstr ""
+
+#: functions.php:419
+msgid "Clients Settings"
+msgstr ""
+
+#: functions.php:432
+msgid "Presentation Settings"
+msgstr ""
+
+#: functions.php:445
+msgid "Featured Section Settings"
+msgstr ""
+
+#: functions.php:458
+msgid "Contact Template Settings"
+msgstr ""
+
+#: functions.php:470
+msgid "Post Format Settings"
+msgstr ""
+
+#: functions.php:481
+msgid "Classic Blog Template Settings"
+msgstr ""
+
+#: functions.php:493
+msgid "Minimal Blog Template Settings"
+msgstr ""
+
+#: functions.php:505
+msgid "Grid Blog Template Settings"
+msgstr ""
+
+#: functions.php:517
+msgid "Fullwidth Blog Template Settings"
+msgstr ""
+
+#: functions.php:533, admin/theme-options.php:536
+msgid "General Settings"
+msgstr ""
+
+#: functions.php:546, admin/theme-options.php:707
+msgid "Layout Settings"
+msgstr ""
+
+#: functions.php:563, admin/metaboxes/meta-background-settings.php:8
+msgid "Background Settings"
+msgstr ""
+
+#: functions.php:579
+msgid "Misc Settings"
+msgstr ""
+
+#: functions.php:726, admin/theme-options.php:2297, includes/shortcodes.php:2091, admin/metaboxes/meta-clients-settings.php:6, admin/metaboxes/meta-portfolio-settings.php:48
+msgid "Featured Image"
+msgstr ""
+
+#: functions.php:953
+msgid "New Message!"
+msgstr ""
+
+#: functions.php:990
+msgid "ago"
+msgstr ""
+
+#: functions.php:1164
+msgid "Search"
+msgstr ""
+
+#: hb-maintenance.php:37
+msgid "Under Construction | "
+msgstr ""
+
+#: hb-maintenance.php:114, includes/shortcodes.php:5273
+msgid "days"
+msgstr ""
+
+#: hb-maintenance.php:118, includes/shortcodes.php:5277
+msgid "hours"
+msgstr ""
+
+#: hb-maintenance.php:122, includes/shortcodes.php:5281
+msgid "minutes"
+msgstr ""
+
+#: hb-maintenance.php:126, includes/shortcodes.php:5285
+msgid "seconds"
+msgstr ""
+
+#: page-blank.php:6
+msgid "Blank Template"
+msgstr ""
+
+#: page-blog-fullwidth.php:6
+msgid "Blog - Fullwidth"
+msgstr ""
+
+#: page-blog-grid.php:6
+msgid "Blog - Grid"
+msgstr ""
+
+#: page-blog-minimal.php:6
+msgid "Blog - Minimal"
+msgstr ""
+
+#: page-blog.php:6
+msgid "Blog - Classic"
+msgstr ""
+
+#: page-contact.php:6
+msgid "Contact Template"
+msgstr ""
+
+#: page-contact.php:107, page-gallery-fullwidth.php:106, page-gallery-standard.php:156, page-portfolio-simple.php:157, page-portfolio-standard.php:160, taxonomy-gallery_categories.php:99, includes/aside-contact-panel.php:13
+msgid "Name"
+msgstr ""
+
+#: page-contact.php:108, admin/theme-options.php:2708, includes/aside-contact-panel.php:14
+msgid "Email"
+msgstr ""
+
+#: page-contact.php:109, includes/aside-contact-panel.php:15
+msgid "Subject"
+msgstr ""
+
+#: page-contact.php:110, includes/aside-contact-panel.php:16
+msgid "Your message..."
+msgstr ""
+
+#: page-contact.php:111
+msgid "Send"
+msgstr ""
+
+#: page-contact.php:112
+msgid "Message Sent"
+msgstr ""
+
+#: page-gallery-fullwidth.php:6
+msgid "Gallery - Fullwidth"
+msgstr ""
+
+#: page-gallery-fullwidth.php:103
+msgid "Sort by"
+msgstr ""
+
+#: page-gallery-fullwidth.php:103, page-gallery-fullwidth.php:105, page-gallery-standard.php:155, page-portfolio-simple.php:156, page-portfolio-standard.php:159, taxonomy-gallery_categories.php:98, admin/metaboxes/meta-blog-fw-page-settings.php:51, admin/metaboxes/meta-blog-grid-page-settings.php:42, admin/metaboxes/meta-blog-page-minimal-settings.php:24, admin/metaboxes/meta-blog-page-settings.php:42, admin/metaboxes/meta-gallery-fw-page-settings.php:53, admin/metaboxes/meta-gallery-standard-page-settings.php:53, admin/metaboxes/meta-portfolio-standard-page-settings.php:47, includes/widgets/widget-latest-posts-simple.php:195, includes/widgets/widget-testimonials.php:240
+msgid "Date"
+msgstr ""
+
+#: page-gallery-fullwidth.php:107
+msgid "Count"
+msgstr ""
+
+#: page-gallery-fullwidth.php:108, admin/metaboxes/meta-blog-fw-page-settings.php:67, admin/metaboxes/meta-blog-grid-page-settings.php:58, admin/metaboxes/meta-blog-page-minimal-settings.php:40, admin/metaboxes/meta-blog-page-settings.php:58, admin/metaboxes/meta-gallery-fw-page-settings.php:69, admin/metaboxes/meta-gallery-standard-page-settings.php:69, admin/metaboxes/meta-portfolio-standard-page-settings.php:63, includes/widgets/widget-latest-posts-simple.php:200, includes/widgets/widget-testimonials.php:241
+msgid "Random"
+msgstr ""
+
+#: page-gallery-fullwidth.php:131
+msgid "Filter by:"
+msgstr ""
+
+#: page-gallery-fullwidth.php:131
+msgid "ALL"
+msgstr ""
+
+#: page-gallery-fullwidth.php:133, page-gallery-fullwidth.php:133, page-gallery-standard.php:136, page-portfolio-simple.php:137, page-portfolio-standard.php:140, taxonomy-gallery_categories.php:79, taxonomy-portfolio_categories.php:73, includes/shortcodes.php:1218, includes/shortcodes.php:1218, includes/widgets/widget-gallery.php:172, includes/widgets/widget-latest-posts-simple.php:177, includes/widgets/widget-latest-posts.php:180, includes/widgets/widget-most-commented-posts.php:151, includes/widgets/widget-most-liked-portfolio.php:185, includes/widgets/widget-most-liked-posts.php:152, includes/widgets/widget-portfolio-random.php:148, includes/widgets/widget-portfolio.php:148, includes/widgets/widget-testimonials.php:222, hbframework/admin/pages/class-demo-importer-page.php:143, hbframework/admin/pages/class-demo-importer-page.php:229, hbframework/admin/pages/class-install-plugins-page.php:365
+msgid "All"
+msgstr ""
+
+#: page-gallery-fullwidth.php:197
+msgid "Photo"
+msgstr ""
+
+#: page-gallery-fullwidth.php:197
+msgid "Photos"
+msgstr ""
+
+#: page-gallery-standard.php:6
+msgid "Gallery - Standard"
+msgstr ""
+
+#: page-gallery-standard.php:136, page-portfolio-standard.php:140, taxonomy-gallery_categories.php:79, taxonomy-portfolio_categories.php:73
+msgid "View all All items"
+msgstr ""
+
+#: page-gallery-standard.php:140, page-portfolio-simple.php:141, page-portfolio-standard.php:144, taxonomy-gallery_categories.php:83, taxonomy-portfolio_categories.php:77
+msgid "View all "
+msgstr ""
+
+#: page-gallery-standard.php:140, page-portfolio-simple.php:141, page-portfolio-standard.php:144, taxonomy-gallery_categories.php:83, taxonomy-portfolio_categories.php:77
+msgid " items"
+msgstr ""
+
+#: page-gallery-standard.php:155, page-portfolio-standard.php:159, taxonomy-gallery_categories.php:98
+msgid "Show Newest First"
+msgstr ""
+
+#: page-gallery-standard.php:156, page-portfolio-standard.php:160, taxonomy-gallery_categories.php:99
+msgid "Sort by Name"
+msgstr ""
+
+#: page-login.php:6
+msgid "Login Page"
+msgstr ""
+
+#: page-login.php:53, includes/login-form.php:9
+msgid "Username"
+msgstr ""
+
+#: page-login.php:54, includes/login-form.php:10
+msgid "Password"
+msgstr ""
+
+#: page-login.php:56, includes/login-form.php:12
+msgid "Remember me?"
+msgstr ""
+
+#: page-login.php:59, includes/login-form.php:15
+msgid "Register"
+msgstr ""
+
+#: page-login.php:62, includes/header-top-bar.php:107, includes/login-form.php:19
+msgid "Login"
+msgstr ""
+
+#: page-login.php:69
+msgid "You are logged in as "
+msgstr ""
+
+#: page-login.php:70
+msgid "View your dashboard"
+msgstr ""
+
+#: page-login.php:71
+msgid "Log out from this account."
+msgstr ""
+
+#: page-portfolio-simple.php:6
+msgid "Portfolio - Simple"
+msgstr ""
+
+#: page-portfolio-simple.php:137
+msgid "View all items"
+msgstr ""
+
+#: page-portfolio-simple.php:155
+msgid "Sort By"
+msgstr ""
+
+#: page-portfolio-simple.php:231, page-portfolio-standard.php:236, taxonomy-portfolio_categories.php:152
+msgid "Details <i class=\"icon-angle-right\"></i>"
+msgstr ""
+
+#: page-portfolio-standard.php:6
+msgid "Portfolio - Standard"
+msgstr ""
+
+#: page-presentation-fullwidth.php:6
+msgid "Scrolling Presentation"
+msgstr ""
+
+#: page.php:54
+msgid "Pages:"
+msgstr ""
+
+#: search.php:30
+msgid "Not happy with the results?"
+msgstr ""
+
+#: search.php:31
+msgid "Type your search again"
+msgstr ""
+
+#: searchform.php:9
+msgid "Enter keywords"
+msgstr ""
+
+#: single-faq.php:80, single-gallery.php:82, single.php:137
+msgid "View comments on "
+msgstr ""
+
+#: single-faq.php:80, single-gallery.php:82, single.php:137
+msgid "0 Comments"
+msgstr ""
+
+#: single-team.php:151
+msgid "Connect"
+msgstr ""
+
+#: single.php:71, includes/classic-blog/post-description.php:23
+msgid "Posted by"
+msgstr ""
+
+#: single.php:75, includes/classic-blog/post-description.php:27, includes/classic-blog-small/post-description.php:24
+msgid "Posts by "
+msgstr ""
+
+#: single.php:96, includes/classic-blog/post-description.php:46, includes/classic-blog-small/post-description.php:44
+msgid "View all posts in %s"
+msgstr ""
+
+#: single.php:103, includes/classic-blog/post-description.php:53, includes/classic-blog-small/post-description.php:51
+msgid "Comment on %s"
+msgstr ""
+
+#: single.php:104, includes/classic-blog/post-description.php:54, includes/classic-blog-small/post-description.php:52
+msgid "0 comments"
+msgstr ""
+
+#: single.php:104, includes/classic-blog/post-description.php:54, includes/classic-blog-small/post-description.php:52
+msgid "1 comment"
+msgstr ""
+
+#: single.php:104, includes/classic-blog/post-description.php:54, includes/classic-blog-small/post-description.php:52
+msgid "% comments"
+msgstr ""
+
+#: taxonomy-team_categories.php:60, functions/team-member-box.php:79, includes/team-related-items.php:68
+msgid "View Profile"
+msgstr ""
+
+#: admin/author-meta.php:16
+msgid "Social Networking"
+msgstr ""
+
+#: admin/theme-custom-post-types.php:11
+msgid "Team Members"
+msgstr ""
+
+#: admin/theme-custom-post-types.php:12
+msgid "All Members"
+msgstr ""
+
+#: admin/theme-custom-post-types.php:13
+msgid "Team Member"
+msgstr ""
+
+#: admin/theme-custom-post-types.php:14
+msgid "Add New"
+msgstr ""
+
+#: admin/theme-custom-post-types.php:15
+msgid "Add New Team Member"
+msgstr ""
+
+#: admin/theme-custom-post-types.php:16
+msgid "Edit Team Member"
+msgstr ""
+
+#: admin/theme-custom-post-types.php:17
+msgid "New Team Member"
+msgstr ""
+
+#: admin/theme-custom-post-types.php:18
+msgid "View Team Member"
+msgstr ""
+
+#: admin/theme-custom-post-types.php:19
+msgid "Search Team Members"
+msgstr ""
+
+#: admin/theme-custom-post-types.php:20
+msgid "No team members have been added yet"
+msgstr ""
+
+#: admin/theme-custom-post-types.php:21
+msgid "Nothing found in Trash"
+msgstr ""
+
+#: admin/theme-custom-post-types.php:49
+msgid "Clients"
+msgstr ""
+
+#: admin/theme-custom-post-types.php:50
+msgid "All Clients"
+msgstr ""
+
+#: admin/theme-custom-post-types.php:51
+msgid "Client"
+msgstr ""
+
+#: admin/theme-custom-post-types.php:52, admin/theme-custom-post-types.php:53
+msgid "Add New Client"
+msgstr ""
+
+#: admin/theme-custom-post-types.php:54
+msgid "Edit Client"
+msgstr ""
+
+#: admin/theme-custom-post-types.php:55
+msgid "New Client"
+msgstr ""
+
+#: admin/theme-custom-post-types.php:56
+msgid "View Client"
+msgstr ""
+
+#: admin/theme-custom-post-types.php:57
+msgid "Search For Clients"
+msgstr ""
+
+#: admin/theme-custom-post-types.php:58
+msgid "No Clients found"
+msgstr ""
+
+#: admin/theme-custom-post-types.php:59
+msgid "No Clients found in Trash"
+msgstr ""
+
+#: admin/theme-custom-post-types.php:84
+msgid "FAQ"
+msgstr ""
+
+#: admin/theme-custom-post-types.php:85
+msgid "All FAQ Items"
+msgstr ""
+
+#: admin/theme-custom-post-types.php:86
+msgid "FAQ Item"
+msgstr ""
+
+#: admin/theme-custom-post-types.php:87, admin/theme-custom-post-types.php:88
+msgid "Add New FAQ Item"
+msgstr ""
+
+#: admin/theme-custom-post-types.php:89
+msgid "Edit FAQ Item"
+msgstr ""
+
+#: admin/theme-custom-post-types.php:90
+msgid "New FAQ Item"
+msgstr ""
+
+#: admin/theme-custom-post-types.php:91
+msgid "View FAQ Item"
+msgstr ""
+
+#: admin/theme-custom-post-types.php:92
+msgid "Search For FAQ Items"
+msgstr ""
+
+#: admin/theme-custom-post-types.php:93
+msgid "No FAQ Items found"
+msgstr ""
+
+#: admin/theme-custom-post-types.php:94
+msgid "No FAQ Items found in Trash"
+msgstr ""
+
+#: admin/theme-custom-post-types.php:121
+msgid "Pricing Tables"
+msgstr ""
+
+#: admin/theme-custom-post-types.php:122
+msgid "All Pricing Tables"
+msgstr ""
+
+#: admin/theme-custom-post-types.php:123
+msgid "Pricing Table"
+msgstr ""
+
+#: admin/theme-custom-post-types.php:124
+msgid "Add Pricing Table"
+msgstr ""
+
+#: admin/theme-custom-post-types.php:125
+msgid "Add New Pricing Table"
+msgstr ""
+
+#: admin/theme-custom-post-types.php:126
+msgid "Edit Pricing Table"
+msgstr ""
+
+#: admin/theme-custom-post-types.php:127
+msgid "New Pricing Table"
+msgstr ""
+
+#: admin/theme-custom-post-types.php:128
+msgid "View Pricing Table"
+msgstr ""
+
+#: admin/theme-custom-post-types.php:129
+msgid "Search For Pricing Tables"
+msgstr ""
+
+#: admin/theme-custom-post-types.php:130
+msgid "No Pricing Tables found"
+msgstr ""
+
+#: admin/theme-custom-post-types.php:131
+msgid "No Pricing Tables found in Trash"
+msgstr ""
+
+#: admin/theme-custom-post-types.php:156
+msgid "Testimonials"
+msgstr ""
+
+#: admin/theme-custom-post-types.php:157
+msgid "All Testimonials"
+msgstr ""
+
+#: admin/theme-custom-post-types.php:158, includes/header-page-title.php:114
+msgid "Testimonial"
+msgstr ""
+
+#: admin/theme-custom-post-types.php:159
+msgid "Add Testimonial"
+msgstr ""
+
+#: admin/theme-custom-post-types.php:160
+msgid "Add New Testimonial"
+msgstr ""
+
+#: admin/theme-custom-post-types.php:161
+msgid "Edit Testimonial"
+msgstr ""
+
+#: admin/theme-custom-post-types.php:162
+msgid "New Testimonial"
+msgstr ""
+
+#: admin/theme-custom-post-types.php:163
+msgid "View Testimonial"
+msgstr ""
+
+#: admin/theme-custom-post-types.php:164
+msgid "Search For Testimonials"
+msgstr ""
+
+#: admin/theme-custom-post-types.php:165
+msgid "No Testimonials found"
+msgstr ""
+
+#: admin/theme-custom-post-types.php:166
+msgid "No Testimonials found in Trash"
+msgstr ""
+
+#: admin/theme-custom-post-types.php:192
+msgid "Portfolio"
+msgstr ""
+
+#: admin/theme-custom-post-types.php:193
+msgid "All Portfolio Items"
+msgstr ""
+
+#: admin/theme-custom-post-types.php:194
+msgid "Portfolio Item"
+msgstr ""
+
+#: admin/theme-custom-post-types.php:195, admin/theme-custom-post-types.php:196
+msgid "Add New Portfolio Item"
+msgstr ""
+
+#: admin/theme-custom-post-types.php:197
+msgid "Edit Portfolio Item"
+msgstr ""
+
+#: admin/theme-custom-post-types.php:198
+msgid "New Portfolio Item"
+msgstr ""
+
+#: admin/theme-custom-post-types.php:199
+msgid "View Portfolio Item"
+msgstr ""
+
+#: admin/theme-custom-post-types.php:200
+msgid "Search For Portfolio Items"
+msgstr ""
+
+#: admin/theme-custom-post-types.php:201
+msgid "No Portfolio Items found"
+msgstr ""
+
+#: admin/theme-custom-post-types.php:202
+msgid "No Portfolio Items found in Trash"
+msgstr ""
+
+#: admin/theme-custom-post-types.php:234
+msgid "Gallery"
+msgstr ""
+
+#: admin/theme-custom-post-types.php:235
+msgid "All Gallery Items"
+msgstr ""
+
+#: admin/theme-custom-post-types.php:236
+msgid "Gallery Item"
+msgstr ""
+
+#: admin/theme-custom-post-types.php:237, admin/theme-custom-post-types.php:238
+msgid "Add New Gallery Item"
+msgstr ""
+
+#: admin/theme-custom-post-types.php:239
+msgid "Edit Gallery Item"
+msgstr ""
+
+#: admin/theme-custom-post-types.php:240
+msgid "New Gallery Item"
+msgstr ""
+
+#: admin/theme-custom-post-types.php:241
+msgid "View Gallery Item"
+msgstr ""
+
+#: admin/theme-custom-post-types.php:242
+msgid "Search For Gallery Items"
+msgstr ""
+
+#: admin/theme-custom-post-types.php:243
+msgid "No Gallery Items found"
+msgstr ""
+
+#: admin/theme-custom-post-types.php:244
+msgid "No Gallery Items found in Trash"
+msgstr ""
+
+#: admin/theme-custom-taxonomies.php:12
+msgid "FAQ Categories"
+msgstr ""
+
+#: admin/theme-custom-taxonomies.php:13
+msgid "FAQ Category"
+msgstr ""
+
+#: admin/theme-custom-taxonomies.php:14
+msgid "Search FAQ Categories"
+msgstr ""
+
+#: admin/theme-custom-taxonomies.php:15
+msgid "All FAQ Categories"
+msgstr ""
+
+#: admin/theme-custom-taxonomies.php:16
+msgid "Parent FAQ Category"
+msgstr ""
+
+#: admin/theme-custom-taxonomies.php:17
+msgid "Parent FAQ Category:"
+msgstr ""
+
+#: admin/theme-custom-taxonomies.php:18
+msgid "Edit FAQ Category"
+msgstr ""
+
+#: admin/theme-custom-taxonomies.php:19
+msgid "Update FAQ Category"
+msgstr ""
+
+#: admin/theme-custom-taxonomies.php:20
+msgid "Add New FAQ Category"
+msgstr ""
+
+#: admin/theme-custom-taxonomies.php:21
+msgid "New FAQ Category Name"
+msgstr ""
+
+#: admin/theme-custom-taxonomies.php:22
+msgid "Choose from the most used FAQ categories"
+msgstr ""
+
+#: admin/theme-custom-taxonomies.php:29
+msgid "faq_category"
+msgstr ""
+
+#: admin/theme-custom-taxonomies.php:34
+msgid "Testimonial Categories"
+msgstr ""
+
+#: admin/theme-custom-taxonomies.php:35
+msgid "Testimonial Category"
+msgstr ""
+
+#: admin/theme-custom-taxonomies.php:36
+msgid "Search Testimonial Categories"
+msgstr ""
+
+#: admin/theme-custom-taxonomies.php:37
+msgid "All Testimonial Categories"
+msgstr ""
+
+#: admin/theme-custom-taxonomies.php:38
+msgid "Parent Testimonial Category"
+msgstr ""
+
+#: admin/theme-custom-taxonomies.php:39
+msgid "Parent Testimonial Category:"
+msgstr ""
+
+#: admin/theme-custom-taxonomies.php:40
+msgid "Edit Testimonial Category"
+msgstr ""
+
+#: admin/theme-custom-taxonomies.php:41
+msgid "Update Testimonial Category"
+msgstr ""
+
+#: admin/theme-custom-taxonomies.php:42
+msgid "Add New Testimonial Category"
+msgstr ""
+
+#: admin/theme-custom-taxonomies.php:43
+msgid "New Testimonial Category Name"
+msgstr ""
+
+#: admin/theme-custom-taxonomies.php:44
+msgid "Choose from the most used Testimonial categories"
+msgstr ""
+
+#: admin/theme-custom-taxonomies.php:51
+msgid "testimonial_category"
+msgstr ""
+
+#: admin/theme-custom-taxonomies.php:57
+msgid "Client Categories"
+msgstr ""
+
+#: admin/theme-custom-taxonomies.php:58
+msgid "Client Category"
+msgstr ""
+
+#: admin/theme-custom-taxonomies.php:59
+msgid "Search Client Categories"
+msgstr ""
+
+#: admin/theme-custom-taxonomies.php:60
+msgid "All Client Categories"
+msgstr ""
+
+#: admin/theme-custom-taxonomies.php:61
+msgid "Parent Client Category"
+msgstr ""
+
+#: admin/theme-custom-taxonomies.php:62
+msgid "Parent Client Category:"
+msgstr ""
+
+#: admin/theme-custom-taxonomies.php:63
+msgid "Edit Client Category"
+msgstr ""
+
+#: admin/theme-custom-taxonomies.php:64
+msgid "Update Client Category"
+msgstr ""
+
+#: admin/theme-custom-taxonomies.php:65
+msgid "Add New Client Category"
+msgstr ""
+
+#: admin/theme-custom-taxonomies.php:66
+msgid "New Client Category Name"
+msgstr ""
+
+#: admin/theme-custom-taxonomies.php:67
+msgid "Choose from the most used Client categories"
+msgstr ""
+
+#: admin/theme-custom-taxonomies.php:74
+msgid "client_category"
+msgstr ""
+
+#: admin/theme-custom-taxonomies.php:79
+msgid "Team Categories"
+msgstr ""
+
+#: admin/theme-custom-taxonomies.php:80
+msgid "Team Member Category"
+msgstr ""
+
+#: admin/theme-custom-taxonomies.php:81
+msgid "Search Team Member Categories"
+msgstr ""
+
+#: admin/theme-custom-taxonomies.php:82
+msgid "All Team Member Categories"
+msgstr ""
+
+#: admin/theme-custom-taxonomies.php:83
+msgid "Parent Team Member Category"
+msgstr ""
+
+#: admin/theme-custom-taxonomies.php:84
+msgid "Parent Team Member Category:"
+msgstr ""
+
+#: admin/theme-custom-taxonomies.php:85
+msgid "Edit Team Member Category"
+msgstr ""
+
+#: admin/theme-custom-taxonomies.php:86
+msgid "Update Team Member Category"
+msgstr ""
+
+#: admin/theme-custom-taxonomies.php:87
+msgid "Add New Team Member Category"
+msgstr ""
+
+#: admin/theme-custom-taxonomies.php:88
+msgid "New Team Member Category Name"
+msgstr ""
+
+#: admin/theme-custom-taxonomies.php:89
+msgid "Choose from the most used Team Member categories"
+msgstr ""
+
+#: admin/theme-custom-taxonomies.php:96
+msgid "team_member_category"
+msgstr ""
+
+#: admin/theme-custom-taxonomies.php:101
+msgid "Portfolio Categories"
+msgstr ""
+
+#: admin/theme-custom-taxonomies.php:102
+msgid "Portfolio Category"
+msgstr ""
+
+#: admin/theme-custom-taxonomies.php:103
+msgid "Search Portfolio Categories"
+msgstr ""
+
+#: admin/theme-custom-taxonomies.php:104
+msgid "All Portfolio Categories"
+msgstr ""
+
+#: admin/theme-custom-taxonomies.php:105
+msgid "Parent Portfolio Category"
+msgstr ""
+
+#: admin/theme-custom-taxonomies.php:106
+msgid "Parent Portfolio Category:"
+msgstr ""
+
+#: admin/theme-custom-taxonomies.php:107
+msgid "Edit Portfolio Category"
+msgstr ""
+
+#: admin/theme-custom-taxonomies.php:108
+msgid "Update Portfolio Category"
+msgstr ""
+
+#: admin/theme-custom-taxonomies.php:109
+msgid "Add New Portfolio Category"
+msgstr ""
+
+#: admin/theme-custom-taxonomies.php:110
+msgid "New Portfolio Category Name"
+msgstr ""
+
+#: admin/theme-custom-taxonomies.php:111
+msgid "Choose from the most used Portfolio categories"
+msgstr ""
+
+#: admin/theme-custom-taxonomies.php:118
+msgid "portfolio_category"
+msgstr ""
+
+#: admin/theme-custom-taxonomies.php:123
+msgid "Gallery Categories"
+msgstr ""
+
+#: admin/theme-custom-taxonomies.php:124
+msgid "Gallery Category"
+msgstr ""
+
+#: admin/theme-custom-taxonomies.php:125
+msgid "Search Gallery Categories"
+msgstr ""
+
+#: admin/theme-custom-taxonomies.php:126
+msgid "All Gallery Categories"
+msgstr ""
+
+#: admin/theme-custom-taxonomies.php:127
+msgid "Parent Gallery Category"
+msgstr ""
+
+#: admin/theme-custom-taxonomies.php:128
+msgid "Parent Gallery Category:"
+msgstr ""
+
+#: admin/theme-custom-taxonomies.php:129
+msgid "Edit Gallery Category"
+msgstr ""
+
+#: admin/theme-custom-taxonomies.php:130
+msgid "Update Gallery Category"
+msgstr ""
+
+#: admin/theme-custom-taxonomies.php:131
+msgid "Add New Gallery Category"
+msgstr ""
+
+#: admin/theme-custom-taxonomies.php:132
+msgid "New Gallery Category Name"
+msgstr ""
+
+#: admin/theme-custom-taxonomies.php:133
+msgid "Choose from the most used Gallery categories"
+msgstr ""
+
+#: admin/theme-custom-taxonomies.php:140
+msgid "gallery_category"
+msgstr ""
+
+#: admin/theme-options-dependency.php:126, admin/theme-options-dependency.php:132, admin/theme-options-dependency.php:138, admin/theme-options-dependency.php:180, admin/theme-options.php:14, admin/theme-options.php:1986, admin/theme-options.php:2032, admin/metaboxes/meta-contact-page-settings.php:91, admin/metaboxes/meta-general-settings.php:224, admin/metaboxes/meta-general-settings.php:271, admin/metaboxes/meta-portfolio-settings.php:5, admin/metaboxes/meta-pricing-table-settings.php:32
+msgid "None"
+msgstr ""
+
+#: admin/theme-options-dependency.php:142, admin/theme-options-dependency.php:184
+msgid "Brackets Effect"
+msgstr ""
+
+#: admin/theme-options-dependency.php:146, admin/theme-options-dependency.php:188
+msgid "Top Border Effect"
+msgstr ""
+
+#: admin/theme-options-dependency.php:150, admin/theme-options-dependency.php:192
+msgid "Bottom Border Effect"
+msgstr ""
+
+#: admin/theme-options-dependency.php:154, admin/theme-options-dependency.php:196
+msgid "Bottom Border Effect 2"
+msgstr ""
+
+#: admin/theme-options-dependency.php:158, admin/theme-options-dependency.php:200
+msgid "Thick Bottom Border Effect"
+msgstr ""
+
+#: admin/theme-options-dependency.php:162, admin/theme-options-dependency.php:204
+msgid "Top Border Effect 2"
+msgstr ""
+
+#: admin/theme-options-dependency.php:166, admin/theme-options-dependency.php:216
+msgid "Bottom Border Grow Effect"
+msgstr ""
+
+#: admin/theme-options-dependency.php:170, admin/theme-options-dependency.php:220
+msgid "Borders Grow Effect"
+msgstr ""
+
+#: admin/theme-options-dependency.php:174, admin/theme-options-dependency.php:224
+msgid "Bottom Circles Effect"
+msgstr ""
+
+#: admin/theme-options-dependency.php:208
+msgid "Grey Hover Effect"
+msgstr ""
+
+#: admin/theme-options-dependency.php:212
+msgid "Focus Hover Effect"
+msgstr ""
+
+#: admin/theme-options.php:58
+msgid "Texture"
+msgstr ""
+
+#: admin/theme-options.php:70
+msgid "Portfolio Settings"
+msgstr ""
+
+#: admin/theme-options.php:77, admin/theme-options.php:2199
+msgid "Note"
+msgstr ""
+
+#: admin/theme-options.php:78
+msgid "<p>The settings below will be applied to the portfolio page templates, shortcodes and widgets.</p><p>You can use Custom CSS for additional changes.</p>"
+msgstr ""
+
+#: admin/theme-options.php:84, admin/theme-options.php:257
+msgid "Default Layout"
+msgstr ""
+
+#: admin/theme-options.php:85
+msgid "Meta sidebar will show meta information about the portfolio. You can add meta informations while creating/editing a portfolio item."
+msgstr ""
+
+#: admin/theme-options.php:89, admin/theme-options.php:134, admin/theme-options.php:262, admin/theme-options.php:1791, admin/theme-options.php:2402, admin/theme-options.php:2440, admin/metaboxes/meta-layout-settings.php:31, admin/metaboxes/meta-portfolio-layout-settings.php:35, admin/metaboxes/meta-portfolio-layout-settings.php:56, admin/metaboxes/meta-team-layout-settings.php:27
+msgid "Fullwidth"
+msgstr ""
+
+#: admin/theme-options.php:93, admin/theme-options.php:266, admin/metaboxes/meta-portfolio-layout-settings.php:60, admin/metaboxes/meta-team-layout-settings.php:31
+msgid "With Meta Details Sidebar"
+msgstr ""
+
+#: admin/theme-options.php:97, admin/theme-options.php:270, admin/metaboxes/meta-portfolio-layout-settings.php:64, admin/metaboxes/meta-team-layout-settings.php:35
+msgid "With Widget Area Sidebar"
+msgstr ""
+
+#: admin/theme-options.php:107, admin/theme-options.php:280, admin/metaboxes/meta-portfolio-layout-settings.php:72, admin/metaboxes/meta-team-layout-settings.php:43
+msgid "Sidebar Position"
+msgstr ""
+
+#: admin/theme-options.php:111, admin/theme-options.php:284, admin/theme-options.php:1799, admin/theme-options.php:2410, admin/theme-options.php:2448, admin/metaboxes/meta-layout-settings.php:39, admin/metaboxes/meta-portfolio-layout-settings.php:81, admin/metaboxes/meta-team-layout-settings.php:52
+msgid "Left Sidebar"
+msgstr ""
+
+#: admin/theme-options.php:115, admin/theme-options.php:288, admin/theme-options.php:1795, admin/theme-options.php:2406, admin/theme-options.php:2444, admin/metaboxes/meta-layout-settings.php:35, admin/metaboxes/meta-portfolio-layout-settings.php:85, admin/metaboxes/meta-team-layout-settings.php:56
+msgid "Right Sidebar"
+msgstr ""
+
+#: admin/theme-options.php:125, admin/metaboxes/meta-portfolio-layout-settings.php:47, admin/metaboxes/meta-team-layout-settings.php:18
+msgid "Content Layout"
+msgstr ""
+
+#: admin/theme-options.php:126
+msgid "Choose default content layout for your portfolio item page. It is the layout of your portfolio featured artwork."
+msgstr ""
+
+#: admin/theme-options.php:130, admin/metaboxes/meta-portfolio-layout-settings.php:31
+msgid "Total Fullwidth"
+msgstr ""
+
+#: admin/theme-options.php:138, admin/metaboxes/meta-portfolio-layout-settings.php:39
+msgid "Split"
+msgstr ""
+
+#: admin/theme-options.php:148
+msgid "Likes"
+msgstr ""
+
+#: admin/theme-options.php:149
+msgid "Enable/Disable likes on portfolios."
+msgstr ""
+
+#: admin/theme-options.php:155, admin/theme-options.php:2276
+msgid "Related Posts"
+msgstr ""
+
+#: admin/theme-options.php:156
+msgid "Show/Hide related portfolio items on single portfolios."
+msgstr ""
+
+#: admin/theme-options.php:162, admin/theme-options.php:2283
+msgid "Next & Previous Posts"
+msgstr ""
+
+#: admin/theme-options.php:163
+msgid "Show/Hide buttons for previous and next projects on single portfolios."
+msgstr ""
+
+#: admin/theme-options.php:169
+msgid "Share Post"
+msgstr ""
+
+#: admin/theme-options.php:170
+msgid "Show/Hide Social Share buttons on a portfolio single page."
+msgstr ""
+
+#: admin/theme-options.php:176
+msgid "Filter on Portfolio Category Archive"
+msgstr ""
+
+#: admin/theme-options.php:177
+msgid "Enable/Disable filter on your Portfolio Category Archive."
+msgstr ""
+
+#: admin/theme-options.php:183
+msgid "Sorter on Portfolio Category Archive"
+msgstr ""
+
+#: admin/theme-options.php:184
+msgid "Enable/Disable sorter on your Portfolio Category Archive."
+msgstr ""
+
+#: admin/theme-options.php:190
+msgid "Portfolio Column Count on your Portfolio Category Archive."
+msgstr ""
+
+#: admin/theme-options.php:200, admin/metaboxes/meta-gallery-fw-page-settings.php:96, admin/metaboxes/meta-gallery-standard-page-settings.php:96, admin/metaboxes/meta-portfolio-standard-page-settings.php:90
+msgid "Thumbnail Orientation"
+msgstr ""
+
+#: admin/theme-options.php:201
+msgid "Choose thumbnail orientation on your Portfolio Category Archive."
+msgstr ""
+
+#: admin/theme-options.php:205, admin/metaboxes/meta-gallery-fw-page-settings.php:101, admin/metaboxes/meta-gallery-standard-page-settings.php:101, admin/metaboxes/meta-portfolio-standard-page-settings.php:95
+msgid "Landscape"
+msgstr ""
+
+#: admin/theme-options.php:209, admin/metaboxes/meta-gallery-fw-page-settings.php:105, admin/metaboxes/meta-gallery-standard-page-settings.php:105, admin/metaboxes/meta-portfolio-standard-page-settings.php:99
+msgid "Portrait"
+msgstr ""
+
+#: admin/theme-options.php:217, admin/metaboxes/meta-gallery-fw-page-settings.php:114, admin/metaboxes/meta-gallery-standard-page-settings.php:114, admin/metaboxes/meta-portfolio-standard-page-settings.php:108
+msgid "Thumbnail Ratio"
+msgstr ""
+
+#: admin/theme-options.php:218
+msgid "Choose thumbnail ratio on your Portfolio Category Archive."
+msgstr ""
+
+#: admin/theme-options.php:222, admin/metaboxes/meta-gallery-fw-page-settings.php:119, admin/metaboxes/meta-gallery-standard-page-settings.php:119, admin/metaboxes/meta-portfolio-standard-page-settings.php:113
+msgid "16:9"
+msgstr ""
+
+#: admin/theme-options.php:226, admin/metaboxes/meta-gallery-fw-page-settings.php:123, admin/metaboxes/meta-gallery-standard-page-settings.php:123, admin/metaboxes/meta-portfolio-standard-page-settings.php:117
+msgid "4:3"
+msgstr ""
+
+#: admin/theme-options.php:230, admin/metaboxes/meta-gallery-fw-page-settings.php:127, admin/metaboxes/meta-gallery-standard-page-settings.php:127, admin/metaboxes/meta-portfolio-standard-page-settings.php:121
+msgid "3:2"
+msgstr ""
+
+#: admin/theme-options.php:234, admin/metaboxes/meta-gallery-fw-page-settings.php:131, admin/metaboxes/meta-gallery-standard-page-settings.php:131, admin/metaboxes/meta-portfolio-standard-page-settings.php:125
+msgid "3:1"
+msgstr ""
+
+#: admin/theme-options.php:238, admin/metaboxes/meta-gallery-fw-page-settings.php:135, admin/metaboxes/meta-gallery-standard-page-settings.php:135, admin/metaboxes/meta-portfolio-standard-page-settings.php:129
+msgid "1:1"
+msgstr ""
+
+#: admin/theme-options.php:250
+msgid "Team Members Settings"
+msgstr ""
+
+#: admin/theme-options.php:258
+msgid "Meta sidebar will show meta information about the staff member. You can add meta informations while creating/editing a staff member."
+msgstr ""
+
+#: admin/theme-options.php:298
+msgid "More Members"
+msgstr ""
+
+#: admin/theme-options.php:299
+msgid "Show/Hide more team members at the bottom of the single staff pages."
+msgstr ""
+
+#: admin/theme-options.php:305
+msgid "Next & Previous Members"
+msgstr ""
+
+#: admin/theme-options.php:306
+msgid "Show/Hide buttons for previous and next staff members on single staff pages."
+msgstr ""
+
+#: admin/theme-options.php:316
+msgid "Coming Soon Mode"
+msgstr ""
+
+#: admin/theme-options.php:323
+msgid "Maintenance Mode Info"
+msgstr ""
+
+#: admin/theme-options.php:324
+msgid "Welcome to HB Maintenance Settings.<p>&nbsp;</p>If you enable the maintenance mode, only logged-in admins will be able to see the website. Other users will see the coming soon page created from the settings below."
+msgstr ""
+
+#: admin/theme-options.php:329
+msgid "Under Construction Mode"
+msgstr ""
+
+#: admin/theme-options.php:330
+msgid "Enable the maintenance mode (under construction) for your website."
+msgstr ""
+
+#: admin/theme-options.php:339
+msgid "Layout Position"
+msgstr ""
+
+#: admin/theme-options.php:343, admin/theme-options.php:1170, admin/theme-options.php:1298, admin/theme-options.php:1908, admin/metaboxes/meta-general-settings.php:132, admin/metaboxes/meta-presentation-settings.php:122, hbframework/menu-walker/class-hb-custom-walker-edit.php:317
+msgid "Left"
+msgstr ""
+
+#: admin/theme-options.php:347, admin/theme-options.php:1302, admin/theme-options.php:1912, admin/metaboxes/meta-general-settings.php:136, admin/metaboxes/meta-presentation-settings.php:126
+msgid "Center"
+msgstr ""
+
+#: admin/theme-options.php:351, admin/theme-options.php:1174, admin/theme-options.php:1306, admin/theme-options.php:1916, admin/metaboxes/meta-general-settings.php:140, admin/metaboxes/meta-presentation-settings.php:130, hbframework/menu-walker/class-hb-custom-walker-edit.php:318
+msgid "Right"
+msgstr ""
+
+#: admin/theme-options.php:366, admin/metaboxes/meta-clients-settings.php:13
+msgid "Logo"
+msgstr ""
+
+#: admin/theme-options.php:367
+msgid "Upload your logo for the maintenance page. Dimensions should be 177x40px. "
+msgstr ""
+
+#: admin/theme-options.php:377
+msgid "Countdown Timer"
+msgstr ""
+
+#: admin/theme-options.php:378
+msgid "Show a countdown timer to your website launch."
+msgstr ""
+
+#: admin/theme-options.php:389
+msgid "Countdown Settings"
+msgstr ""
+
+#: admin/theme-options.php:399
+msgid "Launch Date"
+msgstr ""
+
+#: admin/theme-options.php:400
+msgid "Choose the date when your website will be launched. The countdown will count to that day."
+msgstr ""
+
+#: admin/theme-options.php:409
+msgid "Launch Hour"
+msgstr ""
+
+#: admin/theme-options.php:410
+msgid "Choose the time for the launch in hours. Range between 0 and 23. (24 hour format)."
+msgstr ""
+
+#: admin/theme-options.php:420
+msgid "Launch Minutes"
+msgstr ""
+
+#: admin/theme-options.php:421
+msgid "Choose the time for the launch in minutes. Range between 0 and 59."
+msgstr ""
+
+#: admin/theme-options.php:430
+msgid "Counter Style"
+msgstr ""
+
+#: admin/theme-options.php:434, admin/theme-options.php:1286, admin/theme-options.php:1471, admin/metaboxes/meta-presentation-settings.php:149, includes/widgets/widget-social-icons.php:167
+msgid "Dark"
+msgstr ""
+
+#: admin/theme-options.php:438, admin/theme-options.php:1282, admin/theme-options.php:1475, admin/metaboxes/meta-presentation-settings.php:145, includes/widgets/widget-social-icons.php:168
+msgid "Light"
+msgstr ""
+
+#: admin/theme-options.php:451
+msgid "Maintenance Content"
+msgstr ""
+
+#: admin/theme-options.php:452
+msgid "Enter the content for maintenance page which will be showed below logo and countdown if those are selected. Shortcodes are supported. H1 and H4 have special stylings"
+msgstr ""
+
+#: admin/theme-options.php:464, admin/theme-options.php:1845, admin/metaboxes/meta-general-settings.php:95, admin/metaboxes/meta-presentation-settings.php:44, config/customizer/customizer.php:410, config/customizer/customizer.php:442, config/customizer/customizer.php:451, config/customizer/customizer.php:532, config/customizer/customizer.php:550, config/customizer/customizer.php:577
+msgid "Background Color"
+msgstr ""
+
+#: admin/theme-options.php:465
+msgid "Pick the background color. Will be visible if image is not set."
+msgstr ""
+
+#: admin/theme-options.php:476, admin/theme-options.php:773, admin/theme-options.php:1313, admin/metaboxes/meta-background-settings.php:40, admin/metaboxes/meta-blog-fw-page-settings.php:38, hbframework/menu-walker/class-hb-custom-walker-edit.php:374
+msgid "Background Image"
+msgstr ""
+
+#: admin/theme-options.php:477
+msgid "Upload image for the maintenance background. Suggested dimensions are 1920x1080px. "
+msgstr ""
+
+#: admin/theme-options.php:492
+msgid "404 Page Settings"
+msgstr ""
+
+#: admin/theme-options.php:499, admin/metaboxes/meta-blog-fw-page-settings.php:55, admin/metaboxes/meta-blog-grid-page-settings.php:46, admin/metaboxes/meta-blog-page-minimal-settings.php:28, admin/metaboxes/meta-blog-page-settings.php:46, admin/metaboxes/meta-gallery-fw-page-settings.php:57, admin/metaboxes/meta-gallery-standard-page-settings.php:57, admin/metaboxes/meta-general-settings.php:34, admin/metaboxes/meta-portfolio-standard-page-settings.php:51, admin/metaboxes/meta-presentation-settings.php:102, admin/metaboxes/meta-pricing-table-settings.php:55, includes/widgets/widget-latest-posts-simple.php:197
+msgid "Title"
+msgstr ""
+
+#: admin/theme-options.php:500
+msgid "Enter a custom title for your site's 404 page."
+msgstr ""
+
+#: admin/theme-options.php:507, admin/metaboxes/meta-general-settings.php:41, admin/metaboxes/meta-presentation-settings.php:109
+msgid "Subtitle"
+msgstr ""
+
+#: admin/theme-options.php:508
+msgid "Enter a custom subtitle for your site's 404 page."
+msgstr ""
+
+#: admin/theme-options.php:515
+msgid "Button Caption"
+msgstr ""
+
+#: admin/theme-options.php:516
+msgid "Enter a custom caption for your site's 404 back button."
+msgstr ""
+
+#: admin/theme-options.php:523
+msgid "Background Icon"
+msgstr ""
+
+#: admin/theme-options.php:524
+msgid "Enter a name of IcoMoon or FontAwesome icon. You can find the list of icons <a href=\"http://documentation.hb-themes.com/icons/\" target=\"_blank\">here</a>. "
+msgstr ""
+
+#: admin/theme-options.php:532
+msgid "Highend Theme Options"
+msgstr ""
+
+#: admin/theme-options.php:543
+msgid "iOS Icon 57x57"
+msgstr ""
+
+#: admin/theme-options.php:544
+msgid "Upload a 57px x 57px png image that will be your website bookmark on non-retina iOS devices."
+msgstr ""
+
+#: admin/theme-options.php:550
+msgid "iOS Icon 72x72"
+msgstr ""
+
+#: admin/theme-options.php:551
+msgid "Upload a 72px x 72px Png image that will be your website bookmark on non-retina iOS devices."
+msgstr ""
+
+#: admin/theme-options.php:557
+msgid "iOS Icon 114x114"
+msgstr ""
+
+#: admin/theme-options.php:558
+msgid "Upload a 114px x 114px png image that will be your website bookmark on retina iOS devices."
+msgstr ""
+
+#: admin/theme-options.php:564
+msgid "iOS Icon 144x144"
+msgstr ""
+
+#: admin/theme-options.php:565
+msgid "Upload a 144px x 144px png image that will be your website bookmark on retina iOS devices."
+msgstr ""
+
+#: admin/theme-options.php:571
+msgid "Custom iOS Bookmark Title"
+msgstr ""
+
+#: admin/theme-options.php:572
+msgid "Enter a custom title for your site for when it is added as an iOS bookmark."
+msgstr ""
+
+#: admin/theme-options.php:578
+msgid "Responsive Design"
+msgstr ""
+
+#: admin/theme-options.php:579
+msgid "Enable/Disable the responsive behaviour of the theme"
+msgstr ""
+
+#: admin/theme-options.php:585
+msgid "Site Preloader"
+msgstr ""
+
+#: admin/theme-options.php:586
+msgid "Enable/Disable site preloader on your website."
+msgstr ""
+
+#: admin/theme-options.php:591
+msgid "Disable"
+msgstr ""
+
+#: admin/theme-options.php:595
+msgid "Youtube like"
+msgstr ""
+
+#: admin/theme-options.php:599
+msgid "Circle Spinner"
+msgstr ""
+
+#: admin/theme-options.php:606
+msgid "Page Comments"
+msgstr ""
+
+#: admin/theme-options.php:607
+msgid "Enable/Disable comments on all pages except the post pages. It is possible to disable them individually using page meta settings."
+msgstr ""
+
+#: admin/theme-options.php:613
+msgid "Breadcrumbs"
+msgstr ""
+
+#: admin/theme-options.php:615
+msgid "Enable/Disable breadcrumbs on your website. It is possible to disable them individually using page meta settings."
+msgstr ""
+
+#: admin/theme-options.php:620
+msgid "Back To Top Button"
+msgstr ""
+
+#: admin/theme-options.php:621
+msgid "Enable/Disable the back to top button on your website."
+msgstr ""
+
+#: admin/theme-options.php:628
+msgid "Default Pagination Style"
+msgstr ""
+
+#: admin/theme-options.php:633, admin/theme-options.php:1270, admin/metaboxes/meta-blog-fw-page-settings.php:24, admin/metaboxes/meta-blog-fw-page-settings.php:107, admin/metaboxes/meta-blog-fw-page-settings.php:135, admin/metaboxes/meta-blog-grid-page-settings.php:24, admin/metaboxes/meta-blog-grid-page-settings.php:98, admin/metaboxes/meta-blog-page-minimal-settings.php:80, admin/metaboxes/meta-blog-page-settings.php:98
+msgid "Standard"
+msgstr ""
+
+#: admin/theme-options.php:637, admin/metaboxes/meta-blog-fw-page-settings.php:111, admin/metaboxes/meta-blog-fw-page-settings.php:139, admin/metaboxes/meta-blog-grid-page-settings.php:102, admin/metaboxes/meta-blog-page-minimal-settings.php:84, admin/metaboxes/meta-blog-page-settings.php:102
+msgid "Load More"
+msgstr ""
+
+#: admin/theme-options.php:640
+msgid "Choose between standard pagination and fancy ajax page loading. It is possible to choose this individually using page meta settings."
+msgstr ""
+
+#: admin/theme-options.php:645
+msgid "Back To Top Button Icon"
+msgstr ""
+
+#: admin/theme-options.php:646
+msgid "Choose an icon for the back to top button."
+msgstr ""
+
+#: admin/theme-options.php:655
+msgid "Default Arrow Up"
+msgstr ""
+
+#: admin/theme-options.php:659
+msgid "Angle Up"
+msgstr ""
+
+#: admin/theme-options.php:663
+msgid "Bold Arrow Up"
+msgstr ""
+
+#: admin/theme-options.php:667
+msgid "Triangle Arrow Up"
+msgstr ""
+
+#: admin/theme-options.php:671
+msgid "Special Arrow Up"
+msgstr ""
+
+#: admin/theme-options.php:675
+msgid "Bold Angle Up"
+msgstr ""
+
+#: admin/theme-options.php:683
+msgid "Tracking Code"
+msgstr ""
+
+#: admin/theme-options.php:684
+msgid "Enter your Google Analytics (or other) tracking code here. Remember to include the entire script, if you just enter your tracking ID it won't work. You need to enter the &lt;script&gt; tag. Ignore errors regarding script tag. "
+msgstr ""
+
+#: admin/theme-options.php:691
+msgid "Custom Script"
+msgstr ""
+
+#: admin/theme-options.php:692
+msgid "Javascript that will be executed on document ready. Do not type the &lt;script&gt; tag."
+msgstr ""
+
+#: admin/theme-options.php:699
+msgid "Custom CSS"
+msgstr ""
+
+#: admin/theme-options.php:700
+msgid "If you have any custom CSS you would like added to the site, please enter it here."
+msgstr ""
+
+#: admin/theme-options.php:712
+msgid "General Layout"
+msgstr ""
+
+#: admin/theme-options.php:719, admin/theme-options.php:1602
+msgid "Choose Layout"
+msgstr ""
+
+#: admin/theme-options.php:723, admin/metaboxes/meta-misc-settings.php:28
+msgid "Boxed"
+msgstr ""
+
+#: admin/theme-options.php:727, admin/metaboxes/meta-misc-settings.php:32
+msgid "Stretched"
+msgstr ""
+
+#: admin/theme-options.php:736
+msgid "Boxed Layout Settings"
+msgstr ""
+
+#: admin/theme-options.php:746
+msgid "Choose Type"
+msgstr ""
+
+#: admin/theme-options.php:747
+msgid "Attached boxed layout has no margin at the top or bottom."
+msgstr ""
+
+#: admin/theme-options.php:751
+msgid "Attached"
+msgstr ""
+
+#: admin/theme-options.php:755
+msgid "With Margin"
+msgstr ""
+
+#: admin/theme-options.php:765
+msgid "Container Shadow"
+msgstr ""
+
+#: admin/theme-options.php:766
+msgid "Toggle whether or not to show a shadow around your boxed layout."
+msgstr ""
+
+#: admin/theme-options.php:774
+msgid "Your default background image. You can upload different image using meta fields for any page. Set background color in Color Manager section."
+msgstr ""
+
+#: admin/theme-options.php:778
+msgid "Choose from built-in textures"
+msgstr ""
+
+#: admin/theme-options.php:782
+msgid "Upload your own image"
+msgstr ""
+
+#: admin/theme-options.php:786
+msgid "Plain color"
+msgstr ""
+
+#: admin/theme-options.php:813
+msgid "Default Background Image"
+msgstr ""
+
+#: admin/theme-options.php:814
+msgid "Upload a default background image (or texture). This image can be changed individually for each page."
+msgstr ""
+
+#: admin/theme-options.php:825
+msgid "Background Repeat"
+msgstr ""
+
+#: admin/theme-options.php:829
+msgid "No Repeat"
+msgstr ""
+
+#: admin/theme-options.php:833
+msgid "Repeat"
+msgstr ""
+
+#: admin/theme-options.php:847
+msgid "Background Attachment"
+msgstr ""
+
+#: admin/theme-options.php:851
+msgid "Scroll"
+msgstr ""
+
+#: admin/theme-options.php:855
+msgid "Fixed"
+msgstr ""
+
+#: admin/theme-options.php:869
+msgid "Background Position"
+msgstr ""
+
+#: admin/theme-options.php:873, hbframework/menu-walker/class-hb-custom-walker-edit.php:409
+msgid "Left Top"
+msgstr ""
+
+#: admin/theme-options.php:877, hbframework/menu-walker/class-hb-custom-walker-edit.php:410
+msgid "Left Center"
+msgstr ""
+
+#: admin/theme-options.php:881, hbframework/menu-walker/class-hb-custom-walker-edit.php:411
+msgid "Left Bottom"
+msgstr ""
+
+#: admin/theme-options.php:885, hbframework/menu-walker/class-hb-custom-walker-edit.php:415
+msgid "Right Top"
+msgstr ""
+
+#: admin/theme-options.php:889, hbframework/menu-walker/class-hb-custom-walker-edit.php:416
+msgid "Right Center"
+msgstr ""
+
+#: admin/theme-options.php:893, hbframework/menu-walker/class-hb-custom-walker-edit.php:417
+msgid "Right Bottom"
+msgstr ""
+
+#: admin/theme-options.php:897, hbframework/menu-walker/class-hb-custom-walker-edit.php:412
+msgid "Center Top"
+msgstr ""
+
+#: admin/theme-options.php:901, hbframework/menu-walker/class-hb-custom-walker-edit.php:413
+msgid "Center Center"
+msgstr ""
+
+#: admin/theme-options.php:905, hbframework/menu-walker/class-hb-custom-walker-edit.php:414
+msgid "Center Bottom"
+msgstr ""
+
+#: admin/theme-options.php:919
+msgid "Stretch Image"
+msgstr ""
+
+#: admin/theme-options.php:920
+msgid "Stretch Image to fit the browser dimensions."
+msgstr ""
+
+#: admin/theme-options.php:932
+msgid "Choose Content Width"
+msgstr ""
+
+#: admin/theme-options.php:933
+msgid "Choose between 940px, 1140px and full width. You can use any width by entering Custom CSS."
+msgstr ""
+
+#: admin/theme-options.php:937
+msgid "940px"
+msgstr ""
+
+#: admin/theme-options.php:941
+msgid "1140px"
+msgstr ""
+
+#: admin/theme-options.php:945
+msgid "Fullwidth 100%"
+msgstr ""
+
+#: admin/theme-options.php:955, admin/theme-options.php:1104, admin/metaboxes/meta-portfolio-layout-settings.php:22
+msgid "Header Layout"
+msgstr ""
+
+#: admin/theme-options.php:962
+msgid "Header Layout Combinations"
+msgstr ""
+
+#: admin/theme-options.php:963
+msgid "Play around with the header layout settings and build hundreds of header combinations."
+msgstr ""
+
+#: admin/theme-options.php:969
+msgid "Top Header Bar"
+msgstr ""
+
+#: admin/theme-options.php:970
+msgid "Enable/Disable a bar on top of your website containing various infomation about your website."
+msgstr ""
+
+#: admin/theme-options.php:975
+msgid "Top Header Settings"
+msgstr ""
+
+#: admin/theme-options.php:977
+msgid "You can leave some fields empty to ignore them."
+msgstr ""
+
+#: admin/theme-options.php:986
+msgid "Top Header Container"
+msgstr ""
+
+#: admin/theme-options.php:987
+msgid "Choose between wide and aligned container. Wide container requires stretched layout."
+msgstr ""
+
+#: admin/theme-options.php:991, admin/theme-options.php:1116
+msgid "Aligned Container"
+msgstr ""
+
+#: admin/theme-options.php:995, admin/theme-options.php:1120
+msgid "Wide Container"
+msgstr ""
+
+#: admin/theme-options.php:1005
+msgid "Left Widget: Info Text"
+msgstr ""
+
+#: admin/theme-options.php:1006
+msgid "Enter a small description."
+msgstr ""
+
+#: admin/theme-options.php:1012
+msgid "Left Widget: Map Dropdown"
+msgstr ""
+
+#: admin/theme-options.php:1013
+msgid "Show up a Google Map which is completely specified in the Map Settings. Map is opened when clicked on the button in the top bar."
+msgstr ""
+
+#: admin/theme-options.php:1019
+msgid "Left Widget: Map Button Text"
+msgstr ""
+
+#: admin/theme-options.php:1020
+msgid "Enter text for the map button. When users click on this map it will open your location on Google Maps."
+msgstr ""
+
+#: admin/theme-options.php:1026
+msgid "Left Widget: Email"
+msgstr ""
+
+#: admin/theme-options.php:1027
+msgid "Enter your contact email. Example: name@email.com. Default value is your admin email set in WordPress Settings. Feel free to change it."
+msgstr ""
+
+#: admin/theme-options.php:1033
+msgid "Right Widget: Social Icons"
+msgstr ""
+
+#: admin/theme-options.php:1034
+msgid "Show social icons in top header section. Icons are pulled from the \"Social Links\" section."
+msgstr ""
+
+#: admin/theme-options.php:1040
+msgid "Right Widget: Login"
+msgstr ""
+
+#: admin/theme-options.php:1041
+msgid "Show login button in top header section. When logged-in, it will show a personal menu dropdown."
+msgstr ""
+
+#: admin/theme-options.php:1047
+msgid "Right Widget: WPML Languages"
+msgstr ""
+
+#: admin/theme-options.php:1048
+msgid "Show language selector in top header section. Requires WPML plugin."
+msgstr ""
+
+#: admin/theme-options.php:1054
+msgid "Right Widget: Checkout Button"
+msgstr ""
+
+#: admin/theme-options.php:1055
+msgid "Show the checkout button for your e-shop. Requires WooCommerce plugin."
+msgstr ""
+
+#: admin/theme-options.php:1061
+msgid "Right Widget: Custom Button"
+msgstr ""
+
+#: admin/theme-options.php:1062
+msgid "Show a custom button in the top header bar."
+msgstr ""
+
+#: admin/theme-options.php:1068
+msgid "Button Icon"
+msgstr ""
+
+#: admin/theme-options.php:1069
+msgid "Choose icon for the button."
+msgstr ""
+
+#: admin/theme-options.php:1081, admin/metaboxes/meta-portfolio-settings.php:113
+msgid "Button Title"
+msgstr ""
+
+#: admin/theme-options.php:1092, admin/theme-options.php:1520, admin/metaboxes/meta-portfolio-settings.php:124
+msgid "Button Link"
+msgstr ""
+
+#: admin/theme-options.php:1106
+msgid "Fill in general header layout settings."
+msgstr ""
+
+#: admin/theme-options.php:1111
+msgid "Main Header Container"
+msgstr ""
+
+#: admin/theme-options.php:1112
+msgid "Choose between wide and aligned container for the main container where logo and navigation are located."
+msgstr ""
+
+#: admin/theme-options.php:1131
+msgid "Main Header Layout"
+msgstr ""
+
+#: admin/theme-options.php:1132
+msgid "Choose your main header layout."
+msgstr ""
+
+#: admin/theme-options.php:1138
+msgid "Type 1"
+msgstr ""
+
+#: admin/theme-options.php:1143
+msgid "Type 2"
+msgstr ""
+
+#: admin/theme-options.php:1148
+msgid "Type 3"
+msgstr ""
+
+#: admin/theme-options.php:1153
+msgid "Side Navigation"
+msgstr ""
+
+#: admin/theme-options.php:1165
+msgid "Logo Alignment"
+msgstr ""
+
+#: admin/theme-options.php:1166
+msgid "Select Alignment for your logo."
+msgstr ""
+
+#: admin/theme-options.php:1186, admin/theme-options.php:1197
+msgid "Sticky Header"
+msgstr ""
+
+#: admin/theme-options.php:1187, admin/theme-options.php:1198
+msgid "Enable sticky header."
+msgstr ""
+
+#: admin/theme-options.php:1212
+msgid "Sticky Header Height"
+msgstr ""
+
+#: admin/theme-options.php:1213
+msgid "Choose the sticky header height in pixels. Applicable only if the option above is ON. Minimum 30px, maximum 100px. We recommend 60."
+msgstr ""
+
+#: admin/theme-options.php:1226
+msgid "Header Height"
+msgstr ""
+
+#: admin/theme-options.php:1227
+msgid "Choose the header height in pixels when not in sticky mode. Minimum 60px, maximum 200px. We recommend 80."
+msgstr ""
+
+#: admin/theme-options.php:1236
+msgid "Additional Text Box"
+msgstr ""
+
+#: admin/theme-options.php:1237
+msgid "Enter any text that will be displayed on the right side of the header. You can use any HTML synthax. Only applicable to Header Layout Type 2."
+msgstr ""
+
+#: admin/theme-options.php:1249
+msgid "Side Panel Navigation Options"
+msgstr ""
+
+#: admin/theme-options.php:1260
+msgid "Side Panel Background"
+msgstr ""
+
+#: admin/theme-options.php:1262
+msgid "If you choose Transparent, light logo option must be set in Highend Options > Logo Settings"
+msgstr ""
+
+#: admin/theme-options.php:1266
+msgid "Transparent (standard on scroll)"
+msgstr ""
+
+#: admin/theme-options.php:1277, admin/theme-options.php:1960
+msgid "Choose Color Style"
+msgstr ""
+
+#: admin/theme-options.php:1293, admin/metaboxes/meta-general-settings.php:127
+msgid "Alignment"
+msgstr ""
+
+#: admin/theme-options.php:1314
+msgid "Upload side navigation image that will cover the side panel area. Leave empty to use plain color. Recommended image size is 370x1080px."
+msgstr ""
+
+#: admin/theme-options.php:1320
+msgid "Social Icons"
+msgstr ""
+
+#: admin/theme-options.php:1321
+msgid "Enable/Disable social icons in side panel area below your main navigation. Make sure you have filled options in Social Links settings."
+msgstr ""
+
+#: admin/theme-options.php:1327
+msgid "Bottom Text Area"
+msgstr ""
+
+#: admin/theme-options.php:1328
+msgid "Enter any text that will be displayed on the bottom of the side panel area. You can use any HTML synthax and shortcodes."
+msgstr ""
+
+#: admin/theme-options.php:1334
+msgid "Entrance Animation"
+msgstr ""
+
+#: admin/theme-options.php:1335
+msgid "Enable/Disable entrance animation for all side panel elements."
+msgstr ""
+
+#: admin/theme-options.php:1343
+msgid "Navigation Layout"
+msgstr ""
+
+#: admin/theme-options.php:1349
+msgid "Choose navigation layout."
+msgstr ""
+
+#: admin/theme-options.php:1355
+msgid "Navigation Skin"
+msgstr ""
+
+#: admin/theme-options.php:1356
+msgid "Choose your main navigation skin."
+msgstr ""
+
+#: admin/theme-options.php:1366
+msgid "First"
+msgstr ""
+
+#: admin/theme-options.php:1371
+msgid "Second"
+msgstr ""
+
+#: admin/theme-options.php:1376
+msgid "Third"
+msgstr ""
+
+#: admin/theme-options.php:1381
+msgid "Fourth"
+msgstr ""
+
+#: admin/theme-options.php:1392
+msgid "Navigation Animation"
+msgstr ""
+
+#: admin/theme-options.php:1393
+msgid "Choose your main navigation effect. Different animations are supported for different navigation skins. Fourth skin supports all animations."
+msgstr ""
+
+#: admin/theme-options.php:1412
+msgid "Search in Navigation"
+msgstr ""
+
+#: admin/theme-options.php:1413
+msgid "Enable/Disable search in your main navigation bar in the header area."
+msgstr ""
+
+#: admin/theme-options.php:1419
+msgid "Choose Search Style"
+msgstr ""
+
+#: admin/theme-options.php:1427
+msgid "Default (AJAX Live Search)"
+msgstr ""
+
+#: admin/theme-options.php:1431
+msgid "Modern (Fullscreen)"
+msgstr ""
+
+#: admin/theme-options.php:1441
+msgid "Search Autocomplete"
+msgstr ""
+
+#: admin/theme-options.php:1442
+msgid "Enable/Disable AJAX autocomplete for search in your main navigation bar in the header area."
+msgstr ""
+
+#: admin/theme-options.php:1452
+msgid "Offset Side Panel"
+msgstr ""
+
+#: admin/theme-options.php:1453
+msgid "Enable/Disable offset side panel section. You can add your widgets to this section in Appearance > Widgets (Side Panel Section)"
+msgstr ""
+
+#: admin/theme-options.php:1459
+msgid "Menu Cart Button"
+msgstr ""
+
+#: admin/theme-options.php:1460
+msgid "Enable menu cart button on the right hand side. WooCommerce plugin needs to be installed."
+msgstr ""
+
+#: admin/theme-options.php:1466
+msgid "Navigation Dropdown Color"
+msgstr ""
+
+#: admin/theme-options.php:1467
+msgid "Choose your main navigation dropdown color scheme."
+msgstr ""
+
+#: admin/theme-options.php:1483
+msgid "Expandable sub-menus for mobile devices?"
+msgstr ""
+
+#: admin/theme-options.php:1484
+msgid "Enable/Disable interactive sub-menus for mobile devices."
+msgstr ""
+
+#: admin/theme-options.php:1492
+msgid "Pre-Footer Callout"
+msgstr ""
+
+#: admin/theme-options.php:1499
+msgid "Pre-Footer Callout Area"
+msgstr ""
+
+#: admin/theme-options.php:1500
+msgid "Enable/Disable site-wide pre-footer callout area. You can also disable this area using meta fields on any page."
+msgstr ""
+
+#: admin/theme-options.php:1506
+msgid "Callout Text"
+msgstr ""
+
+#: admin/theme-options.php:1507
+msgid "Enter a text for the callout area."
+msgstr ""
+
+#: admin/theme-options.php:1513
+msgid "Button Text"
+msgstr ""
+
+#: admin/theme-options.php:1527
+msgid "Pre-Footer Callout Icon"
+msgstr ""
+
+#: admin/theme-options.php:1528
+msgid "Enter icon name for the callout button. You can find list of available icons here: http://documentation.hb-themes.com/icons/ Leave empty to ignore icon."
+msgstr ""
+
+#: admin/theme-options.php:1534
+msgid "Button link opens in:"
+msgstr ""
+
+#: admin/theme-options.php:1538, admin/metaboxes/meta-presentation-settings.php:191
+msgid "New Tab"
+msgstr ""
+
+#: admin/theme-options.php:1542, admin/metaboxes/meta-presentation-settings.php:195
+msgid "Same Tab"
+msgstr ""
+
+#: admin/theme-options.php:1550
+msgid "Footer Layout"
+msgstr ""
+
+#: admin/theme-options.php:1557, admin/metaboxes/meta-layout-settings.php:75
+msgid "Footer Widgets"
+msgstr ""
+
+#: admin/theme-options.php:1558
+msgid "Enable/Disable footer area filled with widgets in optional layout. You can also disable footer area through meta fields on any page."
+msgstr ""
+
+#: admin/theme-options.php:1564
+msgid "Footer Column Separators"
+msgstr ""
+
+#: admin/theme-options.php:1565
+msgid "Display vertical line separators between widget columns. Looks nice if you have lots of footer widgets."
+msgstr ""
+
+#: admin/theme-options.php:1575
+msgid "Footer Background Overlay"
+msgstr ""
+
+#: admin/theme-options.php:1576
+msgid "Display beautiful earth overlay image in the footer area. Appropriate for corporate and agency websites."
+msgstr ""
+
+#: admin/theme-options.php:1586
+msgid "Footer Background Image"
+msgstr ""
+
+#: admin/theme-options.php:1587
+msgid "Upload a footer background image. Leave empty to use the above overlay or plain color. "
+msgstr ""
+
+#: admin/theme-options.php:1592
+msgid "Footer Widgets Layout"
+msgstr ""
+
+#: admin/theme-options.php:1603
+msgid "Choose layout of the footer area."
+msgstr ""
+
+#: admin/theme-options.php:1609
+msgid "1/4 + 1/4 + 1/4 + 1/4"
+msgstr ""
+
+#: admin/theme-options.php:1614
+msgid "1/4 + 1/4 + 1/2"
+msgstr ""
+
+#: admin/theme-options.php:1619
+msgid "1/2 + 1/4 + 1/4"
+msgstr ""
+
+#: admin/theme-options.php:1624
+msgid "1/4 + 1/2 + 1/4"
+msgstr ""
+
+#: admin/theme-options.php:1629
+msgid "1/3 + 1/3 + 1/3"
+msgstr ""
+
+#: admin/theme-options.php:1634
+msgid "2/3 + 1/3"
+msgstr ""
+
+#: admin/theme-options.php:1639
+msgid "1/3 + 2/3"
+msgstr ""
+
+#: admin/theme-options.php:1644
+msgid "1/2 + 1/2"
+msgstr ""
+
+#: admin/theme-options.php:1649
+msgid "1/3 + 3/4"
+msgstr ""
+
+#: admin/theme-options.php:1654
+msgid "3/4 + 1/4"
+msgstr ""
+
+#: admin/theme-options.php:1659
+msgid "1/1"
+msgstr ""
+
+#: admin/theme-options.php:1672
+msgid "Copyright Line"
+msgstr ""
+
+#: admin/theme-options.php:1673
+msgid "Enable/Disable a copyright line and footer navigation at the bottom of your website. You can also disable footer area through meta fields on any page."
+msgstr ""
+
+#: admin/theme-options.php:1679
+msgid "Show HB-Themes Backlink"
+msgstr ""
+
+#: admin/theme-options.php:1680
+msgid "If enabled, a backlink to our site will be shown in the copyright area. This is not required, but always appreciated."
+msgstr ""
+
+#: admin/theme-options.php:1685
+msgid "Copyright Line Settings"
+msgstr ""
+
+#: admin/theme-options.php:1695
+msgid "Copyright Layout"
+msgstr ""
+
+#: admin/theme-options.php:1696
+msgid "Simple copyright layout hides the footer navigation and centers the copyright text. Looks nice if you don't need a footer navigation."
+msgstr ""
+
+#: admin/theme-options.php:1700, admin/theme-options.php:1882, admin/metaboxes/meta-general-settings.php:155
+msgid "Simple"
+msgstr ""
+
+#: admin/theme-options.php:1704, admin/theme-options.php:1942, admin/metaboxes/meta-general-settings.php:186, includes/widgets/widget-social-icons.php:159
+msgid "Normal"
+msgstr ""
+
+#: admin/theme-options.php:1714
+msgid "Copyright Text"
+msgstr ""
+
+#: admin/theme-options.php:1715
+msgid "Enter your copyright text. HTML tags are allowed. You can use [the-year] and [wp-link] shortcodes. [the-year] shows the current year, while [wp-link] shows a link to WordPress website."
+msgstr ""
+
+#: admin/theme-options.php:1724
+msgid "Fixed Footer Effect"
+msgstr ""
+
+#: admin/theme-options.php:1725
+msgid "Enable the fixed footer effect which is very popular for One Page websites."
+msgstr ""
+
+#: admin/theme-options.php:1731
+msgid "Default Settings"
+msgstr ""
+
+#: admin/theme-options.php:1738
+msgid "Default Page Layout Settings"
+msgstr ""
+
+#: admin/theme-options.php:1739
+msgid "Set the default meta settings values for new posts and pages. These settings will also be applied to your archives and search pages."
+msgstr ""
+
+#: admin/theme-options.php:1744, admin/theme-options.php:1787, admin/theme-options.php:2435
+msgid "Sidebar Layout"
+msgstr ""
+
+#: admin/theme-options.php:1750
+msgid "Choose Sidebar Size"
+msgstr ""
+
+#: admin/theme-options.php:1754, admin/theme-options.php:1938, admin/metaboxes/meta-general-settings.php:182, includes/widgets/widget-social-icons.php:158
+msgid "Large"
+msgstr ""
+
+#: admin/theme-options.php:1758, admin/theme-options.php:1946, admin/metaboxes/meta-blog-page-settings.php:28, admin/metaboxes/meta-general-settings.php:190, includes/widgets/widget-social-icons.php:160
+msgid "Small"
+msgstr ""
+
+#: admin/theme-options.php:1768
+msgid "Choose Sidebar Style"
+msgstr ""
+
+#: admin/theme-options.php:1769
+msgid "Choose sidebar style. Alternative sidebar is without borders."
+msgstr ""
+
+#: admin/theme-options.php:1773, admin/theme-options.php:3332, admin/theme-options.php:3462, admin/theme-options.php:3604, admin/theme-options.php:3745, admin/theme-options.php:3873, admin/theme-options.php:4001, admin/theme-options.php:4129, admin/theme-options.php:4257, admin/theme-options.php:4385, admin/theme-options.php:4513, admin/theme-options.php:4641, admin/theme-options.php:4772
+msgid "Default"
+msgstr ""
+
+#: admin/theme-options.php:1777
+msgid "Alternative"
+msgstr ""
+
+#: admin/theme-options.php:1817
+msgid "Page Title"
+msgstr ""
+
+#: admin/theme-options.php:1823
+msgid "Title Type"
+msgstr ""
+
+#: admin/theme-options.php:1827, admin/metaboxes/meta-general-settings.php:77
+msgid "Hide Page Title"
+msgstr ""
+
+#: admin/theme-options.php:1831
+msgid "Page Title with Background Color"
+msgstr ""
+
+#: admin/theme-options.php:1835, admin/metaboxes/meta-general-settings.php:85
+msgid "Page Title with Background Image"
+msgstr ""
+
+#: admin/theme-options.php:1855, admin/metaboxes/meta-contact-page-settings.php:21
+msgid "Upload Image"
+msgstr ""
+
+#: admin/theme-options.php:1856, admin/metaboxes/meta-general-settings.php:106
+msgid "Upload an image different from the default image set in the Theme Options. "
+msgstr ""
+
+#: admin/theme-options.php:1866, admin/metaboxes/meta-featured-page-section.php:112, admin/metaboxes/meta-general-settings.php:116
+msgid "Parallax"
+msgstr ""
+
+#: admin/theme-options.php:1868
+msgid "Enable/Disable Parallax effect for the uploaded image."
+msgstr ""
+
+#: admin/theme-options.php:1877, admin/metaboxes/meta-general-settings.php:150
+msgid "Style"
+msgstr ""
+
+#: admin/theme-options.php:1878
+msgid "Choose between simple and fancy style."
+msgstr ""
+
+#: admin/theme-options.php:1886, admin/metaboxes/meta-general-settings.php:159
+msgid "Fancy"
+msgstr ""
+
+#: admin/theme-options.php:1890, admin/metaboxes/meta-general-settings.php:163
+msgid "Bordered"
+msgstr ""
+
+#: admin/theme-options.php:1904
+msgid "Title Alignment"
+msgstr ""
+
+#: admin/theme-options.php:1930
+msgid "Default Title Height"
+msgstr ""
+
+#: admin/theme-options.php:1934, admin/metaboxes/meta-general-settings.php:178
+msgid "Extra Large"
+msgstr ""
+
+#: admin/theme-options.php:1964, admin/metaboxes/meta-general-settings.php:205
+msgid "Light Text"
+msgstr ""
+
+#: admin/theme-options.php:1968, admin/metaboxes/meta-general-settings.php:209
+msgid "Dark Text"
+msgstr ""
+
+#: admin/theme-options.php:1982
+msgid "Entrance Title Animation"
+msgstr ""
+
+#: admin/theme-options.php:1990, admin/theme-options.php:2036, admin/metaboxes/meta-contact-page-settings.php:95, admin/metaboxes/meta-general-settings.php:228, admin/metaboxes/meta-general-settings.php:275
+msgid "Bounce Up"
+msgstr ""
+
+#: admin/theme-options.php:1994, admin/theme-options.php:2040, admin/metaboxes/meta-contact-page-settings.php:99, admin/metaboxes/meta-general-settings.php:232, admin/metaboxes/meta-general-settings.php:279
+msgid "Bottom To Top"
+msgstr ""
+
+#: admin/theme-options.php:1998, admin/theme-options.php:2044, admin/metaboxes/meta-contact-page-settings.php:103, admin/metaboxes/meta-general-settings.php:236, admin/metaboxes/meta-general-settings.php:283
+msgid "Top To Bottom"
+msgstr ""
+
+#: admin/theme-options.php:2002, admin/theme-options.php:2048, admin/metaboxes/meta-contact-page-settings.php:107, admin/metaboxes/meta-general-settings.php:240, admin/metaboxes/meta-general-settings.php:287
+msgid "Left To Right"
+msgstr ""
+
+#: admin/theme-options.php:2006, admin/theme-options.php:2052, admin/metaboxes/meta-contact-page-settings.php:111, admin/metaboxes/meta-general-settings.php:244, admin/metaboxes/meta-general-settings.php:291
+msgid "Right To Left"
+msgstr ""
+
+#: admin/theme-options.php:2010, admin/theme-options.php:2056, admin/metaboxes/meta-contact-page-settings.php:115, admin/metaboxes/meta-general-settings.php:248, admin/metaboxes/meta-general-settings.php:295
+msgid "Scale Up"
+msgstr ""
+
+#: admin/theme-options.php:2014, admin/theme-options.php:2060, admin/metaboxes/meta-contact-page-settings.php:119, admin/metaboxes/meta-general-settings.php:252, admin/metaboxes/meta-general-settings.php:299
+msgid "Fade In"
+msgstr ""
+
+#: admin/theme-options.php:2028
+msgid "Entrance Subtitle Animation"
+msgstr ""
+
+#: admin/theme-options.php:2078
+msgid "Logo Settings"
+msgstr ""
+
+#: admin/theme-options.php:2085
+msgid "Logo (Default)"
+msgstr ""
+
+#: admin/theme-options.php:2086
+msgid "Upload any size logo. Your logo will be resized to fit the navigation wrapper. Suggested dimensions are: 318x72 px. "
+msgstr ""
+
+#: admin/theme-options.php:2092
+msgid "Retina Logo (Default)"
+msgstr ""
+
+#: admin/theme-options.php:2093
+msgid "Upload your logo for Retina screens. Exactly 2x the size of your original logo. Suggested dimensions are: 636x144 px. "
+msgstr ""
+
+#: admin/theme-options.php:2100
+msgid "Light Logo"
+msgstr ""
+
+#: admin/theme-options.php:2101
+msgid "If your default logo is dark please upload light version of your logo. Suggested dimensions are: 318x72 px. "
+msgstr ""
+
+#: admin/theme-options.php:2107
+msgid "Retina Light Logo"
+msgstr ""
+
+#: admin/theme-options.php:2108
+msgid "Upload your light logo for Retina screens. Exactly 2x the size of your original logo. Suggested dimensions are: 636x144 px. "
+msgstr ""
+
+#: admin/theme-options.php:2114
+msgid "WordPress Login Logo"
+msgstr ""
+
+#: admin/theme-options.php:2115
+msgid "Change the default WordPress login logo. Dimensions should be 274x63 px."
+msgstr ""
+
+#: admin/theme-options.php:2121
+msgid "Logo Max Height"
+msgstr ""
+
+#: admin/theme-options.php:2122
+msgid "Enter the maximum height of your website logo. You can use pixels or percentage. For example: 100% or 70px. Leave empty for the default value."
+msgstr ""
+
+#: admin/theme-options.php:2128
+msgid "Contact Settings"
+msgstr ""
+
+#: admin/theme-options.php:2136
+msgid "Email Address"
+msgstr ""
+
+#: admin/theme-options.php:2137
+msgid "Enter email address where the emails from Contact Template and Quick Contact Box will be sent to. Default value is your administrator email set in WordPress Settings."
+msgstr ""
+
+#: admin/theme-options.php:2143, admin/theme-options.php:2149
+msgid "Quick Contact Box"
+msgstr ""
+
+#: admin/theme-options.php:2150
+msgid "Enable/Disable the Quick Contact Box on your website. It will show a simple ajax form (name, email, message) with validation..."
+msgstr ""
+
+#: admin/theme-options.php:2156, admin/metaboxes/meta-contact-page-settings.php:32
+msgid "Contact Box Title"
+msgstr ""
+
+#: admin/theme-options.php:2157
+msgid "Enter a title for the Contact Box."
+msgstr ""
+
+#: admin/theme-options.php:2158
+msgid "Contact Us"
+msgstr ""
+
+#: admin/theme-options.php:2167
+msgid "Contact Box Description"
+msgstr ""
+
+#: admin/theme-options.php:2168
+msgid "Enter a description for the Contact Box."
+msgstr ""
+
+#: admin/theme-options.php:2169
+msgid "We're currently offline. Send us an email and we'll get back to you, asap."
+msgstr ""
+
+#: admin/theme-options.php:2178
+msgid "Contact Box Button Title"
+msgstr ""
+
+#: admin/theme-options.php:2179
+msgid "Enter a title for the Contact Box submit button."
+msgstr ""
+
+#: admin/theme-options.php:2180
+msgid "Send Message"
+msgstr ""
+
+#: admin/theme-options.php:2192
+msgid "Blog Settings"
+msgstr ""
+
+#: admin/theme-options.php:2200
+msgid "<p>The settings below will be applied to the blog page templates, shortcodes and widgets.</p><p>You can use Custom CSS for additional changes.</p>"
+msgstr ""
+
+#: admin/theme-options.php:2206
+msgid "Show Full Content"
+msgstr ""
+
+#: admin/theme-options.php:2207
+msgid "Enable/Disable displaying full post content instead excerpt on blog template pages."
+msgstr ""
+
+#: admin/theme-options.php:2217
+msgid "Excerpt Length"
+msgstr ""
+
+#: admin/theme-options.php:2218
+msgid "Choose the excerpt length. Number of words to display in excerpt."
+msgstr ""
+
+#: admin/theme-options.php:2227
+msgid "Show Read More Button"
+msgstr ""
+
+#: admin/theme-options.php:2228
+msgid "Enable/Disable a Read More button on blog template pages."
+msgstr ""
+
+#: admin/theme-options.php:2234
+msgid "Crop Featured Image"
+msgstr ""
+
+#: admin/theme-options.php:2235
+msgid "Enable/Disable cropping of featured images on blog template pages."
+msgstr ""
+
+#: admin/theme-options.php:2241
+msgid "Display By Author"
+msgstr ""
+
+#: admin/theme-options.php:2242
+msgid "Enable/Disable meta information about the post author."
+msgstr ""
+
+#: admin/theme-options.php:2248
+msgid "Display Date"
+msgstr ""
+
+#: admin/theme-options.php:2249
+msgid "Enable/Disable post date information."
+msgstr ""
+
+#: admin/theme-options.php:2255
+msgid "Display Comments Count"
+msgstr ""
+
+#: admin/theme-options.php:2256
+msgid "Enable/Disable comments count information."
+msgstr ""
+
+#: admin/theme-options.php:2262
+msgid "Display Categories"
+msgstr ""
+
+#: admin/theme-options.php:2263
+msgid "Enable/Disable categories information on single blog posts."
+msgstr ""
+
+#: admin/theme-options.php:2269
+msgid "Display Tags"
+msgstr ""
+
+#: admin/theme-options.php:2270
+msgid "Enable/Disable tags information on single blog posts."
+msgstr ""
+
+#: admin/theme-options.php:2277
+msgid "Show/Hide related posts (by categories) on single blog posts."
+msgstr ""
+
+#: admin/theme-options.php:2284
+msgid "Show/Hide buttons for previous and next post on single blog posts."
+msgstr ""
+
+#: admin/theme-options.php:2290
+msgid "Post Likes"
+msgstr ""
+
+#: admin/theme-options.php:2291
+msgid "Enable/Disable likes on your blog posts - allow your website visitors to like blog posts."
+msgstr ""
+
+#: admin/theme-options.php:2298
+msgid "Show featured image of the blog post above the content on single blog posts."
+msgstr ""
+
+#: admin/theme-options.php:2308
+msgid "Single post featured image height"
+msgstr ""
+
+#: admin/theme-options.php:2309
+msgid "Set height for featured image displayed on your single blog page."
+msgstr ""
+
+#: admin/theme-options.php:2318
+msgid "About the author box"
+msgstr ""
+
+#: admin/theme-options.php:2319
+msgid "Enable/Disable about the author box on single blog posts. Fill in the author info in your Profile Settings."
+msgstr ""
+
+#: admin/theme-options.php:2325
+msgid "Share Box"
+msgstr ""
+
+#: admin/theme-options.php:2326
+msgid "Enable/Disable the share box on blog single posts."
+msgstr ""
+
+#: admin/theme-options.php:2333
+msgid "Comment Form Description"
+msgstr ""
+
+#: admin/theme-options.php:2334
+msgid "Enter a small description for the comment form. Showed below \"Leave a Reply\" text."
+msgstr ""
+
+#: admin/theme-options.php:2340
+msgid "Archives title"
+msgstr ""
+
+#: admin/theme-options.php:2341
+msgid "Enter a title for all of your archive pages. Subtitles will describe the page in more detail."
+msgstr ""
+
+#: admin/theme-options.php:2351
+msgid "WooCommerce Settings"
+msgstr ""
+
+#: admin/theme-options.php:2362
+msgid "Product Count"
+msgstr ""
+
+#: admin/theme-options.php:2363
+msgid "Choose product count shown on Shop page and categories. Default 12."
+msgstr ""
+
+#: admin/theme-options.php:2372
+msgid "Product Columns"
+msgstr ""
+
+#: admin/theme-options.php:2373
+msgid "In how many columns to show products? Default 3."
+msgstr ""
+
+#: admin/theme-options.php:2378
+msgid "Enable Likes"
+msgstr ""
+
+#: admin/theme-options.php:2379
+msgid "Enable likes in shop pages (shop, category and single products)."
+msgstr ""
+
+#: admin/theme-options.php:2385
+msgid "Enable Notifications"
+msgstr ""
+
+#: admin/theme-options.php:2386
+msgid "Enable notifications when a product is added to cart."
+msgstr ""
+
+#: admin/theme-options.php:2391
+msgid "Shop/Category Layout"
+msgstr ""
+
+#: admin/theme-options.php:2397
+msgid "Shop Layout"
+msgstr ""
+
+#: admin/theme-options.php:2398
+msgid "Choose the layout for WooCommerce shop/category pages."
+msgstr ""
+
+#: admin/theme-options.php:2420, admin/theme-options.php:2458
+msgid "Choose Sidebar"
+msgstr ""
+
+#: admin/theme-options.php:2423
+msgid "Choose the sidebar for WooCommerce shop/category pages."
+msgstr ""
+
+#: admin/theme-options.php:2429
+msgid "Single Product Layout"
+msgstr ""
+
+#: admin/theme-options.php:2436
+msgid "Choose the layout for WooCommerce single product pages."
+msgstr ""
+
+#: admin/theme-options.php:2459
+msgid "Choose the sidebar for WooCommerce single product pages."
+msgstr ""
+
+#: admin/theme-options.php:2466
+msgid "Enable Share"
+msgstr ""
+
+#: admin/theme-options.php:2467
+msgid "Enable share feature in single shop pages (product description pages)."
+msgstr ""
+
+#: admin/theme-options.php:2475
+msgid "Social Links"
+msgstr ""
+
+#: admin/theme-options.php:2482
+msgid "Open links in new tab?"
+msgstr ""
+
+#: admin/theme-options.php:2483
+msgid "Enable this field if you want to open your social links in new tab."
+msgstr ""
+
+#: admin/theme-options.php:2488
+msgid "Choose & Order Social Networks"
+msgstr ""
+
+#: admin/theme-options.php:2489
+msgid "Select and sort order of your social networks. Don't forget to fill in your own links in section above.\" section"
+msgstr ""
+
+#: admin/theme-options.php:2503
+msgid "Twitter"
+msgstr ""
+
+#: admin/theme-options.php:2504
+msgid "Enter your Twitter url here. Example: http://twitter.com/HBThemes"
+msgstr ""
+
+#: admin/theme-options.php:2509
+msgid "Facebook"
+msgstr ""
+
+#: admin/theme-options.php:2510
+msgid "Enter your Facebook url here. Example: http://facebook.com/hbthemes"
+msgstr ""
+
+#: admin/theme-options.php:2516
+msgid "VKontakte"
+msgstr ""
+
+#: admin/theme-options.php:2517
+msgid "Enter your VKontakte url here."
+msgstr ""
+
+#: admin/theme-options.php:2522
+msgid "Skype"
+msgstr ""
+
+#: admin/theme-options.php:2523
+msgid "Enter your Skype username here. You can use Skype links, for example: skype:username?call"
+msgstr ""
+
+#: admin/theme-options.php:2528
+msgid "Instagram"
+msgstr ""
+
+#: admin/theme-options.php:2529
+msgid "Enter your Instagram url here."
+msgstr ""
+
+#: admin/theme-options.php:2534
+msgid "Pinterest"
+msgstr ""
+
+#: admin/theme-options.php:2535
+msgid "Enter your Pinterest url here."
+msgstr ""
+
+#: admin/theme-options.php:2540
+msgid "Google+"
+msgstr ""
+
+#: admin/theme-options.php:2541
+msgid "Enter your Google+ url here."
+msgstr ""
+
+#: admin/theme-options.php:2546
+msgid "Dribbble"
+msgstr ""
+
+#: admin/theme-options.php:2547
+msgid "Enter your Dribbble url here."
+msgstr ""
+
+#: admin/theme-options.php:2552
+msgid "Digg"
+msgstr ""
+
+#: admin/theme-options.php:2553
+msgid "Enter your Digg url here."
+msgstr ""
+
+#: admin/theme-options.php:2558
+msgid "Xing"
+msgstr ""
+
+#: admin/theme-options.php:2559
+msgid "Enter your Xing url here."
+msgstr ""
+
+#: admin/theme-options.php:2564
+msgid "MySpace"
+msgstr ""
+
+#: admin/theme-options.php:2565
+msgid "Enter your MySpace url here."
+msgstr ""
+
+#: admin/theme-options.php:2570
+msgid "SoundCloud"
+msgstr ""
+
+#: admin/theme-options.php:2571
+msgid "Enter your SoundCloud url here."
+msgstr ""
+
+#: admin/theme-options.php:2576
+msgid "YouTube"
+msgstr ""
+
+#: admin/theme-options.php:2577
+msgid "Enter your YouTube url here."
+msgstr ""
+
+#: admin/theme-options.php:2582
+msgid "Vimeo"
+msgstr ""
+
+#: admin/theme-options.php:2583
+msgid "Enter your Vimeo url here."
+msgstr ""
+
+#: admin/theme-options.php:2588
+msgid "Flickr"
+msgstr ""
+
+#: admin/theme-options.php:2589
+msgid "Enter your Flickr url here."
+msgstr ""
+
+#: admin/theme-options.php:2594
+msgid "Tumblr"
+msgstr ""
+
+#: admin/theme-options.php:2595
+msgid "Enter your Tumblr url here."
+msgstr ""
+
+#: admin/theme-options.php:2600
+msgid "Yahoo"
+msgstr ""
+
+#: admin/theme-options.php:2601
+msgid "Enter your Yahoo url here."
+msgstr ""
+
+#: admin/theme-options.php:2606
+msgid "Foursquare"
+msgstr ""
+
+#: admin/theme-options.php:2607
+msgid "Enter your Foursquare url here."
+msgstr ""
+
+#: admin/theme-options.php:2612
+msgid "Blogger"
+msgstr ""
+
+#: admin/theme-options.php:2613
+msgid "Enter your Blogger url here."
+msgstr ""
+
+#: admin/theme-options.php:2618
+msgid "WordPress"
+msgstr ""
+
+#: admin/theme-options.php:2619
+msgid "Enter your WordPress url here."
+msgstr ""
+
+#: admin/theme-options.php:2624
+msgid "LastFm"
+msgstr ""
+
+#: admin/theme-options.php:2625
+msgid "Enter your LastFm url here."
+msgstr ""
+
+#: admin/theme-options.php:2630
+msgid "GitHub"
+msgstr ""
+
+#: admin/theme-options.php:2631
+msgid "Enter your GitHub url here."
+msgstr ""
+
+#: admin/theme-options.php:2636
+msgid "LinkedIn"
+msgstr ""
+
+#: admin/theme-options.php:2637
+msgid "Enter your LinkedIn url here."
+msgstr ""
+
+#: admin/theme-options.php:2642
+msgid "Yelp"
+msgstr ""
+
+#: admin/theme-options.php:2643
+msgid "Enter your Yelp url here."
+msgstr ""
+
+#: admin/theme-options.php:2648
+msgid "Forrst"
+msgstr ""
+
+#: admin/theme-options.php:2649
+msgid "Enter your Forrst url here."
+msgstr ""
+
+#: admin/theme-options.php:2654
+msgid "DeviantArt"
+msgstr ""
+
+#: admin/theme-options.php:2655
+msgid "Enter your DeviantArt url here."
+msgstr ""
+
+#: admin/theme-options.php:2660
+msgid "StumbleUpon"
+msgstr ""
+
+#: admin/theme-options.php:2661
+msgid "Enter your StumbleUpon url here."
+msgstr ""
+
+#: admin/theme-options.php:2666
+msgid "Delicious"
+msgstr ""
+
+#: admin/theme-options.php:2667
+msgid "Enter your Delicious url here."
+msgstr ""
+
+#: admin/theme-options.php:2672
+msgid "Reddit"
+msgstr ""
+
+#: admin/theme-options.php:2673
+msgid "Enter your Reddit url here."
+msgstr ""
+
+#: admin/theme-options.php:2678
+msgid "Behance"
+msgstr ""
+
+#: admin/theme-options.php:2679
+msgid "Enter your Behance url here."
+msgstr ""
+
+#: admin/theme-options.php:2684
+msgid "Twitch"
+msgstr ""
+
+#: admin/theme-options.php:2685
+msgid "Enter your Twitch url here."
+msgstr ""
+
+#: admin/theme-options.php:2690
+msgid "Weibo"
+msgstr ""
+
+#: admin/theme-options.php:2691
+msgid "Enter your Weibo url here."
+msgstr ""
+
+#: admin/theme-options.php:2696
+msgid "Trip Advisor"
+msgstr ""
+
+#: admin/theme-options.php:2697
+msgid "Enter your Trip Advisor url here."
+msgstr ""
+
+#: admin/theme-options.php:2702
+msgid "500px"
+msgstr ""
+
+#: admin/theme-options.php:2703
+msgid "Enter your 500px url here."
+msgstr ""
+
+#: admin/theme-options.php:2709
+msgid "Enter your Email url here. Example: mailto: test@test.com"
+msgstr ""
+
+#: admin/theme-options.php:2714
+msgid "RSS"
+msgstr ""
+
+#: admin/theme-options.php:2715
+msgid "Enter your RSS url here. Example: http://yourwebsite.com/feed"
+msgstr ""
+
+#: admin/theme-options.php:2720
+msgid "Custom Link"
+msgstr ""
+
+#: admin/theme-options.php:2721
+msgid "Enter your Custom Link url here. Example: http://hb-themes.com"
+msgstr ""
+
+#: admin/theme-options.php:2726
+msgid "Twitter API Settings"
+msgstr ""
+
+#: admin/theme-options.php:2727
+msgid "You must fill in all fields."
+msgstr ""
+
+#: admin/theme-options.php:2732
+msgid "<p>You will have to fill in your Twitter Application details below if you want to use Twitter Widget.</p><p>You can create your Twitter App & obtain keys here: <a target=\"_blank\" href=\"https://dev.twitter.com/apps\">https://dev.twitter.com/apps</a></p>"
+msgstr ""
+
+#: admin/theme-options.php:2738
+msgid "Twitter API Key"
+msgstr ""
+
+#: admin/theme-options.php:2743
+msgid "Twitter API Secret"
+msgstr ""
+
+#: admin/theme-options.php:2748
+msgid "Twitter Access Token"
+msgstr ""
+
+#: admin/theme-options.php:2753
+msgid "Twitter Access Token Secret"
+msgstr ""
+
+#: admin/theme-options.php:2761
+msgid "Share Settings"
+msgstr ""
+
+#: admin/theme-options.php:2769
+msgid "Facebook Share"
+msgstr ""
+
+#: admin/theme-options.php:2770
+msgid "Enable Facebook share in share box."
+msgstr ""
+
+#: admin/theme-options.php:2776
+msgid "Twitter Share"
+msgstr ""
+
+#: admin/theme-options.php:2777
+msgid "Enable Twitter share in share box."
+msgstr ""
+
+#: admin/theme-options.php:2783
+msgid "Google+ Share"
+msgstr ""
+
+#: admin/theme-options.php:2784
+msgid "Enable Google+ share in share box."
+msgstr ""
+
+#: admin/theme-options.php:2790
+msgid "LinkedIn Share"
+msgstr ""
+
+#: admin/theme-options.php:2791
+msgid "Enable LinkedIn share in share box."
+msgstr ""
+
+#: admin/theme-options.php:2797
+msgid "Pinterest Share"
+msgstr ""
+
+#: admin/theme-options.php:2798
+msgid "Enable Pinterest share in share box."
+msgstr ""
+
+#: admin/theme-options.php:2804
+msgid "Tumblr Share"
+msgstr ""
+
+#: admin/theme-options.php:2805
+msgid "Enable Tumblr share in share box."
+msgstr ""
+
+#: admin/theme-options.php:2811
+msgid "VKontakte Share"
+msgstr ""
+
+#: admin/theme-options.php:2812
+msgid "Enable VKontakte share in share box."
+msgstr ""
+
+#: admin/theme-options.php:2818
+msgid "Reddit Share"
+msgstr ""
+
+#: admin/theme-options.php:2819
+msgid "Enable Reddit share in share box."
+msgstr ""
+
+#: admin/theme-options.php:2825
+msgid "Email Share"
+msgstr ""
+
+#: admin/theme-options.php:2826
+msgid "Enable email share in share box."
+msgstr ""
+
+#: admin/theme-options.php:2834
+msgid "Map Settings"
+msgstr ""
+
+#: admin/theme-options.php:2841
+msgid "Latitude & Longitude Converter"
+msgstr ""
+
+#: admin/theme-options.php:2842
+msgid "You can use the online converter to convert an address into latitude & longitude. <a href=\"http://www.latlong.net/convert-address-to-lat-long.html\">LatLong</a>"
+msgstr ""
+
+#: admin/theme-options.php:2848
+msgid "Google Map API Key"
+msgstr ""
+
+#: admin/theme-options.php:2849
+msgid "Please enter your Google Maps API Key here. You can create an API key <a href=\"https://developers.google.com/maps/\">here (WEB)</a>"
+msgstr ""
+
+#: admin/theme-options.php:2859
+msgid "Map Zoom Level"
+msgstr ""
+
+#: admin/theme-options.php:2860
+msgid "Value between 1 and 18. 18 is the street level zoom, while 1 is whole earth."
+msgstr ""
+
+#: admin/theme-options.php:2865
+msgid "Map Center Latitude"
+msgstr ""
+
+#: admin/theme-options.php:2866
+msgid "Please enter the latitude for the center of the map."
+msgstr ""
+
+#: admin/theme-options.php:2872
+msgid "Map Center Longitude"
+msgstr ""
+
+#: admin/theme-options.php:2873
+msgid "Please enter the longitude for the center of the map."
+msgstr ""
+
+#: admin/theme-options.php:2879, admin/theme-options.php:2886
+msgid "Custom Marker Image"
+msgstr ""
+
+#: admin/theme-options.php:2880
+msgid "Enable the custom marker (pin) image for all your markers on the map."
+msgstr ""
+
+#: admin/theme-options.php:2887
+msgid "Please upload an image that will be used for all the markers on your map."
+msgstr ""
+
+#: admin/theme-options.php:2897
+msgid "Enable Styled Map"
+msgstr ""
+
+#: admin/theme-options.php:2898
+msgid "Check this box if you want your map to be styled with focus color."
+msgstr ""
+
+#: admin/theme-options.php:2905
+msgid "Map Focus Color"
+msgstr ""
+
+#: admin/theme-options.php:2906
+msgid "Pick the focus color for your map. Styled map option has to be ENABLED."
+msgstr ""
+
+#: admin/theme-options.php:2913
+msgid "Enable Map Zoom"
+msgstr ""
+
+#: admin/theme-options.php:2914
+msgid "Enable zoom button and double click zoom in map."
+msgstr ""
+
+#: admin/theme-options.php:2920
+msgid "Location 1"
+msgstr ""
+
+#: admin/theme-options.php:2926, admin/theme-options.php:2965, admin/theme-options.php:3005, admin/theme-options.php:3046, admin/theme-options.php:3087, admin/theme-options.php:3127, admin/theme-options.php:3166, admin/theme-options.php:3205, admin/theme-options.php:3245, admin/theme-options.php:3285
+msgid "Latitude"
+msgstr ""
+
+#: admin/theme-options.php:2927
+msgid "Please enter the latitude for the location 1."
+msgstr ""
+
+#: admin/theme-options.php:2933, admin/theme-options.php:2972, admin/theme-options.php:3012, admin/theme-options.php:3053, admin/theme-options.php:3094, admin/theme-options.php:3134, admin/theme-options.php:3173, admin/theme-options.php:3212, admin/theme-options.php:3252, admin/theme-options.php:3292
+msgid "Longitude"
+msgstr ""
+
+#: admin/theme-options.php:2934
+msgid "Please enter the longitude for the the location 1."
+msgstr ""
+
+#: admin/theme-options.php:2940, admin/theme-options.php:2979, admin/theme-options.php:3019, admin/theme-options.php:3060, admin/theme-options.php:3101, admin/theme-options.php:3141, admin/theme-options.php:3180, admin/theme-options.php:3219, admin/theme-options.php:3259, admin/theme-options.php:3299
+msgid "Info Box"
+msgstr ""
+
+#: admin/theme-options.php:2941
+msgid "Enter the info for location 1 which is showed when clicked on marker."
+msgstr ""
+
+#: admin/theme-options.php:2949, admin/theme-options.php:2955
+msgid "Location 2"
+msgstr ""
+
+#: admin/theme-options.php:2966, admin/theme-options.php:3006
+msgid "Please enter the latitude for the location 2."
+msgstr ""
+
+#: admin/theme-options.php:2973, admin/theme-options.php:3013
+msgid "Please enter the longitude for the the location 2."
+msgstr ""
+
+#: admin/theme-options.php:2980
+msgid "Enter the info for location 2 which is showed when clicked on marker."
+msgstr ""
+
+#: admin/theme-options.php:2989, admin/theme-options.php:2995
+msgid "Location 3"
+msgstr ""
+
+#: admin/theme-options.php:3020
+msgid "Enter the info for location 3 which is showed when clicked on marker."
+msgstr ""
+
+#: admin/theme-options.php:3030, admin/theme-options.php:3036
+msgid "Location 4"
+msgstr ""
+
+#: admin/theme-options.php:3047
+msgid "Please enter the latitude for the location 4."
+msgstr ""
+
+#: admin/theme-options.php:3054
+msgid "Please enter the longitude for the the location 4."
+msgstr ""
+
+#: admin/theme-options.php:3061
+msgid "Enter the info for location 4 which is showed when clicked on marker."
+msgstr ""
+
+#: admin/theme-options.php:3071, admin/theme-options.php:3077
+msgid "Location 5"
+msgstr ""
+
+#: admin/theme-options.php:3088
+msgid "Please enter the latitude for the location 5."
+msgstr ""
+
+#: admin/theme-options.php:3095
+msgid "Please enter the longitude for the the location 5."
+msgstr ""
+
+#: admin/theme-options.php:3102
+msgid "Enter the info for location 5 which is showed when clicked on marker."
+msgstr ""
+
+#: admin/theme-options.php:3111, admin/theme-options.php:3117
+msgid "Location 6"
+msgstr ""
+
+#: admin/theme-options.php:3128
+msgid "Please enter the latitude for the location 6."
+msgstr ""
+
+#: admin/theme-options.php:3135
+msgid "Please enter the longitude for the the location 6."
+msgstr ""
+
+#: admin/theme-options.php:3142
+msgid "Enter the info for location 6 which is showed when clicked on marker."
+msgstr ""
+
+#: admin/theme-options.php:3150, admin/theme-options.php:3156
+msgid "Location 7"
+msgstr ""
+
+#: admin/theme-options.php:3167
+msgid "Please enter the latitude for the location 7."
+msgstr ""
+
+#: admin/theme-options.php:3174
+msgid "Please enter the longitude for the the location 7."
+msgstr ""
+
+#: admin/theme-options.php:3181
+msgid "Enter the info for location 7 which is showed when clicked on marker."
+msgstr ""
+
+#: admin/theme-options.php:3189, admin/theme-options.php:3195
+msgid "Location 8"
+msgstr ""
+
+#: admin/theme-options.php:3206
+msgid "Please enter the latitude for the location 8."
+msgstr ""
+
+#: admin/theme-options.php:3213
+msgid "Please enter the longitude for the the location 8."
+msgstr ""
+
+#: admin/theme-options.php:3220
+msgid "Enter the info for location 8 which is showed when clicked on marker."
+msgstr ""
+
+#: admin/theme-options.php:3229, admin/theme-options.php:3235
+msgid "Location 9"
+msgstr ""
+
+#: admin/theme-options.php:3246
+msgid "Please enter the latitude for the location 9."
+msgstr ""
+
+#: admin/theme-options.php:3253
+msgid "Please enter the longitude for the the location 9."
+msgstr ""
+
+#: admin/theme-options.php:3260
+msgid "Enter the info for location 9 which is showed when clicked on marker."
+msgstr ""
+
+#: admin/theme-options.php:3269, admin/theme-options.php:3275
+msgid "Location 10"
+msgstr ""
+
+#: admin/theme-options.php:3286
+msgid "Please enter the latitude for the location 10."
+msgstr ""
+
+#: admin/theme-options.php:3293
+msgid "Please enter the longitude for the the location 10."
+msgstr ""
+
+#: admin/theme-options.php:3300
+msgid "Enter the info for location 10 which is showed when clicked on marker."
+msgstr ""
+
+#: admin/theme-options.php:3308
+msgid "Font Settings"
+msgstr ""
+
+#: admin/theme-options.php:3315
+msgid "Google Web Fonts"
+msgstr ""
+
+#: admin/theme-options.php:3316
+msgid "<p>You can find preview for Google Web Fonts here: <a href=\"http://www.google.com/fonts/\">http://www.google.com/fonts/</a></p>"
+msgstr ""
+
+#: admin/theme-options.php:3321
+msgid "Body Font Settings"
+msgstr ""
+
+#: admin/theme-options.php:3327
+msgid "Body Font"
+msgstr ""
+
+#: admin/theme-options.php:3328
+msgid "Specify body font settings here."
+msgstr ""
+
+#: admin/theme-options.php:3336, admin/theme-options.php:3466, admin/theme-options.php:3608, admin/theme-options.php:3749, admin/theme-options.php:3877, admin/theme-options.php:4005, admin/theme-options.php:4133, admin/theme-options.php:4261, admin/theme-options.php:4389, admin/theme-options.php:4517, admin/theme-options.php:4645, admin/theme-options.php:4776
+msgid "Custom Google Web Font"
+msgstr ""
+
+#: admin/theme-options.php:3346
+msgid "Body Font Face"
+msgstr ""
+
+#: admin/theme-options.php:3347, admin/theme-options.php:3477, admin/theme-options.php:3619, admin/theme-options.php:3760, admin/theme-options.php:3888, admin/theme-options.php:4016, admin/theme-options.php:4144, admin/theme-options.php:4272, admin/theme-options.php:4400, admin/theme-options.php:4528, admin/theme-options.php:4656, admin/theme-options.php:4787
+msgid "Select Font"
+msgstr ""
+
+#: admin/theme-options.php:3366, admin/theme-options.php:3495, admin/theme-options.php:3637, admin/theme-options.php:3778, admin/theme-options.php:3906, admin/theme-options.php:4034, admin/theme-options.php:4162, admin/theme-options.php:4290, admin/theme-options.php:4418, admin/theme-options.php:4546, admin/theme-options.php:4674, admin/theme-options.php:4805
+msgid "Font Subsets"
+msgstr ""
+
+#: admin/theme-options.php:3367, admin/theme-options.php:3496, admin/theme-options.php:3638, admin/theme-options.php:3779, admin/theme-options.php:3907, admin/theme-options.php:4035, admin/theme-options.php:4163, admin/theme-options.php:4291, admin/theme-options.php:4419, admin/theme-options.php:4547, admin/theme-options.php:4675, admin/theme-options.php:4806
+msgid "Select Font Subsets"
+msgstr ""
+
+#: admin/theme-options.php:3389
+msgid "Body Font Size"
+msgstr ""
+
+#: admin/theme-options.php:3390
+msgid "Specify body font size in pixels."
+msgstr ""
+
+#: admin/theme-options.php:3403
+msgid "Body Font Weight"
+msgstr ""
+
+#: admin/theme-options.php:3404, admin/theme-options.php:3532, admin/theme-options.php:3674, admin/theme-options.php:3815, admin/theme-options.php:3943, admin/theme-options.php:4071, admin/theme-options.php:4199, admin/theme-options.php:4327, admin/theme-options.php:4455, admin/theme-options.php:4583, admin/theme-options.php:4711, admin/theme-options.php:4828
+msgid "Select font weight"
+msgstr ""
+
+#: admin/theme-options.php:3422
+msgid "Body Font Line Height"
+msgstr ""
+
+#: admin/theme-options.php:3423
+msgid "Specify body font line height in pixels."
+msgstr ""
+
+#: admin/theme-options.php:3436
+msgid "Body Font Letter Spacing"
+msgstr ""
+
+#: admin/theme-options.php:3437
+msgid "Specify body font letter spacing in pixels."
+msgstr ""
+
+#: admin/theme-options.php:3451
+msgid "Navigation Font Settings"
+msgstr ""
+
+#: admin/theme-options.php:3457
+msgid "Navigation Font"
+msgstr ""
+
+#: admin/theme-options.php:3458
+msgid "Specify navigation font settings here."
+msgstr ""
+
+#: admin/theme-options.php:3476, admin/theme-options.php:3618, admin/theme-options.php:4786
+msgid "Navigation Font Face"
+msgstr ""
+
+#: admin/theme-options.php:3517
+msgid "Navigation Font Size"
+msgstr ""
+
+#: admin/theme-options.php:3518
+msgid "Specify navigation font size in pixels."
+msgstr ""
+
+#: admin/theme-options.php:3531, admin/theme-options.php:4827
+msgid "Navigation Font Weight"
+msgstr ""
+
+#: admin/theme-options.php:3550
+msgid "Navigation Font Line Height"
+msgstr ""
+
+#: admin/theme-options.php:3551
+msgid "Specify navigation font line height in pixels."
+msgstr ""
+
+#: admin/theme-options.php:3564, admin/theme-options.php:4846
+msgid "Navigation Font Letter Spacing"
+msgstr ""
+
+#: admin/theme-options.php:3565, admin/theme-options.php:4847
+msgid "Specify navigation font letter spacing in pixels."
+msgstr ""
+
+#: admin/theme-options.php:3578, admin/theme-options.php:3720, admin/theme-options.php:4860
+msgid "Uppercase Text"
+msgstr ""
+
+#: admin/theme-options.php:3579, admin/theme-options.php:3721, admin/theme-options.php:4861
+msgid "Enable/Disable uppercase text."
+msgstr ""
+
+#: admin/theme-options.php:3593
+msgid "Navigation Dropdown Font Settings"
+msgstr ""
+
+#: admin/theme-options.php:3599
+msgid "Navigation Dropdown Font"
+msgstr ""
+
+#: admin/theme-options.php:3600
+msgid "Specify navigation dropdown font settings here."
+msgstr ""
+
+#: admin/theme-options.php:3659
+msgid "Navigation Dropdown Font Size"
+msgstr ""
+
+#: admin/theme-options.php:3660
+msgid "Specify navigation dropdown font size in pixels."
+msgstr ""
+
+#: admin/theme-options.php:3673
+msgid "Navigation Dropdown Font Weight"
+msgstr ""
+
+#: admin/theme-options.php:3692
+msgid "Navigation Dropdown Line Height"
+msgstr ""
+
+#: admin/theme-options.php:3693
+msgid "Specify navigation dropdown font line height in pixels."
+msgstr ""
+
+#: admin/theme-options.php:3706
+msgid "Navigation Dropdown Letter Spacing"
+msgstr ""
+
+#: admin/theme-options.php:3707
+msgid "Specify navigation dropdown font letter spacing in pixels."
+msgstr ""
+
+#: admin/theme-options.php:3734
+msgid "Copyright Font Settings"
+msgstr ""
+
+#: admin/theme-options.php:3740
+msgid "Copyright Font"
+msgstr ""
+
+#: admin/theme-options.php:3741
+msgid "Specify copyright font settings here."
+msgstr ""
+
+#: admin/theme-options.php:3759
+msgid "Copyright Font Face"
+msgstr ""
+
+#: admin/theme-options.php:3800
+msgid "Copyright Font Size"
+msgstr ""
+
+#: admin/theme-options.php:3801
+msgid "Specify copyright font size in pixels."
+msgstr ""
+
+#: admin/theme-options.php:3814
+msgid "Copyright Font Weight"
+msgstr ""
+
+#: admin/theme-options.php:3833
+msgid "Copyright Font Line Height"
+msgstr ""
+
+#: admin/theme-options.php:3834
+msgid "Specify copyright font line height in pixels."
+msgstr ""
+
+#: admin/theme-options.php:3847
+msgid "Copyright Font Letter Spacing"
+msgstr ""
+
+#: admin/theme-options.php:3848
+msgid "Specify copyright font letter spacing in pixels."
+msgstr ""
+
+#: admin/theme-options.php:3862
+msgid "Heading 1 Font Settings"
+msgstr ""
+
+#: admin/theme-options.php:3868
+msgid "Heading 1 Font"
+msgstr ""
+
+#: admin/theme-options.php:3869
+msgid "Specify Heading 1 font settings here."
+msgstr ""
+
+#: admin/theme-options.php:3887
+msgid "Heading 1 Font Face"
+msgstr ""
+
+#: admin/theme-options.php:3928
+msgid "Heading 1 Font Size"
+msgstr ""
+
+#: admin/theme-options.php:3929
+msgid "Specify Heading 1 font size in pixels."
+msgstr ""
+
+#: admin/theme-options.php:3942
+msgid "H1 Font Weight"
+msgstr ""
+
+#: admin/theme-options.php:3961
+msgid "Heading 1 Font Line Height"
+msgstr ""
+
+#: admin/theme-options.php:3962
+msgid "Specify Heading 1 font line height in pixels."
+msgstr ""
+
+#: admin/theme-options.php:3975
+msgid "Heading 1 Font Letter Spacing"
+msgstr ""
+
+#: admin/theme-options.php:3976
+msgid "Specify Heading 1 font letter spacing in pixels."
+msgstr ""
+
+#: admin/theme-options.php:3990
+msgid "Heading 2 Font Settings"
+msgstr ""
+
+#: admin/theme-options.php:3996
+msgid "Heading 2 Font"
+msgstr ""
+
+#: admin/theme-options.php:3997
+msgid "Specify Heading 2 font settings here."
+msgstr ""
+
+#: admin/theme-options.php:4015
+msgid "Heading 2 Font Face"
+msgstr ""
+
+#: admin/theme-options.php:4056
+msgid "Heading 2 Font Size"
+msgstr ""
+
+#: admin/theme-options.php:4057
+msgid "Specify Heading 2 font size in pixels."
+msgstr ""
+
+#: admin/theme-options.php:4070
+msgid "H2 Font Weight"
+msgstr ""
+
+#: admin/theme-options.php:4089
+msgid "Heading 2 Font Line Height"
+msgstr ""
+
+#: admin/theme-options.php:4090
+msgid "Specify Heading 2 font line height in pixels."
+msgstr ""
+
+#: admin/theme-options.php:4103
+msgid "Heading 2 Font Letter Spacing"
+msgstr ""
+
+#: admin/theme-options.php:4104
+msgid "Specify Heading 2 font letter spacing in pixels."
+msgstr ""
+
+#: admin/theme-options.php:4118
+msgid "Heading 3 Font Settings"
+msgstr ""
+
+#: admin/theme-options.php:4124
+msgid "Heading 3 Font"
+msgstr ""
+
+#: admin/theme-options.php:4125
+msgid "Specify Heading 3 font settings here."
+msgstr ""
+
+#: admin/theme-options.php:4143
+msgid "Heading 3 Font Face"
+msgstr ""
+
+#: admin/theme-options.php:4184
+msgid "Heading 3 Font Size"
+msgstr ""
+
+#: admin/theme-options.php:4185
+msgid "Specify Heading 3 font size in pixels."
+msgstr ""
+
+#: admin/theme-options.php:4198
+msgid "H3 Font Weight"
+msgstr ""
+
+#: admin/theme-options.php:4217
+msgid "Heading 3 Font Line Height"
+msgstr ""
+
+#: admin/theme-options.php:4218
+msgid "Specify Heading 3 font line height in pixels."
+msgstr ""
+
+#: admin/theme-options.php:4231
+msgid "Heading 3 Font Letter Spacing"
+msgstr ""
+
+#: admin/theme-options.php:4232
+msgid "Specify Heading 3 font letter spacing in pixels."
+msgstr ""
+
+#: admin/theme-options.php:4246
+msgid "Heading 4 Font Settings"
+msgstr ""
+
+#: admin/theme-options.php:4252
+msgid "Heading 4 Font"
+msgstr ""
+
+#: admin/theme-options.php:4253
+msgid "Specify Heading 4 font settings here."
+msgstr ""
+
+#: admin/theme-options.php:4271
+msgid "Heading 4 Font Face"
+msgstr ""
+
+#: admin/theme-options.php:4312
+msgid "Heading 4 Font Size"
+msgstr ""
+
+#: admin/theme-options.php:4313
+msgid "Specify Heading 4 font size in pixels."
+msgstr ""
+
+#: admin/theme-options.php:4326
+msgid "H4 Font Weight"
+msgstr ""
+
+#: admin/theme-options.php:4345
+msgid "Heading 4 Font Line Height"
+msgstr ""
+
+#: admin/theme-options.php:4346
+msgid "Specify Heading 4 font line height in pixels."
+msgstr ""
+
+#: admin/theme-options.php:4359
+msgid "Heading 4 Font Letter Spacing"
+msgstr ""
+
+#: admin/theme-options.php:4360
+msgid "Specify Heading 4 font letter spacing in pixels."
+msgstr ""
+
+#: admin/theme-options.php:4374
+msgid "Heading 5 Font Settings"
+msgstr ""
+
+#: admin/theme-options.php:4380
+msgid "Heading 5 Font"
+msgstr ""
+
+#: admin/theme-options.php:4381
+msgid "Specify Heading 5 font settings here."
+msgstr ""
+
+#: admin/theme-options.php:4399
+msgid "Heading 5 Font Face"
+msgstr ""
+
+#: admin/theme-options.php:4440
+msgid "Heading 5 Font Size"
+msgstr ""
+
+#: admin/theme-options.php:4441
+msgid "Specify Heading 5 font size in pixels."
+msgstr ""
+
+#: admin/theme-options.php:4454
+msgid "H5 Font Weight"
+msgstr ""
+
+#: admin/theme-options.php:4473
+msgid "Heading 5 Font Line Height"
+msgstr ""
+
+#: admin/theme-options.php:4474
+msgid "Specify Heading 5 font line height in pixels."
+msgstr ""
+
+#: admin/theme-options.php:4487
+msgid "Heading 5 Font Letter Spacing"
+msgstr ""
+
+#: admin/theme-options.php:4488
+msgid "Specify Heading 5 font letter spacing in pixels."
+msgstr ""
+
+#: admin/theme-options.php:4502
+msgid "Heading 6 Font Settings"
+msgstr ""
+
+#: admin/theme-options.php:4508
+msgid "Heading 6 Font"
+msgstr ""
+
+#: admin/theme-options.php:4509
+msgid "Specify Heading 6 font settings here."
+msgstr ""
+
+#: admin/theme-options.php:4527
+msgid "Heading 6 Font Face"
+msgstr ""
+
+#: admin/theme-options.php:4568
+msgid "Heading 6 Font Size"
+msgstr ""
+
+#: admin/theme-options.php:4569
+msgid "Specify Heading 6 font size in pixels."
+msgstr ""
+
+#: admin/theme-options.php:4582
+msgid "H6 Font Weight"
+msgstr ""
+
+#: admin/theme-options.php:4601
+msgid "Heading 6 Font Line Height"
+msgstr ""
+
+#: admin/theme-options.php:4602
+msgid "Specify Heading 6 font line height in pixels."
+msgstr ""
+
+#: admin/theme-options.php:4615
+msgid "Heading 6 Font Letter Spacing"
+msgstr ""
+
+#: admin/theme-options.php:4616
+msgid "Specify Heading 6 font letter spacing in pixels."
+msgstr ""
+
+#: admin/theme-options.php:4630
+msgid "Pre-Footer Callout Font Settings"
+msgstr ""
+
+#: admin/theme-options.php:4636
+msgid "Callout Font Settings"
+msgstr ""
+
+#: admin/theme-options.php:4637
+msgid "Specify Pre-Footer callout font settings here."
+msgstr ""
+
+#: admin/theme-options.php:4655
+msgid "Callout Font Face"
+msgstr ""
+
+#: admin/theme-options.php:4696
+msgid "Callout Font Size"
+msgstr ""
+
+#: admin/theme-options.php:4697
+msgid "Specify callout font size in pixels."
+msgstr ""
+
+#: admin/theme-options.php:4710
+msgid "Callout Font Weight"
+msgstr ""
+
+#: admin/theme-options.php:4729
+msgid "Callout Line Height"
+msgstr ""
+
+#: admin/theme-options.php:4730
+msgid "Specify callout font line height in pixels."
+msgstr ""
+
+#: admin/theme-options.php:4743
+msgid "Callout Font Letter Spacing"
+msgstr ""
+
+#: admin/theme-options.php:4744
+msgid "Specify callout font letter spacing in pixels."
+msgstr ""
+
+#: admin/theme-options.php:4761
+msgid "Modern Title Font Settings"
+msgstr ""
+
+#: admin/theme-options.php:4767
+msgid "Modern Title Font"
+msgstr ""
+
+#: admin/theme-options.php:4768
+msgid "Specify modern title font settings here."
+msgstr ""
+
+#: admin/theme-options.php:4875
+msgid "Color Manager"
+msgstr ""
+
+#: admin/theme-options.php:4883
+msgid "Choose which colors to use."
+msgstr ""
+
+#: admin/theme-options.php:4887, admin/theme-options.php:4932
+msgid "Color Schemes"
+msgstr ""
+
+#: admin/theme-options.php:4891
+msgid "Color Customizer"
+msgstr ""
+
+#: admin/theme-options.php:4901
+msgid "Live Color Customizer"
+msgstr ""
+
+#: admin/theme-options.php:4908
+msgid "<p>Please \"Save Changes\" after changing the above options.</p>Changes need to be saved before running the Customizer.</p>"
+msgstr ""
+
+#: admin/theme-options.php:4925
+msgid "Color Shemes"
+msgstr ""
+
+#: admin/theme-options.php:4927
+msgid "Choose from a list of inbuilt schemes. You can create your own using color customizer."
+msgstr ""
+
+#: admin/theme-options.php:4937
+msgid "Default - Minimal Blue"
+msgstr ""
+
+#: admin/theme-options.php:4941
+msgid "Minimal Red"
+msgstr ""
+
+#: admin/theme-options.php:4945
+msgid "Minimal Green"
+msgstr ""
+
+#: admin/theme-options.php:4949
+msgid "Minimal Green Alternative"
+msgstr ""
+
+#: admin/theme-options.php:4953
+msgid "Minimal Blue Alternative"
+msgstr ""
+
+#: admin/theme-options.php:4957
+msgid "Minimal Pink"
+msgstr ""
+
+#: admin/theme-options.php:4961
+msgid "Minimal Yellow"
+msgstr ""
+
+#: admin/theme-options.php:4965
+msgid "Minimal Orange"
+msgstr ""
+
+#: admin/theme-options.php:4969
+msgid "Minimal Purple"
+msgstr ""
+
+#: admin/theme-options.php:4973
+msgid "Minimal Grey"
+msgstr ""
+
+#: admin/theme-options.php:4977
+msgid "Business Blue"
+msgstr ""
+
+#: admin/theme-options.php:4981
+msgid "Dark Elegance"
+msgstr ""
+
+#: admin/theme-options.php:4985
+msgid "Orchyd"
+msgstr ""
+
+#: admin/theme-options.php:4989
+msgid "Choose a pre-defined color scheme.<p>More schemes coming with every update!</p>"
+msgstr ""
+
+#: admin/theme-options.php:5005
+msgid "Highend Modules"
+msgstr ""
+
+#: admin/theme-options.php:5011
+msgid "Enable/Disable Highend Modules"
+msgstr ""
+
+#: admin/theme-options.php:5012
+msgid "Open a group of options where you can enable or disable various Highend features."
+msgstr ""
+
+#: admin/theme-options.php:5018
+msgid "Custom Post Type: Portfolio"
+msgstr ""
+
+#: admin/theme-options.php:5028
+msgid "Custom Post Type: Gallery"
+msgstr ""
+
+#: admin/theme-options.php:5038
+msgid "Custom Post Type: Team Members"
+msgstr ""
+
+#: admin/theme-options.php:5048
+msgid "Custom Post Type: FAQ"
+msgstr ""
+
+#: admin/theme-options.php:5058
+msgid "Custom Post Type: Testimonials"
+msgstr ""
+
+#: admin/theme-options.php:5068
+msgid "Custom Post Type: Clients"
+msgstr ""
+
+#: admin/theme-options.php:5078
+msgid "Custom Post Type: Pricing Tables"
+msgstr ""
+
+#: admin/theme-options.php:5088
+msgid "Theme Settings: 404 Page"
+msgstr ""
+
+#: admin/theme-options.php:5098
+msgid "Theme Settings: Coming Soon Mode"
+msgstr ""
+
+#: admin/theme-options.php:5108
+msgid "Inbuilt PrettyPhoto/Lightbox Style"
+msgstr ""
+
+#: admin/theme-options.php:5118
+msgid "Bundled Plugins Recommender"
+msgstr ""
+
+#: admin/theme-options.php:5128
+msgid "Highend Dashboard Widget"
+msgstr ""
+
+#: admin/theme-options.php:5138
+msgid "Highend Demo Importer"
+msgstr ""
+
+#: admin/theme-options.php:5148
+msgid "Highend System Diagnostics"
+msgstr ""
+
+#: admin/theme-options.php:5182
+msgid "Run Live Color Customizer"
+msgstr ""
+
+#: config/config.php:15
+msgid "Main Demo"
+msgstr ""
+
+#: config/config.php:30
+msgid "Photography"
+msgstr ""
+
+#: config/config.php:45
+msgid "Presentation"
+msgstr ""
+
+#: config/config.php:60
+msgid "Simple Blog"
+msgstr ""
+
+#: config/config.php:74
+msgid "Minimal"
+msgstr ""
+
+#: config/config.php:89
+msgid "Café"
+msgstr ""
+
+#: config/config.php:102
+msgid "Jasper"
+msgstr ""
+
+#: config/config.php:116
+msgid "Church"
+msgstr ""
+
+#: config/config.php:129
+msgid "Landing/Startup"
+msgstr ""
+
+#: config/config.php:141
+msgid "Life Coach"
+msgstr ""
+
+#: config/config.php:154
+msgid "Bloggera"
+msgstr ""
+
+#: config/config.php:170
+msgid "Online Shop"
+msgstr ""
+
+#: functions/breadcrumbs.php:26
+msgid "Home"
+msgstr ""
+
+#: functions/breadcrumbs.php:29, functions/breadcrumbs.php:31, functions/breadcrumbs.php:91
+msgid "Forums"
+msgstr ""
+
+#: functions/breadcrumbs.php:39, functions/breadcrumbs.php:44, functions/breadcrumbs.php:55
+msgid "Blog"
+msgstr ""
+
+#: functions/breadcrumbs.php:125
+msgid "Tag <span class=\"sep-icon\"><i class=\"icon-angle-right\"></i></span> %s"
+msgstr ""
+
+#: functions/breadcrumbs.php:132
+msgid "Author <span class=\"sep-icon\"><i class=\"icon-angle-right\"></i></span> %s"
+msgstr ""
+
+#: functions/breadcrumbs.php:137
+msgid "Not found"
+msgstr ""
+
+#: functions/breadcrumbs.php:141
+msgid "Search Results"
+msgstr ""
+
+#: functions/breadcrumbs.php:155
+msgid "Page "
+msgstr ""
+
+#: functions/pagination-ajax.php:5, functions/pagination-ajax.php:5
+msgid "Load More Posts"
+msgstr ""
+
+#: functions/pagination-ajax.php:5
+msgid "No More Posts"
+msgstr ""
+
+#: functions/theme-likes.php:57, functions/theme-likes.php:75
+msgid "You like this."
+msgstr ""
+
+#: functions/theme-likes.php:60, functions/theme-likes.php:78
+msgid "Like this post."
+msgstr ""
+
+#: functions/theme-thumbnails-resize.php:197
+msgid "No image URL has been entered."
+msgstr ""
+
+#: functions/theme-thumbnails-resize.php:257
+msgid "Failed to get $file_path information using \"@getimagesize\"."
+msgstr ""
+
+#: functions/theme-thumbnails-resize.php:300
+msgid "Resize path invalid (GIF)"
+msgstr ""
+
+#: functions/theme-thumbnails-resize.php:304
+msgid "Resize path invalid (PNG)."
+msgstr ""
+
+#: functions/theme-thumbnails-resize.php:312
+msgid "Resize path invalid (JPG)."
+msgstr ""
+
+#: functions/theme-thumbnails-resize.php:327
+msgid "Failed to get $dest_file_name (resized image) info via @getimagesize"
+msgstr ""
+
+#: hbframework/hooks.php:59
+msgid "Icon Finder"
+msgstr ""
+
+#: hbframework/hooks.php:60
+msgid "Search..."
+msgstr ""
+
+#: hbframework/hooks.php:68, hbframework/admin/pages/class-sidebar-manager-page.php:192
+msgid "Cancel"
+msgstr ""
+
+#: hbframework/hooks.php:69
+msgid "Use this icon"
+msgstr ""
+
+#: hbframework/hooks.php:99
+msgid "About"
+msgstr ""
+
+#: hbframework/hooks.php:108, hbframework/admin/pages/class-about-page.php:111, hbframework/admin/pages/class-about-page.php:113, hbframework/admin/pages/class-install-plugins-page.php:45, hbframework/admin/pages/class-install-plugins-page.php:46, hbframework/admin/pages/class-install-plugins-page.php:356
+msgid "Install Plugins"
+msgstr ""
+
+#: hbframework/hooks.php:117, hbframework/admin/pages/class-demo-importer-page.php:44, hbframework/admin/pages/class-demo-importer-page.php:45
+msgid "Import Demos"
+msgstr ""
+
+#: hbframework/hooks.php:126, hbframework/admin/pages/class-sidebar-manager-page.php:33, hbframework/admin/pages/class-sidebar-manager-page.php:34, hbframework/admin/pages/class-sidebar-manager-page.php:196
+msgid "Sidebar Manager"
+msgstr ""
+
+#: hbframework/hooks.php:144
+msgid "Get Expert Help"
+msgstr ""
+
+#: hbframework/integrations.php:68
+msgid "No Slider"
+msgstr ""
+
+#: hbframework/integrations.php:149
+msgid "Update through Highend Plugins"
+msgstr ""
+
+#: includes/aside-contact-panel.php:23
+msgid "Message Sent!"
+msgstr ""
+
+#: includes/hb-share.php:8
+msgid "Share"
+msgstr ""
+
+#: includes/hb-woocommerce.php:202
+msgid "out of 5"
+msgstr ""
+
+#: includes/hb-woocommerce.php:212
+msgid "% products"
+msgstr ""
+
+#: includes/hb-woocommerce.php:214
+msgid "0 products"
+msgstr ""
+
+#: includes/hb-woocommerce.php:216
+msgid "1 product"
+msgstr ""
+
+#: includes/hb-woocommerce.php:272
+msgid "added to cart."
+msgstr ""
+
+#: includes/hb-woocommerce.php:272
+msgid "Checkout"
+msgstr ""
+
+#: includes/hb-woocommerce.php:303, includes/hb-woocommerce.php:381
+msgid "No products in the cart"
+msgstr ""
+
+#: includes/hb-woocommerce.php:306, includes/hb-woocommerce.php:384
+msgid "in the cart."
+msgstr ""
+
+#: includes/hb-woocommerce.php:328
+msgid "Remove this item"
+msgstr ""
+
+#: includes/hb-woocommerce.php:341, includes/hb-woocommerce.php:413
+msgid "View shopping cart"
+msgstr ""
+
+#: includes/hb-woocommerce.php:342, includes/hb-woocommerce.php:414
+msgid "Proceed to checkout"
+msgstr ""
+
+#: includes/hb-woocommerce.php:344, includes/hb-woocommerce.php:416
+msgid "Go to shop"
+msgstr ""
+
+#: includes/header-navigation.php:189, includes/header-side-nav.php:151
+msgid "Please attach a menu to this menu location in Appearance > Menu."
+msgstr ""
+
+#: includes/header-navigation.php:198
+msgid "Type keywords and press enter"
+msgstr ""
+
+#: includes/header-page-title.php:112
+msgid "Frequently Asked Questions"
+msgstr ""
+
+#: includes/header-page-title.php:116
+msgid "Search Results "
+msgstr ""
+
+#: includes/header-page-title.php:118
+msgid "Forums "
+msgstr ""
+
+#: includes/header-page-title.php:138
+msgid "No results found"
+msgstr ""
+
+#: includes/header-page-title.php:143
+msgid " result found for "
+msgstr ""
+
+#: includes/header-page-title.php:149
+msgid " results found for "
+msgstr ""
+
+#: includes/header-page-title.php:161
+msgid "Daily Archive for "
+msgstr ""
+
+#: includes/header-page-title.php:165
+msgid "Monthly Archive for "
+msgstr ""
+
+#: includes/header-page-title.php:169
+msgid "Yearly Archive for "
+msgstr ""
+
+#: includes/header-page-title.php:173
+msgid "Posts tagged &quot;"
+msgstr ""
+
+#: includes/header-page-title.php:175, includes/header-page-title.php:180
+msgid "&quot"
+msgstr ""
+
+#: includes/header-page-title.php:178
+msgid "Category Archive for &quot;"
+msgstr ""
+
+#: includes/header-page-title.php:184
+msgid "Entries by "
+msgstr ""
+
+#: includes/header-page-title.php:189
+msgid "Archives for: "
+msgstr ""
+
+#: includes/header-page-title.php:192
+msgid "Archive for Link posts"
+msgstr ""
+
+#: includes/header-page-title.php:194
+msgid "Archive for Image posts"
+msgstr ""
+
+#: includes/header-page-title.php:196
+msgid "Archive for Quote posts"
+msgstr ""
+
+#: includes/header-page-title.php:198
+msgid "Archive for Status posts"
+msgstr ""
+
+#: includes/header-page-title.php:200
+msgid "Archive for Audio posts"
+msgstr ""
+
+#: includes/header-page-title.php:202
+msgid "Archive for Video posts"
+msgstr ""
+
+#: includes/header-page-title.php:204
+msgid "Archive for Standard posts"
+msgstr ""
+
+#: includes/header-page-title.php:206
+msgid "Archive for Gallery posts"
+msgstr ""
+
+#: includes/header-top-bar.php:132
+msgid "My Account"
+msgstr ""
+
+#: includes/header-top-bar.php:136
+msgid "Dashboard"
+msgstr ""
+
+#: includes/header-top-bar.php:142
+msgid "My Cart"
+msgstr ""
+
+#: includes/header-top-bar.php:146
+msgid "Log Out"
+msgstr ""
+
+#: includes/header-top-bar.php:162
+msgid "Language"
+msgstr ""
+
+#: includes/portfolio-related-items.php:30
+msgid "Related Projects"
+msgstr ""
+
+#: includes/post-author-info.php:21
+msgid "About "
+msgstr ""
+
+#: includes/post-author-info.php:28
+msgid "This author hasn't written their bio yet."
+msgstr ""
+
+#: includes/post-author-info.php:28
+msgid " has contributed "
+msgstr ""
+
+#: includes/post-author-info.php:28
+msgid " entries to our website, so far."
+msgstr ""
+
+#: includes/post-author-info.php:30
+msgid "View entries by "
+msgstr ""
+
+#: includes/post-related-articles.php:22
+msgid "You also might be interested in"
+msgstr ""
+
+#: includes/shortcodes.php:402, includes/shortcodes.php:559, includes/shortcodes.php:1792, includes/classic-blog/post-description.php:79, includes/grid-blog/post-description.php:31, includes/widgets/widget-latest-posts-simple.php:80
+msgid "Read More"
+msgstr ""
+
+#: includes/shortcodes.php:1784
+msgid " Comments"
+msgstr ""
+
+#: includes/shortcodes.php:2781
+msgid "Teaser Image"
+msgstr ""
+
+#: includes/shortcodes.php:3087
+msgid "Banner Image"
+msgstr ""
+
+#: includes/shortcodes.php:3268
+msgid " Photos"
+msgstr ""
+
+#: includes/shortcodes.php:3269
+msgid " Photo"
+msgstr ""
+
+#: includes/shortcodes.php:3464
+msgid "Details"
+msgstr ""
+
+#: includes/shortcodes.php:3532, admin/metaboxes/meta-background-settings.php:16, admin/metaboxes/meta-contact-page-settings.php:14, admin/metaboxes/meta-presentation-settings.php:32
+msgid "Image"
+msgstr ""
+
+#: includes/shortcodes.php:4987
+msgid "Pages"
+msgstr ""
+
+#: includes/shortcodes.php:4996
+msgid "Posts"
+msgstr ""
+
+#: includes/shortcodes.php:5005
+msgid "Categories"
+msgstr ""
+
+#: includes/shortcodes.php:5015
+msgid "Archives"
+msgstr ""
+
+#: includes/shortcodes.php:5346
+msgid "Go to top"
+msgstr ""
+
+#: includes/shortcodes.php:8464
+msgid "Border Radius"
+msgstr ""
+
+#: includes/shortcodes.php:8470
+msgid "Enter a border radius value. Value needs to be in range: 0-100."
+msgstr ""
+
+#: includes/shortcodes.php:10032
+msgid "Top"
+msgstr ""
+
+#: includes/shortcodes.php:10039
+msgid "Enter the top position offset. You can use negative values also. Example: -60"
+msgstr ""
+
+#: includes/shortcodes.php:10047
+msgid "Bottom"
+msgstr ""
+
+#: includes/shortcodes.php:10054
+msgid "Enter the bottom position offset. You can use negative values also. Example: -70"
+msgstr ""
+
+#: includes/team-related-items.php:30
+msgid "Meet More Team Members"
+msgstr ""
+
+#: woocommerce/content-product.php:134
+msgid "Sold out"
+msgstr ""
+
+#: woocommerce/content-product.php:136
+msgid "New"
+msgstr ""
+
+#: woocommerce/content-product.php:159
+msgid "Select options"
+msgstr ""
+
+#: woocommerce/content-product.php:163
+msgid "View options"
+msgstr ""
+
+#: woocommerce/content-product.php:167, woocommerce/content-product.php:172
+msgid "View Details"
+msgstr ""
+
+#: woocommerce/content-product.php:171
+msgid "Add to Cart"
+msgstr ""
+
+#: admin/metaboxes/meta-background-settings.php:7
+msgid "Change the background of this page or use the Default Theme Options Settings."
+msgstr ""
+
+#: admin/metaboxes/meta-background-settings.php:12, admin/metaboxes/meta-general-settings.php:18, admin/metaboxes/meta-general-settings.php:53, admin/metaboxes/meta-layout-settings.php:27, admin/metaboxes/meta-layout-settings.php:80, admin/metaboxes/meta-layout-settings.php:101, admin/metaboxes/meta-layout-settings.php:122, admin/metaboxes/meta-misc-settings.php:24, admin/metaboxes/meta-portfolio-layout-settings.php:27, admin/metaboxes/meta-portfolio-layout-settings.php:52, admin/metaboxes/meta-portfolio-layout-settings.php:77, admin/metaboxes/meta-team-layout-settings.php:23, admin/metaboxes/meta-team-layout-settings.php:48
+msgid "Use Highend Options Settings"
+msgstr ""
+
+#: admin/metaboxes/meta-background-settings.php:20, admin/metaboxes/meta-background-settings.php:28
+msgid "Solid Color"
+msgstr ""
+
+#: admin/metaboxes/meta-background-settings.php:29
+msgid "Choose a solid color for your background."
+msgstr ""
+
+#: admin/metaboxes/meta-background-settings.php:41
+msgid "Upload an image for your background."
+msgstr ""
+
+#: admin/metaboxes/meta-background-settings.php:51, config/customizer/customizer.php:622
+msgid "Content Background Color"
+msgstr ""
+
+#: admin/metaboxes/meta-background-settings.php:52
+msgid "Specify the color of the content area."
+msgstr ""
+
+#: admin/metaboxes/meta-blog-fw-page-settings.php:19, admin/metaboxes/meta-blog-grid-page-settings.php:19
+msgid "Grid Style"
+msgstr ""
+
+#: admin/metaboxes/meta-blog-fw-page-settings.php:28, admin/metaboxes/meta-blog-grid-page-settings.php:28
+msgid "Masonry"
+msgstr ""
+
+#: admin/metaboxes/meta-blog-fw-page-settings.php:31, admin/metaboxes/meta-blog-grid-page-settings.php:31
+msgid "Select the grid layout. Choose between Standard (fit rows) and Masonry styling."
+msgstr ""
+
+#: admin/metaboxes/meta-blog-fw-page-settings.php:39
+msgid "Upload an image to display behind the blog posts. "
+msgstr ""
+
+#: admin/metaboxes/meta-blog-fw-page-settings.php:46, admin/metaboxes/meta-blog-grid-page-settings.php:37, admin/metaboxes/meta-blog-page-minimal-settings.php:19, admin/metaboxes/meta-blog-page-settings.php:37, admin/metaboxes/meta-gallery-fw-page-settings.php:48, admin/metaboxes/meta-gallery-standard-page-settings.php:48, admin/metaboxes/meta-portfolio-standard-page-settings.php:42
+msgid "Order By"
+msgstr ""
+
+#: admin/metaboxes/meta-blog-fw-page-settings.php:59, admin/metaboxes/meta-blog-grid-page-settings.php:50, admin/metaboxes/meta-blog-page-minimal-settings.php:32, admin/metaboxes/meta-blog-page-settings.php:50, admin/metaboxes/meta-gallery-fw-page-settings.php:61, admin/metaboxes/meta-gallery-standard-page-settings.php:61, admin/metaboxes/meta-portfolio-standard-page-settings.php:55, includes/widgets/widget-latest-posts-simple.php:201, includes/widgets/widget-recent-comments.php:141
+msgid "Comment Count"
+msgstr ""
+
+#: admin/metaboxes/meta-blog-fw-page-settings.php:63, admin/metaboxes/meta-blog-grid-page-settings.php:54, admin/metaboxes/meta-blog-page-minimal-settings.php:36, admin/metaboxes/meta-blog-page-settings.php:54, admin/metaboxes/meta-gallery-fw-page-settings.php:65, admin/metaboxes/meta-gallery-standard-page-settings.php:65, admin/metaboxes/meta-portfolio-standard-page-settings.php:59, includes/widgets/widget-testimonials.php:242
+msgid "Menu Order"
+msgstr ""
+
+#: admin/metaboxes/meta-blog-fw-page-settings.php:70, admin/metaboxes/meta-blog-grid-page-settings.php:61, admin/metaboxes/meta-blog-page-minimal-settings.php:43, admin/metaboxes/meta-blog-page-settings.php:61
+msgid "Choose order for your blog posts on this page."
+msgstr ""
+
+#: admin/metaboxes/meta-blog-fw-page-settings.php:76, admin/metaboxes/meta-blog-grid-page-settings.php:67, admin/metaboxes/meta-blog-page-minimal-settings.php:49, admin/metaboxes/meta-blog-page-settings.php:67, admin/metaboxes/meta-gallery-fw-page-settings.php:78, admin/metaboxes/meta-gallery-standard-page-settings.php:78, admin/metaboxes/meta-portfolio-standard-page-settings.php:72
+msgid "Order"
+msgstr ""
+
+#: admin/metaboxes/meta-blog-fw-page-settings.php:81, admin/metaboxes/meta-blog-grid-page-settings.php:72, admin/metaboxes/meta-blog-page-minimal-settings.php:54, admin/metaboxes/meta-blog-page-settings.php:72, admin/metaboxes/meta-gallery-fw-page-settings.php:83, admin/metaboxes/meta-gallery-standard-page-settings.php:83, admin/metaboxes/meta-portfolio-standard-page-settings.php:77, includes/widgets/widget-latest-posts-simple.php:208, includes/widgets/widget-testimonials.php:249
+msgid "Ascending"
+msgstr ""
+
+#: admin/metaboxes/meta-blog-fw-page-settings.php:85, admin/metaboxes/meta-blog-grid-page-settings.php:76, admin/metaboxes/meta-blog-page-minimal-settings.php:58, admin/metaboxes/meta-blog-page-settings.php:76, admin/metaboxes/meta-gallery-fw-page-settings.php:87, admin/metaboxes/meta-gallery-standard-page-settings.php:87, admin/metaboxes/meta-portfolio-standard-page-settings.php:81, includes/widgets/widget-latest-posts-simple.php:209, includes/widgets/widget-testimonials.php:250
+msgid "Descending"
+msgstr ""
+
+#: admin/metaboxes/meta-blog-fw-page-settings.php:88, admin/metaboxes/meta-blog-grid-page-settings.php:79, admin/metaboxes/meta-blog-page-minimal-settings.php:61, admin/metaboxes/meta-blog-page-settings.php:79, admin/metaboxes/meta-gallery-fw-page-settings.php:90, admin/metaboxes/meta-gallery-standard-page-settings.php:90, admin/metaboxes/meta-portfolio-standard-page-settings.php:84
+msgid "Specify if the chosen order by will be displayed in ascending or descending order."
+msgstr ""
+
+#: admin/metaboxes/meta-blog-fw-page-settings.php:102, admin/metaboxes/meta-blog-fw-page-settings.php:130, admin/metaboxes/meta-blog-grid-page-settings.php:93, admin/metaboxes/meta-blog-page-minimal-settings.php:75, admin/metaboxes/meta-blog-page-settings.php:93
+msgid "Pagination Style"
+msgstr ""
+
+#: admin/metaboxes/meta-blog-fw-page-settings.php:114, admin/metaboxes/meta-blog-fw-page-settings.php:142, admin/metaboxes/meta-blog-grid-page-settings.php:105, admin/metaboxes/meta-blog-page-minimal-settings.php:87, admin/metaboxes/meta-blog-page-settings.php:105
+msgid "Choose between standard pagination and fancy ajax page loading."
+msgstr ""
+
+#: admin/metaboxes/meta-blog-fw-page-settings.php:120, admin/metaboxes/meta-blog-grid-page-settings.php:112
+msgid "Column Count"
+msgstr ""
+
+#: admin/metaboxes/meta-blog-page-settings.php:19
+msgid "Blog Style"
+msgstr ""
+
+#: admin/metaboxes/meta-blog-page-settings.php:24
+msgid "Regular"
+msgstr ""
+
+#: admin/metaboxes/meta-blog-page-settings.php:31
+msgid "Choose between regular and small style for your blog page."
+msgstr ""
+
+#: admin/metaboxes/meta-clients-settings.php:7
+msgid "Please use the featured image metabox to upload your Clients Logo and then assign to the post."
+msgstr ""
+
+#: admin/metaboxes/meta-clients-settings.php:14
+msgid "Upload an the client logo. "
+msgstr ""
+
+#: admin/metaboxes/meta-clients-settings.php:19
+msgid "URL to Clients Website (optional)"
+msgstr ""
+
+#: admin/metaboxes/meta-contact-page-settings.php:5
+msgid "Background"
+msgstr ""
+
+#: admin/metaboxes/meta-contact-page-settings.php:6
+msgid "Choose between a map or an image background, located behind the contact form. Map location will be pulled from Highend Options > Map Settings"
+msgstr ""
+
+#: admin/metaboxes/meta-contact-page-settings.php:10
+msgid "Google Map"
+msgstr ""
+
+#: admin/metaboxes/meta-contact-page-settings.php:22
+msgid "Upload an image which will be shown behind the contact form. "
+msgstr ""
+
+#: admin/metaboxes/meta-contact-page-settings.php:33
+msgid "Enter the contact box title."
+msgstr ""
+
+#: admin/metaboxes/meta-contact-page-settings.php:40
+msgid "Contact Box Content"
+msgstr ""
+
+#: admin/metaboxes/meta-contact-page-settings.php:41
+msgid "Enter the contact box content."
+msgstr ""
+
+#: admin/metaboxes/meta-contact-page-settings.php:49
+msgid "Contact Detail"
+msgstr ""
+
+#: admin/metaboxes/meta-contact-page-settings.php:50
+msgid "Enter you contact details, such as address, phone, email, website etc."
+msgstr ""
+
+#: admin/metaboxes/meta-contact-page-settings.php:55
+msgid "Icon"
+msgstr ""
+
+#: admin/metaboxes/meta-contact-page-settings.php:56
+msgid "Icon which describes your contact details."
+msgstr ""
+
+#: admin/metaboxes/meta-contact-page-settings.php:61, admin/metaboxes/meta-portfolio-layout-settings.php:111, admin/metaboxes/meta-team-layout-settings.php:88
+msgid "Detail Content"
+msgstr ""
+
+#: admin/metaboxes/meta-contact-page-settings.php:62
+msgid "Enter the detail content. Example for address: 2046 Avenue 191"
+msgstr ""
+
+#: admin/metaboxes/meta-contact-page-settings.php:71
+msgid "Contact Form Title"
+msgstr ""
+
+#: admin/metaboxes/meta-contact-page-settings.php:72
+msgid "Enter the contact form title."
+msgstr ""
+
+#: admin/metaboxes/meta-contact-page-settings.php:79
+msgid "Contact Box Animation"
+msgstr ""
+
+#: admin/metaboxes/meta-contact-page-settings.php:81
+msgid "Enable entrance animation of the contact form box."
+msgstr ""
+
+#: admin/metaboxes/meta-contact-page-settings.php:86
+msgid "Choose Animation"
+msgstr ""
+
+#: admin/metaboxes/meta-contact-page-settings.php:87
+msgid "Select an entrance animation for the contact form box."
+msgstr ""
+
+#: admin/metaboxes/meta-featured-page-section.php:29
+msgid "Featured Section Type"
+msgstr ""
+
+#: admin/metaboxes/meta-featured-page-section.php:30
+msgid "Choose which element to display in the featured section of the page."
+msgstr ""
+
+#: admin/metaboxes/meta-featured-page-section.php:57, admin/metaboxes/meta-portfolio-settings.php:60, admin/metaboxes/meta-portfolio-settings.php:95
+msgid "Revolution Slider"
+msgstr ""
+
+#: admin/metaboxes/meta-featured-page-section.php:58
+msgid "Choose a Revolution Slider to display in the Featured Section of the page."
+msgstr ""
+
+#: admin/metaboxes/meta-featured-page-section.php:68
+msgid "Layer Slider"
+msgstr ""
+
+#: admin/metaboxes/meta-featured-page-section.php:69
+msgid "Choose a Layer Slider to display in the Featured Section of the page."
+msgstr ""
+
+#: admin/metaboxes/meta-featured-page-section.php:79, admin/metaboxes/meta-portfolio-settings.php:83, admin/metaboxes/meta-post-format-settings.php:13
+msgid "Video Link"
+msgstr ""
+
+#: admin/metaboxes/meta-featured-page-section.php:85
+msgid "Enter link to the video. Example: http://www.youtube.com/watch?v=Q_7cVyM8Efg"
+msgstr ""
+
+#: admin/metaboxes/meta-featured-page-section.php:90
+msgid "Featured Section Effect"
+msgstr ""
+
+#: admin/metaboxes/meta-featured-page-section.php:91
+msgid "Choose an effect for the Featured Section of the page."
+msgstr ""
+
+#: admin/metaboxes/meta-featured-page-section.php:113
+msgid "Enable/disable parallax effect? Only for image It will not work for slider."
+msgstr ""
+
+#: admin/metaboxes/meta-featured-page-section.php:130, admin/metaboxes/meta-featured-page-section.php:151
+msgid "Featured Image Height"
+msgstr ""
+
+#: admin/metaboxes/meta-featured-page-section.php:131
+msgid "Choose the height for the Featured Image for this page."
+msgstr ""
+
+#: admin/metaboxes/meta-gallery-fw-page-settings.php:19, admin/metaboxes/meta-gallery-standard-page-settings.php:19
+msgid "Gallery Title"
+msgstr ""
+
+#: admin/metaboxes/meta-gallery-fw-page-settings.php:20, admin/metaboxes/meta-gallery-standard-page-settings.php:20
+msgid "Title showed above gallery thumbs. Leave empty to disable the title."
+msgstr ""
+
+#: admin/metaboxes/meta-gallery-fw-page-settings.php:26, admin/metaboxes/meta-gallery-standard-page-settings.php:26, admin/metaboxes/meta-portfolio-standard-page-settings.php:19
+msgid "Filter"
+msgstr ""
+
+#: admin/metaboxes/meta-gallery-fw-page-settings.php:27, admin/metaboxes/meta-gallery-standard-page-settings.php:27
+msgid "Check this field to display gallery filter."
+msgstr ""
+
+#: admin/metaboxes/meta-gallery-fw-page-settings.php:33, admin/metaboxes/meta-gallery-standard-page-settings.php:33, admin/metaboxes/meta-portfolio-standard-page-settings.php:26
+msgid "Sorter"
+msgstr ""
+
+#: admin/metaboxes/meta-gallery-fw-page-settings.php:34, admin/metaboxes/meta-gallery-standard-page-settings.php:34
+msgid "Check this field to display gallery sorter."
+msgstr ""
+
+#: admin/metaboxes/meta-gallery-fw-page-settings.php:40, admin/metaboxes/meta-gallery-standard-page-settings.php:40
+msgid "Gallery Items Per Page"
+msgstr ""
+
+#: admin/metaboxes/meta-gallery-fw-page-settings.php:41, admin/metaboxes/meta-gallery-standard-page-settings.php:41
+msgid "Enter how many gallery items will be shown per page. Enter -1 to display all gallery items."
+msgstr ""
+
+#: admin/metaboxes/meta-gallery-fw-page-settings.php:72, admin/metaboxes/meta-gallery-standard-page-settings.php:72
+msgid "Choose order for your gallery posts on this page."
+msgstr ""
+
+#: admin/metaboxes/meta-gallery-fw-page-settings.php:97, admin/metaboxes/meta-gallery-standard-page-settings.php:97, admin/metaboxes/meta-portfolio-standard-page-settings.php:91
+msgid "Choose thumbnail orientation."
+msgstr ""
+
+#: admin/metaboxes/meta-gallery-fw-page-settings.php:115, admin/metaboxes/meta-gallery-standard-page-settings.php:115, admin/metaboxes/meta-portfolio-standard-page-settings.php:109
+msgid "Choose thumbnail ratio."
+msgstr ""
+
+#: admin/metaboxes/meta-gallery-fw-page-settings.php:143, admin/metaboxes/meta-gallery-standard-page-settings.php:143, admin/metaboxes/meta-portfolio-standard-page-settings.php:137
+msgid "Exclude Gallery Categories"
+msgstr ""
+
+#: admin/metaboxes/meta-gallery-fw-page-settings.php:152, admin/metaboxes/meta-gallery-standard-page-settings.php:152
+msgid "Gallery Column Count"
+msgstr ""
+
+#: admin/metaboxes/meta-gallery-settings.php:6, admin/metaboxes/meta-portfolio-settings.php:31
+msgid "Custom Background Hover Color"
+msgstr ""
+
+#: admin/metaboxes/meta-gallery-settings.php:7
+msgid "Choose a custom color that will be used when this gallery item is hovered in shortcodes and page templates. Leave empty to use the focus color."
+msgstr ""
+
+#: admin/metaboxes/meta-general-settings.php:6
+msgid "Hide Featured Image"
+msgstr ""
+
+#: admin/metaboxes/meta-general-settings.php:8
+msgid "Check this box if you want to hide the featured image output on this single page/post."
+msgstr ""
+
+#: admin/metaboxes/meta-general-settings.php:13
+msgid "Breadrumbs."
+msgstr ""
+
+#: admin/metaboxes/meta-general-settings.php:14
+msgid "Choose whether to show the breadcrumbs on this page."
+msgstr ""
+
+#: admin/metaboxes/meta-general-settings.php:22, admin/metaboxes/meta-layout-settings.php:63
+msgid "Show"
+msgstr ""
+
+#: admin/metaboxes/meta-general-settings.php:26, admin/metaboxes/meta-layout-settings.php:67, admin/metaboxes/meta-portfolio-settings.php:44
+msgid "Hide"
+msgstr ""
+
+#: admin/metaboxes/meta-general-settings.php:36
+msgid "Enter the custom page title."
+msgstr ""
+
+#: admin/metaboxes/meta-general-settings.php:42
+msgid "Enter the page subtitle."
+msgstr ""
+
+#: admin/metaboxes/meta-general-settings.php:48
+msgid "Page Title Advanced Settings."
+msgstr ""
+
+#: admin/metaboxes/meta-general-settings.php:49
+msgid "Choose whether to use the Theme Options Settings or set Custom Settings."
+msgstr ""
+
+#: admin/metaboxes/meta-general-settings.php:57
+msgid "Custom"
+msgstr ""
+
+#: admin/metaboxes/meta-general-settings.php:67
+msgid "Page Title Advanced Settings"
+msgstr ""
+
+#: admin/metaboxes/meta-general-settings.php:72
+msgid "Title Layout"
+msgstr ""
+
+#: admin/metaboxes/meta-general-settings.php:73
+msgid "Select one of the following title layouts."
+msgstr ""
+
+#: admin/metaboxes/meta-general-settings.php:81
+msgid "Page Title with Simple Background Color"
+msgstr ""
+
+#: admin/metaboxes/meta-general-settings.php:105
+msgid "Custom Image"
+msgstr ""
+
+#: admin/metaboxes/meta-general-settings.php:118
+msgid "Enable Parallax effect on the uploaded image."
+msgstr ""
+
+#: admin/metaboxes/meta-general-settings.php:128
+msgid "Choose title and subtitle alignment."
+msgstr ""
+
+#: admin/metaboxes/meta-general-settings.php:151
+msgid "Choose between simple, fancy and bordered style."
+msgstr ""
+
+#: admin/metaboxes/meta-general-settings.php:173
+msgid "Select a the height of the Page Title Section."
+msgstr ""
+
+#: admin/metaboxes/meta-general-settings.php:174
+msgid "Choose Height Scheme"
+msgstr ""
+
+#: admin/metaboxes/meta-general-settings.php:200
+msgid "Select a color scheme for your page title."
+msgstr ""
+
+#: admin/metaboxes/meta-general-settings.php:201
+msgid "Choose Color Scheme"
+msgstr ""
+
+#: admin/metaboxes/meta-general-settings.php:219
+msgid "Title Animation"
+msgstr ""
+
+#: admin/metaboxes/meta-general-settings.php:220
+msgid "Select an entrance animation for the title."
+msgstr ""
+
+#: admin/metaboxes/meta-general-settings.php:266
+msgid "Select an entrance animation for the subtitle."
+msgstr ""
+
+#: admin/metaboxes/meta-general-settings.php:267
+msgid "Subtitle Animation"
+msgstr ""
+
+#: admin/metaboxes/meta-layout-settings.php:22
+msgid "Page Layout"
+msgstr ""
+
+#: admin/metaboxes/meta-layout-settings.php:23
+msgid "Choose a page sidebar layout."
+msgstr ""
+
+#: admin/metaboxes/meta-layout-settings.php:47
+msgid "Sidebars"
+msgstr ""
+
+#: admin/metaboxes/meta-layout-settings.php:58
+msgid "Content Area"
+msgstr ""
+
+#: admin/metaboxes/meta-layout-settings.php:59
+msgid "Choose if you want to display the content area. If disabled, only Featured Section will be shown."
+msgstr ""
+
+#: admin/metaboxes/meta-layout-settings.php:76
+msgid "Choose if you want to display the footer area with widgets."
+msgstr ""
+
+#: admin/metaboxes/meta-layout-settings.php:84, admin/metaboxes/meta-layout-settings.php:126
+msgid "Show Widgets"
+msgstr ""
+
+#: admin/metaboxes/meta-layout-settings.php:88, admin/metaboxes/meta-layout-settings.php:130
+msgid "Hide Widgets"
+msgstr ""
+
+#: admin/metaboxes/meta-layout-settings.php:96
+msgid "Footer Callout Area"
+msgstr ""
+
+#: admin/metaboxes/meta-layout-settings.php:97
+msgid "Choose if you want to display the pre footer callout area."
+msgstr ""
+
+#: admin/metaboxes/meta-layout-settings.php:105
+msgid "Show Pre Footer Area"
+msgstr ""
+
+#: admin/metaboxes/meta-layout-settings.php:109
+msgid "Hide Pre Footer Area"
+msgstr ""
+
+#: admin/metaboxes/meta-layout-settings.php:117
+msgid "Header Widgets"
+msgstr ""
+
+#: admin/metaboxes/meta-layout-settings.php:118
+msgid "Choose if you want to display the header area with widgets."
+msgstr ""
+
+#: admin/metaboxes/meta-misc-settings.php:19
+msgid "Boxed or Stretched Layout"
+msgstr ""
+
+#: admin/metaboxes/meta-misc-settings.php:20
+msgid "Choose between stretched and boxed layout or use the Default Theme Options Settings."
+msgstr ""
+
+#: admin/metaboxes/meta-misc-settings.php:40
+msgid "Enable One Page Elements"
+msgstr ""
+
+#: admin/metaboxes/meta-misc-settings.php:41
+msgid "Check this box in order to enable one page features such as one-page navigation (set in Appearance > Menus) and one page sections. This is REQUIRED if you want to use One Page for your website. Create sub-pages inside this page by using One Page Sections from the Visual Composer elements. Note that sidebars are not available for One Page website."
+msgstr ""
+
+#: admin/metaboxes/meta-misc-settings.php:47
+msgid "Use One Page menu for Mobile Menu?"
+msgstr ""
+
+#: admin/metaboxes/meta-misc-settings.php:48
+msgid "Check this box if you want to use the One Page menu as your Mobile Menu for this page."
+msgstr ""
+
+#: admin/metaboxes/meta-misc-settings.php:54
+msgid "Extra Classes"
+msgstr ""
+
+#: admin/metaboxes/meta-misc-settings.php:56
+msgid "Enter an extra class for this page. Separate each class with a blank space."
+msgstr ""
+
+#: admin/metaboxes/meta-misc-settings.php:61
+msgid "Disable Main Navigation Menu"
+msgstr ""
+
+#: admin/metaboxes/meta-misc-settings.php:62
+msgid "Check this box in order to disable the main menu navigation on the current page."
+msgstr ""
+
+#: admin/metaboxes/meta-misc-settings.php:68
+msgid "Enable Special Header Style"
+msgstr ""
+
+#: admin/metaboxes/meta-misc-settings.php:69
+msgid "Enable this field if you want to enable the special header style. Please note that this will override the Header Style settings from the Theme Options on this page only."
+msgstr ""
+
+#: admin/metaboxes/meta-misc-settings.php:75
+msgid "Alternative Logo"
+msgstr ""
+
+#: admin/metaboxes/meta-misc-settings.php:76
+msgid "Upload an alternative logo for this page. This will replace the default logo set in the Theme Options"
+msgstr ""
+
+#: admin/metaboxes/meta-portfolio-layout-settings.php:23
+msgid "Choose a header layout for the portfolio item page."
+msgstr ""
+
+#: admin/metaboxes/meta-portfolio-layout-settings.php:48, admin/metaboxes/meta-team-layout-settings.php:19
+msgid "Choose a content layout for the portfolio item page."
+msgstr ""
+
+#: admin/metaboxes/meta-portfolio-layout-settings.php:73, admin/metaboxes/meta-team-layout-settings.php:44
+msgid "Choose on which side will the sidebar appear."
+msgstr ""
+
+#: admin/metaboxes/meta-portfolio-layout-settings.php:99, admin/metaboxes/meta-team-layout-settings.php:76
+msgid "Meta Sidebar Item"
+msgstr ""
+
+#: admin/metaboxes/meta-portfolio-layout-settings.php:100, admin/metaboxes/meta-team-layout-settings.php:77
+msgid "Add as many items by clicking the Add More button."
+msgstr ""
+
+#: admin/metaboxes/meta-portfolio-layout-settings.php:105, admin/metaboxes/meta-team-layout-settings.php:82
+msgid "Detail Title"
+msgstr ""
+
+#: admin/metaboxes/meta-portfolio-layout-settings.php:106, admin/metaboxes/meta-team-layout-settings.php:83
+msgid "Define the detail title."
+msgstr ""
+
+#: admin/metaboxes/meta-portfolio-layout-settings.php:112, admin/metaboxes/meta-team-layout-settings.php:89
+msgid "Define the detail content."
+msgstr ""
+
+#: admin/metaboxes/meta-portfolio-layout-settings.php:119, admin/metaboxes/meta-team-layout-settings.php:96
+msgid "WordPress Sidebar"
+msgstr ""
+
+#: admin/metaboxes/meta-portfolio-layout-settings.php:122, admin/metaboxes/meta-team-layout-settings.php:99
+msgid "Choose a sidebar generated in the Sidebar Manager."
+msgstr ""
+
+#: admin/metaboxes/meta-portfolio-settings.php:23
+msgid "Custom Portfolio Link"
+msgstr ""
+
+#: admin/metaboxes/meta-portfolio-settings.php:24
+msgid "Enter a custom URL that will be opened after clicking on this portfolio item. Enter full URL with http:// prefix. Leave empty to use SINGLE PORTFOLIO PAGE."
+msgstr ""
+
+#: admin/metaboxes/meta-portfolio-settings.php:32
+msgid "Choose a custom color that will be used when this portfolio is hovered in shortcodes and page templates. Leave empty to use the focus color."
+msgstr ""
+
+#: admin/metaboxes/meta-portfolio-settings.php:39
+msgid "Featured Section Shows"
+msgstr ""
+
+#: admin/metaboxes/meta-portfolio-settings.php:40
+msgid "Choose what to display in the featured section of the portfolio page."
+msgstr ""
+
+#: admin/metaboxes/meta-portfolio-settings.php:52
+msgid "Alternative Image"
+msgstr ""
+
+#: admin/metaboxes/meta-portfolio-settings.php:56, admin/metaboxes/meta-presentation-settings.php:36
+msgid "Video"
+msgstr ""
+
+#: admin/metaboxes/meta-portfolio-settings.php:64
+msgid "Flexslider"
+msgstr ""
+
+#: admin/metaboxes/meta-portfolio-settings.php:72
+msgid "Alternative Featured Image"
+msgstr ""
+
+#: admin/metaboxes/meta-portfolio-settings.php:73
+msgid "Upload an image different from the default Featured image. This one will show on your portfolio item page."
+msgstr ""
+
+#: admin/metaboxes/meta-portfolio-settings.php:84
+msgid "Enter a link to the video representing this item."
+msgstr ""
+
+#: admin/metaboxes/meta-portfolio-settings.php:93
+msgid "Choose a Revolution Slider to represent your portfolio item."
+msgstr ""
+
+#: admin/metaboxes/meta-portfolio-settings.php:106
+msgid "Add Demo Button"
+msgstr ""
+
+#: admin/metaboxes/meta-portfolio-settings.php:107
+msgid "Add a button which will be titled as specified and will lead to a link describing or showcasing your portfolio item."
+msgstr ""
+
+#: admin/metaboxes/meta-portfolio-settings.php:115
+msgid "Enter the custom custom title."
+msgstr ""
+
+#: admin/metaboxes/meta-portfolio-settings.php:125
+msgid "Enter the link which to your portfolio item."
+msgstr ""
+
+#: admin/metaboxes/meta-portfolio-settings.php:135
+msgid "Open Link In New Tab"
+msgstr ""
+
+#: admin/metaboxes/meta-portfolio-settings.php:136
+msgid "Set if the button will open the link in a new tab."
+msgstr ""
+
+#: admin/metaboxes/meta-portfolio-standard-page-settings.php:20
+msgid "Check this field to display portfolio filter."
+msgstr ""
+
+#: admin/metaboxes/meta-portfolio-standard-page-settings.php:27
+msgid "Check this field to display portfolio sorter."
+msgstr ""
+
+#: admin/metaboxes/meta-portfolio-standard-page-settings.php:34
+msgid "Portfolio Items Per Page"
+msgstr ""
+
+#: admin/metaboxes/meta-portfolio-standard-page-settings.php:35
+msgid "Enter how many portfolio items will be shown per page. Enter -1 to display all items."
+msgstr ""
+
+#: admin/metaboxes/meta-portfolio-standard-page-settings.php:66
+msgid "Choose order for your portfolio posts on this page."
+msgstr ""
+
+#: admin/metaboxes/meta-portfolio-standard-page-settings.php:146
+msgid "Portfolio Column Count"
+msgstr ""
+
+#: admin/metaboxes/meta-post-format-settings.php:8
+msgid "Video Post Format"
+msgstr ""
+
+#: admin/metaboxes/meta-post-format-settings.php:15
+msgid "Enter a URL of your video here."
+msgstr ""
+
+#: admin/metaboxes/meta-post-format-settings.php:24
+msgid "Audio Post Format"
+msgstr ""
+
+#: admin/metaboxes/meta-post-format-settings.php:29
+msgid "SoundCloud Link."
+msgstr ""
+
+#: admin/metaboxes/meta-post-format-settings.php:35
+msgid "OGG Audio Link"
+msgstr ""
+
+#: admin/metaboxes/meta-post-format-settings.php:41
+msgid "MP3 Audio Link"
+msgstr ""
+
+#: admin/metaboxes/meta-post-format-settings.php:51
+msgid "Link Post Format"
+msgstr ""
+
+#: admin/metaboxes/meta-post-format-settings.php:56
+msgid "Link this post to: "
+msgstr ""
+
+#: admin/metaboxes/meta-post-format-settings.php:66
+msgid "Quote Post Format"
+msgstr ""
+
+#: admin/metaboxes/meta-post-format-settings.php:71
+msgid "Author of this post "
+msgstr ""
+
+#: admin/metaboxes/meta-presentation-settings.php:8
+msgid "Presentation Slides"
+msgstr ""
+
+#: admin/metaboxes/meta-presentation-settings.php:9
+msgid "Add as many presentation slides as you want by clicking the Add More button."
+msgstr ""
+
+#: admin/metaboxes/meta-presentation-settings.php:15
+msgid "Slide Name"
+msgstr ""
+
+#: admin/metaboxes/meta-presentation-settings.php:16
+msgid "Will be used for hash links. Must be UNIQUE."
+msgstr ""
+
+#: admin/metaboxes/meta-presentation-settings.php:23
+msgid "Background Type"
+msgstr ""
+
+#: admin/metaboxes/meta-presentation-settings.php:28
+msgid "Color"
+msgstr ""
+
+#: admin/metaboxes/meta-presentation-settings.php:45
+msgid "Choose background color for this slide."
+msgstr ""
+
+#: admin/metaboxes/meta-presentation-settings.php:56
+msgid "Slide Background Image"
+msgstr ""
+
+#: admin/metaboxes/meta-presentation-settings.php:57
+msgid "Upload a background image for this slide. Suggested dimensions are 1920x1080p."
+msgstr ""
+
+#: admin/metaboxes/meta-presentation-settings.php:67
+msgid "Poster Image"
+msgstr ""
+
+#: admin/metaboxes/meta-presentation-settings.php:68
+msgid "Image that will be used on mobile phones and where videos are not supported. Suggested dimensions are 1920x1080p."
+msgstr ""
+
+#: admin/metaboxes/meta-presentation-settings.php:78
+msgid "Video MP4"
+msgstr ""
+
+#: admin/metaboxes/meta-presentation-settings.php:79
+msgid "Upload your video in MP4 format."
+msgstr ""
+
+#: admin/metaboxes/meta-presentation-settings.php:90
+msgid "Video WEBM"
+msgstr ""
+
+#: admin/metaboxes/meta-presentation-settings.php:91
+msgid "Upload your video in WEBM format."
+msgstr ""
+
+#: admin/metaboxes/meta-presentation-settings.php:103
+msgid "Add a title to this slide. Leave empty to disable. You can use HTML markup"
+msgstr ""
+
+#: admin/metaboxes/meta-presentation-settings.php:110
+msgid "Add a subtitle to this slide. Leave empty to disable. You can use HTML markup."
+msgstr ""
+
+#: admin/metaboxes/meta-presentation-settings.php:117
+msgid "Title Position"
+msgstr ""
+
+#: admin/metaboxes/meta-presentation-settings.php:118
+msgid "Choose position for title and subtitle."
+msgstr ""
+
+#: admin/metaboxes/meta-presentation-settings.php:140
+msgid "Choose Style"
+msgstr ""
+
+#: admin/metaboxes/meta-presentation-settings.php:158
+msgid "Primary Button Text"
+msgstr ""
+
+#: admin/metaboxes/meta-presentation-settings.php:164
+msgid "Primary Button Link"
+msgstr ""
+
+#: admin/metaboxes/meta-presentation-settings.php:165, admin/metaboxes/meta-presentation-settings.php:179
+msgid "Add link to this button. You need to enter the link with http:// prefix. Leave empty if you do not want to use it"
+msgstr ""
+
+#: admin/metaboxes/meta-presentation-settings.php:172
+msgid "Secondary Button Text"
+msgstr ""
+
+#: admin/metaboxes/meta-presentation-settings.php:178
+msgid "Secondary Button Link"
+msgstr ""
+
+#: admin/metaboxes/meta-presentation-settings.php:186
+msgid "Open Links in"
+msgstr ""
+
+#: admin/metaboxes/meta-pricing-table-settings.php:8
+msgid "Pricing Table Column"
+msgstr ""
+
+#: admin/metaboxes/meta-pricing-table-settings.php:9
+msgid "Add as many pricing table columns as you want by clicking the Add More button."
+msgstr ""
+
+#: admin/metaboxes/meta-pricing-table-settings.php:14
+msgid "Color Accent"
+msgstr ""
+
+#: admin/metaboxes/meta-pricing-table-settings.php:15
+msgid "Specify an accent color for this pricing table item."
+msgstr ""
+
+#: admin/metaboxes/meta-pricing-table-settings.php:20
+msgid "Featured"
+msgstr ""
+
+#: admin/metaboxes/meta-pricing-table-settings.php:22
+msgid "Make this pricing item featured. It will be styled differently than regular ones. Use with Featured Ribbon for best \"stand out\" look."
+msgstr ""
+
+#: admin/metaboxes/meta-pricing-table-settings.php:27
+msgid "Pricing Ribbon."
+msgstr ""
+
+#: admin/metaboxes/meta-pricing-table-settings.php:28
+msgid "Choose which ribbon will appear on this item."
+msgstr ""
+
+#: admin/metaboxes/meta-pricing-table-settings.php:36
+msgid "Gold"
+msgstr ""
+
+#: admin/metaboxes/meta-pricing-table-settings.php:40
+msgid "Blue"
+msgstr ""
+
+#: admin/metaboxes/meta-pricing-table-settings.php:48
+msgid "Ribbon"
+msgstr ""
+
+#: admin/metaboxes/meta-pricing-table-settings.php:49
+msgid "Add a custom ribbon on your pricing plan. Leave empty to hide. Example: POPULAR"
+msgstr ""
+
+#: admin/metaboxes/meta-pricing-table-settings.php:56
+msgid "Specify your pricing plan title. Change the default value."
+msgstr ""
+
+#: admin/metaboxes/meta-pricing-table-settings.php:62
+msgid "Price"
+msgstr ""
+
+#: admin/metaboxes/meta-pricing-table-settings.php:63
+msgid "Specify your pricing plan price. Change the default value."
+msgstr ""
+
+#: admin/metaboxes/meta-pricing-table-settings.php:69
+msgid "Period"
+msgstr ""
+
+#: admin/metaboxes/meta-pricing-table-settings.php:70
+msgid "Enter a period of time for this pricing item and the given price. Example: yearly, monthly, daily etc."
+msgstr ""
+
+#: admin/metaboxes/meta-pricing-table-settings.php:76
+msgid "Feature List"
+msgstr ""
+
+#: admin/metaboxes/meta-pricing-table-settings.php:77
+msgid "Specify a list of features for your pricing plan. You can use lists and shortcodes here. If you want to use different button that the one provided below, use button shortcode for that."
+msgstr ""
+
+#: admin/metaboxes/meta-team-layout-settings.php:68
+msgid "Meta Sidebar Title"
+msgstr ""
+
+#: admin/metaboxes/meta-team-layout-settings.php:69
+msgid "Define the meta sidebar title."
+msgstr ""
+
+#: admin/metaboxes/meta-team-member-settings.php:9
+msgid "Team Member Image"
+msgstr ""
+
+#: admin/metaboxes/meta-team-member-settings.php:10
+msgid "<p>Featured Image will be used as Team Member image.</p><p>Suggested image dimensions are 360 x 360px (1:1 image ratio).</p>"
+msgstr ""
+
+#: admin/metaboxes/meta-team-member-settings.php:17
+msgid "Team Member Position"
+msgstr ""
+
+#: admin/metaboxes/meta-team-member-settings.php:18
+msgid "Please enter team member's position in your company."
+msgstr ""
+
+#: admin/metaboxes/meta-testimonials.php:6
+msgid "Enter this testimonial author name."
+msgstr ""
+
+#: admin/metaboxes/meta-testimonials.php:12, hbframework/admin/pages/class-sidebar-manager-page.php:217
+msgid "Description"
+msgstr ""
+
+#: admin/metaboxes/meta-testimonials.php:13
+msgid "Enter a short line describing the author, such as their company name or position."
+msgstr ""
+
+#: admin/metaboxes/meta-testimonials.php:19
+msgid "Description Link"
+msgstr ""
+
+#: admin/metaboxes/meta-testimonials.php:20
+msgid "Enter a link, which redirects to a website of your choice, such as the author company website."
+msgstr ""
+
+#: admin/metaboxes/meta-testimonials.php:26
+msgid "Author Image"
+msgstr ""
+
+#: admin/metaboxes/meta-testimonials.php:27
+msgid "Upload an image of your author."
+msgstr ""
+
+#: config/customizer/customizer.php:8
+msgid "Color - Accent"
+msgstr ""
+
+#: config/customizer/customizer.php:16
+msgid "Color - Top Bar"
+msgstr ""
+
+#: config/customizer/customizer.php:17, config/customizer/customizer.php:25, config/customizer/customizer.php:33, config/customizer/customizer.php:49, config/customizer/customizer.php:57, config/customizer/customizer.php:65, config/customizer/customizer.php:73
+msgid "Accent color will be used as link hover color."
+msgstr ""
+
+#: config/customizer/customizer.php:24
+msgid "Color - Side Navigation"
+msgstr ""
+
+#: config/customizer/customizer.php:32
+msgid "Color - Navigation Bar"
+msgstr ""
+
+#: config/customizer/customizer.php:40
+msgid "Color - Special Header"
+msgstr ""
+
+#: config/customizer/customizer.php:41
+msgid "Colors related to the special header."
+msgstr ""
+
+#: config/customizer/customizer.php:48
+msgid "Color - Callout (Pre Footer)"
+msgstr ""
+
+#: config/customizer/customizer.php:56
+msgid "Color - Footer"
+msgstr ""
+
+#: config/customizer/customizer.php:64
+msgid "Color - Copyright Bar"
+msgstr ""
+
+#: config/customizer/customizer.php:72
+msgid "Color - Content"
+msgstr ""
+
+#: config/customizer/customizer.php:402
+msgid "Accent Color"
+msgstr ""
+
+#: config/customizer/customizer.php:418, config/customizer/customizer.php:487
+msgid "Border Color"
+msgstr ""
+
+#: config/customizer/customizer.php:426, config/customizer/customizer.php:469, config/customizer/customizer.php:505, config/customizer/customizer.php:541, config/customizer/customizer.php:559, config/customizer/customizer.php:586
+msgid "Text Color"
+msgstr ""
+
+#: config/customizer/customizer.php:434, config/customizer/customizer.php:568, config/customizer/customizer.php:595
+msgid "Link Color"
+msgstr ""
+
+#: config/customizer/customizer.php:460, config/customizer/customizer.php:514
+msgid "Background Color (Sticky)"
+msgstr ""
+
+#: config/customizer/customizer.php:478, config/customizer/customizer.php:523
+msgid "Text Color (Sticky)"
+msgstr ""
+
+#: config/customizer/customizer.php:496
+msgid "Border Color (Sticky)"
+msgstr ""
+
+#: config/customizer/customizer.php:604
+msgid "Body Background Color"
+msgstr ""
+
+#: config/customizer/customizer.php:613
+msgid "Side Section Background Color"
+msgstr ""
+
+#: config/customizer/customizer.php:631
+msgid "Content Text Color"
+msgstr ""
+
+#: config/customizer/customizer.php:640
+msgid "Content Link Color"
+msgstr ""
+
+#: config/customizer/customizer.php:649
+msgid "Various Borders Color"
+msgstr ""
+
+#: config/customizer/customizer.php:658
+msgid "H1 Color"
+msgstr ""
+
+#: config/customizer/customizer.php:667
+msgid "H2 Color"
+msgstr ""
+
+#: config/customizer/customizer.php:676
+msgid "H3 Color"
+msgstr ""
+
+#: config/customizer/customizer.php:685
+msgid "H4 Color"
+msgstr ""
+
+#: config/customizer/customizer.php:694
+msgid "H5 Color"
+msgstr ""
+
+#: config/customizer/customizer.php:703
+msgid "H6 Color"
+msgstr ""
+
+#: hbframework/menu-walker/class-hb-custom-walker-edit.php:280
+msgid "Highend Menu Options"
+msgstr ""
+
+#: hbframework/menu-walker/class-hb-custom-walker-edit.php:280, hbframework/admin/pages/class-sidebar-manager-page.php:197
+msgid "How to use?"
+msgstr ""
+
+#: hbframework/menu-walker/class-hb-custom-walker-edit.php:284
+msgid "Menu Icon"
+msgstr ""
+
+#: hbframework/menu-walker/class-hb-custom-walker-edit.php:285
+msgid "Choose an icon that will be shown before the menu item."
+msgstr ""
+
+#: hbframework/menu-walker/class-hb-custom-walker-edit.php:290
+msgid "Icon Picker"
+msgstr ""
+
+#: hbframework/menu-walker/class-hb-custom-walker-edit.php:299
+msgid "No icon selected"
+msgstr ""
+
+#: hbframework/menu-walker/class-hb-custom-walker-edit.php:310
+msgid "Sub Menu Alignment"
+msgstr ""
+
+#: hbframework/menu-walker/class-hb-custom-walker-edit.php:311
+msgid "Align sub-menus to the right if they overflow the right border."
+msgstr ""
+
+#: hbframework/menu-walker/class-hb-custom-walker-edit.php:327
+msgid "Mega Menu"
+msgstr ""
+
+#: hbframework/menu-walker/class-hb-custom-walker-edit.php:328
+msgid "Check this box if you want to turn this item into Mega Menu."
+msgstr ""
+
+#: hbframework/menu-walker/class-hb-custom-walker-edit.php:341
+msgid "Show Captions"
+msgstr ""
+
+#: hbframework/menu-walker/class-hb-custom-walker-edit.php:342
+msgid "Check this box if you want to show Mega Menu column captions."
+msgstr ""
+
+#: hbframework/menu-walker/class-hb-custom-walker-edit.php:355
+msgid "Columns"
+msgstr ""
+
+#: hbframework/menu-walker/class-hb-custom-walker-edit.php:356
+msgid "Choose number of rows to display in Megamenu."
+msgstr ""
+
+#: hbframework/menu-walker/class-hb-custom-walker-edit.php:375
+msgid "Choose a background image for the Mega Menu. Leave empty if you are not going to use a background image."
+msgstr ""
+
+#: hbframework/menu-walker/class-hb-custom-walker-edit.php:383
+msgid "Choose or upload a file"
+msgstr ""
+
+#: hbframework/menu-walker/class-hb-custom-walker-edit.php:383
+msgid "Use this image"
+msgstr ""
+
+#: hbframework/menu-walker/class-hb-custom-walker-edit.php:383
+msgid "Choose File"
+msgstr ""
+
+#: hbframework/menu-walker/class-hb-custom-walker-edit.php:401
+msgid "Image Position"
+msgstr ""
+
+#: hbframework/menu-walker/class-hb-custom-walker-edit.php:402
+msgid "Select image position."
+msgstr ""
+
+#: hbframework/menu-walker/class-hb-custom-walker-edit.php:408
+msgid "Stretched Centered"
+msgstr ""
+
+#: hbframework/menu-walker/class-hb-custom-walker-edit.php:426
+msgid "Show Widget"
+msgstr ""
+
+#: hbframework/menu-walker/class-hb-custom-walker-edit.php:427
+msgid "If you want to show widgets inside your Mega Menu, you can choose which widgetized section will be shown inside this menu item."
+msgstr ""
+
+#: hbframework/menu-walker/class-hb-custom-walker-edit.php:433
+msgid "Select Widget Area"
+msgstr ""
+
+#: includes/classic-blog-small/post-description.php:24
+msgid "By "
+msgstr ""
+
+#: includes/classic-blog-small/post-description.php:63
+msgid "Read More "
+msgstr ""
+
+#: includes/grid-blog/post-description.php:46
+msgid "0"
+msgstr ""
+
+#: includes/grid-blog/post-description.php:46
+msgid "1"
+msgstr ""
+
+#: includes/grid-blog/post-description.php:46
+msgid "%"
+msgstr ""
+
+#: includes/tinymce/hbthemes-shortcodes-iframe.php:31
+msgid "Highend Shortcode Generator"
+msgstr ""
+
+#: includes/tinymce/hbthemes-shortcodes-iframe.php:53
+msgid "Select a shortcode from the list above and the options will appear here. Shortcodes are sorted alphabetically. Shortcodes has to be in columns, except some specific. For more info check out Highend Documentation section regarding Shortcodes."
+msgstr ""
+
+#: includes/tinymce/hbthemes-shortcodes-iframe.php:67
+msgid "Select a Shortcode"
+msgstr ""
+
+#: includes/widgets/widget-ads-300x250.php:35
+msgid "A widget that displays 300px wide advertisement."
+msgstr ""
+
+#: includes/widgets/widget-ads-300x250.php:38
+msgid "[HB-Themes] Advertisement Image"
+msgstr ""
+
+#: includes/widgets/widget-ads-300x250.php:148, includes/widgets/widget-contact-info.php:135, includes/widgets/widget-facebook.php:109, includes/widgets/widget-gallery.php:165, includes/widgets/widget-gmap.php:142, includes/widgets/widget-google.php:121, includes/widgets/widget-latest-posts-simple.php:167, includes/widgets/widget-latest-posts.php:170, includes/widgets/widget-most-commented-posts.php:141, includes/widgets/widget-most-liked-portfolio.php:175, includes/widgets/widget-most-liked-posts.php:142, includes/widgets/widget-portfolio-random.php:141, includes/widgets/widget-portfolio.php:141, includes/widgets/widget-recent-comments.php:136, includes/widgets/widget-social-icons.php:151, includes/widgets/widget-testimonials.php:212
+msgid "Title:"
+msgstr ""
+
+#: includes/widgets/widget-ads-300x250.php:155
+msgid "Open in new tab? "
+msgstr ""
+
+#: includes/widgets/widget-ads-300x250.php:157
+msgid "Yes"
+msgstr ""
+
+#: includes/widgets/widget-ads-300x250.php:158
+msgid "No"
+msgstr ""
+
+#: includes/widgets/widget-ads-300x250.php:172
+msgid "Enter link. <small>Example: http://hb-themes.com</small>"
+msgstr ""
+
+#: includes/widgets/widget-contact-info.php:35
+msgid "A widget that displays your contact info."
+msgstr ""
+
+#: includes/widgets/widget-contact-info.php:38
+msgid "[HB-Themes] Contact Info Widget"
+msgstr ""
+
+#: includes/widgets/widget-contact-info.php:139
+msgid "Person:"
+msgstr ""
+
+#: includes/widgets/widget-contact-info.php:142
+msgid "Company:"
+msgstr ""
+
+#: includes/widgets/widget-contact-info.php:145
+msgid "Address:"
+msgstr ""
+
+#: includes/widgets/widget-contact-info.php:148
+msgid "Phone:"
+msgstr ""
+
+#: includes/widgets/widget-contact-info.php:151
+msgid "Fax:"
+msgstr ""
+
+#: includes/widgets/widget-contact-info.php:154
+msgid "Email:"
+msgstr ""
+
+#: includes/widgets/widget-contact-info.php:157
+msgid "Website:"
+msgstr ""
+
+#: includes/widgets/widget-contact-info.php:160
+msgid "Skype Username:"
+msgstr ""
+
+#: includes/widgets/widget-dribbble.php:35
+msgid "A widget that displays your dribbble posts."
+msgstr ""
+
+#: includes/widgets/widget-dribbble.php:38
+msgid "[HB-Themes] Dribbble Grid"
+msgstr ""
+
+#: includes/widgets/widget-facebook.php:35
+msgid "A widget that displays a Facebook like box."
+msgstr ""
+
+#: includes/widgets/widget-facebook.php:38
+msgid "[HB-Themes] Facebook Like Box"
+msgstr ""
+
+#: includes/widgets/widget-facebook.php:115
+msgid "Facebook page URL: <br/><small>Example: http://facebook.com/hbthemes</small>"
+msgstr ""
+
+#: includes/widgets/widget-flickr.php:35
+msgid "A widget that displays your flickr posts."
+msgstr ""
+
+#: includes/widgets/widget-flickr.php:38
+msgid "[HB-Themes] Flickr Grid"
+msgstr ""
+
+#: includes/widgets/widget-gallery.php:35
+msgid "A widget that displays your latest gallery posts."
+msgstr ""
+
+#: includes/widgets/widget-gallery.php:38
+msgid "[HB-Themes] Gallery Grid (Latest)"
+msgstr ""
+
+#: includes/widgets/widget-gallery.php:170, includes/widgets/widget-latest-posts-simple.php:175, includes/widgets/widget-latest-posts.php:178, includes/widgets/widget-most-commented-posts.php:149, includes/widgets/widget-most-liked-portfolio.php:183, includes/widgets/widget-most-liked-posts.php:150, includes/widgets/widget-portfolio-random.php:146, includes/widgets/widget-portfolio.php:146, includes/widgets/widget-testimonials.php:220
+msgid "From Category:"
+msgstr ""
+
+#: includes/widgets/widget-gallery.php:189
+msgid "Gallery Item Number: "
+msgstr ""
+
+#: includes/widgets/widget-gmap.php:26
+msgid "A widget that displays Google Map."
+msgstr ""
+
+#: includes/widgets/widget-gmap.php:145
+msgid "Latitude:"
+msgstr ""
+
+#: includes/widgets/widget-gmap.php:148
+msgid "Longitude:"
+msgstr ""
+
+#: includes/widgets/widget-gmap.php:151
+msgid "Zoom Level"
+msgstr ""
+
+#: includes/widgets/widget-gmap.php:156
+msgid "Height of the map:"
+msgstr ""
+
+#: includes/widgets/widget-gmap.php:160
+msgid "Enable Scroll Wheel"
+msgstr ""
+
+#: includes/widgets/widget-gmap.php:164
+msgid "Enable Pan Control"
+msgstr ""
+
+#: includes/widgets/widget-gmap.php:167
+msgid "Enable Zoom Control"
+msgstr ""
+
+#: includes/widgets/widget-gmap.php:170
+msgid "Enable Map Type Control"
+msgstr ""
+
+#: includes/widgets/widget-gmap.php:173
+msgid "Enable Scale Control"
+msgstr ""
+
+#: includes/widgets/widget-gmap.php:176
+msgid "Enable Draggable"
+msgstr ""
+
+#: includes/widgets/widget-gmap.php:179
+msgid "Enable Border"
+msgstr ""
+
+#: includes/widgets/widget-google.php:35
+msgid "A widget that displays Google+ like box."
+msgstr ""
+
+#: includes/widgets/widget-google.php:38
+msgid "[HB-Themes] Google+ Box"
+msgstr ""
+
+#: includes/widgets/widget-google.php:127
+msgid "Google+ Page URL:"
+msgstr ""
+
+#: includes/widgets/widget-instagram.php:35
+msgid "A widget that displays your instagram posts."
+msgstr ""
+
+#: includes/widgets/widget-instagram.php:38
+msgid "[HB-Themes] Instagram Grid"
+msgstr ""
+
+#: includes/widgets/widget-latest-posts-simple.php:35
+msgid "A widget that displays list of posts."
+msgstr ""
+
+#: includes/widgets/widget-latest-posts-simple.php:38
+msgid "[HB-Themes] Simple Post List"
+msgstr ""
+
+#: includes/widgets/widget-latest-posts-simple.php:171, includes/widgets/widget-latest-posts.php:174, includes/widgets/widget-most-commented-posts.php:145, includes/widgets/widget-most-liked-portfolio.php:179, includes/widgets/widget-most-liked-posts.php:146
+msgid "Number:"
+msgstr ""
+
+#: includes/widgets/widget-latest-posts-simple.php:193
+msgid "Order By:"
+msgstr ""
+
+#: includes/widgets/widget-latest-posts-simple.php:196
+msgid "ID"
+msgstr ""
+
+#: includes/widgets/widget-latest-posts-simple.php:199
+msgid "Modified"
+msgstr ""
+
+#: includes/widgets/widget-latest-posts-simple.php:206
+msgid "Order:"
+msgstr ""
+
+#: includes/widgets/widget-latest-posts-simple.php:214
+msgid "Show Excerpt?"
+msgstr ""
+
+#: includes/widgets/widget-latest-posts-simple.php:217
+msgid "Show Thumb?"
+msgstr ""
+
+#: includes/widgets/widget-latest-posts.php:35
+msgid "A widget that displays latest blog posts."
+msgstr ""
+
+#: includes/widgets/widget-latest-posts.php:38
+msgid "[HB-Themes] Post List - Lastest Posts Widget"
+msgstr ""
+
+#: includes/widgets/widget-most-commented-posts.php:35
+msgid "A widget that displays most commented blog posts."
+msgstr ""
+
+#: includes/widgets/widget-most-commented-posts.php:38
+msgid "[HB-Themes] Post List - Most Commented Widget"
+msgstr ""
+
+#: includes/widgets/widget-most-commented-posts.php:83, includes/widgets/widget-most-liked-posts.php:84
+msgid "By %1$s on %2$s"
+msgstr ""
+
+#: includes/widgets/widget-most-liked-portfolio.php:35
+msgid "A widget that displays your most like portfolio items."
+msgstr ""
+
+#: includes/widgets/widget-most-liked-portfolio.php:38
+msgid "[HB-Themes] Most Liked Portfolio Widget"
+msgstr ""
+
+#: includes/widgets/widget-most-liked-posts.php:35
+msgid "A widget that displays most liked blog posts."
+msgstr ""
+
+#: includes/widgets/widget-most-liked-posts.php:38
+msgid "[HB-Themes] Post List - Most Liked Widget"
+msgstr ""
+
+#: includes/widgets/widget-pinterest.php:35
+msgid "A widget that displays your pinterest posts."
+msgstr ""
+
+#: includes/widgets/widget-pinterest.php:38
+msgid "[HB-Themes] Pinterest Grid"
+msgstr ""
+
+#: includes/widgets/widget-portfolio-random.php:35
+msgid "A widget that displays random portfolio posts."
+msgstr ""
+
+#: includes/widgets/widget-portfolio-random.php:38
+msgid "[HB-Themes] Portfolio Grid (Random)"
+msgstr ""
+
+#: includes/widgets/widget-portfolio-random.php:165, includes/widgets/widget-portfolio.php:165
+msgid "Portfolio Item Number: "
+msgstr ""
+
+#: includes/widgets/widget-portfolio.php:35
+msgid "A widget that displays your latest portfolio posts."
+msgstr ""
+
+#: includes/widgets/widget-portfolio.php:38
+msgid "[HB-Themes] Portfolio Grid (Latest)"
+msgstr ""
+
+#: includes/widgets/widget-portfolio.php:67, includes/widgets/widget-portfolio.php:69
+msgid "portfolio"
+msgstr ""
+
+#: includes/widgets/widget-recent-comments.php:35
+msgid "A widget that displays recent comments on your website."
+msgstr ""
+
+#: includes/widgets/widget-recent-comments.php:38
+msgid "[HB-Themes] Recent Comments"
+msgstr ""
+
+#: includes/widgets/widget-recent-comments.php:77
+msgid " on "
+msgstr ""
+
+#: includes/widgets/widget-social-icons.php:35
+msgid "A widget that displays social networks specified in Highend Options panel."
+msgstr ""
+
+#: includes/widgets/widget-social-icons.php:38
+msgid "[HB-Themes] Social Network Icons"
+msgstr ""
+
+#: includes/widgets/widget-social-icons.php:156
+msgid "Icon Size:"
+msgstr ""
+
+#: includes/widgets/widget-social-icons.php:165
+msgid "Icon Style:"
+msgstr ""
+
+#: includes/widgets/widget-testimonials.php:35
+msgid "A widget that displays testimonial slider."
+msgstr ""
+
+#: includes/widgets/widget-testimonials.php:38
+msgid "[HB-Themes] Testimonials Widget"
+msgstr ""
+
+#: includes/widgets/widget-testimonials.php:216
+msgid "Number of testimonials:"
+msgstr ""
+
+#: includes/widgets/widget-testimonials.php:238
+msgid "Order testimonials by:"
+msgstr ""
+
+#: includes/widgets/widget-testimonials.php:247
+msgid "Order in:"
+msgstr ""
+
+#: includes/widgets/widget-twitter.php:115
+msgid "Follow "
+msgstr ""
+
+#: includes/widgets/widget-twitter.php:119
+msgid "[Twitter Widget Error] You need to authenticate your Twitter App first. Go to Highend Options > Social Links. <a href=\"http://documentation.hb-themes.com/highend/#twitter\">Read the documentation</a> to find out more."
+msgstr ""
+
+#: woocommerce/cart/cart-empty.php:26
+msgid "Your cart is currently empty."
+msgstr ""
+
+#: woocommerce/cart/cart-totals.php:28
+msgid "Items in Cart"
+msgstr ""
+
+#: hbframework/admin/pages/class-about-page.php:72
+msgid "Hey"
+msgstr ""
+
+#: hbframework/admin/pages/class-about-page.php:73
+msgid "Welcome to"
+msgstr ""
+
+#: hbframework/admin/pages/class-about-page.php:73
+msgid "Highend"
+msgstr ""
+
+#: hbframework/admin/pages/class-about-page.php:73
+msgid "version "
+msgstr ""
+
+#: hbframework/admin/pages/class-about-page.php:74
+msgid "Thank you for choosing Highend &mdash; the ultimate tool for building professional websites. Use the tips below to get started. You will be up and running in no time."
+msgstr ""
+
+#: hbframework/admin/pages/class-about-page.php:76
+msgid "Get Started"
+msgstr ""
+
+#: hbframework/admin/pages/class-about-page.php:76, hbframework/admin/pages/class-about-page.php:102
+msgid "Learn How To Use"
+msgstr ""
+
+#: hbframework/admin/pages/class-about-page.php:84
+msgid "Highend Preview &mdash; 2 mins"
+msgstr ""
+
+#: hbframework/admin/pages/class-about-page.php:94
+msgid "First Steps"
+msgstr ""
+
+#: hbframework/admin/pages/class-about-page.php:95
+msgid "Follow these tips to get started."
+msgstr ""
+
+#: hbframework/admin/pages/class-about-page.php:103
+msgid "Read theme docs and watch video guides to learn how to use the theme efficiently."
+msgstr ""
+
+#: hbframework/admin/pages/class-about-page.php:104
+msgid "Learn How to Use"
+msgstr ""
+
+#: hbframework/admin/pages/class-about-page.php:112
+msgid "Highend comes with optional and required plugins. Please install all required plugins."
+msgstr ""
+
+#: hbframework/admin/pages/class-about-page.php:120, hbframework/admin/pages/class-about-page.php:122, hbframework/admin/pages/class-demo-importer-page.php:180
+msgid "Import Demo"
+msgstr ""
+
+#: hbframework/admin/pages/class-about-page.php:121
+msgid "Don't want to start from scratch? Import a pre-built website and replace content."
+msgstr ""
+
+#: hbframework/admin/pages/class-about-page.php:130
+msgid "Choose between hundreds of options. Customize every aspect of the theme."
+msgstr ""
+
+#: hbframework/admin/pages/class-about-page.php:140, hbframework/admin/pages/class-about-page.php:142
+msgid "Manage Pages"
+msgstr ""
+
+#: hbframework/admin/pages/class-about-page.php:141
+msgid "Add new or editing existing pages on your website."
+msgstr ""
+
+#: hbframework/admin/pages/class-about-page.php:149, hbframework/admin/pages/class-about-page.php:151
+msgid "Manage Menus"
+msgstr ""
+
+#: hbframework/admin/pages/class-about-page.php:150
+msgid "Add menu items and manage everything related."
+msgstr ""
+
+#: hbframework/admin/pages/class-about-page.php:158, hbframework/admin/pages/class-about-page.php:160
+msgid "Set Front Page"
+msgstr ""
+
+#: hbframework/admin/pages/class-about-page.php:159
+msgid "Choose which page will be used as your home page."
+msgstr ""
+
+#: hbframework/admin/pages/class-about-page.php:167, hbframework/admin/pages/class-about-page.php:169
+msgid "Get Support"
+msgstr ""
+
+#: hbframework/admin/pages/class-about-page.php:168
+msgid "If you need help, visit the support center."
+msgstr ""
+
+#: hbframework/admin/pages/class-about-page.php:179
+msgid "Hire an Expert"
+msgstr ""
+
+#: hbframework/admin/pages/class-about-page.php:180
+msgid "WordPress experts at your side."
+msgstr ""
+
+#: hbframework/admin/pages/class-about-page.php:184
+msgid "Build me a website"
+msgstr ""
+
+#: hbframework/admin/pages/class-about-page.php:185
+msgid "If you need theme customization or a completely custom website, <strong>hire our experts to build your website</strong>, just the way you want it."
+msgstr ""
+
+#: hbframework/admin/pages/class-about-page.php:186
+msgid "Request a Quote"
+msgstr ""
+
+#: hbframework/admin/pages/class-about-page.php:190
+msgid "WP Live"
+msgstr ""
+
+#: hbframework/admin/pages/class-about-page.php:191
+msgid "WP Live connects you with passionate WordPress experts who will <strong>teach you how to build, grow, and maintain your website.</strong>"
+msgstr ""
+
+#: hbframework/admin/pages/class-about-page.php:192
+msgid "Starting at $29/mo"
+msgstr ""
+
+#: hbframework/admin/pages/class-about-page.php:198
+msgid "Hire"
+msgstr ""
+
+#: hbframework/admin/pages/class-demo-importer-page.php:77
+msgid "Preparing import..."
+msgstr ""
+
+#: hbframework/admin/pages/class-demo-importer-page.php:78
+msgid "Currently processing: %s"
+msgstr ""
+
+#: hbframework/admin/pages/class-demo-importer-page.php:79, hbframework/admin/pages/class-demo-importer-page.php:233
+msgid "Content"
+msgstr ""
+
+#: hbframework/admin/pages/class-demo-importer-page.php:80
+msgid "General Data"
+msgstr ""
+
+#: hbframework/admin/pages/class-demo-importer-page.php:81
+msgid "Script timed out. Please refresh the page and try again."
+msgstr ""
+
+#: hbframework/admin/pages/class-demo-importer-page.php:82
+msgid "Demo import failed. Please check for PHP limits and change those to the recommended value and try again."
+msgstr ""
+
+#: hbframework/admin/pages/class-demo-importer-page.php:83
+msgid "Security check failed. Please refresh the page and try again."
+msgstr ""
+
+#: hbframework/admin/pages/class-demo-importer-page.php:84
+msgid "Demo import finished with errors:"
+msgstr ""
+
+#: hbframework/admin/pages/class-demo-importer-page.php:85
+msgid "Import Complete"
+msgstr ""
+
+#: hbframework/admin/pages/class-demo-importer-page.php:86
+msgid "Are you sure you want to do import this template?"
+msgstr ""
+
+#: hbframework/admin/pages/class-demo-importer-page.php:86
+msgid "Importing demo content will provide sliders, pages, posts, theme options, widgets, sidebars and other settings. You will get a copy of the demo."
+msgstr ""
+
+#: hbframework/admin/pages/class-demo-importer-page.php:86
+msgid "Clicking this option will replace your current theme options and widgets."
+msgstr ""
+
+#: hbframework/admin/pages/class-demo-importer-page.php:87
+msgid "Demo Import timed out and did not finish successfully. Would you like to retry the import?"
+msgstr ""
+
+#: hbframework/admin/pages/class-demo-importer-page.php:87
+msgid "If this keeps happening, please contact support."
+msgstr ""
+
+#: hbframework/admin/pages/class-demo-importer-page.php:135
+msgid "Import Demo Templates"
+msgstr ""
+
+#: hbframework/admin/pages/class-demo-importer-page.php:136
+msgid "%s available templates"
+msgstr ""
+
+#: hbframework/admin/pages/class-demo-importer-page.php:174
+msgid "Preview"
+msgstr ""
+
+#: hbframework/admin/pages/class-demo-importer-page.php:190
+msgid "Live Preview"
+msgstr ""
+
+#: hbframework/admin/pages/class-demo-importer-page.php:197
+msgid "This demo requires the following plugins:"
+msgstr ""
+
+#: hbframework/admin/pages/class-demo-importer-page.php:205
+msgid "Install"
+msgstr ""
+
+#: hbframework/admin/pages/class-demo-importer-page.php:207, hbframework/admin/pages/class-install-plugins-page.php:352, hbframework/admin/pages/class-install-plugins-page.php:409
+msgid "Activate"
+msgstr ""
+
+#: hbframework/admin/pages/class-demo-importer-page.php:209
+msgid "Active"
+msgstr ""
+
+#: hbframework/admin/pages/class-demo-importer-page.php:223
+msgid "Import Content"
+msgstr ""
+
+#: hbframework/admin/pages/class-demo-importer-page.php:237
+msgid "Attachments"
+msgstr ""
+
+#: hbframework/admin/pages/class-demo-importer-page.php:241
+msgid "Theme Options"
+msgstr ""
+
+#: hbframework/admin/pages/class-demo-importer-page.php:247
+msgid "Widgets"
+msgstr ""
+
+#: hbframework/admin/pages/class-demo-importer-page.php:253
+msgid "Customizer"
+msgstr ""
+
+#: hbframework/admin/pages/class-demo-importer-page.php:257
+msgid "Sliders"
+msgstr ""
+
+#: hbframework/admin/pages/class-demo-importer-page.php:263
+msgid "Essential Grid"
+msgstr ""
+
+#: hbframework/admin/pages/class-demo-importer-page.php:269
+msgid "Menus & Homepage setup"
+msgstr ""
+
+#: hbframework/admin/pages/class-demo-importer-page.php:282
+msgid "Import"
+msgstr ""
+
+#: hbframework/admin/pages/class-demo-importer-page.php:283
+msgid "Remove"
+msgstr ""
+
+#: hbframework/admin/pages/class-demo-importer-page.php:284
+msgid "Done"
+msgstr ""
+
+#: hbframework/admin/pages/class-demo-importer-page.php:304
+msgid "Are you sure?"
+msgstr ""
+
+#: hbframework/admin/pages/class-install-plugins-page.php:109
+msgid "Failed to install plugin."
+msgstr ""
+
+#: hbframework/admin/pages/class-install-plugins-page.php:129, hbframework/admin/utilities/class-install-plugins.php:176
+msgid "Failed to activate plugin."
+msgstr ""
+
+#: hbframework/admin/pages/class-install-plugins-page.php:149, hbframework/admin/utilities/class-install-plugins.php:214, hbframework/admin/utilities/class-install-plugins.php:226
+msgid "Failed to deactivate plugin."
+msgstr ""
+
+#: hbframework/admin/pages/class-install-plugins-page.php:232
+msgid "Highend theme requires"
+msgstr ""
+
+#: hbframework/admin/pages/class-install-plugins-page.php:235, hbframework/admin/pages/class-install-plugins-page.php:248
+msgid "Go to %s Plugins"
+msgstr ""
+
+#: hbframework/admin/pages/class-install-plugins-page.php:245
+msgid "Optional plugins available: "
+msgstr ""
+
+#: hbframework/admin/pages/class-install-plugins-page.php:249, hbframework/admin/pages/class-install-plugins-page.php:263
+msgid "Dismiss"
+msgstr ""
+
+#: hbframework/admin/pages/class-install-plugins-page.php:259
+msgid "There is an update available for %s"
+msgid_plural "There are updates available for %s"
+msgstr[0] ""
+msgstr[1] ""
+
+#: hbframework/admin/pages/class-install-plugins-page.php:262
+msgid "Update Now"
+msgstr ""
+
+#: hbframework/admin/pages/class-install-plugins-page.php:315
+msgid "and"
+msgstr ""
+
+#: hbframework/admin/pages/class-install-plugins-page.php:315
+msgid "plugins"
+msgstr ""
+
+#: hbframework/admin/pages/class-install-plugins-page.php:315
+msgid "plugin"
+msgstr ""
+
+#: hbframework/admin/pages/class-install-plugins-page.php:352, hbframework/admin/pages/class-install-plugins-page.php:392
+msgid "Install Plugin"
+msgstr ""
+
+#: hbframework/admin/pages/class-install-plugins-page.php:352
+msgid "Installing"
+msgstr ""
+
+#: hbframework/admin/pages/class-install-plugins-page.php:352
+msgid "Activating"
+msgstr ""
+
+#: hbframework/admin/pages/class-install-plugins-page.php:352, hbframework/admin/pages/class-install-plugins-page.php:405
+msgid "Deactivate"
+msgstr ""
+
+#: hbframework/admin/pages/class-install-plugins-page.php:352
+msgid "Deactivating"
+msgstr ""
+
+#: hbframework/admin/pages/class-install-plugins-page.php:352
+msgid "Reloading..."
+msgstr ""
+
+#: hbframework/admin/pages/class-install-plugins-page.php:352, hbframework/admin/pages/class-install-plugins-page.php:373, hbframework/admin/pages/class-install-plugins-page.php:399
+msgid "Update"
+msgstr ""
+
+#: hbframework/admin/pages/class-install-plugins-page.php:358
+msgid "available plugins"
+msgstr ""
+
+#: hbframework/admin/pages/class-install-plugins-page.php:368
+msgid "Required"
+msgstr ""
+
+#: hbframework/admin/pages/class-install-plugins-page.php:369
+msgid "Optional"
+msgstr ""
+
+#: hbframework/admin/pages/class-sidebar-manager-page.php:108
+msgid "Please fill in sidebar name and description."
+msgstr ""
+
+#: hbframework/admin/pages/class-sidebar-manager-page.php:121
+msgid "A sidebar with that name already exists."
+msgstr ""
+
+#: hbframework/admin/pages/class-sidebar-manager-page.php:133
+msgid "Sidebar created."
+msgstr ""
+
+#: hbframework/admin/pages/class-sidebar-manager-page.php:158
+msgid "Sidebar does not exists."
+msgstr ""
+
+#: hbframework/admin/pages/class-sidebar-manager-page.php:166
+msgid "Sidebar removed."
+msgstr ""
+
+#: hbframework/admin/pages/class-sidebar-manager-page.php:187
+msgid "You do not appear to have any sidebars yet."
+msgstr ""
+
+#: hbframework/admin/pages/class-sidebar-manager-page.php:192, hbframework/admin/utilities/class-sidebar-manager.php:29
+msgid "This is a widgetized area."
+msgstr ""
+
+#: hbframework/admin/pages/class-sidebar-manager-page.php:192
+msgid "New Sidebar"
+msgstr ""
+
+#: hbframework/admin/pages/class-sidebar-manager-page.php:192
+msgid "Save"
+msgstr ""
+
+#: hbframework/admin/pages/class-sidebar-manager-page.php:192, hbframework/admin/pages/class-sidebar-manager-page.php:231
+msgid "Delete"
+msgstr ""
+
+#: hbframework/admin/pages/class-sidebar-manager-page.php:192
+msgid "Please wait..."
+msgstr ""
+
+#: hbframework/admin/pages/class-sidebar-manager-page.php:207
+msgid "Use this section to create sidebars that you can use on different pages. Populate sidebars with widgets in "
+msgstr ""
+
+#: hbframework/admin/pages/class-sidebar-manager-page.php:208
+msgid "Appearance > Widgets."
+msgstr ""
+
+#: hbframework/admin/pages/class-sidebar-manager-page.php:215
+msgid "Sidebar Name"
+msgstr ""
+
+#: hbframework/admin/pages/class-sidebar-manager-page.php:219
+msgid "CSS Class"
+msgstr ""
+
+#: hbframework/admin/pages/class-sidebar-manager-page.php:221
+msgid "Action"
+msgstr ""
+
+#: hbframework/admin/pages/class-sidebar-manager-page.php:241
+msgid "Add New Sidebar"
+msgstr ""
+
+#: hbframework/admin/pages/class-sidebar-manager-page.php:244, hbframework/admin/pages/class-sidebar-manager-page.php:246
+msgid "Manage Widgets"
+msgstr ""
+
+#: hbframework/admin/utilities/class-demo-importer.php:160
+msgid "You do not have permission to import a demo."
+msgstr ""
+
+#: hbframework/admin/utilities/class-demo-importer.php:314
+msgid "Content import failed."
+msgstr ""
+
+#: hbframework/admin/utilities/class-demo-importer.php:339
+msgid "Content import failed. Import file highend.xml not found."
+msgstr ""
+
+#: hbframework/admin/utilities/class-demo-importer.php:342
+msgid "Content import failed. Content import class not found."
+msgstr ""
+
+#: hbframework/admin/utilities/class-demo-importer.php:358
+msgid "Theme Options import failed."
+msgstr ""
+
+#: hbframework/admin/utilities/class-demo-importer.php:360
+msgid "Theme Options import failed. Import file theme_options.txt not found."
+msgstr ""
+
+#: hbframework/admin/utilities/class-demo-importer.php:385
+msgid "Widgets import failed."
+msgstr ""
+
+#: hbframework/admin/utilities/class-demo-importer.php:387
+msgid "Widgets import failed. Import file sidebars.txt not found."
+msgstr ""
+
+#: hbframework/admin/utilities/class-demo-importer.php:394
+msgid "This template has no Sidebars to import."
+msgstr ""
+
+#: hbframework/admin/utilities/class-demo-importer.php:401
+msgid "Widgets import failed. Sidebar import file corrupt."
+msgstr ""
+
+#: hbframework/admin/utilities/class-demo-importer.php:447
+msgid "Essential Grid import failed."
+msgstr ""
+
+#: hbframework/admin/utilities/class-demo-importer.php:532
+msgid "Essential Grid import failed. Import file ess_grid.json not found."
+msgstr ""
+
+#: hbframework/admin/utilities/class-demo-importer.php:570
+msgid "HB_Customizer_Helper not found."
+msgstr ""
+
+#: hbframework/admin/utilities/class-demo-importer.php:577
+msgid "Customizer import failed."
+msgstr ""
+
+#: hbframework/admin/utilities/class-demo-importer.php:579
+msgid "Customizer import failed. Import file customizer.txt not found."
+msgstr ""
+
+#: hbframework/admin/utilities/class-demo-importer.php:586
+msgid "No Customizer settings to import."
+msgstr ""
+
+#: hbframework/admin/utilities/class-demo-importer.php:593
+msgid "Unserialize customizer.txt error."
+msgstr ""
+
+#: hbframework/admin/utilities/class-demo-importer.php:745
+msgid "Slider Import failed."
+msgstr ""
+
+#: hbframework/admin/utilities/class-demo-importer.php:757
+msgid "Slider Import failed. Revslider import files not found."
+msgstr ""
+
+#: hbframework/admin/utilities/class-demo-importer.php:861
+msgid "Could not download remote file"
+msgstr ""
+
+#: hbframework/admin/utilities/class-demo-importer.php:883
+msgid " failed to create file."
+msgstr ""
+
+#: hbframework/admin/utilities/class-icon-manager.php:31
+msgid "FontAwesome"
+msgstr ""
+
+#: hbframework/admin/utilities/class-icon-manager.php:31, hbframework/admin/utilities/class-icon-manager.php:48
+msgid "icons"
+msgstr ""
+
+#: hbframework/admin/utilities/class-icon-manager.php:48
+msgid "IcoMoon"
+msgstr ""
+
+#: hbframework/admin/utilities/class-install-plugins.php:86, hbframework/admin/utilities/class-install-plugins.php:123
+msgid "Plugin is already installed."
+msgstr ""
+
+#: hbframework/admin/utilities/class-install-plugins.php:106
+msgid "Current user can't install plugins"
+msgstr ""
+
+#: hbframework/admin/utilities/class-install-plugins.php:111
+msgid "Failed to install required plugin."
+msgstr ""
+
+#: hbframework/admin/utilities/class-install-plugins.php:119
+msgid "Failed to install %s."
+msgstr ""
+
+#: hbframework/admin/utilities/class-install-plugins.php:125
+msgid "Latest version of plugin is already installed: %s."
+msgstr ""
+
+#: hbframework/admin/utilities/class-install-plugins.php:130
+msgid "Plugin installed: %s."
+msgstr ""
+
+#: hbframework/admin/utilities/class-install-plugins.php:145
+msgid "Current user can't activate plugins."
+msgstr ""
+
+#: hbframework/admin/utilities/class-install-plugins.php:171
+msgid "Current user can't activate plugins"
+msgstr ""
+
+#: hbframework/admin/utilities/class-install-plugins.php:184
+msgid "Failed to activate %s."
+msgstr ""
+
+#: hbframework/admin/utilities/class-install-plugins.php:190
+msgid "Plugin is already activated: %s."
+msgstr ""
+
+#: hbframework/admin/utilities/class-install-plugins.php:188
+msgid "Plugin is already activated."
+msgstr ""
+
+#: hbframework/admin/utilities/class-install-plugins.php:195
+msgid "Plugin activated: %s."
+msgstr ""
+
+#: hbframework/admin/utilities/class-install-plugins.php:209
+msgid "Current user can't deactivate plugins"
+msgstr ""
+
+#: hbframework/admin/utilities/class-install-plugins.php:222
+msgid "Failed to deactivate %s."
+msgstr ""
+
+#: hbframework/admin/utilities/class-install-plugins.php:228
+msgid "Plugin not active: %s."
+msgstr ""
+
+#: hbframework/admin/utilities/class-install-plugins.php:233
+msgid "Plugin deactivated: %s."
+msgstr ""
+
+#: hbframework/admin/utilities/class-install-plugins.php:256
+msgid "It was not possible to activate %s. Because it isn't installed."
+msgstr ""
+
+#: hbframework/admin/utilities/class-install-plugins.php:278
+msgid "Plugin %s is successfully activated."
+msgstr ""
+
+#: hbframework/admin/utilities/class-install-plugins.php:301
+msgid "It was not possible to deactivate %s. Because it isn't active."
+msgstr ""
+
+#: hbframework/admin/utilities/class-install-plugins.php:323
+msgid "Plugin %s is successfully deactivated."
+msgstr ""
+
+#: hbframework/admin/utilities/class-install-plugins.php:542, hbframework/admin/utilities/class-install-plugins.php:546
+msgid "An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href=\"http://wordpress.org/support/\">support forums</a>."
+msgstr ""
+
+#: hbframework/admin/utilities/class-sidebar-manager.php:188
+msgid "Widget import data is not an array."
+msgstr ""
+
+#: hbframework/admin/utilities/class-sidebar-manager.php:216
+msgid "Widget area does not exist in theme (using Inactive)"
+msgstr ""
+
+#: hbframework/admin/utilities/class-sidebar-manager.php:250
+msgid "Widget already exists"
+msgstr ""
+
+#: hbframework/admin/utilities/class-sidebar-manager.php:303
+msgid "Imported"
+msgstr ""
+
+#: hbframework/admin/utilities/class-sidebar-manager.php:306
+msgid "Imported to Inactive"
+msgstr ""
+
+#: hbframework/vendor/importer/class-logger-html.php:17
+msgid "Sorry, there has been an error."
+msgstr ""
+
+#: hbframework/vendor/importer/class-wxr-importer.php:130
+msgid "Could not open the file for parsing"
+msgstr ""
+
+#: hbframework/vendor/importer/class-wxr-importer.php:166, hbframework/vendor/importer/class-wxr-importer.php:282, hbframework/vendor/importer/class-wxr-importer.php:355
+msgid "This WXR file (version %s) is newer than the importer (version %s) and may not be supported. Please consider updating."
+msgstr ""
+
+#: hbframework/vendor/importer/class-wxr-importer.php:504
+msgid "%s, please try again."
+msgstr ""
+
+#: hbframework/vendor/importer/class-wxr-importer.php:504
+msgid "The file does not exist"
+msgstr ""
+
+#: hbframework/vendor/importer/class-wxr-importer.php:564
+msgid "Invalid author mapping"
+msgstr ""
+
+#: hbframework/vendor/importer/class-wxr-importer.php:665
+msgid "Cannot import auto-draft posts"
+msgstr ""
+
+#: hbframework/vendor/importer/class-wxr-importer.php:753
+msgid "Failed to import \"%s\": Invalid post type %s"
+msgstr ""
+
+#: hbframework/vendor/importer/class-wxr-importer.php:763
+msgid "%s \"%s\" already exists."
+msgstr ""
+
+#: hbframework/vendor/importer/class-wxr-importer.php:848
+msgid "Skipping attachment \"%s\", fetching attachments disabled"
+msgstr ""
+
+#: hbframework/vendor/importer/class-wxr-importer.php:869
+msgid "Failed to import \"%s\" (%s)"
+msgstr ""
+
+#: hbframework/vendor/importer/class-wxr-importer.php:901, hbframework/vendor/importer/class-wxr-importer.php:1735
+msgid "Imported \"%s\" (%s)"
+msgstr ""
+
+#: hbframework/vendor/importer/class-wxr-importer.php:906
+msgid "Post %d remapped to %d"
+msgstr ""
+
+#: hbframework/vendor/importer/class-wxr-importer.php:1050
+msgid "Invalid file type"
+msgstr ""
+
+#: hbframework/vendor/importer/class-wxr-importer.php:1541
+msgid "Failed to import user \"%s\""
+msgstr ""
+
+#: hbframework/vendor/importer/class-wxr-importer.php:1562
+msgid "Imported user \"%s\""
+msgstr ""
+
+#: hbframework/vendor/importer/class-wxr-importer.php:1566
+msgid "User %d remapped to %d"
+msgstr ""
+
+#: hbframework/vendor/importer/class-wxr-importer.php:1711
+msgid "Failed to import %s %s"
+msgstr ""
+
+#: hbframework/vendor/importer/class-wxr-importer.php:1740
+msgid "Term %d remapped to %d"
+msgstr ""
+
+#: hbframework/vendor/importer/class-wxr-importer.php:1793
+msgid "Remote server returned %1$d %2$s for %3$s"
+msgstr ""
+
+#: hbframework/vendor/importer/class-wxr-importer.php:1806
+msgid "Remote file is incorrect size"
+msgstr ""
+
+#: hbframework/vendor/importer/class-wxr-importer.php:1811
+msgid "Zero size file downloaded"
+msgstr ""
+
+#: hbframework/vendor/importer/class-wxr-importer.php:1817
+msgid "Remote file is too large, limit is %s"
+msgstr ""
+
+#: hbframework/vendor/importer/class-wxr-importer.php:1839
+msgid "Running post-processing for post %d"
+msgstr ""
+
+#: hbframework/vendor/importer/class-wxr-importer.php:1852
+msgid "Could not find the post parent for \"%s\" (post #%d)"
+msgstr ""
+
+#: hbframework/vendor/importer/class-wxr-importer.php:1857
+msgid "Post %d was imported with parent %d, but could not be found"
+msgstr ""
+
+#: hbframework/vendor/importer/class-wxr-importer.php:1871
+msgid "Could not find the author for \"%s\" (post #%d)"
+msgstr ""
+
+#: hbframework/vendor/importer/class-wxr-importer.php:1876
+msgid "Post %d was imported with author \"%s\", but could not be found"
+msgstr ""
+
+#: hbframework/vendor/importer/class-wxr-importer.php:1902
+msgid "Post %d was marked for post-processing, but none was required."
+msgstr ""
+
+#: hbframework/vendor/importer/class-wxr-importer.php:1913
+msgid "Could not update \"%s\" (post #%d) with mapped data"
+msgstr ""
+
+#: hbframework/vendor/importer/class-wxr-importer.php:1958
+msgid "Could not find the menu object for \"%s\" (post #%d)"
+msgstr ""
+
+#: hbframework/vendor/importer/class-wxr-importer.php:1963
+msgid "Post %d was imported with object \"%d\" of type \"%s\", but could not be found"
+msgstr ""
+
+#: hbframework/vendor/importer/class-wxr-importer.php:1985
+msgid "Could not find the comment parent for comment #%d"
+msgstr ""
+
+#: hbframework/vendor/importer/class-wxr-importer.php:1989
+msgid "Comment %d was imported with parent %d, but could not be found"
+msgstr ""
+
+#: hbframework/vendor/importer/class-wxr-importer.php:2003
+msgid "Could not find the author for comment #%d"
+msgstr ""
+
+#: hbframework/vendor/importer/class-wxr-importer.php:2007
+msgid "Comment %d was imported with author %d, but could not be found"
+msgstr ""
+
+#: hbframework/vendor/importer/class-wxr-importer.php:2024
+msgid "Could not update comment #%d with mapped data"
+msgstr ""
