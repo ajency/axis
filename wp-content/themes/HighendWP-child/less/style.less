@@ -13,6 +13,14 @@
 /* =Theme customization starts here
 -------------------------------------------------------------- */
 
+@brand-primary: #10C9A3;
+@brand-secondary: #353b63;
+
+body{
+	color: @brand-secondary;
+}
+
+// Homepage background
 .homepage{
 	#main-content{
 		background-image: url(img/home_bg.png);
@@ -22,17 +30,20 @@
 	}
 }
 
+// Logo
 #logo img,
 .stuck #logo img{
 	max-height: 75%;
 }
 
+
+// Main Menu
 .main-navigation{
 	ul{
 		li{
 			&:last-child{
 				span{
-					background-color: #3d436e;
+					background-color: @brand-secondary;
 				    padding: 8px 10px !important;
 				    border-radius: 4px;
 				    box-shadow: 0 1px 10px rgba(0, 0, 0, 0.3);
@@ -42,6 +53,8 @@
 	}
 }
 
+
+// Main Banner
 .home-banner{
 	h1{
 		font-size: 34px;
@@ -56,6 +69,8 @@
 	}
 }
 
+
+// Horizontal in-focus post
 .horz_banner{
 	box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
 	padding: 30px 20px;
@@ -85,7 +100,7 @@
 			margin-bottom: 5px;
 			h4{
 				font-size: 22px;
-				color: #353b63;
+				color: @brand-secondary;
 			}
 		}
 		.vc_gitem-post-data-source-post_excerpt{
@@ -104,7 +119,7 @@
 				font-size: 20px;
 				text-decoration: underline;
 				padding: 0px 6px;
-				color: #353b63 !important;
+				color: @brand-secondary !important;
 				border: none;
 				&:hover{
 					background-color: transparent;
@@ -116,6 +131,8 @@
 	}
 }
 
+
+// Products section
 .prod-section-title{
 	h5{
 		text-transform: uppercase;
@@ -126,6 +143,7 @@
 	.vc_custom_heading{
 		h4{
 			font-weight: 700;
+			color: @brand-secondary;
 		}
 	}
 	p{
@@ -152,6 +170,8 @@
 	}
 }
 
+
+// Row width fix for products grid
 .vc_row{
 	.width24{
 		width: 24%;
@@ -167,12 +187,44 @@
 	}
 }
 
+
+// What makes us different section
 .different-text{
 	h3{
-		color: #353b63;
+		color: @brand-secondary;
 		font-size: 24px;
 	}
 	p{
 		font-size: 18px;
+	}
+}
+
+
+// Vertical banner
+.demo-banner{
+	padding: 20px;
+	background-color: #fafafa;
+	background-image: url(img/vert_banner_bg.png);
+	background-position: right bottom;
+	background-repeat: no-repeat;
+	background-size: 50%;
+	h5{
+		font-size: 20px;
+		line-height: 30px;
+	}
+	.hb-button{
+		font-size: 16px;
+		text-transform: none;
+		letter-spacing: 0;
+		margin-top: 20px;
+	}
+}
+
+.vertical-banner{
+	.demo-banner{
+		padding-bottom: 200px;
+		h5{
+			margin-top: 70px;
+		}
 	}
 }
