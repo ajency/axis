@@ -1,0 +1,178 @@
+/*
+ Theme Name:   AxisRooms
+ Theme URI:    http://preview.hb-themes.com/?theme=Highend
+ Description:  A Flexible, Powerful & Beautiful WordPress Theme by HB-Themes. Mobile ready and optimized for best performance. With the powerful engine and user friendly interface it will allow you to build outstanding websites quick and easy... It comes with Premium Plugins integrated into the theme.
+ Author:       HB-Themes
+ Author URI:   http://www.hb-themes.com
+ Template:     HighendWP
+ Version:      1.0.1
+ Tags:		   Responsive, Page-Builder, Drag&Drop, Clean, Modern, Corporate, Multi-Purpose, Multi-Color
+ Text Domain:  hbthemes
+*/
+
+/* =Theme customization starts here
+-------------------------------------------------------------- */
+
+.homepage{
+	#main-content{
+		background-image: url(img/home_bg.png);
+		background-repeat: no-repeat;
+		background-position: top right;
+		background-size: 55%;
+	}
+}
+
+#logo img,
+.stuck #logo img{
+	max-height: 75%;
+}
+
+.main-navigation{
+	ul{
+		li{
+			&:last-child{
+				span{
+					background-color: #3d436e;
+				    padding: 8px 10px !important;
+				    border-radius: 4px;
+				    box-shadow: 0 1px 10px rgba(0, 0, 0, 0.3);
+				}
+			}
+		}
+	}
+}
+
+.home-banner{
+	h1{
+		font-size: 34px;
+		font-weight: 700;
+		line-height: 42px;
+		margin-right: 50px;
+	}
+	p{
+		margin-top: 20px;
+	    font-size: 20px;
+	    line-height: 30px;
+	}
+}
+
+.horz_banner{
+	box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+	padding: 30px 20px;
+	background-image: url(img/banner_bg.png);
+	background-position: right bottom;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-color: #fff;
+	.vc_grid-item-zone-c-right{
+		.vc_grid-item-mini{
+			display: flex;
+			align-items: center;
+			.vc_gitem_row .vc_gitem-col{
+				padding: 0 0 0 30px;
+			}
+			.vc_gitem-zone.vc_gitem-zone-c{
+				background-color: transparent !important;
+			}
+		}
+		.vc_gitem-animated-block{
+			width: 15%;
+		}
+		.vc_gitem-zone-c{
+			width: 85%;
+		}
+		.vc_custom_heading{
+			margin-bottom: 5px;
+			h4{
+				font-size: 22px;
+				color: #353b63;
+			}
+		}
+		.vc_gitem-post-data-source-post_excerpt{
+			display: inline-block;
+			vertical-align: middle;
+			margin-bottom: 0;
+			p{
+				margin-bottom: 0;
+				font-size: 18px;
+				color: #5d5d5d;
+			}
+		}
+		.vc_btn3-container{
+			vertical-align: middle;
+			.vc_btn3-style-custom{
+				font-size: 20px;
+				text-decoration: underline;
+				padding: 0px 6px;
+				color: #353b63 !important;
+				border: none;
+				&:hover{
+					background-color: transparent;
+					background-image: none;
+					border: none;
+				}
+			}
+		}
+	}
+}
+
+.prod-section-title{
+	h5{
+		text-transform: uppercase;
+		font-size: 18px;
+	}
+}
+.product-blocks{
+	.vc_custom_heading{
+		h4{
+			font-weight: 700;
+		}
+	}
+	p{
+		font-size: 16px;
+		line-height: 24px;
+	}
+}
+
+.vc_gitem-link.vc_btn3{
+	&.more-btn{
+		padding: 0;
+		font-size: 16px;
+		border: none;
+		&:after{
+			content: "\f178";
+			font-family: FontAwesome;
+			margin-left: 10px;
+		}
+		&:hover{
+			background-color: transparent;
+			background-image: none;
+			border: none;
+		}
+	}
+}
+
+.vc_row{
+	.width24{
+		width: 24%;
+	}
+	.width74{
+		width: 74%;
+	}
+
+	@media(max-width: 767px){
+		.width24, .width74{
+			width: 100%;
+		}
+	}
+}
+
+.different-text{
+	h3{
+		color: #353b63;
+		font-size: 24px;
+	}
+	p{
+		font-size: 18px;
+	}
+}
