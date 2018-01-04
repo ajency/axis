@@ -325,6 +325,16 @@ body {
   background-image: url(img/hotel_bg.jpg);
   padding: 80px 40px;
 }
+@media (max-width: 767px) {
+  .axis_testimonials {
+    flex-wrap: wrap;
+  }
+  .axis_testimonials .column1,
+  .axis_testimonials .column2,
+  .axis_testimonials .column3 {
+    width: 100%;
+  }
+}
 .fw-section.waved-border {
   -moz-transform: skewY(2deg);
        transform: skewY(2deg);
@@ -355,8 +365,28 @@ body {
   -moz-box-shadow: 0 -5px 20px 5px rgba(0, 0, 0, 0.2);
        box-shadow: 0 -5px 20px 5px rgba(0, 0, 0, 0.2);
   margin-top: -100px;
+  position: relative;
+}
+.trial-section .trial-white-bg:before {
+  content: '';
+  background-image: url(img/dot-icon.png);
+  background-repeat: no-repeat;
+  -moz-background-size: contain;
+       background-size: contain;
+  position: absolute;
+  left: -100px;
+  bottom: 0;
+  height: 200px;
+  width: 200px;
+  z-index: -1;
 }
 .trial-section .trial-white-bg p {
   font-size: 18px;
   line-height: 26px;
+}
+@media (max-width: 767px) {
+  .trial-section .trial-white-bg {
+    margin-top: 0;
+    margin-bottom: 40px !important;
+  }
 }
