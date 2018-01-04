@@ -13,4 +13,13 @@ function highend_child_theme_enqueue_styles() {
 }
 add_action( 'wp_enqueue_scripts', 'highend_child_theme_enqueue_styles' );
 
+function cta_banner_shortcode($atts) {
+   extract(shortcode_atts(array(
+      'width' => 400,
+      'height' => 200,
+   ), $atts));
+return '<img src="https://lorempixel.com/'. $width . '/'. $height . '" />';
+}
+add_shortcode('cta_banner', 'cta_banner_shortcode');
+
 ?>
