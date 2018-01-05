@@ -390,7 +390,7 @@ body{
 
 	.trial-white-bg{
 		background: #fff;
-	    padding: 70px 20px 40px;
+	    padding: 70px 20px 60px;
 	    box-shadow: 0px -10px 20px 0px rgba(0, 0, 0, 0.1);
 	    margin-top: -120px;
 	    position: relative;
@@ -418,5 +418,52 @@ body{
 			margin-top: 0;
 			margin-bottom: 40px !important;
 		}
+	}
+}
+
+// Footer
+#pre-footer-area{
+	border: 0;
+}
+#footer{
+	background-color: #fff;
+	color: #808080 !important;
+	.widget-column{
+		.widget-item{
+			h4{
+				color: @brand-secondary !important;
+				text-transform: none;
+			}
+		}
+		a{
+			color: #565656;
+		}
+	}
+
+	.custom-html-widget{
+		p{
+			font-size: 16px;
+		}
+	}
+}
+.subscribe-holder{
+	display: flex;
+	flex-wrap: wrap;
+	&> span{
+		width: 60%;
+		input[type=email]:focus{
+			color: #000 !important;
+		}
+	}
+	&> input[type=submit]{
+		width: 40%;
+		margin: 0;
+		padding: 8px 8px 8px!important;
+		text-align: center;
+		text-transform: none;
+		box-shadow: none;
+	}
+	.ajax-loader{
+		width: 100%;
 	}
 }

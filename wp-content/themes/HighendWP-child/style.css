@@ -361,7 +361,7 @@ body {
 }
 .trial-section .trial-white-bg {
   background: #fff;
-  padding: 70px 20px 40px;
+  padding: 70px 20px 60px;
   -moz-box-shadow: 0px -10px 20px 0px rgba(0, 0, 0, 0.1);
        box-shadow: 0px -10px 20px 0px rgba(0, 0, 0, 0.1);
   margin-top: -120px;
@@ -390,4 +390,44 @@ body {
     margin-top: 0;
     margin-bottom: 40px !important;
   }
+}
+#pre-footer-area {
+  border: 0;
+}
+#footer {
+  background-color: #fff;
+  color: #808080 !important;
+}
+#footer .widget-column .widget-item h4 {
+  color: #353b63 !important;
+  text-transform: none;
+}
+#footer .widget-column a {
+  color: #565656;
+}
+#footer .custom-html-widget p {
+  font-size: 16px;
+}
+.subscribe-holder {
+  display: -moz-box;
+  display: flex;
+  flex-wrap: wrap;
+}
+.subscribe-holder > span {
+  width: 60%;
+}
+.subscribe-holder > span input[type=email]:focus {
+  color: #000 !important;
+}
+.subscribe-holder > input[type=submit] {
+  width: 40%;
+  margin: 0;
+  padding: 8px 8px 8px!important;
+  text-align: center;
+  text-transform: none;
+  -moz-box-shadow: none;
+       box-shadow: none;
+}
+.subscribe-holder .ajax-loader {
+  width: 100%;
 }
