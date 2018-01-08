@@ -335,7 +335,7 @@ body {
     width: 100%;
   }
 }
-.fw-section.waved-border {
+.homepage .fw-section.waved-border {
   -moz-transform: skewY(2deg);
        transform: skewY(2deg);
 }
@@ -430,4 +430,77 @@ body {
 }
 .subscribe-holder .ajax-loader {
   width: 100%;
+}
+.single-single-product #main-wrapper,
+.single-products #main-wrapper {
+  background-color: #fff;
+}
+.single-single-product .product-header,
+.single-products .product-header {
+  background: -webkit-linear-gradient(left, #56c3aa, #88d4f5);
+  padding: 150px 0;
+}
+.single-single-product .product-header_text,
+.single-products .product-header_text {
+  display: -moz-box;
+  display: flex;
+}
+.single-single-product .product-header_text i,
+.single-products .product-header_text i {
+  border: 2px solid #fff;
+  -moz-border-radius: 50%;
+       border-radius: 50%;
+  text-align: center;
+  padding: 0;
+  font-size: 45px;
+  line-height: 90px;
+  min-width: 100px;
+  height: 100px;
+  -moz-box-sizing: border-box;
+       box-sizing: border-box;
+  color: #fff;
+  margin-right: 20px;
+}
+.single-single-product .product-header_text p,
+.single-products .product-header_text p {
+  font-size: 20px;
+}
+.single-single-product .product-header h1.entry-title,
+.single-products .product-header h1.entry-title {
+  color: #fff;
+  font-weight: 700;
+}
+.single-single-product .product-header p,
+.single-products .product-header p {
+  color: #fff;
+  margin-bottom: 0;
+}
+.single-single-product .product-form,
+.single-products .product-form {
+  background-color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+.single-single-product .product-form h5,
+.single-products .product-form h5 {
+  font-size: 20px;
+  color: #353b63;
+}
+.single-single-product .product-form p,
+.single-products .product-form p {
+  color: #353b63;
+}
+.single-single-product p,
+.single-products p {
+  font-size: 16px;
+  line-height: 24px;
+}
+.single-single-product .product-quad-grid img,
+.single-products .product-quad-grid img {
+  width: 64px;
+}
+.single-single-product .product-quad-grid .feature-box h4,
+.single-products .product-quad-grid .feature-box h4 {
+  font-size: 20px;
+  margin-bottom: 20px!important;
 }

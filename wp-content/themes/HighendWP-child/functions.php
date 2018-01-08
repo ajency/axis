@@ -22,4 +22,18 @@ return '<img src="https://lorempixel.com/'. $width . '/'. $height . '" />';
 }
 add_shortcode('cta_banner', 'cta_banner_shortcode');
 
+// function axisTestimonials() {
+//     ob_start();
+//     $data = '<div class="testiScroller">';
+//         $query = new WP_Query('post_type=hb_testimonials&showposts=5');
+//             while( $query->have_posts() ):$query->the_post();
+//             $data .= '<div class="singleTestimonial" id="testomial-'.get_the_ID().'">';
+//                 $data .= '<div class="clientDetails">- '.get_the_title().'<span>('.get_the_excerpt().')</span></div>';
+//             $data .= '</div>';
+//         endwhile; wp_reset_postdata();
+//     $data .= '</div>';
+//     return $data;
+//  }
+// add_shortcode('testimonial_sc','axisTestimonials');
+
 ?>
