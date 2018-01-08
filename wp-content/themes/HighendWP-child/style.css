@@ -438,12 +438,13 @@ body {
 .single-single-product .product-header,
 .single-products .product-header {
   background: -webkit-linear-gradient(left, #56c3aa, #88d4f5);
-  padding: 150px 0;
+  padding: 100px 0 0;
 }
 .single-single-product .product-header_text,
 .single-products .product-header_text {
   display: -moz-box;
   display: flex;
+  margin-top: 100px;
 }
 .single-single-product .product-header_text i,
 .single-products .product-header_text i {
@@ -478,17 +479,41 @@ body {
 .single-single-product .product-form,
 .single-products .product-form {
   background-color: #fff;
-  padding: 20px;
+  padding: 40px 30px;
   text-align: center;
+  margin-bottom: -120px;
+  -moz-box-shadow: 0 -5px 10px 0 rgba(0, 0, 0, 0.2);
+       box-shadow: 0 -5px 10px 0 rgba(0, 0, 0, 0.2);
+  position: relative;
+  top: -50px;
 }
 .single-single-product .product-form h5,
 .single-products .product-form h5 {
   font-size: 20px;
+  font-weight: 700;
   color: #353b63;
+  margin-bottom: 0;
 }
 .single-single-product .product-form p,
 .single-products .product-form p {
   color: #353b63;
+}
+.single-single-product .product-form #cf7md-form,
+.single-products .product-form #cf7md-form {
+  margin-top: 20px;
+}
+.single-single-product .product-form #cf7md-form .cf7md-item input,
+.single-products .product-form #cf7md-form .cf7md-item input {
+  padding: 0 !important;
+}
+.single-single-product .product-form #cf7md-form .mdc-button--primary.mdc-button--raised,
+.single-products .product-form #cf7md-form .mdc-button--primary.mdc-button--raised {
+  background-color: #10c9a3;
+  margin-top: 10px;
+}
+.single-single-product .product-form .cf7md-admin-customize-message,
+.single-products .product-form .cf7md-admin-customize-message {
+  display: none;
 }
 .single-single-product p,
 .single-products p {

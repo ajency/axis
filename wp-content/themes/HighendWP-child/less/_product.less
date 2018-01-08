@@ -4,9 +4,10 @@
 	}
 	.product-header{
 		background: -webkit-linear-gradient(left, #56c3aa, #88d4f5);
-		padding: 150px 0;
+		padding: 100px 0 0;
 		&_text{
 			display: flex;
+			margin-top: 100px;
 			i{
 				border: 2px solid #fff;
 				border-radius: 50%;
@@ -38,14 +39,36 @@
 
 	.product-form{
 		background-color: #fff;
-		padding: 20px;
-		text-align: center;
+		padding: 40px 30px;
+	    text-align: center;
+	    margin-bottom: -120px;
+	    box-shadow: 0 -5px 10px 0 rgba(0, 0, 0, 0.2);
+	    position: relative;
+	    top: -50px;
 		h5{
 			font-size: 20px;
+			font-weight: 700;
 			color: @brand-secondary;
+			margin-bottom: 0;
 		}
 		p{
 			color: @brand-secondary;
+		}
+
+		#cf7md-form{
+			margin-top: 20px;
+			.cf7md-item input{
+				padding: 0 !important;
+			}
+			.mdc-button--primary.mdc-button--raised{
+				background-color: @brand-primary;
+				margin-top: 10px;
+			}
+		}
+
+
+		.cf7md-admin-customize-message{
+			display: none;
 		}
 	}
 
