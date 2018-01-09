@@ -529,3 +529,51 @@ body {
   font-size: 20px;
   margin-bottom: 20px!important;
 }
+.contact-page .hb-logo-wrap {
+  filter: brightness(0) invert(1);
+}
+.contact-page #main-content {
+  background: -webkit-linear-gradient(left, #56c3aa, #88d4f5);
+}
+.contact-page .contact-header-block {
+  margin-top: 50px;
+  margin-bottom: -70px !important;
+  z-index: 1;
+}
+.contact-page .contact-header-block > .wpb_wrapper {
+  background-color: #fff;
+}
+.contact-page .contact-header-block .vc_single_image-wrapper {
+  -moz-border-radius: 50%;
+       border-radius: 50%;
+  padding: 15px;
+  -moz-box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.15);
+       box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.15);
+  margin-top: -40px;
+  background-color: #fff;
+  -moz-box-sizing: border-box;
+       box-sizing: border-box;
+}
+.contact-page .contact-header-block .vc_single_image-wrapper img {
+  width: 60px;
+}
+.contact-page .contact-header-block h4 {
+  color: #353b63;
+}
+.contact-page .contact-header-block p {
+  font-size: 16px;
+  padding: 0 60px;
+}
+.contact-page .scale-text {
+  padding: 50px;
+}
+.contact-page .scale-text.bord-right {
+  border-right: 1px solid #d4d4d4;
+}
+.contact-page .scale-text h5 {
+  color: #353b63;
+  font-weight: 700;
+}
+.contact-page .scale-text p {
+  font-size: 16px;
+}
