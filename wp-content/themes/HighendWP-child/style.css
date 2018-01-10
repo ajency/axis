@@ -455,7 +455,7 @@ body {
 .single-single-product .product-header,
 .single-products .product-header {
   background: -webkit-linear-gradient(left, #56c3aa, #88d4f5);
-  padding: 100px 0 0;
+  padding: 100px 0 60px;
 }
 .single-single-product .product-header_text,
 .single-products .product-header_text {
