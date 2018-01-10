@@ -72,6 +72,9 @@ body {
 .subscribe-holder .ajax-loader {
   width: 100%;
 }
+.smaller-p {
+  font-size: 14px !important;
+}
 .homepage #main-content {
   background-image: url(img/home_bg.png);
   background-repeat: no-repeat;
@@ -531,7 +534,7 @@ body {
 }
 .single-single-product p,
 .single-products p {
-  font-size: 16px;
+  font-size: 15px;
   line-height: 24px;
 }
 .single-single-product .product-quad-grid img,
