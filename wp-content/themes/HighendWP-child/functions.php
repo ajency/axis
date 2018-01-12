@@ -18,7 +18,7 @@ add_action( 'wp_enqueue_scripts', 'highend_child_theme_enqueue_styles' );
 
 function cta_banner_shortcode($atts){
    extract(shortcode_atts(array(
-     
+
       'title' => 'Title',
       'button_text' => 'Button-Text',
       'button_link' => 'http://google.com'
@@ -29,7 +29,7 @@ function cta_banner_shortcode($atts){
    $html .='<a href="'.$button_link.'" class="hb-button hb-turqoise hb-medium-button no-three-d" title="'.$button_text.'" target="_blank" style="-webkit-border-radius: 2px;-moz-border-radius: 2px;border-radius: 2px;" >'.$button_text.'</a>';
    $html .='</div>';
    return $html;
-   
+
 }
 add_shortcode('cta_banner','cta_banner_shortcode');
 
@@ -39,7 +39,7 @@ add_shortcode('cta_banner','cta_banner_shortcode');
 function testimonials_gal_shortcode2($atts)
  {
   extract(shortcode_atts(array(
-     
+
       'title' => 'Title',
       'ids'   => ''
 
@@ -52,7 +52,7 @@ function testimonials_gal_shortcode2($atts)
 
    else{
     $array_id=split(",",$ids);
-   } 
+   }
 
 
      $html = "";
@@ -62,7 +62,7 @@ function testimonials_gal_shortcode2($atts)
     'post_status' => 'publish',
     'posts_per_page' => '5',
     'post__in' => $array_id
-    
+
 ));
    $html .='<div class= "vc_row element-row row "> ';
    $html .='<div class="wpb_column vc_column_container vc_col-sm-12">';
@@ -75,7 +75,7 @@ function testimonials_gal_shortcode2($atts)
   while ($query->have_posts()){
     $query->the_post();
     $post_id = get_the_ID();
-    $post = get_post($post_id); 
+    $post = get_post($post_id);
     $content = apply_filters('the_content', $post->post_content);
 
     $key_1_values = get_post_meta($post_id);
@@ -107,7 +107,7 @@ function testimonials_gal_shortcode2($atts)
         $html .='</div>';
         $html .='</div>';
       }
-    else if($count == 1) 
+    else if($count == 1)
       {
         $html .='<div class="column1">';
       }
@@ -164,7 +164,7 @@ add_shortcode('testimonials_gal2','testimonials_gal_shortcode2');
 function testimonials_gal_shortcode($atts)
  {
   extract(shortcode_atts(array(
-     
+
       'title' => 'Title',
       'ids'   => ''
 
@@ -177,7 +177,7 @@ function testimonials_gal_shortcode($atts)
 
    else{
     $array_id=split(",",$ids);
-   } 
+   }
 
 
      $html = "";
@@ -187,7 +187,7 @@ function testimonials_gal_shortcode($atts)
     'post_status' => 'publish',
     'posts_per_page' => '5',
     'post__in' => $array_id
-    
+
 ));
       $html .='<div class= "vc_row element-row row">';
       $html .='<div class="wpb_column vc_column_container vc_col-sm-12">';
@@ -207,17 +207,17 @@ function testimonials_gal_shortcode($atts)
        $post_id=get_the_ID();
       }
     else
-      {   
+      {
         $post_id = $array_id[$i];
         $i = $i+1;
       }
 
-      $post = get_post($post_id); 
+      $post = get_post($post_id);
       $content = apply_filters('the_content', $post->post_content);
 
-      //To display custom fields 
+      //To display custom fields
       $key_1_values = get_post_meta($post_id);
-       
+
       foreach($key_1_values as $key=>$val)
       {
       if ($key=='testimonial_type_settings')
@@ -232,7 +232,7 @@ function testimonials_gal_shortcode($atts)
       $post_title= the_title_attribute( 'echo=0' );
       $count=$count+1;
 
-      if($count == 1) 
+      if($count == 1)
         {
           $html .='<div class="column1">';
         }
@@ -247,7 +247,7 @@ function testimonials_gal_shortcode($atts)
           $html .='</div>';
           $html .='</div>';
          }
-     
+
       else if($count == 4)
         {
           $html .='</div>';
@@ -295,7 +295,20 @@ function testimonials_gal_shortcode($atts)
 }
 add_shortcode('testimonials_gal','testimonials_gal_shortcode');
 
+function save_wpse44966_meta_box_cb( $post_id){
+ if(isset($_REQUEST['post_type'])){
+   if($_REQUEST['post_type']=='products' || 'single-product'){
 
+     $misc_settings=array( 'hb_boxed_stretched_page' => "default" ,
+       'hb_page_extra_class' => "",
+       'hb_special_header_style' => 1 ,
+       'hb_page_alternative_logo' => "");
+
+       update_post_meta( $post_id, 'misc_settings', $misc_settings);
+   }
+ }
+}
+add_action('save_post', 'save_wpse44966_meta_box_cb');
 
 
 

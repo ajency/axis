@@ -448,6 +448,10 @@ body {
     margin-bottom: 40px !important;
   }
 }
+.single-single-product .hb-logo-wrap,
+.single-products .hb-logo-wrap {
+  filter: brightness(0) invert(1);
+}
 .single-single-product #main-wrapper,
 .single-products #main-wrapper {
   background-color: #fff;
@@ -455,7 +459,7 @@ body {
 .single-single-product .product-header,
 .single-products .product-header {
   background: -webkit-linear-gradient(left, #56c3aa, #88d4f5);
-  padding: 60px 0 40px;
+  padding: 110px 0 40px;
 }
 .single-single-product .product-header_text,
 .single-products .product-header_text {
