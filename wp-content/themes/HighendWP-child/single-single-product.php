@@ -22,6 +22,12 @@
 							<p><?php the_excerpt(); ?></p>
 						</div>
 					</div>
+					<div class="product-header_logos">
+						<img src="http://axisrooms.wpengine.com/wp-content/uploads/2018/01/airbnb_logo_small.png">
+						<img src="http://axisrooms.wpengine.com/wp-content/uploads/2018/01/Expedia_logo.png">
+						<!-- <img src="http://axisrooms.wpengine.com/wp-content/uploads/2018/01/Booking-Logo.png"> -->
+						<img src="http://axisrooms.wpengine.com/wp-content/uploads/2018/01/Oyo.png">
+					</div>
 				</div>
 				<div class="vc_col-sm-5">
 					<div class="product-form">

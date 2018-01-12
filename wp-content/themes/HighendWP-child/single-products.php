@@ -22,13 +22,19 @@
 							<p><?php the_excerpt(); ?></p>
 						</div>
 					</div>
+					<div class="product-header_logos">
+						<img src="http://axisrooms.wpengine.com/wp-content/uploads/2018/01/airbnb_logo_small.png">
+						<img src="http://axisrooms.wpengine.com/wp-content/uploads/2018/01/Expedia_logo.png">
+						<!-- <img src="http://axisrooms.wpengine.com/wp-content/uploads/2018/01/Booking-Logo.png"> -->
+						<img src="http://axisrooms.wpengine.com/wp-content/uploads/2018/01/Oyo.png">
+					</div>
 				</div>
 				<div class="vc_col-sm-5">
 					<div class="product-form">
 						<h5>See <?php the_title(); ?> in action</h5>
 						<p>Tell us how we can reach you for a free demo</p>
 
-						<?php echo do_shortcode( '[contact-form-7 id="308" title="Product page demo"]' ); ?>
+						<?php echo do_shortcode( '[contact-form-7 id="266" title="Product page"]' ); ?>
 					</div>
 				</div>
 			</div>
