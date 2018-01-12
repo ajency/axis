@@ -1,0 +1,387 @@
+// Homepage background
+.homepage{
+	#main-content{
+		background-image: url(img/home_bg.png);
+		background-repeat: no-repeat;
+		background-position: top right;
+		background-size: 55%;
+	}
+}
+
+// Main Banner
+.home-banner{
+	h1{
+		font-size: 34px;
+		font-weight: 700;
+		line-height: 42px;
+		margin-right: 50px;
+	}
+	p{
+		margin-top: 20px;
+	    font-size: 20px;
+	    line-height: 30px;
+	}
+}
+
+
+// Horizontal in-focus post
+.horz_banner{
+	box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+	padding: 30px 20px;
+	background-image: url(img/banner_bg.png);
+	background-position: right bottom;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-color: #fff;
+	&.w-min-height{
+		min-height: 150px;
+		box-sizing: border-box;
+	}
+	@media(max-width: 767px){
+		background-size: 25%;
+	}
+
+	.vc_custom_heading{
+		margin-bottom: 5px;
+	}
+	h4{
+		font-size: 22px;
+		color: @brand-secondary;
+	}
+	p{
+		font-size: 16px;
+	}
+
+	.vc_grid-item-zone-c-right{
+		.vc_grid-item-mini{
+			display: flex;
+			align-items: center;
+			.vc_gitem_row .vc_gitem-col{
+				padding: 0 0 0 30px;
+			}
+			.vc_gitem-zone.vc_gitem-zone-c{
+				background-color: transparent !important;
+			}
+		}
+		.vc_gitem-animated-block{
+			width: 15%;
+		}
+		.vc_gitem-zone-c{
+			width: 85%;
+		}
+		@media(max-width: 767px){
+			.vc_grid-item-mini{
+				flex-wrap: wrap;
+				.vc_gitem_row .vc_gitem-col{
+					padding: 20px 0 0 0;
+				}
+			}
+			.vc_gitem-animated-block{
+				width: 50%;
+			}
+			.vc_gitem-zone-c{
+				width: 100%;
+			}
+		}
+
+		.vc_gitem-post-data-source-post_excerpt{
+			display: inline-block;
+			vertical-align: middle;
+			margin-bottom: 0;
+			p{
+				margin-bottom: 0;
+				font-size: 18px;
+				color: #5d5d5d;
+			}
+		}
+		.vc_btn3-container{
+			vertical-align: middle;
+			.vc_btn3-style-custom{
+				font-size: 20px;
+				text-decoration: underline;
+				padding: 0px 6px;
+				color: @brand-secondary !important;
+				border: none;
+				&:hover{
+					background-color: transparent;
+					background-image: none;
+					border: none;
+				}
+			}
+		}
+	}
+}
+
+
+// Products section
+.prod-section-title{
+	h5{
+		text-transform: uppercase;
+		font-size: 18px;
+	}
+}
+.product-blocks{
+	.vc_custom_heading{
+		h4{
+			font-weight: 700;
+			color: @brand-secondary;
+		}
+	}
+	p{
+		font-size: 16px;
+		line-height: 24px;
+	}
+}
+
+.vc_gitem-link.vc_btn3{
+	&.more-btn{
+		padding: 0;
+		font-size: 16px;
+		border: none;
+		&:after{
+			content: "\f178";
+			font-family: FontAwesome;
+			margin-left: 10px;
+		}
+		&:hover{
+			background-color: transparent;
+			background-image: none;
+			border: none;
+		}
+	}
+}
+
+
+// Row width fix for products grid
+.vc_row{
+	.width24{
+		width: 24%;
+	}
+	.width74{
+		width: 74%;
+	}
+
+	@media(max-width: 767px){
+		.width24, .width74{
+			width: 100%;
+		}
+		.offset-product-col{
+			padding-left: 15px !important;
+		}
+	}
+}
+
+
+// What makes us different section
+.different-text{
+	h3{
+		color: @brand-secondary;
+		font-size: 24px;
+	}
+	p{
+		font-size: 18px;
+	}
+}
+
+
+// Vertical banner
+.demo-banner{
+	padding: 20px;
+	background-color: #fafafa;
+	background-image: url(img/vert_banner_bg.png);
+	background-position: right bottom;
+	background-repeat: no-repeat;
+	background-size: 50%;
+	h5{
+		font-size: 20px;
+		line-height: 30px;
+	}
+	.hb-button{
+		font-size: 16px;
+		text-transform: none;
+		letter-spacing: 0;
+		margin-top: 20px;
+	}
+}
+
+.vertical-banner{
+	.demo-banner{
+		padding-bottom: 200px;
+		h5{
+			margin-top: 70px;
+		}
+	}
+}
+
+
+
+
+@keyframes scroll {
+	0% {
+		opacity: 1;
+		transform: translateY(0px);
+	}
+	100% {
+		opacity: 0;
+		transform: translateY(10px);
+	}
+}
+#scrolldown {
+	bottom: 0;
+	height: 100px;
+	margin-left: -50px;
+	position: absolute;
+	left: 50%;
+	text-align: center;
+	width: 100px;
+	z-index: 100;
+	cursor: pointer;
+	p {
+		// font: 700 0.7em/1em 'Avenir',sans-serif;
+		animation-duration: 2s;
+		animation-fill-mode: both;
+		animation-iteration-count: infinite;
+		animation-name: scroll;
+		color: #737373;
+	}
+	>p {
+		text-transform: uppercase;
+		text-indent: 3px;
+		margin-bottom: 0;
+		animation: none;
+		transform: translateY(65px);
+	}
+	.mouse {
+		border: 2px solid #737373;
+		border-radius: 13px;
+		display: block;
+		height: 46px;
+		left: 50%;
+		margin: 10px 0 0 -13px;
+		position: absolute;
+		width: 26px;
+		span {
+			display: block;
+			font-size: 2.5em;
+			margin: 6px auto;
+		}
+	}
+}
+
+
+// Testimonials grid
+.axis_testimonials{
+	display: flex;
+
+	.column1, .column2, .column3{
+		width: 33.33%;
+		text-align: center;
+	}
+
+	.single_testimonial {
+	    margin: 5px;
+	    padding: 40px 40px;
+	    background-color: #f8f8f8;
+	    img{
+	    	max-height: 45px;
+	    }
+	    &_content{
+	    	font-size: 16px;
+	    	line-height: 24px;
+	    	margin: 20px 0;
+	    	font-weight: 600;
+	    	color: #484848;
+	    }
+	    &_author{
+	    	font-size: 16px;
+	    	font-weight: 700;
+	    	color: #484848;
+	    }
+	    h5{
+	    	font-size: 24px;
+	    	font-weight: 600;
+	    	color: @brand-secondary;
+	    	margin: 20px 0 30px;
+	    }
+
+	    &.bg1, &.bg2{
+	    	background-image: url(img/room_bg.jpg);
+	    	background-position: center;
+	    	background-size: cover;
+	    	box-shadow: inset 0 0 500px 100px rgba(0, 0, 0, 0.75);
+
+	    	.single_testimonial_content, .single_testimonial_author{
+	    		color: white;
+	    	}
+	    }
+	    &.bg2{
+	    	background-image: url(img/hotel_bg.jpg);
+	    	padding: 80px 40px;
+	    }
+	}
+
+	@media(max-width: 767px){
+		flex-wrap: wrap;
+		.column1, .column2, .column3{
+			width: 100%;
+		}
+	}
+}
+
+.homepage{
+	.fw-section.waved-border{
+		transform: skewY(2deg);
+	}
+}
+
+.trial-section{
+	transform: skewY(-2deg);
+	padding-top: 50px;
+	padding-bottom: 0;
+	margin-bottom: 0 !important;
+	h5{
+		color: #fff;
+		font-size: 25px;
+	    margin-bottom: 25px;
+	    font-weight: 700;
+	}
+	.hb-ul-list{
+		color: #fff;
+		font-size: 20px;
+		li{
+			margin-bottom: 15px;
+		}
+	}
+
+	.trial-white-bg{
+		background: #fff;
+	    padding: 70px 20px 60px;
+	    box-shadow: 0px -10px 20px 0px rgba(0, 0, 0, 0.1);
+	    margin-top: -120px;
+	    position: relative;
+	    top: 20px;
+	    &:before{
+	    	content: '';
+	    	background-image: url(img/dot-icon.png);
+	    	background-repeat: no-repeat;
+	    	background-size: contain;
+	    	position: absolute;
+	    	left: -110px;
+    	    bottom: 20px;
+    	    height: 200px;
+    	    width: 200px;
+    	    z-index: -1;
+	    }
+	    p{
+	    	font-size: 18px;
+	    	line-height: 26px;
+	    }
+	}
+
+	@media(max-width: 767px){
+		.trial-white-bg{
+			margin-top: 0;
+			margin-bottom: 40px !important;
+		}
+	}
+}
