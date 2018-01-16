@@ -755,11 +755,40 @@ body {
   -moz-box-shadow: inset 0 -4px 0 #10c9a3 !important;
        box-shadow: inset 0 -4px 0 #10c9a3 !important;
 }
+.testimonial-products-tabs.vc_tta-color-white.vc_tta-style-outline li.vc_tta-tab > a {
+  border-color: #ababab;
+  border-top: 0;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 16px;
+  color: #ababab;
+  padding: 14px 30px;
+  -moz-border-radius-topleft: 0;
+       border-top-left-radius: 0;
+  -moz-border-radius-topright: 0;
+       border-top-right-radius: 0;
+}
+.testimonial-products-tabs.vc_tta-color-white.vc_tta-style-outline li.vc_tta-tab.vc_active > a {
+  border-color: #10c9a3;
+  color: #10c9a3 !important;
+}
+.testimonial-products-tabs .vc_pageable-slide-wrapper p {
+  display: none;
+}
+.testimonial-products-tabs .vc_grid.vc_row .vc_grid-item {
+  float: left;
+}
 .logo-w-shadow {
   -moz-box-shadow: 0 0 15px rgba(0, 0, 0, 0.15);
        box-shadow: 0 0 15px rgba(0, 0, 0, 0.15);
   -moz-background-size: 80% !important;
        background-size: 80% !important;
+  height: 80px;
+  filter: grayscale(1);
+}
+.logo-wo-shadow {
+  -moz-background-size: 65% !important;
+       background-size: 65% !important;
   height: 80px;
   filter: grayscale(1);
 }

@@ -1,12 +1,4 @@
 .testimonial-customer-tabs{
-	// ul{
-	// 	display: flex;
-	// 	flex-wrap: wrap;
-	// 	li{
-	// 		flex-basis: 33%;
-
-	// 	}
-	// }
 	img{
 		width: 120px
 	}
@@ -31,9 +23,46 @@
 	}
 }
 
+.testimonial-products-tabs{
+	&.vc_tta-color-white.vc_tta-style-outline li.vc_tta-tab{
+		&>a {
+			border-color: #ababab;
+			border-top: 0;
+			text-transform: uppercase;
+			font-weight: 600;
+			font-size: 16px;
+			color: #ababab;
+			padding: 14px 30px;
+			border-top-left-radius: 0;
+			border-top-right-radius: 0;
+		}
+		&.vc_active{
+			&>a{
+				border-color: @brand-primary;
+				color: @brand-primary !important;
+			}
+		}
+	}
+	.vc_pageable-slide-wrapper{
+		p{
+			display: none;
+		}
+	}
+	.vc_grid.vc_row .vc_grid-item{
+		float: left;
+	}
+}
+
 .logo-w-shadow{
 	box-shadow: 0 0 15px rgba(0, 0, 0, 0.15);
 	background-size: 80% !important;
+	height: 80px;
+	filter: grayscale(1);
+}
+
+.logo-wo-shadow{
+	// box-shadow: 0 0 15px rgba(0, 0, 0, 0.15);
+	background-size: 65% !important;
 	height: 80px;
 	filter: grayscale(1);
 }
