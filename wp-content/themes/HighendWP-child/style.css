@@ -650,6 +650,21 @@ body {
   border: 0;
   border-bottom: 1px solid #d8d8d8;
 }
+.contact-form .vc_row .wpcf7-form-control.wpcf7-checkbox {
+  border-bottom: none;
+  display: -moz-box;
+  display: flex;
+  flex-wrap: wrap;
+}
+.contact-form .vc_row .wpcf7-form-control.wpcf7-checkbox .wpcf7-list-item {
+  margin-left: 0;
+  flex-basis: 50%;
+  margin-bottom: 10px;
+}
+.contact-form .vc_row .wpcf7-form-control.wpcf7-checkbox .wpcf7-list-item label {
+  line-height: 18px;
+  font-size: 13px;
+}
 .contact-form .vc_row input[type=date],
 .contact-form .vc_row input[type=email],
 .contact-form .vc_row input[type=password],

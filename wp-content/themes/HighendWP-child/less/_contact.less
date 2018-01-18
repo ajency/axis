@@ -73,6 +73,20 @@
 	    	background-color: transparent;
 	    	border: 0;
 	    	border-bottom: 1px solid @gray;
+	    	&.wpcf7-checkbox{
+	    		border-bottom: none;
+	    		display: flex;
+	    		flex-wrap: wrap;
+	    		.wpcf7-list-item{
+	    			margin-left: 0;
+	    			flex-basis: 50%;
+	    			margin-bottom: 10px;
+	    			label{
+	    				line-height: 18px;
+	    				font-size: 13px;
+	    			}
+	    		}
+	    	}
 	    }
 	    input[type=date], input[type=email], input[type=password], input[type=search], input[type=tel], input[type=text], input[type=url], select, textarea{
 	    	padding: 5px 5px 5px!important;
