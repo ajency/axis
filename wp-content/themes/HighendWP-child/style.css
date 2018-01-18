@@ -49,6 +49,16 @@ body {
 #footer .custom-html-widget p {
   font-size: 16px;
 }
+.dark-footer #footer {
+  background-color: #292929;
+  color: #7b7b7b !important;
+}
+.dark-footer #footer .widget-column .widget-item h4 {
+  color: #10c9a3 !important;
+}
+.dark-footer #footer .widget-column a {
+  color: #efefef;
+}
 .subscribe-holder {
   display: -moz-box;
   display: flex;
@@ -749,6 +759,7 @@ body {
   font-weight: 700;
   font-size: 18px;
   color: #353b63 !important;
+  background: transparent !important;
 }
 .testimonial-customer-tabs .vc_tta-tab.vc_active a {
   color: #10c9a3 !important;
@@ -835,6 +846,17 @@ body {
   padding: 30px 25px 20px;
   -moz-box-shadow: 0 0 15px rgba(0, 0, 0, 0.15);
        box-shadow: 0 0 15px rgba(0, 0, 0, 0.15);
+  background: #fff;
+}
+.testimonial-slider-wrapper:before {
+  content: '';
+  background-image: url(img/box_bg.png);
+  height: 120%;
+  width: 105%;
+  position: absolute;
+  top: -60px;
+  left: -30px;
+  z-index: -1;
 }
 .testimonial-slider-wrapper .hb-testimonial {
   border: 0;

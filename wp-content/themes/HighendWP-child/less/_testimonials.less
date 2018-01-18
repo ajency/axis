@@ -13,6 +13,7 @@
 			font-weight: 700;
 			font-size: 18px;
 			color: @brand-secondary !important;
+			background: transparent !important;
 		}
 		&.vc_active{
 			a{
@@ -122,6 +123,17 @@
 .testimonial-slider-wrapper{
 	padding: 30px 25px 20px;
 	box-shadow: 0 0 15px rgba(0, 0, 0, 0.15);
+	background: #fff;
+	&:before{
+		content: '';
+		background-image: url(img/box_bg.png);
+		height: 120%;
+		width: 105%;
+		position: absolute;
+		top: -60px;
+		left: -30px;
+		z-index: -1;
+	}
 	.hb-testimonial{
 		border: 0;
 		padding: 0;
