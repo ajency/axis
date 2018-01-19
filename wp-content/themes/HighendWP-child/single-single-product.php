@@ -12,6 +12,10 @@
 <?php
 	$gradient1 = get_post_meta($post->ID, "wpcf-gradient1", true);
 	$gradient2 = get_post_meta($post->ID, "wpcf-gradient2", true);
+	$image1 = get_post_meta($post->ID, "wpcf-image-1", true);
+	$image2 = get_post_meta($post->ID, "wpcf-image-2", true);
+	$image3 = get_post_meta($post->ID, "wpcf-image-3", true);
+	$image4 = get_post_meta($post->ID, "wpcf-image-4", true);
 ?>
 <style type="text/css">
 	.single-single-product .product-form #cf7md-form .mdc-button--primary.mdc-button--raised,
@@ -35,10 +39,10 @@
 						</div>
 					</div>
 					<div class="product-header_logos">
-						<img src="http://axisrooms.wpengine.com/wp-content/uploads/2018/01/airbnb_logo_small.png">
-						<img src="http://axisrooms.wpengine.com/wp-content/uploads/2018/01/Expedia_logo.png">
-						<!-- <img src="http://axisrooms.wpengine.com/wp-content/uploads/2018/01/Booking-Logo.png"> -->
-						<img src="http://axisrooms.wpengine.com/wp-content/uploads/2018/01/Oyo.png">
+						<img src="<?php echo $image1 ?>">
+						<img src="<?php echo $image2 ?>">
+						<img src="<?php echo $image3 ?>">
+						<img src="<?php echo $image4 ?>">
 					</div>
 				</div>
 				<div class="vc_col-sm-5">
