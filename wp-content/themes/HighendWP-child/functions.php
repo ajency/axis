@@ -300,7 +300,7 @@ function save_wpse44966_meta_box_cb( $post_id){
    if($_REQUEST['post_type']=='products' || 'single-product'){
 
      $misc_settings=array( 'hb_boxed_stretched_page' => "default" ,
-       'hb_page_extra_class' => "",
+       'hb_page_extra_class' => "dark-footer",
        'hb_special_header_style' => 1 ,
        'hb_page_alternative_logo' => "");
 
@@ -312,18 +312,7 @@ add_action('save_post', 'save_wpse44966_meta_box_cb');
 
 
 
-// function axisTestimonials() {
-//     ob_start();
-//     $data = '<div class="testiScroller">';
-//         $query = new WP_Query('post_type=hb_testimonials&showposts=5');
-//             while( $query->have_posts() ):$query->the_post();
-//             $data .= '<div class="singleTestimonial" id="testomial-'.get_the_ID().'">';
-//                 $data .= '<div class="clientDetails">- '.get_the_title().'<span>('.get_the_excerpt().')</span></div>';
-//             $data .= '</div>';
-//         endwhile; wp_reset_postdata();
-//     $data .= '</div>';
-//     return $data;
-//  }
-// add_shortcode('testimonial_sc','axisTestimonials');
+remove_filter( 'the_content', 'wpautop' );
+remove_filter( 'the_excerpt', 'wpautop' );
 
 ?>

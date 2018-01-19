@@ -78,6 +78,7 @@ body {
   text-transform: none;
   -moz-box-shadow: none;
        box-shadow: none;
+  background-color: #10c9a3;
 }
 .subscribe-holder .ajax-loader {
   width: 100%;
@@ -575,6 +576,20 @@ body {
   font-size: 20px;
   margin-bottom: 20px!important;
 }
+.single-single-product .integrations-tabs .vc_tta-tab a,
+.single-products .integrations-tabs .vc_tta-tab a {
+  border: 0 !important;
+  font-size: 18px;
+  font-weight: 600;
+  color: #353b63 !important;
+  background: transparent !important;
+}
+.single-single-product .integrations-tabs .vc_tta-tab.vc_active a,
+.single-products .integrations-tabs .vc_tta-tab.vc_active a {
+  color: #10c9a3 !important;
+  -moz-box-shadow: inset 0 -4px 0 #10c9a3 !important;
+       box-shadow: inset 0 -4px 0 #10c9a3 !important;
+}
 .different-text .hb-icon-wrapper .icon-box-img {
   max-width: 64px !important;
 }
@@ -582,6 +597,9 @@ body {
   border: 1px solid #d2d2d2;
   text-align: center;
   padding-top: 20px;
+}
+#copyright-text p {
+  font-size: 12px;
 }
 .contact-page .hb-logo-wrap {
   filter: brightness(0) invert(1);

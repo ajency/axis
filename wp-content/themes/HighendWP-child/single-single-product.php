@@ -8,8 +8,20 @@
 
 <?php get_header(); ?>
 
+
+<?php
+	$gradient1 = get_post_meta($post->ID, "wpcf-gradient1", true);
+	$gradient2 = get_post_meta($post->ID, "wpcf-gradient2", true);
+?>
+<style type="text/css">
+	.single-single-product .product-form #cf7md-form .mdc-button--primary.mdc-button--raised,
+	.single-products .product-form #cf7md-form .mdc-button--primary.mdc-button--raised{
+		background-color: <?php echo $gradient1 ?>;
+	}
+</style>
+
 <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
-	<div class="product-header">
+	<div class="product-header" style="background: -webkit-linear-gradient(left, <?php echo $gradient1 ?>, <?php echo $gradient2 ?>);">
 		<?php if (! is_attachment() ) { ?>
 		<!-- BEGIN .post-header -->
 		<div class="container">
