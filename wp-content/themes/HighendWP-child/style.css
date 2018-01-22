@@ -416,7 +416,7 @@ body {
 }
 .trial-section h5 {
   color: #fff;
-  font-size: 25px;
+  font-size: 28px;
   margin-bottom: 25px;
   font-weight: 700;
 }
@@ -424,21 +424,26 @@ body {
   color: #fff;
   font-size: 20px;
 }
-.trial-section .hb-ul-list li {
-  margin-bottom: 15px;
+.trial-section .hb-ul-list h6 {
+  font-size: 20px;
+  font-weight: bold;
+  color: #fff;
+  margin-bottom: 5px;
+}
+.trial-section .hb-ul-list li p {
+  padding-left: 30px;
 }
 .trial-section .trial-white-bg {
   background: #fff;
-  padding: 70px 20px 60px;
+  padding: 30px 20px 40px;
   -moz-box-shadow: 0px -10px 20px 0px rgba(0, 0, 0, 0.1);
        box-shadow: 0px -10px 20px 0px rgba(0, 0, 0, 0.1);
   margin-top: -120px;
   position: relative;
-  top: 20px;
+  top: 120px;
 }
 .trial-section .trial-white-bg:before {
   content: '';
-  background-image: url(img/dot-icon.png);
   background-repeat: no-repeat;
   -moz-background-size: contain;
        background-size: contain;
