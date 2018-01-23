@@ -301,7 +301,7 @@ function save_wpse44966_meta_box_cb( $post_id){
 
      $misc_settings=array( 'hb_boxed_stretched_page' => "default" ,
        'hb_page_extra_class' => "dark-footer",
-       'hb_special_header_style' => 1 ,
+       'hb_special_header_style' => 0 ,
        'hb_page_alternative_logo' => "");
 
        update_post_meta( $post_id, 'misc_settings', $misc_settings);
