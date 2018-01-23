@@ -520,6 +520,8 @@ body {
 .single-products .product-header {
   background: -webkit-linear-gradient(left, #56c3aa, #88d4f5);
   padding: 110px 0 40px;
+  top: -80px;
+  position: relative;
 }
 .single-single-product .product-header_text,
 .single-products .product-header_text {
@@ -611,8 +613,8 @@ body {
 .single-products .product-form .cf7md-admin-customize-message {
   display: none;
 }
-.single-single-product p,
-.single-products p {
+.single-single-product #main-content p,
+.single-products #main-content p {
   font-size: 15px;
   line-height: 24px;
 }
