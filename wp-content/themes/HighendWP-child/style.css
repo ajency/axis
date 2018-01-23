@@ -25,6 +25,49 @@ body {
        border-radius: 4px;
   -moz-box-shadow: 0 1px 10px rgba(0, 0, 0, 0.3);
        box-shadow: 0 1px 10px rgba(0, 0, 0, 0.3);
+  color: #fff;
+}
+#header-inner-bg {
+  background-color: transparent;
+  border-bottom: 0;
+}
+#main-nav > li > a {
+  color: #fff;
+  font-weight: 600;
+}
+#header-inner.stuck #header-inner-bg {
+  background: rgba(0, 0, 0, 0.7) !important;
+}
+.menu-caption > .sub-menu.sf-subbed {
+  background-color: rgba(255, 255, 255, 0.94) !important;
+  -moz-box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.15);
+       box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.15);
+}
+.menu-caption > .sub-menu.sf-subbed:before {
+  position: absolute;
+  content: '';
+  height: 100%;
+  width: 100%;
+  background-image: url(http://localhost/axis/wp-content/uploads/2018/01/dot-icon.png);
+  background-position: right top;
+  background-repeat: no-repeat;
+  opacity: 0.5;
+  -moz-background-size: 14%;
+       background-size: 14%;
+  bottom: 0;
+}
+#main-nav > li.megamenu > ul.sub-menu {
+  padding: 30px 0 0px !important;
+}
+#main-nav > li.megamenu > ul.sub-menu > li {
+  margin-bottom: 20px;
+}
+#main-nav > li.megamenu > ul.sub-menu:not(.megamenu) ul li a {
+  padding: 8px 20px;
+  font-size: 15px;
+}
+#main-content {
+  top: -80px;
 }
 .page-w-bg .hb-logo-wrap {
   filter: brightness(0) invert(1);
