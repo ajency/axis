@@ -702,7 +702,7 @@ body {
   font-size: 16px;
   padding: 0 60px;
 }
-.contact-page .contact-header-block button {
+.contact-page .contact-header-block .vc_btn3 {
   font-weight: 700;
 }
 .contact-page .scale-text {
