@@ -68,6 +68,12 @@ body {
 }
 #main-content {
   top: -80px;
+  margin-bottom: -80px;
+}
+.page-template-page-blank #main-content,
+.page-template-page-blank-w-footer #main-content {
+  top: 0;
+  margin-bottom: 0;
 }
 .page-w-bg .hb-logo-wrap {
   filter: brightness(0) invert(1);
@@ -848,6 +854,9 @@ body {
     top: -100px;
     height: 300px;
   }
+}
+.page-template-page-blank-w-footer .type-page {
+  margin-bottom: 0;
 }
 .testimonial-customer-tabs img {
   width: 120px;
