@@ -81,7 +81,7 @@ function testimonials_gal_shortcode($atts)
     $post = get_post($post_id);
     $logo = get_post_meta($post->ID, "wpcf-logo", true);;
     $content = apply_filters('the_content', $post->post_content);
-    $trim_content = mb_strimwidth($content, 0, 127, '...');
+    // $trim_content = mb_strimwidth($content, 0, 127, '...');
 
     $key_1_values = get_post_meta($post_id);
 
@@ -138,7 +138,7 @@ function testimonials_gal_shortcode($atts)
        $html .='<img src="'.$logo.'">';
        $html .='</div>';
        $html .='<div class="single_testimonial_content">';
-       $html .=$trim_content;
+       $html .=$content;
        $html .='</div>';
        $html .='<div class="single_testimonial_author">';
        $html .='-'.$array_temp[3];
