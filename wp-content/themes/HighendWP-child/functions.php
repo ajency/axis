@@ -105,7 +105,7 @@ function testimonials_gal_shortcode($atts)
         $html .='</div>';
         $html .='<div class="column2">';
         $html .='<div class="single_testimonial">';
-        $html .='<h1>  Why people believe in us </h1>';
+        $html .='<h5>  Why people believe in us </h5>';
         $html .='<div class="single_testimonial_content">';
         $html .='Lorem ipsum dolor sit amet, consectetur adipiscing elit';
         $html .='</div>';
