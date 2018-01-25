@@ -28,31 +28,11 @@ body{
 	max-height: 75%;
 }
 
-
-// Main Menu
-.main-navigation{
-	& > ul{
-		& > li{
-			&:last-child{
-				span{
-					background-color: @brand-secondary;
-				    padding: 8px 10px !important;
-				    border-radius: 4px;
-				    box-shadow: 0 1px 10px rgba(0, 0, 0, 0.3);
-				    color: #fff;
-				}
-			}
-		}
-	}
-}
 #header-inner-bg{
 	background-color: transparent;
 	border-bottom: 0;
 }
-#main-nav>li>a{
-	color: #fff;
-	font-weight: 600;
-}
+
 #header-inner.stuck{
 	#header-inner-bg{
 		background: rgba(0,0,0,0.7)!important;
@@ -61,40 +41,7 @@ body{
 	// 	color: #5d5d5d;
 	// }
 }
-.menu-caption{
 
-	&>.sub-menu{
-		&.sf-subbed{
-			background-color: rgba(255, 255, 255, 0.94) !important;
-			box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.15);
-			&:before{
-				position: absolute;
-				content: '';
-				height: 100%;
-				width: 100%;
-				background-image: url(https://axisrooms.wpengine.com/wp-content/uploads/2018/01/dot-icon.png);
-				background-position: right top;
-				background-repeat: no-repeat;
-				opacity: 0.5;
-				background-size: 14%;
-				bottom: 0;
-			}
-		}
-		.menu-item-has-children{
-
-		}
-	}
-}
-#main-nav>li.megamenu>ul.sub-menu{
-	padding: 30px 0 0px !important;
-}
-#main-nav>li.megamenu>ul.sub-menu>li{
-	margin-bottom: 20px;
-}
-#main-nav>li.megamenu>ul.sub-menu:not(.megamenu) ul li a {
-    padding: 8px 20px;
-    font-size: 15px;
-}
 
 #main-content{
 	top: -80px;
@@ -115,7 +62,6 @@ body{
 		background: -webkit-linear-gradient(left, #56c3aa, #88d4f5);
 	}
 }
-
 
 
 // Footer
@@ -196,6 +142,9 @@ body{
 }
 
 // Home Page
+@import '_menu';
+
+// Home Page
 @import '_home';
 
 // Product Page
@@ -206,3 +155,47 @@ body{
 
 // Testimonials Page
 @import '_testimonials';
+
+label{
+	position: relative;
+}
+input[type="checkbox"] {
+  position: relative;
+  top: -0.15rem;
+  margin: 0 0rem 0 0;
+  cursor: pointer;
+  padding-left: 10px;
+}
+input[type="checkbox"]:before {
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  content: "";
+  position: absolute;
+  left: 0;
+  z-index: 1;
+  width: 1rem;
+  height: 1rem;
+  border: 2px solid #f2f2f2;
+}
+input[type="checkbox"]:checked:before {
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  height: .5rem;
+  border-color: #009688;
+  border-top-style: none;
+  border-right-style: none;
+}
+input[type="checkbox"]:after {
+  content: "";
+  position: absolute;
+  top: -0.125rem;
+  left: 0;
+  width: 1.1rem;
+  height: 1.1rem;
+  background: #fff;
+  cursor: pointer;
+}

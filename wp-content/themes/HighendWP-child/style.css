@@ -18,53 +18,12 @@ body {
 .stuck #logo img {
   max-height: 75%;
 }
-.main-navigation > ul > li:last-child span {
-  background-color: #353b63;
-  padding: 8px 10px !important;
-  -moz-border-radius: 4px;
-       border-radius: 4px;
-  -moz-box-shadow: 0 1px 10px rgba(0, 0, 0, 0.3);
-       box-shadow: 0 1px 10px rgba(0, 0, 0, 0.3);
-  color: #fff;
-}
 #header-inner-bg {
   background-color: transparent;
   border-bottom: 0;
 }
-#main-nav > li > a {
-  color: #fff;
-  font-weight: 600;
-}
 #header-inner.stuck #header-inner-bg {
   background: rgba(0, 0, 0, 0.7) !important;
-}
-.menu-caption > .sub-menu.sf-subbed {
-  background-color: rgba(255, 255, 255, 0.94) !important;
-  -moz-box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.15);
-       box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.15);
-}
-.menu-caption > .sub-menu.sf-subbed:before {
-  position: absolute;
-  content: '';
-  height: 100%;
-  width: 100%;
-  background-image: url(https://axisrooms.wpengine.com/wp-content/uploads/2018/01/dot-icon.png);
-  background-position: right top;
-  background-repeat: no-repeat;
-  opacity: 0.5;
-  -moz-background-size: 14%;
-       background-size: 14%;
-  bottom: 0;
-}
-#main-nav > li.megamenu > ul.sub-menu {
-  padding: 30px 0 0px !important;
-}
-#main-nav > li.megamenu > ul.sub-menu > li {
-  margin-bottom: 20px;
-}
-#main-nav > li.megamenu > ul.sub-menu:not(.megamenu) ul li a {
-  padding: 8px 20px;
-  font-size: 15px;
 }
 #main-content {
   top: -80px;
@@ -140,6 +99,84 @@ body {
 }
 .font-weight-heavy {
   font-weight: 700;
+}
+.main-navigation > ul > li:last-child span {
+  background-color: #353b63;
+  padding: 8px 10px !important;
+  -moz-border-radius: 4px;
+       border-radius: 4px;
+  -moz-box-shadow: 0 1px 10px rgba(0, 0, 0, 0.3);
+       box-shadow: 0 1px 10px rgba(0, 0, 0, 0.3);
+  color: #fff;
+}
+.main-navigation.minimal-skin #main-nav > li.current-menu-ancestor > a {
+  color: #fff;
+}
+#main-nav > li > a {
+  color: #fff;
+  font-size: 13px;
+  font-weight: 600;
+  font-family: Open sans;
+}
+.menu-caption > .sub-menu.sf-subbed {
+  background-color: rgba(255, 255, 255, 0.94) !important;
+  -moz-box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.15);
+       box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.15);
+}
+.menu-caption > .sub-menu.sf-subbed:before {
+  position: absolute;
+  content: '';
+  height: 100%;
+  width: 100%;
+  background-image: url(https://axisrooms.wpengine.com/wp-content/uploads/2018/01/dot-icon.png);
+  background-position: right top;
+  background-repeat: no-repeat;
+  opacity: 0.5;
+  -moz-background-size: 14%;
+       background-size: 14%;
+  bottom: 0;
+}
+#main-nav > li.megamenu > ul.sub-menu {
+  padding: 30px 0 0px !important;
+}
+#main-nav > li.megamenu > ul.sub-menu > li {
+  margin-bottom: 20px;
+}
+#main-nav > li.megamenu > ul.sub-menu:not(.megamenu) ul li a {
+  padding: 8px 20px;
+  font-size: 15px;
+}
+#header-bar {
+  background-color: #333333;
+  color: #bbb;
+  border-bottom: 1px solid #505050;
+}
+#header-bar a {
+  color: #bbb;
+}
+#header-bar.style-1 .top-widget {
+  border-right-color: #505050;
+}
+#top-info-widget {
+  border-left: 1px solid #505050;
+}
+.hb-dropdown-box {
+  background-color: #333333;
+  color: #bbb;
+  border-color: #505050;
+}
+.hb-dropdown-box::before {
+  background-color: #333333;
+  border-color: #505050;
+}
+.logout-dropdown ul li a {
+  border-color: #505050 !important;
+}
+.logout-dropdown ul li a:hover {
+  background-color: #505050;
+}
+#main-wrapper .hb-dropdown-box a {
+  color: #bbb !important;
 }
 .homepage #main-content {
   background-image: url(img/home_bg.png);
@@ -983,4 +1020,43 @@ body {
 .testimonial-slider-wrapper .flex-control-nav li a {
   color: #10c9a3;
   font-size: 14px;
+}
+label {
+  position: relative;
+}
+input[type="checkbox"] {
+  position: relative;
+  top: -0.15rem;
+  margin: 0 0rem 0 0;
+  cursor: pointer;
+  padding-left: 10px;
+}
+input[type="checkbox"]:before {
+  -moz-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  content: "";
+  position: absolute;
+  left: 0;
+  z-index: 1;
+  width: 1rem;
+  height: 1rem;
+  border: 2px solid #f2f2f2;
+}
+input[type="checkbox"]:checked:before {
+  -moz-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  height: .5rem;
+  border-color: #009688;
+  border-top-style: none;
+  border-right-style: none;
+}
+input[type="checkbox"]:after {
+  content: "";
+  position: absolute;
+  top: -0.125rem;
+  left: 0;
+  width: 1.1rem;
+  height: 1.1rem;
+  background: #fff;
+  cursor: pointer;
 }
