@@ -138,7 +138,7 @@ function testimonials_gal_shortcode($atts)
        $html .='<img src="'.$logo.'">';
        $html .='</div>';
        $html .='<div class="single_testimonial_content">';
-       $html .=$array_temp[7];
+       $html .= do_shortcode($array_temp[7]);
        $html .='</div>';
        $html .='<div class="single_testimonial_author">';
        $html .='-'.$array_temp[3];
