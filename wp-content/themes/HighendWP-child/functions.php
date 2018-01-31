@@ -187,4 +187,33 @@ add_action('save_post', 'save_wpse44966_meta_box_cb');
 remove_filter( 'the_content', 'wpautop' );
 remove_filter( 'the_excerpt', 'wpautop' );
 
+/**
+ * Create a shortcode to insert content of a page of specified ID
+ *
+ * @param    array        attributes of shortcode
+ * @return     string        $output        Content of page specified, if no page id specified output = null
+ */
+function pa_insertPage($atts, $content = null) {
+ // Default output if no pageid given
+ $output = NULL;
+
+ // extract atts and assign to array
+ extract(shortcode_atts(array(
+ "page" => '' // default value could be placed here
+ ), $atts));
+
+ // if a page id is specified, then run query
+ if (!empty($page)) {
+ $pageContent = new WP_query();
+ $pageContent->query(array('page_id' => $page));
+ while ($pageContent->have_posts()) : $pageContent->the_post();
+ // assign the content to $output
+ $output = do_shortcode(get_the_content());
+ endwhile;
+ }
+
+ return $output;
+}
+add_shortcode('pa_insert', 'pa_insertPage');
+
 ?>
