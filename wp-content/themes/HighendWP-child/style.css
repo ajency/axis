@@ -718,10 +718,16 @@ a {
 .other_prod_box p {
   min-height: 72px;
 }
+.other_prod_box a {
+  border: 0 !important;
+}
 .other_prod_box a:hover {
   background-color: transparent;
   -moz-box-shadow: none;
        box-shadow: none;
+  background-image: none;
+  background-position: 0 -100% !important;
+  border: 0 !important;
 }
 #copyright-text p {
   font-size: 12px;
