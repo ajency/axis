@@ -1045,7 +1045,9 @@ a {
   font-size: 14px;
 }
 .hb-testimonial-box .testimonial-author .testimonial-company {
-  display: none;
+  visibility: hidden;
+  height: 0px;
+  overflow: hidden;
 }
 .pricing-header-row + .fw-section {
   overflow: visible;
