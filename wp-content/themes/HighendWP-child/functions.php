@@ -79,7 +79,7 @@ function testimonials_gal_shortcode($atts)
     $query->the_post();
     $post_id = get_the_ID();
     $post = get_post($post_id);
-    $logo = get_post_meta($post->ID, "wpcf-logo", true);;
+    $logo = get_post_meta($post->ID, "wpcf-company-logo", true);;
     $content = apply_filters('the_content', $post->post_content);
     // $trim_content = mb_strimwidth($content, 0, 127, '...');
 
