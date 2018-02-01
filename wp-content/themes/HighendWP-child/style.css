@@ -1341,5 +1341,10 @@ a {
   background-color: transparent;
 }
 .border-grid .vc_grid-item {
-  border: 1px solid #d8d8d8;
+  border: 1px solid #eee;
+  padding: 20px 20px !important;
+}
+.border-grid .vc_grid-item .vc_gitem-zone {
+  -moz-background-size: 200px;
+       background-size: 200px;
 }
