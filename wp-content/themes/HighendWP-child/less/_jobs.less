@@ -1,0 +1,93 @@
+.job-item.grid-item{
+	.vc_tta.vc_tta-accordion .vc_tta-controls-icon-position-left.vc_tta-panel-title>a{
+		padding-left: 0;
+	}
+	.vc_tta.vc_general .vc_tta-panel-title>a{
+		padding-left: 0;
+		padding-right: 0;
+	}
+	.vc_tta-color-grey.vc_tta-style-classic .vc_tta-panel{
+		.vc_tta-panel-heading, .vc_tta-panel-body {
+			background-color: transparent;
+			border: 0;
+		}
+		&.vc_active .vc_tta-panel-heading{
+			background-color: transparent;
+		}
+		.vc_tta-panel-heading{
+			&:hover{
+				background-color: transparent;
+			}
+			a{
+				border-bottom: 1px solid lighten(@gray, 0%);
+			}
+			h4{
+				font-size: 16px;
+			}
+		}
+		.vc_tta-panel-body{
+			padding-left: 0;
+			padding-right: 0;
+		}
+
+		.wpb_text_column{
+			margin-bottom: 0 !important;
+		}
+	}
+	.vc_tta.vc_tta-accordion .vc_tta-controls-icon-position-left .vc_tta-controls-icon{
+		left: initial;
+		right: 0;
+		&:before, &:after{
+			border-color: @brand-primary !important;
+		}
+	}
+
+	.hb-ul-list{
+		li{
+			display: flex;
+			align-items: baseline;
+			.icon-ok{
+				font-size: 18px;
+			}
+		}
+	}
+
+	.job-info{
+		margin: 10px 0;
+	}
+
+	.job-title{
+		font-weight: 700;
+		font-size: 20px;
+	}
+
+	.apply-btn{
+		// margin: auto;
+	    display: inline-block;
+	    // max-width: 150px;
+	    background: transparent;
+	    color: #10c9a3 !important;
+	    -moz-box-shadow: none;
+	    box-shadow: none;
+	    border: 1px solid #10c9a3;
+	    padding: 8px 25px;
+	    text-transform: none;
+	    font-size: 16px;
+	    letter-spacing: 0;
+	    line-height: 18px;
+	    margin-top: 20px;
+	    margin-bottom: 20px;
+	}
+
+	.list-data{
+		border: 0;
+		box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+		.job-description p{
+			font-size: 14px;
+		}
+	}
+}
+
+.sjb-page{
+	background-color: transparent;
+}

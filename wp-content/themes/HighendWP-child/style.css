@@ -13,6 +13,8 @@
 -------------------------------------------------------------- */
 body {
   color: #353b63;
+  font-size: 16px;
+  line-height: 28px;
 }
 #logo img,
 .stuck #logo img {
@@ -1256,4 +1258,88 @@ a {
 }
 [id^="pricing-"].hb-modal-window .pricing-modal-subtitle {
   margin-top: 30px;
+}
+.job-item.grid-item .vc_tta.vc_tta-accordion .vc_tta-controls-icon-position-left.vc_tta-panel-title > a {
+  padding-left: 0;
+}
+.job-item.grid-item .vc_tta.vc_general .vc_tta-panel-title > a {
+  padding-left: 0;
+  padding-right: 0;
+}
+.job-item.grid-item .vc_tta-color-grey.vc_tta-style-classic .vc_tta-panel .vc_tta-panel-heading,
+.job-item.grid-item .vc_tta-color-grey.vc_tta-style-classic .vc_tta-panel .vc_tta-panel-body {
+  background-color: transparent;
+  border: 0;
+}
+.job-item.grid-item .vc_tta-color-grey.vc_tta-style-classic .vc_tta-panel.vc_active .vc_tta-panel-heading {
+  background-color: transparent;
+}
+.job-item.grid-item .vc_tta-color-grey.vc_tta-style-classic .vc_tta-panel .vc_tta-panel-heading:hover {
+  background-color: transparent;
+}
+.job-item.grid-item .vc_tta-color-grey.vc_tta-style-classic .vc_tta-panel .vc_tta-panel-heading a {
+  border-bottom: 1px solid #d8d8d8;
+}
+.job-item.grid-item .vc_tta-color-grey.vc_tta-style-classic .vc_tta-panel .vc_tta-panel-heading h4 {
+  font-size: 16px;
+}
+.job-item.grid-item .vc_tta-color-grey.vc_tta-style-classic .vc_tta-panel .vc_tta-panel-body {
+  padding-left: 0;
+  padding-right: 0;
+}
+.job-item.grid-item .vc_tta-color-grey.vc_tta-style-classic .vc_tta-panel .wpb_text_column {
+  margin-bottom: 0 !important;
+}
+.job-item.grid-item .vc_tta.vc_tta-accordion .vc_tta-controls-icon-position-left .vc_tta-controls-icon {
+  left: initial;
+  right: 0;
+}
+.job-item.grid-item .vc_tta.vc_tta-accordion .vc_tta-controls-icon-position-left .vc_tta-controls-icon:before,
+.job-item.grid-item .vc_tta.vc_tta-accordion .vc_tta-controls-icon-position-left .vc_tta-controls-icon:after {
+  border-color: #10c9a3 !important;
+}
+.job-item.grid-item .hb-ul-list li {
+  display: -moz-box;
+  display: flex;
+  -moz-box-align: baseline;
+       align-items: baseline;
+}
+.job-item.grid-item .hb-ul-list li .icon-ok {
+  font-size: 18px;
+}
+.job-item.grid-item .job-info {
+  margin: 10px 0;
+}
+.job-item.grid-item .job-title {
+  font-weight: 700;
+  font-size: 20px;
+}
+.job-item.grid-item .apply-btn {
+  display: inline-block;
+  background: transparent;
+  color: #10c9a3 !important;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  border: 1px solid #10c9a3;
+  padding: 8px 25px;
+  text-transform: none;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 18px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.job-item.grid-item .list-data {
+  border: 0;
+  -moz-box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+       box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.job-item.grid-item .list-data .job-description p {
+  font-size: 14px;
+}
+.sjb-page {
+  background-color: transparent;
+}
+.border-grid .vc_grid-item {
+  border: 1px solid #d8d8d8;
 }
