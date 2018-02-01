@@ -143,13 +143,13 @@ button {
   color: #fff;
 }
 .main-navigation.minimal-skin #main-nav > li.current-menu-ancestor > a span {
-  border-bottom: 2px solid #10c9a3 !important;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.7) !important;
 }
 .main-navigation.minimal-skin #main-nav > li.current-menu-item > a {
   color: #fff;
 }
 .main-navigation.minimal-skin #main-nav > li.current-menu-item > a span {
-  border-bottom: 2px solid #10c9a3 !important;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.7) !important;
 }
 #main-nav > li > a {
   color: #fff;
@@ -1295,6 +1295,7 @@ button {
 }
 .job-item.grid-item .vc_tta-color-grey.vc_tta-style-classic .vc_tta-panel .vc_tta-panel-heading a {
   border-bottom: 1px solid #d8d8d8;
+  font-weight: 600;
 }
 .job-item.grid-item .vc_tta-color-grey.vc_tta-style-classic .vc_tta-panel .vc_tta-panel-heading h4 {
   font-size: 16px;
@@ -1322,6 +1323,7 @@ button {
 }
 .job-item.grid-item .hb-ul-list li .icon-ok {
   font-size: 18px;
+  margin-right: 10px;
 }
 .job-item.grid-item .job-info {
   margin: 10px 0;
