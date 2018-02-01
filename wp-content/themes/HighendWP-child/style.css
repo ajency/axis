@@ -1342,6 +1342,7 @@ button {
   padding: 8px 25px;
   text-transform: none;
   font-size: 16px;
+  font-weight: 600;
   letter-spacing: 0;
   line-height: 18px;
   margin-top: 20px;
@@ -1357,6 +1358,12 @@ button {
 }
 .sjb-page {
   background-color: transparent;
+}
+.sjb-page .sjb-listing .grid-view .row .grid-item:nth-child(2n+1) {
+  clear: left;
+}
+.sjb-page .sjb-listing .grid-view .row .grid-item:nth-child(3n+1) {
+  clear: none;
 }
 .border-grid .vc_grid-item {
   border: 1px solid #eee;
