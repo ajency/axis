@@ -114,6 +114,10 @@ a {
 .smaller-p {
   font-size: 14px !important;
 }
+.big-p {
+  font-size: 16px !important;
+  line-height: 28px;
+}
 .font-weight-medium {
   font-weight: 600;
 }
@@ -122,6 +126,9 @@ a {
 }
 .text-center {
   text-align: center;
+}
+button {
+  font-weight: 600;
 }
 .main-navigation > ul > li:last-child span {
   background-color: #353b63;
