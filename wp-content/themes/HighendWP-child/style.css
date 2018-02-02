@@ -1381,7 +1381,8 @@ button {
 .sjb-page .sjb-listing .grid-view .row .grid-item:nth-child(3n+1) {
   clear: none;
 }
-.resume-image {
+.resume-image,
+.banner-bottom-img {
   top: 25px;
   position: relative;
 }
@@ -1395,4 +1396,27 @@ button {
 .border-grid .vc_grid-item .vc_gitem-zone {
   -moz-background-size: 200px;
        background-size: 200px;
+}
+.axisrooms .dataTables_length {
+  margin-bottom: 10px;
+}
+.axisrooms .tablepress td,
+.axisrooms .tablepress th {
+  padding: 15px;
+}
+.axisrooms .tablepress td {
+  padding: 10px;
+}
+.axisrooms .tablepress thead th {
+  background-color: #353b63;
+}
+.axisrooms .tablepress thead th:hover {
+  background-color: #2c3152;
+}
+.axisrooms table tfoot tr td,
+.axisrooms table thead tr th {
+  color: #fff;
+}
+.axisrooms a {
+  font-weight: normal;
 }
