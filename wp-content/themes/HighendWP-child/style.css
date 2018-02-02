@@ -1414,10 +1414,10 @@ a.vc_btn3 {
 .axisrooms .tablepress thead th:hover {
   background-color: #2c3152;
 }
-.axisrooms table tfoot tr td,
-.axisrooms table thead tr th {
+.axisrooms .tablepress table tfoot tr td,
+.axisrooms .tablepress table thead tr th {
   color: #fff;
 }
-.axisrooms a {
+.axisrooms .tablepress a {
   font-weight: normal;
 }
