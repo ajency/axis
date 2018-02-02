@@ -941,12 +941,15 @@ button {
 .page-template-page-blank-w-footer .type-page {
   margin-bottom: 0;
 }
+.country-block > .wpb_wrapper {
+  padding: 15px;
+}
 .country-block.bord-right {
   border-right: 1px solid #d4d4d4;
 }
 .country-block p {
-  font-size: 16px;
-  line-height: 26px;
+  font-size: 14px;
+  line-height: 24px;
 }
 .country-block .hb-icon {
   color: #353b63;
