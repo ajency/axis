@@ -403,6 +403,35 @@ a.vc_btn3 {
 .vertical-banner .demo-banner h5 {
   margin-top: 70px;
 }
+.horizontal-demo-banner .demo-banner {
+  padding: 35px 20px 10px;
+  background: transparent;
+  display: -moz-box;
+  display: flex;
+  -moz-box-align: center;
+       align-items: center;
+  -moz-box-pack: justify;
+       justify-content: space-between;
+}
+.horizontal-demo-banner .demo-banner h5 {
+  margin: 0;
+  font-size: 22px;
+  color: #353b63;
+}
+.horizontal-demo-banner .demo-banner .hb-button {
+  margin: 0;
+}
+@media (max-width: 767px) {
+  .horizontal-demo-banner .demo-banner {
+    flex-wrap: wrap;
+    -moz-box-pack: center;
+         justify-content: center;
+    text-align: center;
+  }
+  .horizontal-demo-banner .demo-banner h5 {
+    margin-bottom: 10px;
+  }
+}
 @-moz-keyframes scroll {
   0% {
     opacity: 1;

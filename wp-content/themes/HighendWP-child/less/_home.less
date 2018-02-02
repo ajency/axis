@@ -217,6 +217,35 @@
 }
 
 
+.horizontal-demo-banner{
+	.demo-banner{
+		padding: 35px 20px 10px;
+		background: transparent;
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		h5{
+			margin: 0;
+			font-size: 22px;
+			color: @brand-secondary;
+		}
+		.hb-button{
+			margin: 0;
+		}
+	}
+
+	@media(max-width: 767px){
+		.demo-banner{
+			flex-wrap: wrap;
+			justify-content: center;
+			text-align: center;
+			h5{
+				margin-bottom: 10px;
+			}
+		}
+	}
+}
+
 
 
 @keyframes scroll {
