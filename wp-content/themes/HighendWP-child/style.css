@@ -1365,6 +1365,13 @@ button {
 .sjb-page .sjb-listing .grid-view .row .grid-item:nth-child(3n+1) {
   clear: none;
 }
+.resume-image {
+  top: 25px;
+  position: relative;
+}
+.job-apply-form .frm_submit {
+  text-align: center;
+}
 .border-grid .vc_grid-item {
   border: 1px solid #eee;
   padding: 20px 20px !important;
