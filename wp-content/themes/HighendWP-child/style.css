@@ -1021,9 +1021,6 @@ a.vc_btn3 {
   -moz-border-radius-topright: 0;
        border-top-right-radius: 0;
 }
-.testimonial-products-tabs.vc_tta-color-white.vc_tta-style-outline li.vc_tta-tab > a > span {
-  white-space: pre;
-}
 .testimonial-products-tabs.vc_tta-color-white.vc_tta-style-outline li.vc_tta-tab:before,
 .testimonial-products-tabs.vc_tta-color-white.vc_tta-style-outline li.vc_tta-tab:after {
   left: 0;

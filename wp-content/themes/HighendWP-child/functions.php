@@ -2,18 +2,23 @@
 
 function highend_child_theme_enqueue_styles() {
 
-    $parent_style = 'highend-parent-style';
+  $parent_style = 'highend-parent-style';
 
-    wp_enqueue_style( $parent_style, get_template_directory_uri() . '/style.css' );
+  wp_enqueue_style( $parent_style, get_template_directory_uri() . '/style.css' );
 
-    wp_enqueue_style( 'highend-child-style',
-        get_stylesheet_directory_uri() . '/style.css',
-        array( $parent_style )
-    );
+  wp_enqueue_style( 'highend-child-style',
+      get_stylesheet_directory_uri() . '/style.css',
+      array( $parent_style )
+  );
 }
 add_action( 'wp_enqueue_scripts', 'highend_child_theme_enqueue_styles' );
 
 
+function axis_adding_scripts() {
+  wp_register_script('axis_custom_script', get_stylesheet_directory_uri() . '/scripts/custom.js', array('jquery'),'1.0', true);
+  wp_enqueue_script('axis_custom_script');
+}
+add_action( 'wp_enqueue_scripts', 'axis_adding_scripts' );
 
 
 function cta_banner_shortcode($atts){
@@ -26,7 +31,7 @@ function cta_banner_shortcode($atts){
       'modal_window_title' => 'Schedule A Demo'
 
    ), $atts));
-   $modalshortcode =  do_shortcode('[modal_window title="'.$modal_window_title.'" invoke_title="'.$button_text.'" id="" show_on_load="no"]  [contact-form-7 id="'.$form_id.'" title="'.$form_title.'"] [/modal_window]');
+   $modalshortcode =  do_shortcode('[modal_window title="'.$modal_window_title.'" invoke_title="'.$button_text.'" id="demoModal" show_on_load="no"]  [contact-form-7 id="'.$form_id.'" title="'.$form_title.'"] [/modal_window]');
    $html = '<div class="demo-banner"> ';
    $html .='<h5>'.$demo_title.'</h5>';
    $html .= $modalshortcode;
