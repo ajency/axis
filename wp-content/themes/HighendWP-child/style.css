@@ -101,7 +101,6 @@ body {
   font-size: 16px;
   text-transform: none;
   letter-spacing: 0;
-  margin-top: 20px;
   background-color: #10c9a3;
   -moz-box-shadow: none;
        box-shadow: none;
@@ -410,7 +409,8 @@ a.vc_btn3 {
   display: flex;
   -moz-box-align: center;
        align-items: center;
-  justify-content: space-around;
+  -moz-box-pack: center;
+       justify-content: center;
 }
 .horizontal-demo-banner .demo-banner h5 {
   margin: 0;
