@@ -1190,11 +1190,11 @@ a.vc_btn3 {
   top: -150px;
 }
 .pricing-extra-block img {
-  max-width: 70px !important;
+  max-width: 60px !important;
 }
 .pricing-extra-block p {
-  font-size: 16px;
-  line-height: 24px;
+  font-size: 15px;
+  line-height: 22px;
 }
 .pricing-extra-block > .wpb_wrapper {
   padding: 10px;
