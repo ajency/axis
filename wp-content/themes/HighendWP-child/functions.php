@@ -147,7 +147,11 @@ function testimonials_gal_shortcode($atts)
        $html .= do_shortcode($excerpt);
        $html .='</div>';
        $html .='<div class="single_testimonial_author">';
-       $html .='-'.$array_temp[3];
+       $html .= $array_temp[3];
+       $html .='<br>';
+       $html .='<small>';
+       $html .= $array_temp[7];
+       $html .='</small>';
        $html .='</div>';
        $html .='</div>';
      if ($count ==5)

@@ -1,4 +1,4 @@
-jQuery('.menu-item-81 a, .menu-item-258 a').on('click', function(e) {
+jQuery('.menu-item-81 a, .menu-item-258 a, .schedule-demo-trigger a, .schedule-demo-trigger button').on('click', function(e) {
 	e.preventDefault();
 	var $modal_id = "demoModal";
 

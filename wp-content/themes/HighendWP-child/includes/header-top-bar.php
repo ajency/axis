@@ -72,7 +72,7 @@ if ( class_exists('Woocommerce') ) {
         ?>
         <!-- BEGIN .top-widget Information -->
         <div id="top-info-widget" class="top-widget float-left <?php if (!$header_left_email) echo 'clear-r-margin'; ?>">
-            <p><i class="icon-phone"></i><?php echo $header_left_text; ?></p>
+            <a href="tel:<?php echo $header_left_text; ?>"><i class="icon-phone"></i><?php echo $header_left_text; ?></a>
         </div>
         <!-- END .top-widget -->
     <?php }
