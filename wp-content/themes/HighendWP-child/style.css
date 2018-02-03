@@ -159,7 +159,7 @@ a.vc_btn3 {
   font-family: Open sans;
 }
 .menu-caption > .sub-menu.sf-subbed {
-  background-color: rgba(255, 255, 255, 0.94) !important;
+  background-color: #ffffff !important;
   -moz-box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.15);
        box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.15);
 }
@@ -1021,6 +1021,9 @@ a.vc_btn3 {
   -moz-border-radius-topright: 0;
        border-top-right-radius: 0;
 }
+.testimonial-products-tabs.vc_tta-color-white.vc_tta-style-outline li.vc_tta-tab > a > span {
+  white-space: pre;
+}
 .testimonial-products-tabs.vc_tta-color-white.vc_tta-style-outline li.vc_tta-tab:before,
 .testimonial-products-tabs.vc_tta-color-white.vc_tta-style-outline li.vc_tta-tab:after {
   left: 0;
@@ -1117,11 +1120,6 @@ a.vc_btn3 {
 .testimonial-slider-wrapper .flex-control-nav li a {
   color: #10c9a3;
   font-size: 14px;
-}
-.hb-testimonial-box .testimonial-author .testimonial-company {
-  visibility: hidden;
-  height: 0px;
-  overflow: hidden;
 }
 .pricing-header-row + .fw-section {
   overflow: visible;
