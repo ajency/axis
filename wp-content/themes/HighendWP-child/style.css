@@ -410,8 +410,7 @@ a.vc_btn3 {
   display: flex;
   -moz-box-align: center;
        align-items: center;
-  -moz-box-pack: justify;
-       justify-content: space-between;
+  justify-content: space-around;
 }
 .horizontal-demo-banner .demo-banner h5 {
   margin: 0;
@@ -419,7 +418,7 @@ a.vc_btn3 {
   color: #353b63;
 }
 .horizontal-demo-banner .demo-banner .hb-button {
-  margin: 0;
+  margin: 0 10px;
 }
 @media (max-width: 767px) {
   .horizontal-demo-banner .demo-banner {
