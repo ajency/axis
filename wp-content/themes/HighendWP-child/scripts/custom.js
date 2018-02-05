@@ -10,10 +10,10 @@ jQuery('.menu-item-81 a, .menu-item-258 a, .schedule-demo-trigger a, .schedule-d
 	$body.addClass('no-scroll');
 });
 
-jQuery('body').on('click', '.pricing-tabs a', function(){
-	if (jQuery(this).closest('.pricing-tabs').hasClass('.channel-manager-block')){
+jQuery('body').on('click', '.pricing-block a', function(){
+	if (jQuery(this).closest('.pricing-block').hasClass('.channel-manager-block')){
 		jQuery('.vc_tta-tab a[href="#channel-manager-tab"]').trigger('click')
-	} else if (jQuery(this).closest('.pricing-tabs').hasClass('.booking-engine-block')){
+	} else if (jQuery(this).closest('.pricing-block').hasClass('.booking-engine-block')){
 		jQuery('.vc_tta-tab a[href="#booking-engine-tab"]').trigger('click')
 	}
 });
