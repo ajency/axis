@@ -11,6 +11,14 @@ jQuery('.menu-item-81 a, .menu-item-258 a, .schedule-demo-trigger a, .schedule-d
 });
 
 jQuery('body').on('click', '.pricing-tabs a', function(){
+	if (jQuery(this).closest('.pricing-tabs').hasClass('.channel-manager-block')){
+		jQuery('.vc_tta-tab a[href="#channel-manager-tab"]').trigger('click')
+	} else if (jQuery(this).closest('.pricing-tabs').hasClass('.booking-engine-block')){
+		jQuery('.vc_tta-tab a[href="#booking-engine-tab"]').trigger('click')
+	}
+});
+
+jQuery('body').on('click', '.pricing-block a', function(){
 	if (jQuery(this).attr('href')=='#channel-manager-tab'){
 		jQuery('.channel-manager-heading').siblings('.pricing-tabs-heading').addClass('hidden');
 		jQuery('.channel-manager-heading').removeClass('hidden');
