@@ -193,7 +193,7 @@ function save_wpse44966_meta_box_cb( $post_id){
 add_action('save_post', 'save_wpse44966_meta_box_cb');
 
 
-function hb_team_member_box( $post_id , $style = "", $excerpt_length = 20 ){
+function hb_team_member_box( $post_id , $style = "", $excerpt_length = 40 ){
   $testimonial_post = get_post($post_id);
   if ( $testimonial_post ) {
     setup_postdata($testimonial_post);
