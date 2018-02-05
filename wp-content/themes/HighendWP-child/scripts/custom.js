@@ -1,4 +1,15 @@
 
+// Pricing page add class to section
+jQuery('.pricing-bottom-row').parent().addClass('pricing-bottom-row-parent')
+
+jQuery('body').on('click', '.apply-btn', function(e){
+	e.preventDefault();
+    jQuery('html, body').animate({
+        scrollTop: jQuery(".apply-section").offset().top - 120
+    }, 500);
+});
+
+
 // Trigger Schedule a Demo Modal
 jQuery('.menu-item-81 a, .menu-item-258 a, .schedule-demo-trigger a, .schedule-demo-trigger button').on('click', function(e) {
 	e.preventDefault();

@@ -1072,10 +1072,9 @@ a.vc_btn3 {
   filter: grayscale(1);
 }
 .logo-wo-shadow {
-  -moz-background-size: 65% !important;
-       background-size: 65% !important;
+  -moz-background-size: contain !important;
+       background-size: contain !important;
   height: 80px;
-  filter: grayscale(1);
 }
 .axis-info-box img {
   width: 70px;
