@@ -11,11 +11,20 @@ jQuery('.menu-item-81 a, .menu-item-258 a, .schedule-demo-trigger a, .schedule-d
 });
 
 jQuery('body').on('click', '.pricing-tabs a', function(){
-	if (jQuery(this).attr('href')=='#booking-engine-tab'){
-		jQuery('.booking-engine-heading').siblings('.pricing-tabs-heading').addClass('hidden');
-		jQuery('.booking-engine-heading').removeClass('hidden');
-	} else if (jQuery(this).attr('href')=='#channel-manager-tab'){
+	if (jQuery(this).attr('href')=='#channel-manager-tab'){
 		jQuery('.channel-manager-heading').siblings('.pricing-tabs-heading').addClass('hidden');
 		jQuery('.channel-manager-heading').removeClass('hidden');
+	} else if (jQuery(this).attr('href')=='#booking-engine-tab'){
+		jQuery('.booking-engine-heading').siblings('.pricing-tabs-heading').addClass('hidden');
+		jQuery('.booking-engine-heading').removeClass('hidden');
+	} else if (jQuery(this).attr('href')=='#crs-tab'){
+		jQuery('.crs-heading').siblings('.pricing-tabs-heading').addClass('hidden');
+		jQuery('.crs-heading').removeClass('hidden');
+	} else if (jQuery(this).attr('href')=='#rms-tab'){
+		jQuery('.rms-heading').siblings('.pricing-tabs-heading').addClass('hidden');
+		jQuery('.rms-heading').removeClass('hidden');
+	} else if (jQuery(this).attr('href')=='#rate-shopper-tab'){
+		jQuery('.rate-shopper-heading').siblings('.pricing-tabs-heading').addClass('hidden');
+		jQuery('.rate-shopper-heading').removeClass('hidden');
 	}
 });
