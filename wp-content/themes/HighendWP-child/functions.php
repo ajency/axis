@@ -193,6 +193,101 @@ function save_wpse44966_meta_box_cb( $post_id){
 add_action('save_post', 'save_wpse44966_meta_box_cb');
 
 
+function hb_team_member_box( $post_id , $style = "", $excerpt_length = 20 ){
+  $testimonial_post = get_post($post_id);
+  if ( $testimonial_post ) {
+    setup_postdata($testimonial_post);
+    $thumb = get_post_thumbnail_id();
+
+  if ( $style != "" ) $style = " tmb-2";
+  ?>
+
+  <!-- BEGIN .team-member-box -->
+  <div class="team-member-box<?php echo $style; ?>">
+
+    <div class="">
+      <?php if ( $thumb ) {
+        $image = hb_resize ( $thumb, '', 350, 350, true);
+        if ( $image ) { ?>
+        <img src="<?php echo $image['url']; ?>" alt="<?php the_title(); ?>"/>
+      <?php } ?>
+
+      <?php
+      }
+      ?>
+
+    </div>
+    <div class="spacer" style="height:15px;"></div>
+
+    <!-- START .team-member-description -->
+    <div class="team-member-description">
+
+      <!-- START .team-header-info -->
+      <div class="team-header-info clearfix">
+
+        <!-- START .team-header-name -->
+        <div class="team-name">
+          <h4 class="">
+            <?php the_title(); ?>
+          </h4>
+          <?php if ( vp_metabox('team_member_settings.hb_employee_position') ) { ?>
+          <p class="team-position"><?php echo vp_metabox('team_member_settings.hb_employee_position'); ?></p>
+          <?php } ?>
+        </div>
+        <!-- END .team-name -->
+
+
+      </div>
+      <!-- END .team-header-info -->
+
+      <!-- START .team-member-content -->
+      <div class="team-member-content">
+        <?php
+        if ( has_excerpt() ) {
+          echo '<p class="nbm">' . get_the_excerpt() . '</p>';
+        ?> <div class="spacer" style="height:15px;"></div> <?php }
+        else {
+        ?>
+        <div class="spacer" style="height:5px;"></div>
+        <p class="nbm"><?php echo wp_trim_words( strip_shortcodes( get_the_content() ) , $excerpt_length , NULL); ?></p>
+        <?php } ?>
+      </div>
+
+
+      <!-- END .team-member-content -->
+      <!-- <a class="simple-read-more" href="<?php the_permalink(); ?>" target="_self"><?php _e('View Profile','hbthemes'); ?></a> -->
+
+      <div class="spacer" style="height:15px;"></div>
+      <ul class="social-icons dark">
+      <?php
+        $social_links = array("envelop" => "Mail", "dribbble" => "Dribbble" , "facebook" => "Facebook", "flickr" => "Flickr", "forrst"=>"Forrst", "google-plus" => "Google Plus", "html5"=> "HTML 5", "cloud" => "iCloud", "lastfm"=> "LastFM", "linkedin"=> "LinkedIn", "paypal"=> "PayPal", "pinterest"=> "Pinterest", "reddit"=>"Reddit", "feed-2"=>"RSS", "skype"=>"Skype", "stumbleupon"=> "StumbleUpon", "tumblr"=>"Tumblr", "twitter"=>"Twitter", "vimeo"=>"Vimeo", "wordpress"=>"WordPress", "yahoo"=>"Yahoo", "youtube"=>"YouTube", "github"=>"Github", "yelp"=>"Yelp", "mail"=>"Mail", "instagram"=>"Instagram", "foursquare"=>"Foursquare", "xing"=>"Xing", "vk"=>"VKontakte", "behance"=>"Behance", "sn500px" =>"500px","weibo" => "Weibo", "tripadvisor" => "Trip Advisor");
+        foreach ($social_links as $soc_id => $soc_name) {
+          if ( vp_metabox('team_member_settings.hb_employee_social_' . $soc_id) ) {
+            if ($soc_id != 'behance' && $soc_id != 'vk' && $soc_id != 'envelop' && $soc_id != 'sn500px' && $soc_id != "weibo" && $soc_id != "tripadvisor") { ?>
+              <li class="<?php echo $soc_id; ?>"><a href="<?php echo vp_metabox('team_member_settings.hb_employee_social_' . $soc_id); ?>" target="_blank"><i class="hb-moon-<?php echo $soc_id; ?>"></i><i class="hb-moon-<?php echo $soc_id; ?>"></i></a></li>
+            <?php } else if ($soc_id == 'envelop') { ?>
+              <li class="<?php echo $soc_id; ?>"><a href="mailto:<?php echo vp_metabox('team_member_settings.hb_employee_social_' . $soc_id); ?>" target="_blank"><i class="hb-moon-<?php echo $soc_id; ?>"></i><i class="hb-moon-<?php echo $soc_id; ?>"></i></a></li>
+            <?php } else { ?>
+              <li class="<?php echo $soc_id; ?>"><a href="<?php echo vp_metabox('team_member_settings.hb_employee_social_' . $soc_id); ?>" target="_blank"><i class="icon-<?php echo $soc_id; ?>"></i><i class="icon-<?php echo $soc_id; ?>"></i></a></li>
+            <?php }
+          }
+        }
+      ?>
+      </ul>
+
+    </div>
+    <!-- END .team-member-description -->
+
+  </div>
+  <!-- END .team-member-box -->
+
+  <?php
+  wp_reset_postdata();
+  }
+}
+add_action('custom_team_member_box', 'hb_team_member_box');
+
+
 
 remove_filter( 'the_content', 'wpautop' );
 remove_filter( 'the_excerpt', 'wpautop' );
