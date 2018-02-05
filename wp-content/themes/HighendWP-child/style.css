@@ -1448,7 +1448,7 @@ a.vc_btn3 {
   width: 70px;
 }
 .img-icon-feature .feature-box {
-  margin-bottom: 30px;
+  margin-bottom: 40px !important;
 }
 .img-icon-feature .feature-box h4 {
   font-size: 20px;
