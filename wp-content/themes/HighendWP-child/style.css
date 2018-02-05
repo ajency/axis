@@ -97,7 +97,8 @@ body {
 .subscribe-holder .ajax-loader {
   width: 100%;
 }
-.axis-green-btn button {
+.axis-green-btn button,
+.axis-green-btn a {
   font-size: 16px;
   text-transform: none;
   letter-spacing: 0;
