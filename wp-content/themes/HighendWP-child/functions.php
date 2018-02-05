@@ -193,7 +193,7 @@ function save_wpse44966_meta_box_cb( $post_id){
 add_action('save_post', 'save_wpse44966_meta_box_cb');
 
 
-function hb_team_member_box( $post_id , $style = "", $excerpt_length = 40 ){
+function hb_team_member_box( $post_id , $style = "", $excerpt_length_custom = 40 ){
   $testimonial_post = get_post($post_id);
   if ( $testimonial_post ) {
     setup_postdata($testimonial_post);
@@ -249,7 +249,7 @@ function hb_team_member_box( $post_id , $style = "", $excerpt_length = 40 ){
         else {
         ?>
         <div class="spacer" style="height:5px;"></div>
-        <p class="nbm"><?php echo wp_trim_words( strip_shortcodes( get_the_content() ) , $excerpt_length , NULL); ?></p>
+        <p class="nbm"><?php echo wp_trim_words( strip_shortcodes( get_the_content() ) , $excerpt_length_custom , NULL); ?></p>
         <?php } ?>
       </div>
 
