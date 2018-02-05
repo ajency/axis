@@ -9,3 +9,10 @@ jQuery('.menu-item-81 a, .menu-item-258 a, .schedule-demo-trigger a, .schedule-d
     }, 220);
 	$body.addClass('no-scroll');
 });
+
+jQuery('body').on('click', '.pricing-tabs a', function(){
+	if (jQuery(this).attr('href')=='#booking-engine-tab'){
+		jQuery('.booking-engine-heading').siblings().addClass('hidden');
+		jQuery('.booking-engine-heading').removeClass('hidden');
+	}
+});
