@@ -5,7 +5,7 @@ jQuery('.pricing-bottom-row').parent().addClass('pricing-bottom-row-parent')
 jQuery('body').on('click', '.apply-btn', function(e){
 	e.preventDefault();
     jQuery('html, body').animate({
-        scrollTop: jQuery(".apply-section").offset().top - 150
+        scrollTop: jQuery(".apply-section").offset().top - 100
     }, 500);
 });
 
