@@ -1447,7 +1447,14 @@ a.vc_btn3 {
 .img-icon-feature img {
   width: 70px;
 }
+.img-icon-feature .feature-box {
+  margin-bottom: 30px;
+}
 .img-icon-feature .feature-box h4 {
   font-size: 20px;
   margin-bottom: 10px!important;
+}
+.img-icon-feature .feature-box p {
+  font-size: 16px !important;
+  line-height: 28px;
 }
