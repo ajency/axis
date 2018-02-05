@@ -12,7 +12,7 @@ jQuery('.menu-item-81 a, .menu-item-258 a, .schedule-demo-trigger a, .schedule-d
 
 jQuery('body').on('click', '.pricing-tabs a', function(){
 	if (jQuery(this).attr('href')=='#booking-engine-tab'){
-		jQuery('.booking-engine-heading').siblings('.vc_row element-row').addClass('hidden');
+		jQuery('.booking-engine-heading').siblings('.pricing-tabs-heading').addClass('hidden');
 		jQuery('.booking-engine-heading').removeClass('hidden');
 	}
 });
