@@ -738,7 +738,7 @@ a.vc_btn3 {
 .single-single-product .product-quad-grid .feature-box h4,
 .single-products .product-quad-grid .feature-box h4 {
   font-size: 20px;
-  margin-bottom: 20px!important;
+  margin-bottom: 10px!important;
 }
 .single-single-product .integrations-tabs .vc_tta-tab a,
 .single-products .integrations-tabs .vc_tta-tab a {
@@ -1443,4 +1443,11 @@ a.vc_btn3 {
 }
 .axisrooms .tablepress a {
   font-weight: normal;
+}
+.img-icon-feature img {
+  width: 70px;
+}
+.img-icon-feature .feature-box h4 {
+  font-size: 20px;
+  margin-bottom: 10px!important;
 }
