@@ -18,7 +18,7 @@ jQuery('body').on('click', '.pricing-block a', function(){
 	}
 });
 
-jQuery('body').on('click', '.pricing-block a', function(){
+jQuery('body').on('click', '.pricing-tabs a', function(){
 	if (jQuery(this).attr('href')=='#channel-manager-tab'){
 		jQuery('.channel-manager-heading').siblings('.pricing-tabs-heading').addClass('hidden');
 		jQuery('.channel-manager-heading').removeClass('hidden');
