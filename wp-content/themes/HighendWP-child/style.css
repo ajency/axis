@@ -236,6 +236,19 @@ a.vc_btn3 {
   font-size: 20px;
   line-height: 30px;
 }
+@media (max-width: 767px) {
+  .home-banner h1 {
+    font-size: 24px;
+    line-height: 32px;
+  }
+  .home-banner p {
+    font-size: 16px;
+    line-height: 26px;
+  }
+  .home-banner .vc_custom_1514976398700 {
+    margin-top: 70px !important;
+  }
+}
 .horz_banner {
   -moz-box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
        box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
@@ -251,12 +264,6 @@ a.vc_btn3 {
   min-height: 175px;
   -moz-box-sizing: border-box;
        box-sizing: border-box;
-}
-@media (max-width: 767px) {
-  .horz_banner {
-    -moz-background-size: 25%;
-         background-size: 25%;
-  }
 }
 .horz_banner .vc_custom_heading {
   margin-bottom: 5px;
@@ -311,6 +318,11 @@ a.vc_btn3 {
   font-size: 18px;
   color: #5d5d5d;
 }
+@media (max-width: 767px) {
+  .horz_banner .vc_grid-item-zone-c-right .vc_gitem-post-data-source-post_excerpt p {
+    font-size: 16px;
+  }
+}
 .horz_banner .vc_grid-item-zone-c-right .vc_btn3-container {
   vertical-align: middle;
 }
@@ -325,6 +337,21 @@ a.vc_btn3 {
   background-color: transparent;
   background-image: none;
   border: none;
+}
+@media (max-width: 767px) {
+  .horz_banner .vc_grid-item-zone-c-right .vc_btn3-container .vc_btn3-style-custom {
+    font-size: 14px;
+    padding: 10px 0;
+  }
+}
+@media (max-width: 767px) {
+  .horz_banner {
+    -moz-background-size: 25%;
+         background-size: 25%;
+  }
+  .horz_banner h4 {
+    font-size: 18px;
+  }
 }
 .prod-section-title h5 {
   text-transform: uppercase;
@@ -402,6 +429,11 @@ a.vc_btn3 {
 }
 .vertical-banner .demo-banner h5 {
   margin-top: 70px;
+}
+@media (max-width: 767px) {
+  .vertical-banner .demo-banner {
+    padding-bottom: 100px;
+  }
 }
 .horizontal-demo-banner .demo-banner {
   padding: 35px 20px 10px;
@@ -1437,8 +1469,8 @@ a.vc_btn3 {
 .axisrooms .tablepress thead th:hover {
   background-color: #2c3152;
 }
-.axisrooms .tablepress table tfoot tr td,
-.axisrooms .tablepress table thead tr th {
+.axisrooms .tablepress tfoot tr td,
+.axisrooms .tablepress thead tr th {
   color: #fff;
 }
 .axisrooms .tablepress a {
