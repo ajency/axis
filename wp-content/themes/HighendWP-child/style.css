@@ -1456,6 +1456,10 @@ a.vc_btn3 {
 .axisrooms .dataTables_length {
   margin-bottom: 10px;
 }
+.axisrooms .dataTables_wrapper label select {
+  padding: 6px 22px 6px 8px!important;
+  background-color: rgba(0, 0, 0, 0);
+}
 .axisrooms .tablepress td,
 .axisrooms .tablepress th {
   padding: 15px;
@@ -1475,6 +1479,21 @@ a.vc_btn3 {
 }
 .axisrooms .tablepress a {
   font-weight: normal;
+}
+.axisrooms .dataTables_paginate a {
+  margin: 0 2px;
+  padding: 0px 8px;
+  text-decoration: none;
+  font-size: 11px;
+  border: 1px solid #d2d2d2;
+  color: #353b63 !important;
+}
+.axisrooms .dataTables_paginate a.disabled {
+  color: #999 !important;
+}
+.axisrooms .dataTables_paginate a.current {
+  color: #fff !important;
+  background-color: #353b63;
 }
 .img-icon-feature img {
   width: 70px;
