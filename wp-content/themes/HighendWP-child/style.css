@@ -902,6 +902,9 @@ a.vc_btn3 {
 .contact-form .vc_row .wpcf7-form-control.wpcf7-checkbox .wpcf7-list-item label {
   line-height: 18px;
   font-size: 13px;
+  padding-left: 25px;
+  margin-right: 5px;
+  text-indent: -18px;
 }
 .contact-form .vc_row input[type=date],
 .contact-form .vc_row input[type=email],
@@ -1018,6 +1021,45 @@ a.vc_btn3 {
 }
 .country-block a {
   color: #353b63;
+}
+label {
+  position: relative;
+}
+input[type="checkbox"] {
+  position: relative;
+  top: -0.15rem;
+  margin: 0 0rem 0 0;
+  cursor: pointer;
+  padding-left: 10px;
+}
+input[type="checkbox"]:before {
+  -moz-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  content: "";
+  position: absolute;
+  left: -10px;
+  z-index: 1;
+  width: 1rem;
+  height: 1rem;
+  border: 2px solid #d8d8d8;
+}
+input[type="checkbox"]:checked:before {
+  -moz-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+  height: .5rem;
+  border-color: #009688;
+  border-top-style: none;
+  border-right-style: none;
+}
+input[type="checkbox"]:after {
+  content: "";
+  position: absolute;
+  top: -0.125rem;
+  left: 0;
+  width: 1.1rem;
+  height: 1.1rem;
+  background: #fff;
+  cursor: pointer;
 }
 .testimonial-customer-tabs img {
   width: 120px;
