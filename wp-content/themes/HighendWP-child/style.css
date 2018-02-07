@@ -222,8 +222,8 @@ a.vc_btn3 {
   background-image: url(img/home_bg.png);
   background-repeat: no-repeat;
   background-position: top right;
-  -moz-background-size: 55%;
-       background-size: 55%;
+  -moz-background-size: 60%;
+       background-size: 60%;
 }
 .home-banner h1 {
   font-size: 34px;
@@ -1079,6 +1079,9 @@ input[type="checkbox"]:after {
 }
 .write-to-us .frm_submit {
   text-align: center;
+}
+.contact-text-block {
+  min-height: 210px;
 }
 .testimonial-customer-tabs img {
   width: 120px;
