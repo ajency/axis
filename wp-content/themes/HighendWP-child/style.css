@@ -1540,7 +1540,8 @@ input[type="checkbox"]:after {
 .axisrooms .dataTables_length {
   margin-bottom: 10px;
 }
-.axisrooms .dataTables_wrapper label select {
+.axisrooms .dataTables_wrapper label select,
+.axisrooms .dataTables_wrapper label input {
   padding: 6px 22px 6px 8px!important;
   background-color: rgba(0, 0, 0, 0);
 }
@@ -1596,6 +1597,10 @@ input[type="checkbox"]:after {
 }
 .team-member-box {
   margin-bottom: 30px !important;
+}
+.team-position {
+  font-weight: 700 !important;
+  color: #10c9a3;
 }
 .team-member-content {
   min-height: 125px;

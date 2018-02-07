@@ -4,9 +4,9 @@ jQuery('.pricing-bottom-row').parent().addClass('pricing-bottom-row-parent')
 
 jQuery('body').on('click', '.apply-btn', function(e){
 	e.preventDefault();
-    jQuery('html, body').animate({
-        scrollTop: jQuery(".apply-section").offset().top - 80
-    }, 500);
+	jQuery('html, body').animate({
+		scrollTop: jQuery(".apply-section").offset().top - 80
+	}, 500);
 });
 
 
@@ -18,9 +18,26 @@ jQuery('.menu-item-81 a, .menu-item-258 a, .schedule-demo-trigger a, .schedule-d
 	jQuery('#'+$modal_id).parent().addClass('hb-visible-modal');
 
 	setTimeout(function () {
-        jQuery('#'+$modal_id).addClass('rendered animate-modal');
-    }, 220);
+		jQuery('#'+$modal_id).addClass('rendered animate-modal');
+	}, 220);
 	$body.addClass('no-scroll');
+});
+
+// Close modal on backdrop click
+jQuery('body').on('click touchstart', '.crop-here.hb-visible-modal', function (e) {
+	if (e.target == this){
+		e.preventDefault();
+		jQuery('.hb-modal-window').removeClass('animate-modal');
+		$body.removeClass('no-scroll');
+		jQuery('.crop-here').removeClass('hb-visible-modal');
+	}
+});
+jQuery(document).keyup(function(e) {
+     if (e.keyCode == 27) { // escape key maps to keycode `27`
+        jQuery('.hb-modal-window').removeClass('animate-modal');
+		$body.removeClass('no-scroll');
+		jQuery('.crop-here').removeClass('hb-visible-modal');
+    }
 });
 
 
