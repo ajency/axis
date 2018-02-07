@@ -1077,6 +1077,9 @@ input[type="checkbox"]:after {
 .axisrooms .wpcf7-not-valid-tip {
   font-size: 0.85em;
 }
+.write-to-us .frm_submit {
+  text-align: center;
+}
 .testimonial-customer-tabs img {
   width: 120px;
 }
