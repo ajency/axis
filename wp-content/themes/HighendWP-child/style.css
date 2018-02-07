@@ -1508,8 +1508,8 @@ input[type="checkbox"]:after {
   padding: 20px 20px !important;
 }
 .border-grid .vc_grid-item .vc_gitem-zone {
-  -moz-background-size: 200px;
-       background-size: 200px;
+  -moz-background-size: 250px;
+       background-size: 250px;
 }
 .axisrooms .dataTables_length {
   margin-bottom: 10px;
