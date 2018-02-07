@@ -877,6 +877,11 @@ a.vc_btn3 {
   -moz-box-shadow: none;
        box-shadow: none;
 }
+.contact-form.schedule-demo h5 {
+  text-align: center;
+  font-weight: 500;
+  margin-bottom: 30px;
+}
 .contact-form .required {
   color: red;
 }
@@ -1082,6 +1087,11 @@ input[type="checkbox"]:after {
 }
 .contact-text-block {
   min-height: 210px;
+}
+#demoModal .hb-box-cont-header {
+  text-align: center;
+  font-size: 22px;
+  padding: 25px 30px;
 }
 .testimonial-customer-tabs img {
   width: 120px;
