@@ -1211,6 +1211,32 @@ input[type="checkbox"]:after {
   color: #10c9a3;
   font-size: 14px;
 }
+@-moz-keyframes colorChange {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0.9;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes colorChange {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0.9;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+.mapbox {
+  -moz-animation: colorChange 1s infinite;
+       animation: colorChange 1s infinite;
+}
 .pricing-header-row + .fw-section {
   overflow: visible;
 }
