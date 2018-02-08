@@ -76,6 +76,13 @@ body {
 .dark-footer #footer .widget-column a {
   color: #fff;
 }
+.normal-copyright #copyright-text {
+  float: none;
+  display: -moz-box;
+  display: flex;
+  -moz-box-pack: justify;
+       justify-content: space-between;
+}
 .subscribe-holder {
   display: -moz-box;
   display: flex;
