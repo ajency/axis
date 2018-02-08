@@ -124,6 +124,8 @@ body {
        box-shadow: none;
   font-weight: 700;
   padding: 8px 20px !important;
+  -moz-border-radius: 2px !important;
+       border-radius: 2px !important;
 }
 a {
   color: #10c9a3;
