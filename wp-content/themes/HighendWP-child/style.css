@@ -46,6 +46,9 @@ body {
 .page-w-bg #main-content {
   background: -webkit-linear-gradient(left, #56c3aa, #88d4f5);
 }
+.filter-invert {
+  filter: brightness(0) invert(1);
+}
 #pre-footer-area {
   border: 0;
 }
