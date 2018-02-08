@@ -41,12 +41,19 @@
 		&.sf-subbed{
 			background-color: rgba(255, 255, 255, 1) !important;
 			box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.15);
+			&>li{
+				&:last-child{
+					background-color: #dadada;
+					margin-bottom: 0;
+					margin-top: -30px;
+				}
+			}
 			&:before{
 				position: absolute;
 				content: '';
 				height: 100%;
 				width: 100%;
-				background-image: url(https://axisrooms.wpengine.com/wp-content/uploads/2018/01/dot-icon.png);
+				// background-image: url(https://axisrooms.wpengine.com/wp-content/uploads/2018/01/dot-icon.png);
 				background-position: right top;
 				background-repeat: no-repeat;
 				opacity: 0.5;
