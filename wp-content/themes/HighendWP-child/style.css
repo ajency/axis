@@ -135,7 +135,7 @@ a.vc_btn3 {
   display: none;
 }
 .vc_pageable-slide-wrapper .vc_grid-item.vc_col-sm-4 {
-  float: left;
+  float: left !important;
 }
 .main-navigation > ul > li:last-child span {
   background-color: #353b63;
