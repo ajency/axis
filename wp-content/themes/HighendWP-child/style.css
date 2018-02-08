@@ -1363,12 +1363,16 @@ input[type="checkbox"]:after {
   color: #10c9a3 !important;
   -moz-box-shadow: none;
        box-shadow: none;
-  border: 1px solid #10c9a3;
-  padding: 8px 10px;
+  border: 1px solid #10c9a3 !important;
+  padding: 8px 10px !important;
   text-transform: none;
-  font-size: 16px;
+  font-size: 16px !important;
   letter-spacing: 0;
-  line-height: 18px;
+  line-height: 18px !important;
+  -moz-border-radius: 2px !important;
+       border-radius: 2px !important;
+  font-family: Open sans;
+  font-weight: 700;
 }
 .pricing-extra-block {
   top: -150px;
