@@ -1088,10 +1088,16 @@ input[type="checkbox"]:after {
 .contact-text-block {
   min-height: 210px;
 }
+#demoModal {
+  margin-bottom: 20px;
+}
 #demoModal .hb-box-cont-header {
   text-align: center;
   font-size: 22px;
   padding: 25px 30px;
+  background-color: #10c9a3;
+  color: white;
+  border-color: #10c9a3;
 }
 .testimonial-customer-tabs img {
   width: 120px;
@@ -1560,6 +1566,9 @@ input[type="checkbox"]:after {
 .axisrooms .dataTables_wrapper label input {
   padding: 6px 22px 6px 8px!important;
   background-color: rgba(0, 0, 0, 0);
+}
+.axisrooms .tablepress {
+  margin-bottom: 15px !important;
 }
 .axisrooms .tablepress td,
 .axisrooms .tablepress th {
