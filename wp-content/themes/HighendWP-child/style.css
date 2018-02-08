@@ -1371,6 +1371,7 @@ input[type="checkbox"]:after {
   line-height: 18px !important;
   -moz-border-radius: 2px !important;
        border-radius: 2px !important;
+  font-family: Open sans;
   font-weight: 700;
 }
 .pricing-extra-block {
