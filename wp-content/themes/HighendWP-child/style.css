@@ -215,7 +215,8 @@ a.vc_btn3 {
   padding: 8px 20px !important;
   -moz-border-radius: 2px !important;
        border-radius: 2px !important;
-  border: 2px solid white;
+  border: 2px solid white !important;
+  display: inline-block;
 }
 #main-nav > .menu-caption > .sub-menu.sf-subbed:before {
   position: absolute;
