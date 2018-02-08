@@ -1403,6 +1403,10 @@ input[type="checkbox"]:after {
   font-family: Open sans;
   font-weight: 700;
 }
+.purchase-block .vc_btn3:hover {
+  background-color: #10c9a3 !important;
+  color: #fff !important;
+}
 .pricing-extra-block {
   top: -150px;
 }
