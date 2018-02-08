@@ -197,8 +197,8 @@ a.vc_btn3 {
   padding: 20px 20px;
 }
 #main-nav > .menu-caption > .sub-menu.sf-subbed > li:last-child .megamenu-widgets-container .textwidget p {
-  font-size: 18px;
-  line-height: 26px;
+  font-size: 16px;
+  line-height: 24px;
   color: #fff;
   font-weight: 600;
 }
@@ -1401,7 +1401,7 @@ input[type="checkbox"]:after {
   -moz-border-radius: 2px !important;
        border-radius: 2px !important;
   font-family: Open sans;
-  font-weight: 700;
+  font-weight: 700 !important;
 }
 .purchase-block .vc_btn3:hover {
   background-color: #10c9a3 !important;
