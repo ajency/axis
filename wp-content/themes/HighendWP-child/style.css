@@ -1355,6 +1355,21 @@ input[type="checkbox"]:after {
   letter-spacing: 0;
   line-height: 18px;
 }
+.purchase-block .vc_btn3 {
+  margin: auto;
+  display: block;
+  max-width: 150px;
+  background: transparent;
+  color: #10c9a3 !important;
+  -moz-box-shadow: none;
+       box-shadow: none;
+  border: 1px solid #10c9a3;
+  padding: 8px 10px;
+  text-transform: none;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: 18px;
+}
 .pricing-extra-block {
   top: -150px;
 }
