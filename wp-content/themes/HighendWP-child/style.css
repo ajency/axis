@@ -65,13 +65,13 @@ body {
 }
 .dark-footer #footer {
   background-color: #292929;
-  color: #7b7b7b !important;
+  color: #bdbdbd !important;
 }
 .dark-footer #footer .widget-column .widget-item h4 {
   color: #10c9a3 !important;
 }
 .dark-footer #footer .widget-column a {
-  color: #efefef;
+  color: #fff;
 }
 .subscribe-holder {
   display: -moz-box;
@@ -130,6 +130,9 @@ a {
 button,
 a.vc_btn3 {
   font-weight: 600;
+}
+.vc_pageable-slide-wrapper > p {
+  display: none;
 }
 .main-navigation > ul > li:last-child span {
   background-color: #353b63;
