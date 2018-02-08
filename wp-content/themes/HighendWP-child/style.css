@@ -1380,7 +1380,7 @@ input[type="checkbox"]:after {
   border: 1px solid #10c9a3;
   padding: 8px 10px;
   text-transform: none;
-  font-size: 16px;
+  font-size: 14px;
   letter-spacing: 0;
   line-height: 18px;
 }
@@ -1395,7 +1395,7 @@ input[type="checkbox"]:after {
   border: 1px solid #10c9a3 !important;
   padding: 8px 10px !important;
   text-transform: none;
-  font-size: 16px !important;
+  font-size: 14px !important;
   letter-spacing: 0;
   line-height: 18px !important;
   -moz-border-radius: 2px !important;
