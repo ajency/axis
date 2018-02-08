@@ -35,62 +35,65 @@
 	font-family: Open sans;
 }
 
-.menu-caption{
+#main-nav{
+	&>.menu-caption{
 
-	&>.sub-menu{
-		&.sf-subbed{
-			background-color: rgba(255, 255, 255, 1) !important;
-			box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.15);
-			&>li{
-				&:last-child{
-					background-color: @brand-primary;
-					margin-bottom: 0 !important;
-					margin-top: -30px;
-					.megamenu-widgets-container{
-						padding: 20px 20px;
-						.textwidget{
-							p{
-								font-size: 18px;
-								line-height: 26px;
-								color: #fff;
-								font-weight: 600;
+		&>.sub-menu{
+			&.sf-subbed{
+				background-color: rgba(255, 255, 255, 1) !important;
+				box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.15);
+				&>li{
+					&:last-child{
+						background-color: @brand-primary;
+						margin-bottom: 0 !important;
+						margin-top: -30px;
+						.megamenu-widgets-container{
+							padding: 20px 20px;
+							.textwidget{
+								p{
+									font-size: 18px;
+									line-height: 26px;
+									color: #fff;
+									font-weight: 600;
+								}
 							}
-						}
 
-						button, a{
-							font-size: 16px;
-							text-transform: none;
-							letter-spacing: 0;
-							// margin-top: 20px;
-							background-color: @brand-primary !important;
-							color: #fff !important;
-							box-shadow: none;
-							font-weight: 700;
-							padding: 8px 20px !important;
-							border-radius: 2px !important;
-							border: 2px solid white;
+							button, a{
+								font-size: 16px;
+								text-transform: none;
+								letter-spacing: 0;
+								// margin-top: 20px;
+								background-color: @brand-primary !important;
+								color: #fff !important;
+								box-shadow: none;
+								font-weight: 700;
+								padding: 8px 20px !important;
+								border-radius: 2px !important;
+								border: 2px solid white;
+							}
 						}
 					}
 				}
+				&:before{
+					position: absolute;
+					content: '';
+					height: 100%;
+					width: 100%;
+					// background-image: url(https://axisrooms.wpengine.com/wp-content/uploads/2018/01/dot-icon.png);
+					background-position: right top;
+					background-repeat: no-repeat;
+					opacity: 0.5;
+					background-size: 12%;
+					bottom: 0;
+				}
 			}
-			&:before{
-				position: absolute;
-				content: '';
-				height: 100%;
-				width: 100%;
-				// background-image: url(https://axisrooms.wpengine.com/wp-content/uploads/2018/01/dot-icon.png);
-				background-position: right top;
-				background-repeat: no-repeat;
-				opacity: 0.5;
-				background-size: 12%;
-				bottom: 0;
-			}
-		}
-		.menu-item-has-children{
+			.menu-item-has-children{
 
+			}
 		}
 	}
 }
+
 #main-nav>li.megamenu>ul.sub-menu{
 	padding: 30px 0 0px !important;
 	&>li{
