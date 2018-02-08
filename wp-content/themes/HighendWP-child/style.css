@@ -83,6 +83,12 @@ body {
   -moz-box-pack: justify;
        justify-content: space-between;
 }
+.normal-copyright #copyright-text p {
+  float: left;
+}
+.normal-copyright #copyright-text .terms-links {
+  float: right;
+}
 .subscribe-holder {
   display: -moz-box;
   display: flex;
