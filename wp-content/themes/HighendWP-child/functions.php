@@ -321,9 +321,15 @@ function pa_insertPage($atts, $content = null) {
 }
 add_shortcode('pa_insert', 'pa_insertPage');
 
-// add_action('template_redirect', 'geoip_redirect', 5);
+
+// Redirect for pricing page
+add_action('template_redirect', 'geoip_redirect', 5);
 function geoip_redirect(){
   if (is_admin())
+    return;
+
+  $current_user = wp_get_current_user();
+  if (user_can( $current_user, 'administrator' ))
     return;
 
   if (!is_page('pricing'))
