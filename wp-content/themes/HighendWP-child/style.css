@@ -110,6 +110,9 @@ body {
 .subscribe-holder .ajax-loader {
   width: 100%;
 }
+#copyright-text p {
+  font-size: 12px;
+}
 .axis-green-btn button,
 .axis-green-btn a {
   font-size: 16px;
@@ -268,6 +271,14 @@ a.vc_btn3 {
 }
 #main-wrapper .hb-dropdown-box a {
   color: #bbb !important;
+}
+#main-nav li a {
+  font-family: Open Sans;
+}
+#main-nav > li.megamenu > ul.sub-menu > li > a,
+.widget-item h4 {
+  font-family: Open Sans;
+  font-weight: 700;
 }
 .homepage #main-content {
   background-image: url(img/home_bg.png);
@@ -866,8 +877,18 @@ a.vc_btn3 {
   background-position: 0 -100% !important;
   border: 0 !important;
 }
-#copyright-text p {
-  font-size: 12px;
+#cf7md-form .cf7md-item,
+#cf7md-form input,
+#cf7md-form label,
+#cf7md-form textarea,
+#cf7md-form p,
+#cf7md-form .mdc-select,
+#cf7md-form.cf7md-form + .wpcf7-response-output,
+#cf7md-form .wpcf7-not-valid-tip,
+#cf7md-form .mdc-card__title,
+#cf7md-form .mdc-card__subtitle,
+#cf7md-form .mdc-button {
+  font-family: Open Sans;
 }
 .contact-page .hb-logo-wrap {
   filter: brightness(0) invert(1);
