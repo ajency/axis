@@ -1653,7 +1653,7 @@ input[type="checkbox"]:after {
   padding: 6px 22px 6px 8px!important;
   background-color: rgba(0, 0, 0, 0);
 }
-.axisrooms .tablepress {
+.axisrooms .dataTables_wrapper .tablepress {
   margin-bottom: 15px !important;
 }
 .axisrooms .tablepress td,

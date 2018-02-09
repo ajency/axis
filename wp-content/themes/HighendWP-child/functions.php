@@ -321,4 +321,24 @@ function pa_insertPage($atts, $content = null) {
 }
 add_shortcode('pa_insert', 'pa_insertPage');
 
+add_action('template_redirect', 'geoip_redirect', 5);
+function geoip_redirect(){
+  if (is_admin())
+    return;
+
+  if (!is_page('pricing'))
+    return;
+
+  if (!function_exists('geoip_detect2_get_info_from_current_ip'))
+    return;
+
+  $userInfo = geoip_detect2_get_info_from_current_ip();
+  $countryCode = $userInfo->country->isoCode;
+  if($contryCode = 'IND'){
+    $url = '/pricing-india';
+    wp_redirect(get_site_url(null, $url));
+    exit;
+  }
+}
+
 ?>
