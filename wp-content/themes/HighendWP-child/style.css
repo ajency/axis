@@ -97,9 +97,6 @@ body {
 .subscribe-holder > span {
   width: 60%;
 }
-.subscribe-holder > span input[type=email]:focus {
-  color: #000 !important;
-}
 .subscribe-holder > input[type=submit] {
   width: 40%;
   margin: 0;
