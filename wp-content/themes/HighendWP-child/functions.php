@@ -321,7 +321,7 @@ function pa_insertPage($atts, $content = null) {
 }
 add_shortcode('pa_insert', 'pa_insertPage');
 
-add_action('template_redirect', 'geoip_redirect', 5);
+// add_action('template_redirect', 'geoip_redirect', 5);
 function geoip_redirect(){
   if (is_admin())
     return;
