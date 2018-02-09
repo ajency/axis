@@ -805,6 +805,12 @@ a.vc_btn3 {
 .single-products .product-form #cf7md-form .mdc-button--primary.mdc-button--raised {
   background-color: #10c9a3;
   margin-top: 10px;
+  -moz-box-shadow: none;
+       box-shadow: none;
+  text-transform: none;
+  font-family: Open Sans;
+  font-weight: 700;
+  letter-spacing: 0;
 }
 .single-single-product .product-form .cf7md-admin-customize-message,
 .single-products .product-form .cf7md-admin-customize-message {
