@@ -1226,6 +1226,16 @@ textarea.wpcf7-not-valid {
 .country-block a {
   color: #353b63;
 }
+@media (min-width: 768px) and (max-width: 768px) {
+  .country-block.bord-right:nth-child(2) {
+    border-right: 0;
+  }
+}
+@media (max-width: 767px) {
+  .country-block.bord-right {
+    border-right: 0;
+  }
+}
 label {
   position: relative;
 }
