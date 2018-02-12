@@ -1552,19 +1552,28 @@ input[type="checkbox"]:after {
        animation: colorChange 1s infinite;
 }
 .country-name {
-  position: absolute;
+  background-color: #333;
+  border-bottom: 3px solid #10c9a3;
+  color: #fff;
+  font-weight: 600;
   display: none;
-  -moz-border-radius: 3px;
-  border-radius: 3px;
-  border: #d3d3d3 solid 1px;
-  background: #fff;
-  color: black;
-  font-family: Comfortaa, Verdana;
-  font-size: smaller;
-  padding: 8px;
-  pointer-events: none;
-  -moz-box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-       box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  left: 0px;
+  padding: 5px;
+  position: absolute;
+  top: 0px;
+  min-width: 75px;
+  z-index: 1;
+  text-align: center;
+}
+.country-name:after {
+  content: '';
+  display: block;
+  position: absolute;
+  left: 35px;
+  top: 100%;
+  width: 0;
+  border: 10px solid transparent;
+  border-top-color: #10c9a3;
 }
 .pricing-header-row + .fw-section {
   overflow: visible;
