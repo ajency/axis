@@ -150,19 +150,6 @@ button,
 a.vc_btn3 {
   font-weight: 600;
 }
-.vc_pageable-slide-wrapper {
-  display: -moz-box;
-  display: flex;
-  flex-wrap: wrap;
-  -moz-box-pack: center;
-       justify-content: center;
-}
-.vc_pageable-slide-wrapper > p {
-  display: none;
-}
-.vc_pageable-slide-wrapper .vc_grid-item.vc_col-sm-4 {
-  float: left !important;
-}
 .main-navigation > ul > li:last-child span {
   background-color: #353b63;
   padding: 8px 10px !important;
@@ -861,6 +848,22 @@ a.vc_btn3 {
   color: #10c9a3 !important;
   -moz-box-shadow: inset 0 -4px 0 #10c9a3 !important;
        box-shadow: inset 0 -4px 0 #10c9a3 !important;
+}
+.single-single-product .vc_pageable-slide-wrapper,
+.single-products .vc_pageable-slide-wrapper {
+  display: -moz-box;
+  display: flex;
+  flex-wrap: wrap;
+  -moz-box-pack: center;
+       justify-content: center;
+}
+.single-single-product .vc_pageable-slide-wrapper > p,
+.single-products .vc_pageable-slide-wrapper > p {
+  display: none;
+}
+.single-single-product .vc_pageable-slide-wrapper .vc_grid-item.vc_col-sm-4,
+.single-products .vc_pageable-slide-wrapper .vc_grid-item.vc_col-sm-4 {
+  float: left !important;
 }
 .different-text .hb-icon-wrapper .icon-box-img {
   max-width: 64px !important;
