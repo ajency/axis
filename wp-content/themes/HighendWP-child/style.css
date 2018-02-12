@@ -1404,16 +1404,13 @@ input[type="checkbox"]:after {
   border-color: #ababab;
   border-top: 0;
   font-weight: 600;
-  font-size: 16px;
+  font-size: 14px;
   color: #ababab;
-  padding: 14px 30px;
+  padding: 14px 10px;
   -moz-border-radius-topleft: 0;
        border-top-left-radius: 0;
   -moz-border-radius-topright: 0;
        border-top-right-radius: 0;
-}
-.testimonial-products-tabs.vc_tta-color-white.vc_tta-style-outline li.vc_tta-tab > a > span {
-  white-space: pre;
 }
 .testimonial-products-tabs.vc_tta-color-white.vc_tta-style-outline li.vc_tta-tab:before,
 .testimonial-products-tabs.vc_tta-color-white.vc_tta-style-outline li.vc_tta-tab:after {
