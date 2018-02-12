@@ -93,3 +93,57 @@ jQuery('body').on('keydown', 'input, textarea', function(){
         jQuery(this).closest('.frm_form_field').find('.frm_error').remove();
     }
 });
+
+
+// $description = jQuery(".country-name");
+
+//   jQuery('.enabled').hover(function() {
+
+//     jQuery(this).attr("class", "enabled heyo");
+//     $description.addClass('active');
+//     $description.html(jQuery(this).data('name'));
+//   }, function() {
+//     $description.removeClass('active');
+//   });
+
+// jQuery(document).on('mousemove', function(e){
+
+//   $description.css({
+//     left:  e.clientX - 30,
+//     top:   e.clientY - 400
+//   });
+
+// });
+
+// var tooltip = document.querySelector('.country-name');
+// var myicon = document.querySelector('.enabled');
+// var iconPos = myicon.getBoundingClientRect();
+// var colors = ["#1f77b4", "#ff7f0e", "#2ca02c", "#d62728", "#9467bd", "#8c564b", "#e377c2", "#7f7f7f", "#bcbd22", "#17becf"];
+// var contents = {};
+// for (var i = 1; i <= 10; i++) {
+// contents['tooltip' + i] = 'tooltip <b style="color:' + colors[i] + '">' + i + '</b>';
+// }
+
+// // iterate throw all `path` tags
+// [].forEach.call(document.querySelectorAll('g.enabled'), function(item) {
+// 	// attach click event, you can read the URL from a attribute for example.
+//   item.addEventListener('click', function(){
+//     window.open('http://google.co.il')
+//   });
+
+//   // attach mouseenter event
+//   item.addEventListener('mouseenter', function() {
+//     tooltip.innerHTML = contents[item.getAttribute('data-name')];
+//     tooltip.style.display = 'block';
+//   });
+
+//   item.addEventListener('mousemove', function(e) {
+//   	tooltip.style.top = (window.scrollY + iconPos.top - 60) + "px";
+//     tooltip.style.left = e.clientX + 'px';
+//   });
+
+//   // when mouse leave hide the tooltip
+//   item.addEventListener('mouseleave', function(){
+//   	tooltip.style.display = 'none';
+//   });
+// });

@@ -114,7 +114,7 @@ function testimonials_gal_shortcode($atts)
         $html .='<div class="single_testimonial">';
         $html .='<h5>  Why people believe in us </h5>';
         $html .='<div class="single_testimonial_content">';
-        $html .='Lorem ipsum dolor sit amet, consectetur adipiscing elit';
+        $html .='We Understand Hotels, Like No One Does';
         $html .='</div>';
         $html .='</div>';
       }
