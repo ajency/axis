@@ -958,6 +958,10 @@ a.vc_btn3 {
   .single-products #main-content p {
     font-size: 14px;
   }
+  .single-single-product .vc_pageable-slide-wrapper .vc_grid-item.vc_col-sm-4,
+  .single-products .vc_pageable-slide-wrapper .vc_grid-item.vc_col-sm-4 {
+    width: 50%;
+  }
 }
 @media (max-width: 767px) {
   .single-single-product .product-header p,
@@ -2001,4 +2005,16 @@ input[type="checkbox"]:after {
 }
 .social-icons {
   min-height: 36px;
+}
+@media (min-width: 768px) and (max-width: 768px) {
+  .shortcode-team-member-box .tmb-2 .team-member-description {
+    padding: 20px 10px;
+  }
+  .shortcode-team-member-box .team-name h4 {
+    font-size: 16px;
+    min-height: 48px;
+  }
+  .team-row .vc_col-sm-10 {
+    width: 100%;
+  }
 }
