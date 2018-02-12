@@ -1403,7 +1403,6 @@ input[type="checkbox"]:after {
 .testimonial-products-tabs.vc_tta-color-white.vc_tta-style-outline li.vc_tta-tab > a {
   border-color: #ababab;
   border-top: 0;
-  text-transform: uppercase;
   font-weight: 600;
   font-size: 16px;
   color: #ababab;
