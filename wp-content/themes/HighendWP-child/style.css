@@ -1180,6 +1180,9 @@ textarea.wpcf7-not-valid {
   opacity: 0.5;
 }
 @media (max-width: 767px) {
+  .contact-form {
+    margin-bottom: 50px !important;
+  }
   .contact-form .checkbox-products {
     margin-top: 20px;
     display: block;
