@@ -113,6 +113,23 @@ body {
 #copyright-text p {
   font-size: 12px;
 }
+#demoModal {
+  margin-bottom: 20px;
+}
+#demoModal .hb-box-cont-header {
+  text-align: center;
+  font-size: 22px;
+  padding: 25px 30px;
+  background-color: #10c9a3;
+  color: white;
+  border-color: #10c9a3;
+}
+#demoModal .hb-box-cont-header .close-modal {
+  color: #fff;
+}
+#demoModal .hb-box-cont-header .close-modal i {
+  font-size: 0.6em;
+}
 .axis-green-btn button,
 .axis-green-btn a {
   font-size: 16px;
@@ -1162,6 +1179,31 @@ textarea.wpcf7-not-valid {
        transform: rotate(180deg);
   opacity: 0.5;
 }
+@media (max-width: 767px) {
+  .contact-form .checkbox-products {
+    margin-top: 20px;
+    display: block;
+  }
+  .contact-form .vc_row .wpcf7-form-control.wpcf7-checkbox .wpcf7-list-item {
+    flex-basis: 100%;
+  }
+}
+@media (min-width: 768px) and (max-width: 768px) {
+  .contact-form {
+    padding: 40px 20px 0;
+  }
+  .contact-form .vc_row .wpcf7-form-control.wpcf7-checkbox .wpcf7-list-item {
+    flex-basis: 100%;
+  }
+  .contact-form label {
+    text-indent: 0;
+  }
+}
+@media (min-width: 768px) and (max-width: 768px) {
+  .contact-boxes .vc_col-sm-6 {
+    width: 100%;
+  }
+}
 .contact-header-row + .fw-section {
   overflow: visible;
 }
@@ -1296,23 +1338,6 @@ input[type="checkbox"]:after {
 }
 .contact-text-block {
   min-height: 210px;
-}
-#demoModal {
-  margin-bottom: 20px;
-}
-#demoModal .hb-box-cont-header {
-  text-align: center;
-  font-size: 22px;
-  padding: 25px 30px;
-  background-color: #10c9a3;
-  color: white;
-  border-color: #10c9a3;
-}
-#demoModal .hb-box-cont-header .close-modal {
-  color: #fff;
-}
-#demoModal .hb-box-cont-header .close-modal i {
-  font-size: 0.6em;
 }
 .testimonial-customer-tabs img {
   width: 120px;

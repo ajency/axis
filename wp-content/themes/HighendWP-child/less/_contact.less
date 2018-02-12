@@ -167,6 +167,48 @@
 	    transform: rotate(180deg);
 	    opacity: 0.5;
     }
+
+    @media (max-width: 767px){
+    	.checkbox-products{
+    		margin-top: 20px;
+    		display: block;
+    	}
+	    .vc_row{
+		    .wpcf7-form-control{
+		    	&.wpcf7-checkbox{
+		    		.wpcf7-list-item{
+		    			flex-basis: 100%;
+		    		}
+		    	}
+		    }
+		}
+    }
+
+
+	@media(min-width: 768px) and (max-width: 768px){
+		padding: 40px 20px 0;
+	    .vc_row{
+		    .wpcf7-form-control{
+		    	&.wpcf7-checkbox{
+		    		.wpcf7-list-item{
+		    			flex-basis: 100%;
+		    		}
+		    	}
+		    }
+		}
+		label{
+			text-indent: 0;
+		}
+
+	}
+}
+
+.contact-boxes{
+	@media(min-width: 768px) and (max-width: 768px){
+		.vc_col-sm-6{
+			width: 100%;
+		}
+	}
 }
 
 .contact-header-row{
@@ -332,21 +374,4 @@ input[type="checkbox"] {
 
 .contact-text-block{
 	min-height: 210px;
-}
-#demoModal{
-	margin-bottom: 20px;
-	.hb-box-cont-header{
-		text-align: center;
-		font-size: 22px;
-		padding: 25px 30px;
-		background-color: @brand-primary;
-		color: white;
-		border-color: @brand-primary;
-		.close-modal{
-			color: #fff;
-			i{
-				font-size: 0.6em;
-			}
-		}
-	}
 }
