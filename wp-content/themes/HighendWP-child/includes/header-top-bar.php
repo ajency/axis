@@ -152,6 +152,14 @@ if ( class_exists('Woocommerce') ) {
     </div>
     <!-- END .top-widget -->
     <?php } ?>
+
+    <div id="top-map-widget" class="top-widget float-right">
+        <a href="mailto:support@axisrooms.com"><i class="hb-moon-envelop"></i>support@axisrooms.com</a>
+    </div>
+    <div id="top-map-widget" class="top-widget float-right">
+        Support: <a href="tel:08067488900" style="display: inline-block;"><i class="icon-phone"></i>080 - 67488900</a>
+    </div>
+
     <?php
     // Language Selector
     if ( hb_options('hb_top_header_languages')  && function_exists('icl_get_languages') ) {

@@ -1421,7 +1421,7 @@ input[type="checkbox"]:after {
   position: absolute;
   width: 0;
   height: 0;
-  top: 98%;
+  top: 97%;
 }
 .testimonial-products-tabs.vc_tta-color-white.vc_tta-style-outline li.vc_tta-tab:before {
   border-left: 13px solid transparent;
