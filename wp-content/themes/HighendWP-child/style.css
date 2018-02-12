@@ -1538,6 +1538,9 @@ input[type="checkbox"]:after {
   .pricing-block p {
     font-size: 14px;
   }
+  .pricing-block.booking-engine-block h3 {
+    word-spacing: 100px;
+  }
 }
 .purchase-block .vc_btn3 {
   margin: auto;
