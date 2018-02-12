@@ -1482,6 +1482,7 @@ input[type="checkbox"]:after {
 }
 .pricing-block h3 {
   font-weight: 700;
+  text-transform: uppercase;
 }
 .pricing-block p {
   font-size: 15px;
@@ -1524,6 +1525,19 @@ input[type="checkbox"]:after {
   font-size: 14px;
   letter-spacing: 0;
   line-height: 18px;
+}
+@media (max-width: 767px) {
+  .pricing-block {
+    margin-bottom: 25px !important;
+  }
+}
+@media (min-width: 768px) and (max-width: 768px) {
+  .pricing-block > .wpb_wrapper {
+    padding: 30px 20px 20px;
+  }
+  .pricing-block p {
+    font-size: 14px;
+  }
 }
 .purchase-block .vc_btn3 {
   margin: auto;
@@ -1589,6 +1603,11 @@ input[type="checkbox"]:after {
   .pricing-bottom-row-parent:before {
     height: 400px;
     top: -140px;
+  }
+}
+@media (min-width: 768px) and (max-width: 768px) {
+  .pricing-bottom-row-parent .vc_col-sm-6 {
+    width: 100%;
   }
 }
 [id^="pricing-"].hb-modal-window {
