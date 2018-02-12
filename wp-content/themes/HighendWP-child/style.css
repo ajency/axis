@@ -89,6 +89,15 @@ body {
 .normal-copyright #copyright-text .terms-links a {
   color: #fff;
 }
+@media (max-width: 767px) {
+  .normal-copyright #copyright-text p {
+    float: none;
+  }
+  .normal-copyright #copyright-text .terms-links {
+    float: none;
+    margin-top: 20px;
+  }
+}
 .subscribe-holder {
   display: -moz-box;
   display: flex;
@@ -290,6 +299,9 @@ a.vc_btn3 {
 .widget-item h4 {
   font-family: Open Sans;
   font-weight: 700;
+}
+#mobile-menu .sub-menu .menu-item-object-custom:last-child {
+  display: none;
 }
 .homepage #main-content {
   background-image: url(img/home_bg.png);
@@ -1904,6 +1916,12 @@ input[type="checkbox"]:after {
          background-size: 130px;
   }
 }
+@media (max-width: 767px) {
+  .border-grid .vc_grid-item .vc_gitem-zone {
+    -moz-background-size: 180px;
+         background-size: 180px;
+  }
+}
 .axisrooms .dataTables_length {
   margin-bottom: 10px;
 }
@@ -1949,6 +1967,12 @@ input[type="checkbox"]:after {
 .axisrooms .dataTables_paginate a.current {
   color: #fff !important;
   background-color: #353b63;
+}
+@media (max-width: 767px) {
+  .axisrooms .dataTables_filter {
+    width: 100%;
+    margin-bottom: 15px;
+  }
 }
 .img-icon-feature img {
   width: 70px;
