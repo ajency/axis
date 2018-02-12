@@ -76,3 +76,20 @@ jQuery('body').on('click', '.pricing-tabs a', function(){
 		jQuery('.rate-shopper-heading').removeClass('hidden');
 	}
 });
+
+// Remove validation messages from contactform7
+jQuery('body').on('keydown', 'input', function(){
+    if(jQuery(this).hasClass('wpcf7-not-valid')){
+        jQuery(this).removeClass('wpcf7-not-valid');
+        jQuery(this).closest('.wpcf7-form-control-wrap').find('.wpcf7-not-valid-tip').remove();
+        jQuery(this).parent().removeClass('.mdc-textfield--invalid');
+    }
+});
+
+// Remove validation messages from formidable form
+jQuery('body').on('keydown', 'input, textarea', function(){
+    if(jQuery(this).parent().hasClass('frm_blank_field')){
+        jQuery(this).parent().removeClass('frm_blank_field');
+        jQuery(this).closest('.frm_form_field').find('.frm_error').remove();
+    }
+});
