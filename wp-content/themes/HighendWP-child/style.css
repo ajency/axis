@@ -150,6 +150,13 @@ button,
 a.vc_btn3 {
   font-weight: 600;
 }
+.vc_pageable-slide-wrapper {
+  display: -moz-box;
+  display: flex;
+  flex-wrap: wrap;
+  -moz-box-pack: center;
+       justify-content: center;
+}
 .vc_pageable-slide-wrapper > p {
   display: none;
 }
