@@ -1473,8 +1473,8 @@ input[type="checkbox"]:after {
 .logo-w-shadow {
   -moz-box-shadow: 0 0 15px rgba(0, 0, 0, 0.15);
        box-shadow: 0 0 15px rgba(0, 0, 0, 0.15);
-  -moz-background-size: 75% !important;
-       background-size: 75% !important;
+  -moz-background-size: contain !important;
+       background-size: contain !important;
   height: 80px;
 }
 .logo-wo-shadow {
