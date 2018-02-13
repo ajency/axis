@@ -182,6 +182,19 @@ a.vc_btn3 {
 .broken-grid-fix .vc_grid.vc_row .vc_grid-item {
   float: left;
 }
+.styled-bullets .hb-ul-list {
+  font-size: 20px;
+}
+.styled-bullets .hb-ul-list h6 {
+  font-size: 20px;
+  font-weight: bold;
+  color: #fff;
+  margin-bottom: 5px;
+  font-family: Open Sans;
+}
+.styled-bullets .hb-ul-list li p {
+  padding-left: 30px;
+}
 .main-navigation > ul > li:last-child span {
   background-color: #353b63;
   padding: 8px 10px !important;
