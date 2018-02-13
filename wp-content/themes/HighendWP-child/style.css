@@ -1919,7 +1919,7 @@ input[type="checkbox"]:after {
   opacity: 1;
 }
 .axisrooms .frm_dropzone.dz-clickable.frm_single_upload {
-  width: auto;
+  max-width: auto;
 }
 .border-grid .vc_grid-item {
   border: 1px solid #eee;
