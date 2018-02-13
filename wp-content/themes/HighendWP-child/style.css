@@ -1481,7 +1481,7 @@ input[type="checkbox"]:after {
        box-shadow: 0 0 15px rgba(0, 0, 0, 0.15);
   -moz-background-size: contain !important;
        background-size: contain !important;
-  height: 80px;
+  height: 100px;
 }
 .logo-wo-shadow {
   -moz-background-size: contain !important;
