@@ -160,22 +160,22 @@ if ( class_exists('Woocommerce') ) {
         <div class="hb-dropdown-box logout-dropdown product-dropdown">
             <ul>
                 <li>
-                    <a href="#">Channel Manager</a>
+                    <a href="https://app.axisrooms.com" target="_blank">Channel Manager</a>
                 </li>
                 <li>
-                    <a href="#">Booking Engine</a>
+                    <a href="https://app.axisrooms.com" target="_blank">Booking Engine</a>
                 </li>
                 <li>
-                    <a href="#">Hotel Exchange</a>
+                    <a href="http://hex.axisrooms.com/" target="_blank">Hotel Exchange</a>
                 </li>
                 <li>
-                    <a href="#">Revenue Management System</a>
+                    <a href="https://rm.axisrooms.com/#/login" target="_blank">Revenue Management System</a>
                 </li>
                 <li>
-                    <a href="#">Premium Rate Shopper</a>
+                    <a href="https://goldeneye.axisrooms.com/login" target="_blank">Premium Rate Shopper</a>
                 </li>
                 <li>
-                    <a href="#">Central Reservation System</a>
+                    <a href="https://crs.axisrooms.com/signIn" target="_blank">Central Reservation System</a>
                 </li>
             </ul>
         </div>
