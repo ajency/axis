@@ -176,6 +176,12 @@ button,
 a.vc_btn3 {
   font-weight: 600;
 }
+.broken-grid-fix p {
+  display: none;
+}
+.broken-grid-fix .vc_grid-item {
+  float: left;
+}
 .main-navigation > ul > li:last-child span {
   background-color: #353b63;
   padding: 8px 10px !important;
