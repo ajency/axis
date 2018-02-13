@@ -183,17 +183,20 @@ a.vc_btn3 {
   float: left;
 }
 .styled-bullets .hb-ul-list {
-  font-size: 20px;
+  font-size: 16px;
 }
 .styled-bullets .hb-ul-list h6 {
-  font-size: 20px;
-  font-weight: bold;
-  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
   margin-bottom: 5px;
   font-family: Open Sans;
 }
+.styled-bullets .hb-ul-list li {
+  margin-top: 30px;
+}
 .styled-bullets .hb-ul-list li p {
-  padding-left: 30px;
+  padding-left: 20px;
+  font-size: 16px;
 }
 .main-navigation > ul > li:last-child span {
   background-color: #353b63;
