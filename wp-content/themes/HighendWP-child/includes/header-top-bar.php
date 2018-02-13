@@ -153,6 +153,35 @@ if ( class_exists('Woocommerce') ) {
     <!-- END .top-widget -->
     <?php } ?>
 
+    <div class="top-widget float-right">
+        <a href="#" id="">Login<i class="icon-angle-down"></i></a>
+
+        <!-- BEGIN .hb-dropdown-box -->
+        <div class="hb-dropdown-box logout-dropdown product-dropdown">
+            <ul>
+                <li>
+                    <a href="#">Channel Manager</a>
+                </li>
+                <li>
+                    <a href="#">Booking Engine</a>
+                </li>
+                <li>
+                    <a href="#">Hotel Exchange</a>
+                </li>
+                <li>
+                    <a href="#">Revenue Management System</a>
+                </li>
+                <li>
+                    <a href="#">Premium Rate Shopper</a>
+                </li>
+                <li>
+                    <a href="#">Central Reservation System</a>
+                </li>
+            </ul>
+        </div>
+        <!-- END .hb-dropdown-box -->
+    </div>
+
     <div id="top-map-widget" class="top-widget float-right">
         <a href="mailto:support@axisrooms.com"><i class="hb-moon-envelop"></i>support@axisrooms.com</a>
     </div>
