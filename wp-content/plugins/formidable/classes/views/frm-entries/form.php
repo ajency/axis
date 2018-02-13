@@ -18,7 +18,7 @@ $frm_hide_fields = FrmAppHelper::get_post_param( 'frm_hide_fields_' . $form->id,
 <div class="frm_form_fields <?php echo esc_attr( apply_filters( 'frm_form_fields_class', '', $values ) ); ?>">
 <fieldset>
 <?php echo FrmFormsHelper::replace_shortcodes( $values['before_html'], $form, $title, $description ); ?>
-<div class="frm_fields_container">
+<div <?php echo wp_strip_all_tags( apply_filters( 'frm_fields_container_class', 'class="frm_fields_container"' ) ); ?>>
 <?php do_action( 'frm_after_title', compact('form') ) ?>
 <input type="hidden" name="frm_action" value="<?php echo esc_attr($form_action) ?>" />
 <input type="hidden" name="form_id" value="<?php echo esc_attr($form->id) ?>" />
@@ -26,7 +26,7 @@ $frm_hide_fields = FrmAppHelper::get_post_param( 'frm_hide_fields_' . $form->id,
 <input type="hidden" name="form_key" value="<?php echo esc_attr($form->form_key) ?>" />
 <input type="hidden" name="item_meta[0]" value="" />
 <?php wp_nonce_field( 'frm_submit_entry_nonce', 'frm_submit_entry_' . $form->id ); ?>
-<label for="frm_verify_<?php echo esc_attr( $form->id ) ?>" class="frm_screen_reader"><?php esc_html_e( 'If you are human, leave this field blank.', 'formidable' ) ?></label>
+<label for="frm_verify_<?php echo esc_attr( $form->id ) ?>" class="frm_screen_reader frm_hidden"><?php esc_html_e( 'If you are human, leave this field blank.', 'formidable' ) ?></label>
 <input type="text" class="frm_hidden frm_verify" id="frm_verify_<?php echo esc_attr( $form->id ) ?>" name="frm_verify" value="<?php echo esc_attr( FrmAppHelper::get_param('frm_verify', '', 'get', 'wp_kses_post' ) ) ?>" <?php FrmFormsHelper::maybe_hide_inline() ?> />
 <?php if ( isset( $id ) ) { ?>
 <input type="hidden" name="id" value="<?php echo esc_attr( $id ) ?>" />

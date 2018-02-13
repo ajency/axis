@@ -42,9 +42,7 @@ class FrmMigrate {
 			$this->migrate_data($frm_db_version, $old_db_version);
 
 			/***** SAVE DB VERSION *****/
-			update_option('frm_db_version', $frm_db_version);
-
-			FrmAppHelper::save_combined_js();
+			update_option( 'frm_db_version', FrmAppHelper::plugin_version() . '-' . $frm_db_version );
 
 			/**** ADD/UPDATE DEFAULT TEMPLATES ****/
 			FrmXMLController::add_default_templates();
@@ -58,8 +56,10 @@ class FrmMigrate {
 
 		$frm_vars['doing_upgrade'] = false;
 
+		FrmAppHelper::save_combined_js();
+
 		/**** update the styling settings ****/
-		if ( is_admin() && function_exists( 'get_filesystem_method' ) ) {
+		if ( function_exists( 'get_filesystem_method' ) ) {
 			$frm_style = new FrmStyle();
 			$frm_style->update( 'default' );
 		}

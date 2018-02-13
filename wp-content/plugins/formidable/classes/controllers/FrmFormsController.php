@@ -1189,6 +1189,8 @@ class FrmFormsController {
             return __( 'Please select a valid form', 'formidable' );
         }
 
+		FrmAppController::maybe_update_styles();
+
 		add_action( 'frm_load_form_hooks', 'FrmHooksController::trigger_load_form_hooks' );
         FrmAppHelper::trigger_hook_load( 'form', $form );
 
@@ -1233,7 +1235,7 @@ class FrmFormsController {
 	private static function is_viewable_draft_form( $form ) {
 		global $post;
 		$frm_settings = FrmAppHelper::get_settings();
-		return $form->status == 'draft' && current_user_can( 'frm_edit_forms' ) && ( ! $post || $post->ID != $frm_settings->preview_page_id ) && ! FrmAppHelper::is_preview_page();
+		return $form->status == 'draft' && current_user_can( 'frm_edit_forms' ) && ! FrmAppHelper::is_preview_page();
 	}
 
 	private static function user_should_login( $form ) {

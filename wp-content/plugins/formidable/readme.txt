@@ -4,7 +4,7 @@ Tags: contact form, form builder, custom form, forms, form, form maker, form cre
 Requires at least: 4.4
 Tested up to: 4.9
 Requires PHP: 5.3
-Stable tag: 3.0
+Stable tag: 3.0.04
 
 The best WordPress form plugin for contact forms, surveys and more. Make forms a breeze with a drag and drop form builder and form style generator.
 
@@ -159,6 +159,52 @@ The field and form names and descriptions are all changed with in-place edit. Ju
 [See more FAQs](https://formidableforms.com/formidable-faqs/ "Formidable Form FAQs")
 
 == Changelog ==
+= 3.0.04 =
+* Fix required validation: URL and number fields were requiring a value when the field was not required
+* Fix double recaptcha validation which was causing it to fail validation
+
+= 3.0.03 =
+* Enhancement: Use relative path in the form css now that the css is inside the plugin. Now font icons will continue working without a style save when the site url is changed.
+* Fix: Save a different stylesheet file for each site in a network to prevent them from saving over eachother
+* Fix: Use auto field height when grids are off to prevent tiny fields on some sites
+* Fix: Correctly set default email message to 100% width
+* Fix: Fields with a layout class and labels set to right or left were not aligned right with CSS grids off
+* Fix: Some field shortcodes weren't being processed when the whitespace was abnormal from some cases of copy/paste
+* Fix: Set the width of the box with field types on form builder page a bit differently to prevent it from being too small when the page includes a lot of admin notices at the top
+* Remove a few 100% translations from the plugin so WordPress can handle it
+
+= 3.0.02 =
+* Tweak: Move the forms css inside the plugin rather than saving it in the uploads folder so it will always be reset after updates
+* New: Add frm_fields_container_class hook for changing the new form container class attributes
+* Fix: More form styling fixes for css grids. Fixes cover layouts with frm_alignright and smoother responsive layouts.
+* Fix: Combine the old and new form css, and include the old layout CSS by default
+* Fix: Trigger the activation install right when the plugin is installed
+* Fix: Don't add label position styling to fields that don't include the option to change the label position
+* Fix: Correctly limit the number of fields returned when using the FrmField::get_all_for_form function with a limit set
+* **Pro Version Forms**
+* New: Show a generated screenshot of the embedded form in the form builder rather than the first few fields
+* Fix: Auto updates with the nested version going from 3.0 were failing and updating to lite
+* Fix: Some default values were overiding non defaults when the form was displayed. This included user ID fields and other ifelds with separate values.
+* Fix: Recompile the combined javascript file any time the pro version number changes
+* Fix: Embedded forms were being changed when the parent form was saved
+* Fix: Dynamic fields showing the entry key were blank with [25 show=key].
+* Fix: More reliably run calculations in hidden fields inside of a section on multi paged forms
+* Fix: Don't apply auto layout classes to inline forms with more than 12 fields
+* Fix: When checking if an inline form needs layout classes added, check for non-numeric classes like frm_half
+* Fix: Prevent the comment box on the entries page from closing immediately
+
+= 3.0.01 =
+* Fix: Trigger style update when a form is loaded instead of only when an admin page is visited
+* Fix: A few various form styling and layout fixes
+* Fix: Prevent screenreader text for accessibility from showing on sites with older cached css
+* Fix: Prevent conflict with Divi when a form shortcode with a recaptcha is included in page editor
+* Fix: Use 'readfile' instead of 'include' for css files for extra safety precautions
+* Fix: Load the field options before frm_new_fields_vars hook for reverse compatibility
+* **Pro Version Forms**
+* New: Use toggle fields in calculations and conditional logic
+* Fix: Some conditional logic based on empty radio fields wasn't functioning
+* Fix: Require time fields at the correct times
+
 = 3.0 =
 * Move features into the free form builder: redirect and show page after save, javascript validation, field format options with HTML5 pattern validation, and phone number, number, user ID, hidden field, and HTML fields
 * Possibly breaking change: Remove code that has been deprecated since before v2.02

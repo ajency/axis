@@ -90,13 +90,13 @@ class FrmFieldsHelper {
 		// Track the original field's type
 		$field_array['original_type'] = isset( $field->field_options['original_type'] ) ? $field->field_options['original_type'] : $field->type;
 
+		self::prepare_field_options_for_display( $field_array, $field, $args );
+
 		if ( $args['action'] == 'edit' ) {
 			$field_array = apply_filters( 'frm_setup_edit_fields_vars', $field_array, $field, $args['entry_id'], $args );
 		} else {
 			$field_array = apply_filters( 'frm_setup_new_fields_vars', $field_array, $field, $args );
 		}
-
-		self::prepare_field_options_for_display( $field_array, $field, $args );
 	}
 
 	/**
@@ -170,7 +170,7 @@ class FrmFieldsHelper {
 	 * @since 3.0
 	 *
 	 * @param string $setting
-	 * @param mixed $current
+	 * @param mixed $value
 	 */
 	private static function get_posted_field_setting( $setting, &$value ) {
 		if ( isset( $_POST['field_options'][ $setting ] ) ) {
@@ -1054,7 +1054,7 @@ class FrmFieldsHelper {
 
 		$label = isset( $args['opt_label'] ) ? $args['opt_label'] : $args['field']['name'];
 
-		?><label for="<?php echo esc_attr( $other_id ) ?>" class="frm_screen_reader"><?php
+		?><label for="<?php echo esc_attr( $other_id ) ?>" class="frm_screen_reader frm_hidden"><?php
 		echo esc_html( $label );
 		?></label><input type="text" id="<?php echo esc_attr( $other_id ) ?>" class="<?php echo sanitize_text_field( implode( ' ', $classes ) ) ?>" <?php
 		echo ( $args['read_only'] ? ' readonly="readonly" disabled="disabled"' : '' );

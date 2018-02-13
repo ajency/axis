@@ -86,9 +86,6 @@ class FrmStylesController {
 
 			if ( ! empty( $css ) ) {
 				$css = (array) $css;
-				if ( $frm_settings->old_css ) {
-					$css['frm-old'] = FrmAppHelper::plugin_url() . '/css/frm_old_grids.css';
-				}
 
 				$version = FrmAppHelper::plugin_version();
 
@@ -128,14 +125,28 @@ class FrmStylesController {
 	}
 
 	private static function get_url_to_custom_style( &$stylesheet_urls ) {
-		$uploads = FrmStylesHelper::get_upload_base();
-		$saved_css_path = '/formidable/css/formidablepro.css';
-		if ( is_readable( $uploads['basedir'] . $saved_css_path ) ) {
-			$url = $uploads['baseurl'] . $saved_css_path;
+		$file_name = '/css/' . self::get_file_name();
+		if ( is_readable( FrmAppHelper::plugin_path() . $file_name ) ) {
+			$url = FrmAppHelper::plugin_url() . $file_name;
 		} else {
 			$url = admin_url( 'admin-ajax.php?action=frmpro_css' );
 		}
 		$stylesheet_urls['formidable'] = $url;
+	}
+
+	/**
+	 * Use a different stylesheet per site in a multisite install
+	 *
+	 * @since 3.0.03
+	 */
+	public static function get_file_name() {
+		if ( is_multisite() ) {
+			$blog_id = get_current_blog_id();
+			$name = 'formidableforms' . absint( $blog_id ) . '.css';
+		} else {
+			$name = 'formidableforms.css';
+		}
+		return $name;
 	}
 
 	private static function get_css_version( $css_key, $version ) {
@@ -446,7 +457,6 @@ class FrmStylesController {
         $frm_settings = FrmAppHelper::get_settings();
         if ( $frm_settings->load_style != 'none' ) {
             wp_enqueue_style( 'formidable' );
-			wp_enqueue_style( 'frm-old' );
             $frm_vars['css_loaded'] = true;
         }
     }

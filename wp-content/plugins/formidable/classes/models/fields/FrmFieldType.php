@@ -177,7 +177,7 @@ DEFAULT_HTML;
 		if ( ! empty( $include_file ) ) {
 			$this->include_on_form_builder( $name, $field );
 		} elseif ( $this->has_input ) {
-			echo $this->builder_text_field();
+			echo $this->builder_text_field( $name );
 		}
 	}
 
@@ -206,8 +206,8 @@ DEFAULT_HTML;
 		return '';
 	}
 
-	protected function builder_text_field() {
-		return '<input type="text" name="' . esc_attr( $this->html_name() ) . '" id="' . esc_attr( $this->html_id() ) . '" value="' . esc_attr( $this->get_field_column('default_value') ) . '" class="dyn_default_value" />';
+	protected function builder_text_field( $name = '' ) {
+		return '<input type="text" name="' . esc_attr( $this->html_name( $name ) ) . '" id="' . esc_attr( $this->html_id() ) . '" value="' . esc_attr( $this->get_field_column('default_value') ) . '" class="dyn_default_value" />';
 	}
 
 	protected function html_name( $name = '' ) {
@@ -403,7 +403,7 @@ DEFAULT_HTML;
 	}
 
 	protected function get_field_scripts_hook( $args ) {
-		$form_id = isset( $args['parent_field_id'] ) && $args['parent_field_id'] ? $args['parent_field_id'] : $args['form']->id;
+		$form_id = isset( $args['parent_form_id'] ) && $args['parent_form_id'] ? $args['parent_form_id'] : $args['form']->id;
 		do_action( 'frm_get_field_scripts', $this->field, $args['form'], $form_id );
 	}
 
@@ -461,7 +461,7 @@ DEFAULT_HTML;
 	}
 
 	public function get_label_class() {
-		return $this->get_field_column('label');
+		return ' frm_primary_label';
 	}
 
 	/**
@@ -700,7 +700,7 @@ DEFAULT_HTML;
 	 *
 	 * @param string|array $value
 	 *
-	 * @return string|array
+	 * @return string|array|float
 	 */
 	public function set_value_before_save( $value ) {
 		return $value;

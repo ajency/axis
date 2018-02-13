@@ -980,7 +980,10 @@ a.frm-option-icon:hover::before{
 	box-shadow:none;
 	width:auto;
 }
-.frm_form_fields select{width:auto;}
+.frm_form_fields select{
+	width:auto;
+	max-width:100%;
+}
 input[type="radio"],
 input[type="checkbox"]{
 	width:16px;
@@ -1249,7 +1252,7 @@ table.frm_name_value textarea {
 .frm_border_light{border:solid 1px #ddd;}
 
 .form-table .form-field input, .form-table .form-field .quicktags-toolbar input,
-.form-field input, .form-field textarea, .form-field .quicktags-toolbar input{width:auto;}
+.form-field input, .form-field .quicktags-toolbar input{width:auto;}
 .frm_pro_installed{margin-top:0.5em;}
 .frm_aff_link{float:right;}
 .frm_select_box{text-align:center;font-weight:bold;width:100%;}
@@ -2194,7 +2197,7 @@ tr.frm_options_heading td{
 .frm_no_section_fields{
 	text-align:center;
 	position:absolute;
-	width:100%;
+	width:95%;
 	color: #808080;
 	font-size:16px;
 }

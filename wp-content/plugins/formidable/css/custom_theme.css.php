@@ -184,7 +184,7 @@ legend.frm_hidden{
 
 .frm_inline_form .frm_form_field,
 .frm_inline_form .frm_submit{
-	grid-column-end: span 1;
+	grid-column: span 1 / span 1;
 }
 
 .frm_inline_form .frm_submit{
@@ -316,12 +316,9 @@ a.frm_save_draft{
 
 .with_frm_style .vertical_radio .frm_checkbox label,
 .with_frm_style .vertical_radio .frm_radio label{
-	display: inline-flex;
-}
-
-.with_frm_style .vertical_radio .frm_checkbox label img,
-.with_frm_style .vertical_radio .frm_radio label img{
-	align-self: center;
+	display: block;
+	padding-left: 20px;
+	text-indent: -20px;
 }
 
 .frm_file_container .frm_file_link,
@@ -426,7 +423,7 @@ table.form_results.with_frm_style tr.frm_even,
 
 table.form_results.with_frm_style tr.frm_odd,
 .frm-grid .frm_odd{
-    background-color:<?php echo esc_html( $defaults['bg_color_active'] ) ?>;
+    background-color:#<?php echo esc_html( $defaults['bg_color_active'] ) ?>;
 }
 
 .frm_collapse .ui-icon{
@@ -519,18 +516,18 @@ table.form_results.with_frm_style tr.frm_odd,
 }
 
 .frm-loading-img{
-    background:url(<?php echo FrmAppHelper::relative_plugin_url() ?>/images/ajax_loader.gif) no-repeat center center;
+    background:url(../images/ajax_loader.gif) no-repeat center center;
     padding:6px 12px;
 }
 
 select.frm_loading_lookup{
-    background-image: url(<?php echo FrmAppHelper::relative_plugin_url() ?>/images/ajax_loader.gif) !important;
+    background-image: url(../images/ajax_loader.gif) !important;
     background-position: 10px;
     background-repeat: no-repeat;
     color: transparent !important;
 }
 
-<?php include( dirname( __FILE__ ) . '/frm_grids.css' ); ?>
+<?php readfile( dirname( __FILE__ ) . '/frm_grids.css' ); ?>
 
 /* Left and right label styling for non-Formidable styling */
 
@@ -538,29 +535,30 @@ select.frm_loading_lookup{
 .frm_form_field.frm_right_container,
 .frm_form_field.frm_left_container{
     display: grid;
-    grid-template-columns: min-content auto;
+    grid-template-columns: 25% auto;
 	width:100%;
+	grid-auto-rows: min-content;
 }
 
 .frm_form_field.frm_right_container{
-    grid-template-columns: auto min-content;
+    grid-template-columns: auto 25%;
 }
 
 .frm_form_field.frm_inline_container{
-    grid-template-columns: minmax(min-content, max-content) auto;
+    grid-template-columns: repeat(2, minmax(auto, max-content) );
 }
 
 .frm_form_field.frm_inline_container label.frm_primary_label,
 .frm_form_field.frm_right_container label.frm_primary_label,
 .frm_form_field.frm_left_container label.frm_primary_label{
 	margin-right:10px;
-	grid-row-end:span 2;
-	align-self: center;
+	grid-row:span 2/span 2;
+	padding-top:4px;
 }
 
 .frm_form_field.frm_left_container label.frm_primary_label{
 	grid-column:1;
-	grid-row-end:span 2; /* cover a row for the description */
+	grid-row:span 2/span 2; /* cover a row for the description */
 }
 
 .frm_form_field.frm_right_container label.frm_primary_label{
@@ -646,7 +644,7 @@ select.frm_loading_lookup{
 }
 
 .frm_grid{
-    background-color:<?php echo esc_html( $defaults['bg_color_active'] ) ?>;
+    background-color:#<?php echo esc_html( $defaults['bg_color_active'] ) ?>;
 }
 
 .frm_grid .frm_primary_label,
@@ -790,6 +788,12 @@ select.frm_loading_lookup{
 .frm_grid_10 .frm_checkbox{
     width:8% !important;
     margin-right:1%;
+}
+
+.frm_form_field.frm_inline_container .frm_opt_container,
+.frm_form_field.frm_right_container .frm_opt_container,
+.frm_form_field.frm_left_container .frm_opt_container{
+	padding-top:4px;
 }
 
 .with_frm_style .frm_inline_container.frm_grid_first label.frm_primary_label,
@@ -976,13 +980,13 @@ select.frm_loading_lookup{
 /* Fonts */
 @font-face {
 	font-family:'s11-fp';
-	src:url('<?php echo FrmAppHelper::relative_plugin_url() ?>/fonts/s11-fp.eot?v=<?php echo esc_attr( FrmAppHelper::$font_version ); ?>');
-	src:local('☺'), url('<?php echo FrmAppHelper::relative_plugin_url() ?>/fonts/s11-fp.woff?v=<?php echo esc_attr( FrmAppHelper::$font_version ); ?>') format('woff'), url('<?php echo FrmAppHelper::relative_plugin_url() ?>/fonts/s11-fp.ttf?v=<?php echo esc_attr( FrmAppHelper::$font_version ); ?>') format('truetype'), url('<?php echo FrmAppHelper::relative_plugin_url() ?>/fonts/s11-fp.svg?v=<?php echo esc_attr( FrmAppHelper::$font_version ); ?>') format('svg');
+	src:url('../fonts/s11-fp.eot?v=<?php echo esc_attr( FrmAppHelper::$font_version ); ?>');
+	src:local('☺'), url('../fonts/s11-fp.woff?v=<?php echo esc_attr( FrmAppHelper::$font_version ); ?>') format('woff'), url('../fonts/s11-fp.ttf?v=<?php echo esc_attr( FrmAppHelper::$font_version ); ?>') format('truetype'), url('../fonts/s11-fp.svg?v=<?php echo esc_attr( FrmAppHelper::$font_version ); ?>') format('svg');
 	font-weight:normal;
 	font-style:normal;
 }
 
-<?php include( FrmAppHelper::plugin_path() . '/css/font_icons.css' ); ?>
+<?php readfile( FrmAppHelper::plugin_path() . '/css/font_icons.css' ); ?>
 <?php do_action( 'frm_include_front_css', compact( 'defaults' ) ); ?>
 
 /* Responsive */
@@ -1046,4 +1050,10 @@ select.frm_loading_lookup{
 	}
 }
 <?php
+
+$frm_settings = FrmAppHelper::get_settings();
+if ( $frm_settings->old_css ) {
+	readfile( dirname( __FILE__ ) . '/frm_old_grids.css' );
+}
+
 echo $defaults['custom_css'];
