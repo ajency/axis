@@ -2133,6 +2133,9 @@ input[type="checkbox"]:after {
 .axisrooms.category #main-nav > li > a {
   color: #444;
 }
+.axisrooms.category .sticky-nav.stuck #main-nav > li > a {
+  color: #fff;
+}
 .axisrooms.category #main-content {
   top: 0;
   margin-bottom: 0;
