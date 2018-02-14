@@ -296,6 +296,17 @@ a.vc_btn3 {
   padding: 8px 20px;
   font-size: 15px;
 }
+#header-inner.stuck #header-inner-bg {
+  background-color: #f7f7f7 !important;
+  -moz-box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+       box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+}
+#header-inner.stuck #header-inner-bg .hb-logo-wrap {
+  filter: none;
+}
+#header-inner.stuck #header-inner-bg #main-nav > li > a {
+  color: #424242;
+}
 #header-bar {
   background-color: #333333;
   color: #bbb;
