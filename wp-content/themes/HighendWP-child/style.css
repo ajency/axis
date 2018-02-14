@@ -133,6 +133,9 @@ body {
     margin-top: 20px;
   }
 }
+#copyright-wrapper {
+  background: #16413b;
+}
 .subscribe-holder {
   display: -moz-box;
   display: flex;
@@ -855,6 +858,16 @@ a.vc_btn3 {
   border-color: #6b6e9b !important;
   font-size: 22px;
   font-family: Open Sans;
+}
+.award-row h5 a {
+  color: #2c2e52!important;
+}
+.award-row.vertical .wpb_wrapper {
+  flex-wrap: wrap;
+}
+.award-row.vertical h5 {
+  border-color: transparent !important;
+  font-size: 20px;
 }
 @media (max-width: 767px) {
   .award-row .wpb_wrapper {
