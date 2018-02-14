@@ -340,7 +340,7 @@ function geoip_redirect(){
 
   $userInfo = geoip_detect2_get_info_from_current_ip();
   $countryCode = $userInfo->country->isoCode;
-  if($contryCode = 'IND'){
+  if($countryCode = 'IND'){
     $url = '/pricing-india';
     wp_redirect(get_site_url(null, $url));
     exit;
