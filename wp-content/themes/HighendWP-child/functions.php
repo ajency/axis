@@ -289,7 +289,7 @@ add_action('custom_team_member_box', 'hb_team_member_box');
 
 
 
-remove_filter( 'the_content', 'wpautop' );
+// remove_filter( 'the_content', 'wpautop' );
 remove_filter( 'the_excerpt', 'wpautop' );
 
 /**

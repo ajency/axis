@@ -81,6 +81,9 @@ body {
     display: none;
   }
 }
+.footer-mobile-view li {
+  padding: 4px 0;
+}
 .footer-mobile-view i {
   margin-right: 10px;
 }
@@ -2087,4 +2090,23 @@ input[type="checkbox"]:after {
   .team-member-content {
     min-height: 170px;
   }
+}
+.page-template-page-blog .hb-logo-wrap,
+.single-post .hb-logo-wrap {
+  filter: brightness(0) invert(1);
+}
+.page-template-page-blog #hb-page-title.hb-color-background,
+.single-post #hb-page-title.hb-color-background {
+  top: -80px;
+  padding-top: 150px;
+}
+.single-post .breadcrumbs-wrapper {
+  display: none;
+}
+.single-post .post-header h1 {
+  display: none;
+}
+.single-post .entry-content {
+  font-size: 16px ;
+  line-height: 28px;
 }
