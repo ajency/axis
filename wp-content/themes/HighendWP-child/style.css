@@ -2098,7 +2098,16 @@ input[type="checkbox"]:after {
 .page-template-page-blog #hb-page-title.hb-color-background,
 .single-post #hb-page-title.hb-color-background {
   top: -80px;
-  padding-top: 150px;
+  padding-top: 180px;
+}
+.page-template-page-blog .meta-info a,
+.single-post .meta-info a {
+  color: #5a5a5a;
+  border-bottom: 1px dotted #5a5a5a;
+}
+.page-template-page-blog .meta-info a:hover,
+.single-post .meta-info a:hover {
+  color: #10c9a3;
 }
 .single-post .breadcrumbs-wrapper {
   display: none;
@@ -2109,4 +2118,15 @@ input[type="checkbox"]:after {
 .single-post .entry-content {
   font-size: 16px ;
   line-height: 28px;
+}
+.widget_categories a {
+  color: #5a5a5a;
+  border-bottom: 1px dotted #5a5a5a;
+}
+.widget_categories a:hover {
+  color: #10c9a3;
+}
+#searchsubmit {
+  background-color: #10c9a3;
+  padding: 12px 16px 12px!important;
 }
