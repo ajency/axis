@@ -807,14 +807,13 @@ a.vc_btn3 {
 }
 .award-row img {
   max-width: 220px !important;
-  margin-top: 25px;
 }
 .award-row h5 {
   color: #2c2e52!important;
   border-color: #6b6e9b !important;
   font-size: 26px;
   font-family: Open Sans;
-  margin-top: 115px;
+  margin-top: 90px;
 }
 @media (max-width: 767px) {
   .award-row h5 {
@@ -822,6 +821,9 @@ a.vc_btn3 {
     text-align: center;
     font-size: 20px;
   }
+}
+#main-content .award-row .wpb_content_element {
+  margin-bottom: 0 !important;
 }
 .single-single-product .hb-logo-wrap,
 .single-products .hb-logo-wrap {
