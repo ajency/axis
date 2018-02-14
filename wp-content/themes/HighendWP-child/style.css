@@ -805,19 +805,28 @@ a.vc_btn3 {
   border-left: 0;
   border-right: 0;
 }
+.award-row .wpb_wrapper {
+  display: -moz-box;
+  display: flex;
+  justify-content: space-around;
+  -moz-box-align: center;
+       align-items: center;
+}
 .award-row img {
-  max-width: 220px !important;
+  max-width: 200px !important;
 }
 .award-row h5 {
   color: #2c2e52!important;
   border-color: #6b6e9b !important;
-  font-size: 26px;
+  font-size: 24px;
   font-family: Open Sans;
-  margin-top: 90px;
 }
 @media (max-width: 767px) {
+  .award-row .wpb_wrapper {
+    flex-wrap: wrap;
+  }
   .award-row h5 {
-    margin-top: 0;
+    margin-top: 10px;
     text-align: center;
     font-size: 20px;
   }
