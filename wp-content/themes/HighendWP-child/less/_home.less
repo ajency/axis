@@ -297,10 +297,12 @@
 @keyframes scroll {
 	0% {
 		opacity: 1;
+		-webkit-transform: translateY(0px);
 		transform: translateY(0px);
 	}
 	100% {
 		opacity: 0;
+		-webkit-transform: translateY(10px);
 		transform: translateY(10px);
 	}
 }
@@ -327,6 +329,7 @@
 		text-indent: 3px;
 		margin-bottom: 0;
 		animation: none;
+		-webkit-transform: translateY(65px);
 		transform: translateY(65px);
 	}
 	.mouse {
@@ -411,11 +414,13 @@
 
 .homepage{
 	.fw-section.waved-border{
+		-webkit-transform: skewY(2deg);
 		transform: skewY(2deg);
 	}
 }
 
 .trial-section{
+	-webkit-transform: skewY(-2deg);
 	transform: skewY(-2deg);
 	padding-top: 50px;
 	padding-bottom: 0;
