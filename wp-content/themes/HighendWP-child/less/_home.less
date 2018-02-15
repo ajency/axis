@@ -252,6 +252,12 @@
 		background-color: @brand-primary;
 		box-shadow: none;
 	}
+	@media(max-width: 767px){
+		text-align: center;
+		.hb-button{
+			margin: auto;
+		}
+	}
 }
 
 .vertical-banner{
@@ -481,9 +487,22 @@
 	}
 
 	@media(max-width: 767px){
+		margin-top: 0px !important;
 		.trial-white-bg{
 			margin-top: 0;
 			margin-bottom: 40px !important;
+		}
+		.hb-ul-list{
+			font-size: 18px;
+			h6{
+				display: flex;
+				font-size: 16px;
+			}
+			li{
+				p{
+					padding-left: 20px;
+				}
+			}
 		}
 	}
 }

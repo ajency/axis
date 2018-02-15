@@ -610,6 +610,14 @@ a.vc_btn3 {
   -moz-box-shadow: none;
        box-shadow: none;
 }
+@media (max-width: 767px) {
+  .demo-banner {
+    text-align: center;
+  }
+  .demo-banner .hb-button {
+    margin: auto;
+  }
+}
 .vertical-banner .demo-banner {
   padding-bottom: 200px;
 }
@@ -846,9 +854,23 @@ a.vc_btn3 {
   line-height: 26px;
 }
 @media (max-width: 767px) {
+  .trial-section {
+    margin-top: 0px !important;
+  }
   .trial-section .trial-white-bg {
     margin-top: 0;
     margin-bottom: 40px !important;
+  }
+  .trial-section .hb-ul-list {
+    font-size: 18px;
+  }
+  .trial-section .hb-ul-list h6 {
+    display: -moz-box;
+    display: flex;
+    font-size: 16px;
+  }
+  .trial-section .hb-ul-list li p {
+    padding-left: 20px;
   }
 }
 .award-row {
