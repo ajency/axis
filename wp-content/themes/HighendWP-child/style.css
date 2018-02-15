@@ -78,6 +78,10 @@ body {
 .dark-footer #footer .widget-column a {
   color: #fff;
 }
+.dark-footer #footer .widget-column a:hover {
+  color: #fff;
+  text-decoration: underline;
+}
 .dark-footer .hb_contact_info_widget ul li i {
   color: #fff;
 }
@@ -581,6 +585,7 @@ a.vc_btn3 {
 @media (min-width: 768px) {
   .different-row {
     padding: 0 30px;
+    margin-bottom: 0 !important;
   }
 }
 .demo-banner {
