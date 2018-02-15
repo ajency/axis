@@ -334,6 +334,9 @@ a.vc_btn3 {
 #header-inner.stuck #header-inner-bg #main-nav > li > a {
   color: #424242;
 }
+#header-inner.stuck #header-inner-bg .main-navigation.minimal-skin #main-nav > li.current-menu-ancestor > a span {
+  border-bottom: 2px solid #10c9a3 !important;
+}
 #header-bar {
   background-color: #333333;
   color: #bbb;
