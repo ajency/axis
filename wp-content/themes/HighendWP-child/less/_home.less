@@ -230,6 +230,27 @@
 		padding: 0 30px;
 		margin-bottom: 0 !important;
 	}
+	.different-mobile-row{
+		display: none;
+	}
+}
+@media(max-width: 767px){
+	.different-row{
+		display: none;
+	}
+	.different-mobile-row{
+		display: flex;
+		overflow-x: auto;
+		&>.wpb_column{
+			min-width: 90vw;
+			h4{
+				font-size: 22px !important;
+			}
+			.back-desc{
+				font-size: 15px !important;
+			}
+		}
+	}
 }
 
 
@@ -368,6 +389,13 @@
 }
 
 
+// Clients
+@media(max-width: 767px){
+	.crsl-nav{
+		opacity: 1;
+	}
+}
+
 // Testimonials grid
 .axis_testimonials{
 	display: flex;
@@ -423,9 +451,25 @@
 	}
 
 	@media(max-width: 767px){
-		flex-wrap: wrap;
+		overflow-x: auto;
+		// flex-wrap: wrap;
 		.column1, .column2, .column3{
-			width: 100%;
+			// width: 100%;
+			min-width: 220vw;
+			display: flex;
+		}
+		.column2{
+			order: 1;
+		}
+		.column1{
+			order: 2;
+		}
+		.column3{
+			order: 3;
+		}
+		.single_testimonial{
+			min-width: 80vw;
+			box-sizing: border-box;
 		}
 	}
 }
@@ -493,7 +537,9 @@
 	}
 
 	@media(max-width: 767px){
-		margin-top: 0px !important;
+		&.vc_custom_1515066603586{
+			margin-top: 0px !important;
+		}
 		.trial-white-bg{
 			margin-top: 0;
 			margin-bottom: 40px !important;
