@@ -26,12 +26,12 @@ function cta_banner_shortcode($atts){
 
       'demo_title' => 'Want to know which combination of products can boost your revenue?',
       'button_text' => 'Schedule a Demo Now',
-      'form_id' => '464',
+      'form_id' => '7',
       'form_title' => 'Schedule Demo',
       'modal_window_title' => 'Schedule A Demo'
 
    ), $atts));
-   $modalshortcode =  do_shortcode('[modal_window title="'.$modal_window_title.'" invoke_title="'.$button_text.'" id="demoModal" show_on_load="no"]  [contact-form-7 id="'.$form_id.'" title="'.$form_title.'"] [/modal_window]');
+   $modalshortcode =  do_shortcode('[modal_window title="'.$modal_window_title.'" invoke_title="'.$button_text.'" id="demoModal" show_on_load="no"] [formidable id='.$form_id.']  [/modal_window]');
    $html = '<div class="demo-banner"> ';
    $html .='<h5>'.$demo_title.'</h5>';
    $html .= $modalshortcode;
@@ -59,7 +59,7 @@ function testimonials_gal_shortcode($atts)
       }
 
    else{
-    $array_id=split(",",$ids);
+    $array_id=explode(",",$ids);
    }
 
 
@@ -98,7 +98,7 @@ function testimonials_gal_shortcode($atts)
         {
           $temp= $val[0];
           $s='"';
-          $array_temp=split($s,$temp);
+          $array_temp=explode($s,$temp);
         }
 
     }

@@ -322,12 +322,12 @@ input[type="checkbox"] {
 		transition: all 0.3s ease-in-out;
 		content: "";
 		position: absolute;
-		left: -10px;
+		left: -5px;
 		z-index: 1;
 		width: 1rem;
 		height: 1rem;
 		border: 2px solid #d8d8d8;
-		top: -0.4rem;
+		top: -2px;
 	}
 	&:checked {
 		&:before {
@@ -345,8 +345,8 @@ input[type="checkbox"] {
 	&:after {
 		content: "";
 		position: absolute;
-		top: -0.125rem;
-		left: 0;
+		top: 2px;
+		left: -2px;
 		width: 1.1rem;
 		height: 1.1rem;
 		background: #fff;
@@ -381,4 +381,72 @@ input[type="checkbox"] {
 
 .contact-text-block{
 	min-height: 210px;
+}
+
+
+.frm_style_bottom-border.with_frm_style input[type=text],
+.frm_style_bottom-border.with_frm_style input[type=password],
+.frm_style_bottom-border.with_frm_style input[type=email],
+.frm_style_bottom-border.with_frm_style input[type=number],
+.frm_style_bottom-border.with_frm_style input[type=url],
+.frm_style_bottom-border.with_frm_style input[type=tel],
+.frm_style_bottom-border.with_frm_style input[type=phone],
+.frm_style_bottom-border.with_frm_style input[type=search],
+.frm_style_bottom-border.with_frm_style select,
+.frm_style_bottom-border.with_frm_style textarea,
+.frm_form_fields_style,
+.frm_style_bottom-border.with_frm_style .frm_scroll_box .frm_opt_container,
+.frm_form_fields_active_style,
+.frm_form_fields_error_style,
+.frm_style_bottom-border.with_frm_style .chosen-container-multi .chosen-choices,
+.frm_style_bottom-border.with_frm_style .chosen-container-single .chosen-single{
+	border-left: 0 !important;
+    border-right: 0 !important;
+    border-top: 0 !important;
+    box-shadow: none;
+}
+.frm_style_bottom-border.with_frm_style .frm_checkbox label{
+	margin-left: 5px;
+}
+@media(max-width: 767px){
+	.frm_checkbox{
+		width: 100%;
+		float: left;
+		margin: 0 0 15px 0 !important;
+	}
+}
+@media(min-width: 768px){
+	.frm_checkbox{
+		width: 50%;
+		float: left;
+		margin: 0 0 15px 0 !important;
+	}
+}
+.frm_style_bottom-border{
+	input[type=date], input[type=email], input[type=password], input[type=search], input[type=tel], input[type=text], input[type=url], select, textarea{
+		padding: 8px 2px 6px!important;
+	}
+	.frm_submit{
+		text-align: center;
+	}
+}
+.frm_style_bottom-border.with_frm_style .frm_checkbox label{
+	padding-left: 22px !important;
+	text-indent: -22px !important;
+}
+.frm_style_bottom-border.with_frm_style .chosen-container-single .chosen-single{
+	background-color: transparent !important;
+	background-image: none !important;
+}
+.frm_style_bottom-border.with_frm_style .frm_error{
+	margin: 0 15px;
+}
+
+.frm_style_bottom-border.with_frm_style .frm_radio input[type=radio],
+.frm_style_bottom-border.with_frm_style .frm_checkbox input[type=checkbox]{
+	vertical-align: sub;
+}
+
+.with_frm_style .frm_form_field.frm_left_container .chosen-search input:not([type=radio]):not([type=checkbox]){
+	max-width: 100% !important;
 }
