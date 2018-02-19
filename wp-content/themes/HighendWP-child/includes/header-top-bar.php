@@ -166,7 +166,7 @@ if ( class_exists('Woocommerce') ) {
                     <a href="https://app.axisrooms.com" target="_blank">Booking Engine</a>
                 </li>
                 <li>
-                    <a href="http://hex.axisrooms.com/" target="_blank">Hotel Exchange</a>
+                    <a href="https://hex.axisrooms.com/" target="_blank">Hotel Exchange</a>
                 </li>
                 <li>
                     <a href="https://rm.axisrooms.com/#/login" target="_blank">Revenue Management System</a>

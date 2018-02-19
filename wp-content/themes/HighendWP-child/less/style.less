@@ -190,35 +190,61 @@ body{
 }
 
 .subscribe-holder{
-	.frm_fields_container{
-		display: flex !important;
-		// flex-wrap: wrap;
-	}
-	input[type=email]{
-		// width: 60%;
-		border-top-right-radius: 0 !important;
-		border-bottom-right-radius: 0 !important;
-		background-color: rgba(36, 41, 45, 0.5);
-		border: 0;
-		&:focus{
-			color: #000 !important;
+	display: flex;
+	flex-wrap: wrap;
+	&> span{
+		width: 60%;
+		input[type=email]:focus{
+			// color: #000 !important;
 		}
 	}
-	button[type=submit]{
-		// width: 40%;
+	&> input[type=submit]{
+		width: 40%;
 		margin: 0;
-		padding: 10px 8px 9px!important;
+		padding: 8px 8px 8px!important;
 		text-align: center;
 		text-transform: none;
 		box-shadow: none;
 		background-color: @brand-primary;
-		border-top-left-radius: 0;
-		border-bottom-left-radius: 0;
 	}
 	.ajax-loader{
 		width: 100%;
 	}
 }
+
+
+// Formidable subscribe styles
+// .subscribe-holder{
+// 	.frm_fields_container{
+// 		display: flex !important;
+// 		// flex-wrap: wrap;
+// 	}
+// 	input[type=email]{
+// 		// width: 60%;
+// 		border-top-right-radius: 0 !important;
+// 		border-bottom-right-radius: 0 !important;
+// 		background-color: rgba(36, 41, 45, 0.5);
+// 		border: 0;
+// 		&:focus{
+// 			color: #000 !important;
+// 		}
+// 	}
+// 	button[type=submit]{
+// 		// width: 40%;
+// 		margin: 0;
+// 		padding: 10px 8px 9px!important;
+// 		text-align: center;
+// 		text-transform: none;
+// 		box-shadow: none;
+// 		background-color: @brand-primary;
+// 		border-top-left-radius: 0;
+// 		border-bottom-left-radius: 0;
+// 	}
+// 	.ajax-loader{
+// 		width: 100%;
+// 	}
+// }
+
 
 
 #copyright-text{

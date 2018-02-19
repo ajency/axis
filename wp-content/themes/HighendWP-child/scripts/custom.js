@@ -11,7 +11,7 @@ jQuery('body').on('click', '.apply-btn', function(e){
 
 
 // Trigger Schedule a Demo Modal
-jQuery('.menu-item-81 a, .menu-item-258 a, .schedule-demo-trigger a, .schedule-demo-trigger button').on('click', function(e) {
+jQuery('body').on('click', '.menu-item-81 a, .menu-item-258 a, .schedule-demo-trigger a, .schedule-demo-trigger button', function(e) {
 	e.preventDefault();
 	var $modal_id = "demoModal";
 
