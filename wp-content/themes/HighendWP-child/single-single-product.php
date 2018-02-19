@@ -44,7 +44,7 @@
 						<h5>See <?php the_title(); ?> in action</h5>
 						<p>Tell us how we can reach you for a free demo</p>
 
-						<?php echo do_shortcode( '[contact-form-7 id="266" title="Product page"]' ); ?>
+						<?php echo do_shortcode( '[formidable id=9]' ); ?>
 					</div>
 				</div>
 			</div>
