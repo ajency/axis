@@ -144,22 +144,32 @@ body {
   background: #16413b;
 }
 .subscribe-holder .frm_fields_container {
-  display: -moz-box;
-  display: flex;
-  flex-wrap: wrap;
+  display: -moz-box !important;
+  display: flex !important;
 }
-.subscribe-holder > span {
-  width: 60%;
+.subscribe-holder input[type=email] {
+  -moz-border-radius-topright: 0;
+       border-top-right-radius: 0;
+  -moz-border-radius-bottomright: 0;
+       border-bottom-right-radius: 0;
+  background-color: rgba(36, 41, 45, 0.5);
+  border: 0;
 }
-.subscribe-holder > input[type=submit] {
-  width: 40%;
+.subscribe-holder input[type=email]:focus {
+  color: #000 !important;
+}
+.subscribe-holder button[type=submit] {
   margin: 0;
-  padding: 8px 8px 8px!important;
+  padding: 10px 8px 9px!important;
   text-align: center;
   text-transform: none;
   -moz-box-shadow: none;
        box-shadow: none;
   background-color: #10c9a3;
+  -moz-border-radius-topleft: 0;
+       border-top-left-radius: 0;
+  -moz-border-radius-bottomleft: 0;
+       border-bottom-left-radius: 0;
 }
 .subscribe-holder .ajax-loader {
   width: 100%;

@@ -191,23 +191,29 @@ body{
 
 .subscribe-holder{
 	.frm_fields_container{
-		display: flex;
-		flex-wrap: wrap;
+		display: flex !important;
+		// flex-wrap: wrap;
 	}
-	&> span{
-		width: 60%;
-		input[type=email]:focus{
-			// color: #000 !important;
+	input[type=email]{
+		// width: 60%;
+		border-top-right-radius: 0;
+		border-bottom-right-radius: 0;
+		background-color: rgba(36, 41, 45, 0.5);
+		border: 0;
+		&:focus{
+			color: #000 !important;
 		}
 	}
-	&> input[type=submit]{
-		width: 40%;
+	button[type=submit]{
+		// width: 40%;
 		margin: 0;
-		padding: 8px 8px 8px!important;
+		padding: 10px 8px 9px!important;
 		text-align: center;
 		text-transform: none;
 		box-shadow: none;
 		background-color: @brand-primary;
+		border-top-left-radius: 0;
+		border-bottom-left-radius: 0;
 	}
 	.ajax-loader{
 		width: 100%;
