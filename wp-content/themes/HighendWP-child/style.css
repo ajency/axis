@@ -143,7 +143,7 @@ body {
 #copyright-wrapper {
   background: #16413b;
 }
-.subscribe-holder {
+.subscribe-holder .frm_fields_container {
   display: -moz-box;
   display: flex;
   flex-wrap: wrap;

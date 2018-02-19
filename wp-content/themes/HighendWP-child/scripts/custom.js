@@ -51,6 +51,8 @@ jQuery('body').on('click', '.pricing-block a', function(){
 		jQuery('.vc_tta-tab a[href="#crs-tab"]').trigger('click')
 	} else if (jQuery(this).closest('.pricing-block').hasClass('rms-block')){
 		jQuery('.vc_tta-tab a[href="#rms-tab"]').trigger('click')
+	} else if (jQuery(this).closest('.pricing-block').hasClass('hotel-exchange-block')){
+		jQuery('.vc_tta-tab a[href="#hotel-exchange-tab"]').trigger('click')
 	} else if (jQuery(this).closest('.pricing-block').hasClass('rate-shopper-block')){
 		jQuery('.vc_tta-tab a[href="#rate-shopper-tab"]').trigger('click')
 	}
@@ -71,6 +73,9 @@ jQuery('body').on('click', '.pricing-tabs a', function(){
 	} else if (jQuery(this).attr('href')=='#rms-tab'){
 		jQuery('.rms-heading').siblings('.pricing-tabs-heading').addClass('hidden');
 		jQuery('.rms-heading').removeClass('hidden');
+	} else if (jQuery(this).attr('href')=='#hotel-exchange-tab'){
+		jQuery('.hotel-exchange-heading').siblings('.pricing-tabs-heading').addClass('hidden');
+		jQuery('.hotel-exchange-heading').removeClass('hidden');
 	} else if (jQuery(this).attr('href')=='#rate-shopper-tab'){
 		jQuery('.rate-shopper-heading').siblings('.pricing-tabs-heading').addClass('hidden');
 		jQuery('.rate-shopper-heading').removeClass('hidden');
