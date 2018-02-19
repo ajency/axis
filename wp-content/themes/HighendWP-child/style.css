@@ -148,10 +148,10 @@ body {
   display: flex !important;
 }
 .subscribe-holder input[type=email] {
-  -moz-border-radius-topright: 0;
-       border-top-right-radius: 0;
-  -moz-border-radius-bottomright: 0;
-       border-bottom-right-radius: 0;
+  -moz-border-radius-topright: 0 !important;
+       border-top-right-radius: 0 !important;
+  -moz-border-radius-bottomright: 0 !important;
+       border-bottom-right-radius: 0 !important;
   background-color: rgba(36, 41, 45, 0.5);
   border: 0;
 }
