@@ -122,36 +122,50 @@
 
 // Top header bar
 #header-bar{
-	background-color: #333333;
-    color: #bbb;
-    border-bottom: 1px solid #505050;
+	background-color: #009688;
+    color: #fff;
+    border-bottom: 1px solid #2e6d62;
 	a{
-		color: #bbb;
+		color: #fff;
+		&:hover{
+			text-decoration: underline;
+			color: #fff !important;
+		}
 	}
 	&.style-1 .top-widget {
-	    border-right-color: #505050;
+	    border-right-color: #2e6d62;
 	}
 }
 #top-info-widget{
-	border-left: 1px solid #505050;
+	border-left: 1px solid #2e6d62;
 }
-.hb-dropdown-box{
-	background-color: #333333;
-    color: #bbb;
-    border-color: #505050;
-	&::before{
-		background-color: #333333;
-    	border-color: #505050;
+.axisrooms{
+	#main-wrapper{
+		.hb-dropdown-box{
+			background-color: #009688;
+		    color: #fff;
+		    border-color: #2e6d62;
+			&::before{
+				background-color: #009688;
+		    	border-color: #2e6d62;
+			}
+			a{
+				&:hover{
+					text-decoration: underline;
+					color: #fff !important;
+				}
+			}
+		}
 	}
 }
 .logout-dropdown ul li a{
-	border-color: #505050 !important;
+	border-color: #2e6d62 !important;
 	&:hover{
-		background-color: #505050;
+		background-color: #2e6d62;
 	}
 }
 #main-wrapper .hb-dropdown-box a{
-    color: #bbb !important;
+    color: #fff !important;
 }
 
 #main-nav li a{
