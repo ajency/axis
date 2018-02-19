@@ -43,6 +43,9 @@
 				// margin-right: 20px;
 				// opacity: 0.5;
 			}
+			&_mobile{
+				display: none;
+			}
 		}
 		h1.entry-title{
 			color: #fff;
@@ -51,6 +54,16 @@
 		p{
 			color: #fff;
 			margin-bottom: 0;
+		}
+
+		@media(max-width: 767px){
+			&_logos{
+				display: none;
+				&_mobile{
+					display: block;
+				}
+			}
+
 		}
 	}
 
@@ -174,8 +187,16 @@
 		.product-header p{
 			margin-bottom: 20px;
 		}
-		.vc_custom_1516772681551, .vc_custom_1516612690836, .vc_custom_1516612751539, .vc_custom_1516612810089, .vc_custom_1515678711968, .vc_custom_1515679401799, .vc_custom_1515679445618, .vc_custom_1516713158472, .vc_custom_1517310826839, .vc_custom_1517311793215{
+		.vc_custom_1516772681551, .vc_custom_1516612690836, .vc_custom_1516612751539, .vc_custom_1516612810089, .vc_custom_1515678711968, .vc_custom_1515679401799, .vc_custom_1515679445618, .vc_custom_1516713158472, .vc_custom_1517310826839, .vc_custom_1517311793215, .vc_custom_1516360329338, .vc_custom_1516691788731{
 			margin-top: 0px !important;
+		}
+		.vc_pageable-slide-wrapper{
+			flex-wrap: nowrap;
+			justify-content: flex-start;
+			overflow-x: auto;
+			.vc_grid-item{
+				min-width: 100%;
+			}
 		}
 	}
 	@media (max-width: 768px){

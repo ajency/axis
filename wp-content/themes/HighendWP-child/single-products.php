@@ -12,6 +12,7 @@
 	$gradient1 = get_post_meta($post->ID, "wpcf-gradient1", true);
 	$gradient2 = get_post_meta($post->ID, "wpcf-gradient2", true);
 	$image1 = get_post_meta($post->ID, "wpcf-image-1", true);
+	$image2 = get_post_meta($post->ID, "wpcf-image-2", true);
 ?>
 <style type="text/css">
 	.single-single-product .product-form #cf7md-form .mdc-button--primary.mdc-button--raised,
@@ -37,13 +38,16 @@
 					<div class="product-header_logos">
 						<img src="<?php echo $image1 ?>">
 					</div>
+					<div class="product-header_logos_mobile">
+						<img src="<?php echo $image2 ?>">
+					</div>
 				</div>
 				<div class="vc_col-sm-5">
 					<div class="product-form">
 						<h5>See <?php the_title(); ?> in action</h5>
 						<p>Tell us how we can reach you for a free demo</p>
 
-						<?php echo do_shortcode( '[contact-form-7 id="308" title="Product page demo"]' ); ?>
+						<?php echo do_shortcode( '[formidable id=9]' ); ?>
 					</div>
 				</div>
 			</div>

@@ -1,18 +1,22 @@
 // Homepage background
 .homepage{
 	#main-content{
-		background-image: url(img/home_bg.png);
+		// background-image: url(img/home_bg.png);
 		background-repeat: no-repeat;
 		background-position: top right;
 		background-size: 60%;
+	}
+
+	#main-nav>li>a{
+		color: @brand-secondary;
 	}
 }
 
 // Main Banner
 .home-banner{
 	h1{
-		font-size: 34px;
-		font-weight: 700;
+		font-size: 32px;
+		font-weight: 600;
 		line-height: 42px;
 		margin-right: 50px;
 	}
@@ -348,9 +352,10 @@
 #scrolldown {
 	bottom: 0;
 	height: 100px;
-	margin-left: -50px;
-	position: absolute;
-	left: 50%;
+	// margin-left: -50px;
+	// position: absolute;
+	position: relative;
+	// left: 50%;
 	text-align: center;
 	width: 100px;
 	z-index: 100;
@@ -362,6 +367,8 @@
 		animation-iteration-count: infinite;
 		animation-name: scroll;
 		color: #737373;
+		font-size: 15px;
+		line-height: 20px;
 	}
 	>p {
 		text-transform: uppercase;
@@ -384,6 +391,9 @@
 			display: block;
 			font-size: 2.5em;
 			margin: 6px auto;
+			position: relative;
+			top: -10px;
+			font-size: 30px;
 		}
 	}
 }

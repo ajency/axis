@@ -139,3 +139,10 @@ jQuery(".enabled").hover(
     	jQuery('.country-name').css('display','none');
       },1000);
   });
+
+
+if (jQuery(window).width() < 768) {
+	if (jQuery('.product-form').length > 0) {
+		jQuery(".product-form").detach().appendTo(".product-form-clone-wrapper .wpb_wrapper");
+	}
+}

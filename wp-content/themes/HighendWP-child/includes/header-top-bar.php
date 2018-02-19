@@ -186,7 +186,7 @@ if ( class_exists('Woocommerce') ) {
         <a href="mailto:support@axisrooms.com"><i class="hb-moon-envelop"></i>support@axisrooms.com</a>
     </div>
     <div id="top-map-widget" class="top-widget float-right">
-        Support: <a href="tel:+918067488900" style="display: inline-block;"><i class="icon-phone"></i>+91-80-67488900</a>
+        Support: <a href="tel:+918067488900" style="display: inline-block;"><i class="icon-phone"></i>+91 8067488900</a>
     </div>
 
     <?php
