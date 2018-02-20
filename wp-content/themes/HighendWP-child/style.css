@@ -364,6 +364,9 @@ a.vc_btn3 {
 #header-inner.stuck #header-inner-bg .main-navigation.minimal-skin #main-nav > li.current-menu-ancestor > a span {
   border-bottom: 2px solid #10c9a3 !important;
 }
+#header-inner.stuck #header-inner-bg .main-navigation.minimal-skin #main-nav > li.current-menu-item > a span {
+  border-bottom: 2px solid #10c9a3 !important;
+}
 #header-bar {
   background-color: #009688;
   color: #fff;
