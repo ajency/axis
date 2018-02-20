@@ -26,7 +26,7 @@ function cta_banner_shortcode($atts){
 
       'demo_title' => 'Want to know which combination of products can boost your revenue?',
       'button_text' => 'Schedule a Demo Now',
-      'form_id' => '7',
+      'form_id' => '8',
       'form_title' => 'Schedule Demo',
       'modal_window_title' => 'Schedule A Demo'
 
@@ -69,6 +69,7 @@ function testimonials_gal_shortcode($atts)
     'post_type' => 'hb_testimonials',
     'post_status' => 'publish',
     'posts_per_page' => '5',
+    'orderby' => 'post__in',
     'post__in' => $array_id
 
   ));

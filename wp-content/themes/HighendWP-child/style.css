@@ -1293,6 +1293,13 @@ a.vc_btn3 {
   .single-products .vc_pageable-slide-wrapper .vc_grid-item {
     min-width: 100%;
   }
+  .single-single-product .element-row.fw-content-wrap,
+  .single-products .element-row.fw-content-wrap,
+  .single-single-product .vc_column_container > .vc_column-inner,
+  .single-products .vc_column_container > .vc_column-inner {
+    padding-left: 0;
+    padding-right: 0;
+  }
 }
 @media (max-width: 768px) {
   .single-single-product .feature-box.left-icon-box .hb-icon-wrapper,
@@ -2148,6 +2155,10 @@ input[type="checkbox"]:after {
 @media (max-width: 767px) {
   .pricing-block {
     margin-bottom: 25px !important;
+    padding: 0 !important;
+  }
+  .pricing-block > .wpb_wrapper {
+    padding: 30px 15px 20px;
   }
 }
 @media (min-width: 768px) and (max-width: 768px) {
@@ -2317,6 +2328,23 @@ input[type="checkbox"]:after {
 }
 [id^="pricing-"].hb-modal-window .pricing-features li .icon-ok {
   color: #10c9a3;
+}
+@media (max-width: 767px) {
+  [id^="pricing-"].hb-modal-window {
+    width: 100%;
+  }
+  [id^="pricing-"].hb-modal-window .pricing-features {
+    padding: 0;
+    margin-bottom: 0;
+    font-size: 1.1em;
+  }
+  [id^="pricing-"].hb-modal-window .pricing-tabs .vc_tta-panel-heading {
+    display: none;
+  }
+  [id^="pricing-"].hb-modal-window .pricing-tabs h5 {
+    margin-bottom: 5px;
+    margin-top: 30px;
+  }
 }
 [id^="pricing-"].hb-modal-window .pricing-modal-subtitle {
   margin-top: 30px;
