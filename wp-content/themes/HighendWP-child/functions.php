@@ -347,4 +347,16 @@ function geoip_redirect(){
   }
 }
 
+// Shortcode for SVG Map
+function svg_map_shortcode($atts) {
+
+   ob_start();
+
+   include(STYLESHEETPATH.'/map.svg');
+
+   $content = ob_get_clean();
+   return $content;
+}
+add_shortcode('svg_map', 'svg_map_shortcode');
+
 ?>

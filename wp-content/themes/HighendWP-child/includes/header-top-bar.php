@@ -91,7 +91,7 @@ if ( class_exists('Woocommerce') ) {
     ?>
         <!-- BEGIN .top-widget Email -->
         <div class="top-widget float-left clear-r-margin">
-            <a href="mailto:<?php echo $header_left_email; ?>"><i class="hb-moon-envelop"></i><?php echo $header_left_email; ?></a>
+            <i class="hb-moon-envelop"></i> <a href="mailto:<?php echo $header_left_email; ?>"  style="display: inline-block;"><?php echo $header_left_email; ?></a>
         </div>
         <!-- END .top-widget -->
     <?php }
@@ -154,7 +154,7 @@ if ( class_exists('Woocommerce') ) {
     <?php } ?>
 
     <div class="top-widget float-right">
-        <a href="#" id="">Login<i class="icon-angle-down"></i></a>
+        <a href="#" id="" class="login-link">Login<i class="icon-angle-down"></i></a>
 
         <!-- BEGIN .hb-dropdown-box -->
         <div class="hb-dropdown-box logout-dropdown product-dropdown">
@@ -183,7 +183,7 @@ if ( class_exists('Woocommerce') ) {
     </div>
 
     <div id="top-map-widget" class="top-widget float-right">
-        <a href="mailto:support@axisrooms.com"><i class="hb-moon-envelop"></i>support@axisrooms.com</a>
+        <i class="hb-moon-envelop"></i> <a href="mailto:support@axisrooms.com" style="display: inline-block;">support@axisrooms.com</a>
     </div>
     <div id="top-map-widget" class="top-widget float-right">
         Support: <a href="tel:+918067488900" style="display: inline-block;"><i class="icon-phone"></i>+91 8067488900</a>
