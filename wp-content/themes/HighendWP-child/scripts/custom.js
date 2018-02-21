@@ -182,3 +182,31 @@ if (jQuery(window).width() < 768) {
 		jQuery(".product-form").detach().appendTo(".product-form-clone-wrapper .wpb_wrapper");
 	}
 }
+
+/* Testimonial Slider */
+if ( jQuery('.init-testimonial-slider').length ){
+	jQuery('.init-testimonial-slider').each(function(){
+		var $that = jQuery(this);
+		var $speed = jQuery(this).attr('data-slideshow-speed');
+
+		if ($speed < 1000){
+			$speed = 1000;
+		}
+
+		$that.flexslider({
+			selector: ".testimonial-slider > li",
+			slideshow: true,
+			animation: "fade",
+			smoothHeight: true,
+			slideshowSpeed: $speed,
+			animationSpeed: 350,
+			directionNavArrowsLeft : '<i class="icon-chevron-left"></i>',
+			directionNavArrowsRight : '<i class="icon-chevron-right"></i>',
+			pauseOnHover: false,
+			controlNav: true,
+			directionNav:false,
+			prevText: "",
+			nextText: ""
+		});
+	});
+}

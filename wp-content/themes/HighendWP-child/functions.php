@@ -18,7 +18,7 @@ function axis_adding_scripts() {
   wp_register_script('axis_custom_script', get_stylesheet_directory_uri() . '/scripts/custom.js', array('jquery'),'1.0', true);
   wp_enqueue_script('axis_custom_script');
 }
-add_action( 'wp_enqueue_scripts', 'axis_adding_scripts' );
+add_action( 'wp_enqueue_scripts', 'axis_adding_scripts', 11, 1 );
 
 
 function cta_banner_shortcode($atts){
