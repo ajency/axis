@@ -167,10 +167,12 @@ body {
 #copyright-text p {
   font-size: 12px;
 }
-#demoModal {
+#demoModal,
+#enquireModal {
   margin-bottom: 20px;
 }
-#demoModal .hb-box-cont-header {
+#demoModal .hb-box-cont-header,
+#enquireModal .hb-box-cont-header {
   text-align: center;
   font-size: 22px;
   padding: 25px 30px;
@@ -178,13 +180,16 @@ body {
   color: white;
   border-color: #10c9a3;
 }
-#demoModal .hb-box-cont-header .close-modal {
+#demoModal .hb-box-cont-header .close-modal,
+#enquireModal .hb-box-cont-header .close-modal {
   color: #fff;
 }
-#demoModal .hb-box-cont-header .close-modal i {
+#demoModal .hb-box-cont-header .close-modal i,
+#enquireModal .hb-box-cont-header .close-modal i {
   font-size: 0.6em;
 }
-#demoModal .hb-box-cont-body {
+#demoModal .hb-box-cont-body,
+#enquireModal .hb-box-cont-body {
   padding-bottom: 0;
 }
 .axis-green-btn button,
@@ -1176,6 +1181,10 @@ a.vc_btn3 {
 .single-single-product .vc_pageable-slide-wrapper .vc_grid-item.vc_col-sm-4,
 .single-products .vc_pageable-slide-wrapper .vc_grid-item.vc_col-sm-4 {
   float: left !important;
+}
+.single-single-product .vc_custom_1519193224445,
+.single-products .vc_custom_1519193224445 {
+  margin-bottom: 0 !important;
 }
 @media (min-width: 768px) and (max-width: 768px) {
   .single-single-product .vc_custom_1516360329338,
@@ -2582,6 +2591,10 @@ input[type="checkbox"]:after {
 @media (max-width: 767px) {
   .mission-vision-row .vc_col-sm-6 {
     border: 0 !important;
+  }
+  .vc_custom_1517816868774,
+  .vc_custom_1517817270454 {
+    text-align: center !important;
   }
 }
 @media (min-width: 769px) {

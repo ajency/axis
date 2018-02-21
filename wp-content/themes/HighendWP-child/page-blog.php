@@ -133,11 +133,4 @@ if ( vp_metabox('background_settings.hb_content_background_color') )
 </div>
 <!-- END #main-content -->
 
-<div class="hidden">
-	<?php
-		echo do_shortcode('[cta_banner demo_title="As a company committed to excellence, your success is our purpose." button_text="Schedule a Demo" form_id="464" form_title="Schedule Demo" modal_window_title="Schedule a Demo"]');
-	?>
-</div>
-
-
 <?php get_footer(); ?>

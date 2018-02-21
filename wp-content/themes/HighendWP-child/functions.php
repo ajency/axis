@@ -42,6 +42,19 @@ function cta_banner_shortcode($atts){
 add_shortcode('cta_banner','cta_banner_shortcode');
 
 
+function menu_enquire_shortcode($atts){
+   extract(shortcode_atts(array(
+
+      'demo_title' => 'Want to know which combination of products can boost your revenue?',
+      'button_text' => 'Send Enquiry',
+      'form_id' => '13',
+      'modal_window_title' => 'Contact Us'
+
+   ), $atts));
+   $modalshortcode =  do_shortcode('[modal_window title="'.$modal_window_title.'" invoke_title="'.$button_text.'" id="enquireModal" show_on_load="no"] [formidable id='.$form_id.']  [/modal_window]');
+}
+add_shortcode('menu_modal','menu_enquire_shortcode');
+
 
 
 function testimonials_gal_shortcode($atts)

@@ -11,9 +11,22 @@ jQuery('body').on('click', '.apply-btn', function(e){
 
 
 // Trigger Schedule a Demo Modal
-jQuery('body').on('click', '.menu-item-81 a, .menu-item-258 a, .schedule-demo-trigger a, .schedule-demo-trigger button', function(e) {
+jQuery('body').on('click', '.schedule-demo-trigger a, .schedule-demo-trigger button', function(e) {
 	e.preventDefault();
 	var $modal_id = "demoModal";
+
+	jQuery('#'+$modal_id).parent().addClass('hb-visible-modal');
+
+	setTimeout(function () {
+		jQuery('#'+$modal_id).addClass('rendered animate-modal');
+	}, 220);
+	$body.addClass('no-scroll');
+});
+
+// Trigger Enquiry Modal
+jQuery('body').on('click', '.menu-item-81 a, .menu-item-258 a', function(e) {
+	e.preventDefault();
+	var $modal_id = "enquireModal";
 
 	jQuery('#'+$modal_id).parent().addClass('hb-visible-modal');
 
@@ -79,6 +92,29 @@ jQuery('body').on('click', '.pricing-tabs a', function(){
 	} else if (jQuery(this).attr('href')=='#rate-shopper-tab'){
 		jQuery('.rate-shopper-heading').siblings('.pricing-tabs-heading').addClass('hidden');
 		jQuery('.rate-shopper-heading').removeClass('hidden');
+	}
+});
+
+// Auto check product on pricing page
+jQuery('body').on('click', '.purchase-block a', function(){
+	if (jQuery(this).closest('.vc_tta-panel').is('#channel-manager-tab')){
+		jQuery('input[value="Channel Manager"]').attr('checked', true);
+		jQuery('input[value!="Channel Manager"]').attr('checked', false);
+	} else if (jQuery(this).closest('.vc_tta-panel').is('#booking-engine-tab')){
+		jQuery('input[value="Hotel Booking Engine"]').attr('checked', true);
+		jQuery('input[value!="Hotel Booking Engine"]').attr('checked', false);
+	} else if (jQuery(this).closest('.vc_tta-panel').is('#crs-tab')){
+		jQuery('input[value="Central Reservation System"]').attr('checked', true);
+		jQuery('input[value!="Central Reservation System"]').attr('checked', false);
+	} else if (jQuery(this).closest('.vc_tta-panel').is('#rms-tab')){
+		jQuery('input[value="Revenue Management System"]').attr('checked', true);
+		jQuery('input[value!="Revenue Management System"]').attr('checked', false);
+	} else if (jQuery(this).closest('.vc_tta-panel').is('#hotel-exchange-tab')){
+		jQuery('input[value="Hotel Exchange"]').attr('checked', true);
+		jQuery('input[value!="Hotel Exchange"]').attr('checked', false);
+	} else if (jQuery(this).closest('.vc_tta-panel').is('#rate-shopper-tab')){
+		jQuery('input[value="Rate Shopper"]').attr('checked', true);
+		jQuery('input[value!="Rate Shopper"]').attr('checked', false);
 	}
 });
 

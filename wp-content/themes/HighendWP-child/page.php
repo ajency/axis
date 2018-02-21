@@ -12,17 +12,17 @@ if ( vp_metabox('background_settings.hb_content_background_color') ){
 	$main_content_style = ' style="background-color: ' . vp_metabox('background_settings.hb_content_background_color') . ';"';
 	echo "<style type=\"text/css\">#pre-footer-area:after{border-top-color:" . vp_metabox('background_settings.hb_content_background_color') . "}</style>";
 }
-?> 
+?>
 <!-- BEGIN #main-content -->
 <div id="main-content"<?php echo $main_content_style; ?>>
 
 	<div class="container">
-	
-		<?php 
-			$sidebar_layout = vp_metabox('layout_settings.hb_page_layout_sidebar'); 
+
+		<?php
+			$sidebar_layout = vp_metabox('layout_settings.hb_page_layout_sidebar');
 			$sidebar_name = vp_metabox('layout_settings.hb_choose_sidebar');
 
-			if ( $sidebar_layout == "default" || $sidebar_layout == "" ) 
+			if ( $sidebar_layout == "default" || $sidebar_layout == "" )
 			{
 				$sidebar_layout = hb_options('hb_page_layout_sidebar');
 				$sidebar_name = hb_options('hb_choose_sidebar');
@@ -42,7 +42,7 @@ if ( vp_metabox('background_settings.hb_content_background_color') ){
 		<div class="row <?php echo $sidebar_layout; ?> main-row">
 
 			<div id="page-<?php the_ID(); ?>" <?php post_class(); ?>>
-			
+
 				<!-- BEGIN .hb-main-content -->
 				<?php if ( $sidebar_layout != 'fullwidth' ) { ?>
 				<div class="col-9 hb-equal-col-height hb-main-content">
@@ -59,14 +59,14 @@ if ( vp_metabox('background_settings.hb_content_background_color') ){
 				<?php if ( $sidebar_layout != 'fullwidth' ) { ?>
 				<!-- BEGIN .hb-sidebar -->
 				<div class="col-3  hb-equal-col-height hb-sidebar">
-					<?php 
+					<?php
 					if ( $sidebar_name && function_exists('dynamic_sidebar') )
 						dynamic_sidebar($sidebar_name);
 					?>
 				</div>
 				<!-- END .hb-sidebar -->
 				<?php } ?>
-			
+
 			</div>
 			<!-- END #page-ID -->
 
