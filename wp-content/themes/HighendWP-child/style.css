@@ -1567,6 +1567,9 @@ textarea.wpcf7-not-valid {
 @media (max-width: 767px) {
   .contact-form {
     margin-bottom: 50px !important;
+    margin-left: -15px;
+    margin-right: -15px;
+    padding: 40px 20px 0;
   }
   .contact-form .checkbox-products {
     margin-top: 20px;
@@ -1828,6 +1831,9 @@ input[type="checkbox"]:after {
     width: 100%;
     float: left;
     margin: 0 0 15px 0 !important;
+  }
+  .vc_custom_1518429437561 {
+    padding-top: 10px !important;
   }
 }
 @media (min-width: 768px) {
@@ -2510,6 +2516,10 @@ input[type="checkbox"]:after {
   .axisrooms .vc_custom_1518095239455 {
     padding-left: 0 !important;
     padding-right: 0 !important;
+  }
+  .axisrooms .vc_custom_1517571211850,
+  .axisrooms .vc_custom_1519198258064 {
+    text-align: center;
   }
 }
 .border-grid .vc_grid-item {
