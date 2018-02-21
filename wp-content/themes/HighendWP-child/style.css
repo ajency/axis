@@ -598,6 +598,7 @@ a.vc_btn3 {
   padding: 0;
   font-size: 16px;
   border: none;
+  background-image: none;
 }
 .vc_gitem-link.vc_btn3.more-btn:after {
   content: "\f178";
@@ -777,7 +778,7 @@ a.vc_btn3 {
   -moz-animation-name: scroll;
        animation-name: scroll;
   color: #737373;
-  font-size: 15px;
+  font-size: 26px;
   line-height: 20px;
 }
 #scrolldown > p {
@@ -788,6 +789,7 @@ a.vc_btn3 {
        animation: none;
   -moz-transform: translateY(65px);
        transform: translateY(65px);
+  font-size: 14px;
 }
 #scrolldown .mouse {
   border: 2px solid #737373;
@@ -796,7 +798,7 @@ a.vc_btn3 {
   display: block;
   height: 46px;
   left: 50%;
-  margin: 10px 0 0 -13px;
+  margin: 10px 0 0 -15px;
   position: absolute;
   width: 26px;
 }
@@ -1000,6 +1002,7 @@ a.vc_btn3 {
 }
 .award-row h5 a {
   color: #2c2e52!important;
+  line-height: 28px;
 }
 .award-row.vertical .wpb_wrapper {
   flex-wrap: wrap;
@@ -1926,7 +1929,8 @@ input[type="checkbox"]:after {
   .testimonial-customer-tabs .vc_grid.vc_row .vc_grid-item {
     width: 50%;
   }
-  .testimonial-customer-tabs .vc_column_container > .vc_column-inner {
+  .testimonial-customer-tabs .vc_column_container > .vc_column-inner,
+  .testimonial-customer-tabs .vc_row.vc_custom_1516090348961 {
     padding-left: 0;
     padding-right: 0;
   }
@@ -1995,6 +1999,12 @@ input[type="checkbox"]:after {
 }
 .wpb-js-composer .testimonial-products-tabs.vc_tta-color-white.vc_tta-style-outline .vc_tta-panel.vc_active .vc_tta-panel-title > a {
   color: #009688;
+}
+.wpb-js-composer .testimonial-products-tabs.vc_tta-color-white.vc_tta-style-outline .vc_tta-panel.vc_active .vc_tta-panel-heading {
+  border-color: #dedede;
+}
+.wpb-js-composer .testimonial-products-tabs.vc_tta-color-white.vc_tta-style-outline .vc_tta-panel .vc_tta-panel-heading {
+  border-color: #dedede;
 }
 .logo-w-shadow {
   -moz-box-shadow: 0 0 15px rgba(0, 0, 0, 0.15);
