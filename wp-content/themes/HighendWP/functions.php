@@ -195,9 +195,9 @@ if ( !function_exists('hb_admin_theme_style') ) {
 
 /* RETRIEVE FROM THEME OPTIONS
 ================================================== */
-function hb_options($name) {
+function hb_options( $name ) {
 	if ( function_exists('vp_option') ) {
-		return vp_option("hb_highend_option." . $name);
+		return apply_filters( 'highend_options_value', vp_option( 'hb_highend_option.' . $name ), $name );
 	}
 	return;
 }

@@ -325,7 +325,7 @@ if (!function_exists('hb_woo_cart')) {
                         $cart_output .= '<div class="hb-item-product-title"><a href="'.get_permalink($cart_item['product_id']).'">' . apply_filters('woocommerce_cart_widget_product_title', $product_short_title, $bag_product) . '</a></div>';
                         $cart_output .= '<div class="bag-product-price">'.$cart_item['quantity'].' x '.wc_price($bag_product->get_price()).'</div>';
                         $cart_output .= '</div>';
-                        $cart_output .= apply_filters( 'woocommerce_cart_item_remove_link', sprintf('<a href="%s" class="remove" title="%s">&times;</a>', esc_url( $woocommerce->cart->get_remove_url( $cart_item_key ) ), __('Remove this item', 'hbthemes') ), $cart_item_key );
+                        $cart_output .= apply_filters( 'woocommerce_cart_item_remove_link', sprintf('<a href="%s" class="remove" title="%s">&times;</a>', esc_url( wc_get_cart_remove_url( $cart_item_key ) ), __('Remove this item', 'hbthemes') ), $cart_item_key );
                         
                         $cart_output .= '</div>';
                 	}
@@ -398,7 +398,7 @@ function woocommerce_cart_link($fragments) {
 					<div class="hb-item-product-title"><a href="<?php echo get_permalink($cart_item['product_id']); ?>"><?php echo apply_filters('woocommerce_cart_widget_product_title', $product_short_title, $bag_product); ?></a></div>
 					<div class="bag-product-price"><?php echo $cart_item['quantity'].' x '.wc_price($bag_product->get_price()); ?></div>
 					</div>
-					<?php echo apply_filters( 'woocommerce_cart_item_remove_link', sprintf('<a href="%s" class="remove" title="%s">&times;</a>', esc_url( $woocommerce->cart->get_remove_url( $cart_item_key ) ), __('Remove this item', 'woocommerce') ), $cart_item_key ); ?>
+					<?php echo apply_filters( 'woocommerce_cart_item_remove_link', sprintf('<a href="%s" class="remove" title="%s">&times;</a>', esc_url( wc_get_cart_remove_url( $cart_item_key ) ), __('Remove this item', 'woocommerce') ), $cart_item_key ); ?>
 	                        
 					</div>
 					<?php }

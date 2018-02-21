@@ -106,7 +106,7 @@ if ( $woocommerce_loop['columns'] == 4 ){
 				$image = hb_resize ( $image_object, '', $shop_catalog['width'], $shop_catalog['height']	, true);
 				echo '<div class="woo-category-wrap"><img src="' . $image["url"] . '" width="'.$image["width"].'" height="'.$image["height"].'"></div>';
 			} else {
-				echo '<img src="'. woocommerce_placeholder_img_src() .'" alt="Placeholder" width="526" height="700" />';
+				echo '<img src="'. wc_placeholder_img_src() .'" alt="Placeholder" width="526" height="700" />';
 			}
 
 			$product_gallery = get_post_meta( $post->ID, '_product_image_gallery', true );

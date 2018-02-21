@@ -1109,39 +1109,25 @@ function hb_flexslider_hover() {
 	});
 }
 
-/*  Reload Likes */
-function hb_reload_likes(who) {
-	
-	var text = $j("#" + who).html();
-	var patt = /(\d)+/;
-	var num = patt.exec(text);
-	num[0]++;
-	text = text.replace(patt, num[0]);
-	$j("#" + who).html(text);
-}
-
 /* Init Likes */
 function hb_like_init() {
-	
-	$body.on("click touchstart", ".like-holder", function () {
-		var classes = $j(this).attr("class");
-		classes = classes.split(" ");
+	$body.on( 'click touchstart', '.like-holder', function(e) {
 
-		if (classes[2] == "like-active"){
-			return false;
-		}
+		var $this = jQuery(this);
 
-		$j(this).addClass("like-active");
-		var id = $j(this).attr("id");
-		id = id.split("like-");
-			$j.ajax({
-				type: "POST",
-				url: ajaxurl,
-				data: "likepost=" + id[1],	
-				success: hb_reload_likes("like-" + id[1])
-			});
+		var data = {
+			action  : 'highend_like_this',
+			post_id : $this.data('post-id'),
+			nonce   : $this.data('nonce'),
+		};
 
-		return false;
+		jQuery.post(ajaxurl, data, function(response) {
+			if ( response.success ) {
+				if ( response.data.message ) {
+					$this.addClass('like-active').find('span').html(response.data.message);
+				}
+			}
+		});
 	});
 }
 

@@ -233,11 +233,9 @@ function import_demo_content() {
 					}
 				};
 
-			if ( 'Request Timeout' == errorThrown ) {
-				message = import_demo_data.error_timeout;
-			} else if ( 'Forbidden' == errorThrown ) {
+			if ( 'Forbidden' == errorThrown ) {
 				message = import_demo_data.forbidden;
-			} else if ( -1 !== errorThrown.toLowerCase().indexOf('time') && -1 !== errorThrown.toLowerCase().indexOf('out') ) {
+			} else {
 				message = import_demo_data.retry_import;
 				dialogbuttons = {
 					'Retry': function() {
@@ -251,8 +249,6 @@ function import_demo_content() {
 						location.reload();
 					}
 				};
-			} else {
-				message = import_demo_data.error_php_limits;
 			}
 
 			console.log( 'Highend Demo Import Failed' );
