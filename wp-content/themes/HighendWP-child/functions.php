@@ -130,6 +130,11 @@ function testimonials_gal_shortcode($atts)
         $html .='<div class="single_testimonial_content">';
         $html .='We Understand Hotels, Like No One Does';
         $html .='</div>';
+        $html .='<div class="mobile_scroll_indicator">';
+        $html .='Swipe for more';
+        $html .='<div class="slide-left">';
+        $html .='</div>';
+        $html .='</div>';
         $html .='</div>';
       }
     else if($count == 1)
