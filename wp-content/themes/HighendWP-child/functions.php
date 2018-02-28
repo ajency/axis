@@ -378,4 +378,17 @@ function svg_map_shortcode($atts) {
 }
 add_shortcode('svg_map', 'svg_map_shortcode');
 
+
+// Shortcode for SVG Map
+function home_banner_shortcode($atts) {
+
+   ob_start();
+
+   include(STYLESHEETPATH.'/home-banner.svg');
+
+   $content = ob_get_clean();
+   return $content;
+}
+add_shortcode('home_banner', 'home_banner_shortcode');
+
 ?>

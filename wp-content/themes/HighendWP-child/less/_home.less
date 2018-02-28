@@ -683,3 +683,183 @@
             transform: translateX(-100px);
   }
 }
+
+
+// Home Banner Svg styles
+.fade-in {
+      animation: fadeInOpacity 1s infinite;
+
+}
+.fade-in2 {
+      animation: fadeInOpacity 2s infinite;
+
+}
+.line{
+      animation: linejoint 4s infinite;
+
+}
+@keyframes linejoint {
+    0% {
+        opacity: 0;
+    }
+    30% {
+        opacity: .5;
+    }
+    100% {
+        opacity: 1;
+    }
+
+}
+@keyframes fadeInOpacity {
+    0% {
+        opacity: 0;
+    }
+    30% {
+        opacity: .5;
+    }
+    60% {
+        opacity: 1;
+    }
+     90% {
+        opacity: .4;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+.arrow-left{
+        -webkit-transform: translate(22px, 1px);
+        opacity: 0;
+         animation: moveleft 2s infinite;
+}
+@keyframes moveleft {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+         -webkit-transform: translate(-408px, 1px);
+    }
+}
+.arrow-right{
+        -webkit-transform: translate(162px, 1px);
+        opacity: 0;
+         animation: moveright 2s infinite;
+}
+@keyframes moveright {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+         -webkit-transform: translate(-258px, 1px);
+    }
+}
+.arrow-down{
+        -webkit-transform: translate(50px, 1px);
+        opacity: 0;
+         animation: movedown 2s infinite;
+}
+@keyframes movedown {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+         -webkit-transform: translate(-150px, 1px);
+    }
+}
+.arrow-down2{
+        -webkit-transform: translate(50px, 1px);
+        opacity: 0;
+         animation: movedown2 2s infinite;
+}
+@keyframes movedown2 {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+         -webkit-transform: translate(-100px, 1px);
+    }
+}
+
+.myObject {
+  transform: rotate(-360deg) ;
+  transition: all 1s linear;
+}
+
+.myObject {
+  animation: 2s  infinite linear;
+}
+
+.points{
+        opacity: 0;
+         animation: pointer 2s infinite;
+         transition: all 1s linear;
+}
+@keyframes pointer {
+    0% {
+        opacity: 0;
+        stroke-width: 3;
+    }
+
+    50% {
+        opacity: 1;
+        stroke-width: 10;
+        stroke-dasharray: 0;
+        stroke: #1abf9f;
+    }
+    100% {
+        opacity: 0;
+        stroke-width: 3;
+
+    }
+}
+
+.d1{
+        opacity: 0;
+         animation: distribution 1s infinite;
+         transition: all 1s linear;
+
+}
+
+@keyframes distribution {
+    0% {
+        opacity: 0;
+
+    }
+   50% {
+        opacity: 1;
+
+
+    }
+    100% {
+        opacity: 0;
+
+
+    }
+}
+#Rectangle2{
+       stroke: #9E9E9E;
+    stroke-width: 4px;
+    stroke-dasharray: 5;
+    stroke-dashoffset: 150;
+    animation: offset 5s linear infinite;
+}
+@keyframes offset {
+    100% {
+        stroke-dashoffset: 0;
+    }
+}
+
+svg{
+	tspan{
+		font-family: Open Sans, sans-serif;
+	}
+}
