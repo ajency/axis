@@ -379,7 +379,7 @@ function svg_map_shortcode($atts) {
 add_shortcode('svg_map', 'svg_map_shortcode');
 
 
-// Shortcode for SVG Map
+// Shortcode for Home banner
 function home_banner_shortcode($atts) {
 
    ob_start();
@@ -390,5 +390,15 @@ function home_banner_shortcode($atts) {
    return $content;
 }
 add_shortcode('home_banner', 'home_banner_shortcode');
+
+
+// Webinar registration notification
+function so174837_registration_email_alert( $user_id ) {
+    $user    = get_userdata( $user_id );
+    $email   = $user->user_email;
+    $message = $email . ' has registered for a webinar';
+    wp_mail( 'fiona@ajency.in', 'New User registration', $message );
+}
+add_action('user_register', 'so174837_registration_email_alert');
 
 ?>
