@@ -3298,7 +3298,8 @@ input[type="checkbox"]:after {
   padding-top: 150px;
 }
 .not-found-box h2 {
-  font-size: 30px;
+  font-size: 40px;
+  margin-bottom: 20px;
 }
 .not-found-box i {
   font-size: 500px;
