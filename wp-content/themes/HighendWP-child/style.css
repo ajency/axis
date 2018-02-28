@@ -1415,7 +1415,7 @@ a.vc_btn3 {
     stroke-dashoffset: 0;
   }
 }
-svg tspan {
+tspan {
   font-family: Open Sans, sans-serif;
 }
 .single-single-product .hb-logo-wrap img,
