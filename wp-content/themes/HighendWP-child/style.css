@@ -3273,3 +3273,34 @@ input[type="checkbox"]:after {
     float: left;
   }
 }
+.error404 #hb-page-title.hb-color-background {
+  top: -80px;
+  padding-top: 180px;
+}
+.error404 .meta-info a {
+  color: #5a5a5a;
+  border-bottom: 1px dotted #5a5a5a;
+}
+.error404 .meta-info a:hover {
+  color: #10c9a3;
+}
+.error404 #main-nav > li > a {
+  color: #444;
+}
+.error404 .sticky-nav.stuck #main-nav > li > a {
+  color: #fff;
+}
+.error404 #main-content {
+  top: 0;
+  margin-bottom: 0;
+}
+.not-found-box {
+  padding-top: 150px;
+}
+.not-found-box h2 {
+  font-size: 30px;
+}
+.not-found-box i {
+  font-size: 500px;
+  height: 480px;
+}
