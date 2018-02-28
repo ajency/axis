@@ -297,6 +297,14 @@ a.vc_btn3 {
   cursor: pointer;
   color: #a5a5a5;
 }
+@media (max-width: 767px) {
+  .feedback-holder {
+    bottom: 50px;
+    right: 0;
+    left: 0;
+    margin: auto;
+  }
+}
 .feedback-trigger {
   display: block;
   position: fixed;
@@ -337,7 +345,7 @@ a.vc_btn3 {
 }
 @media (max-width: 767px) {
   .feedback-trigger {
-    display: none;
+    bottom: 72px;
   }
 }
 .frm-star-group .star-rating,
