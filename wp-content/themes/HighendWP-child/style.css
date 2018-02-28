@@ -112,6 +112,12 @@ body {
   /* Firefox 18- */
   color: #fff;
 }
+#footer.dark-style .widget-item .feedback-holder input[type=text]:focus {
+  color: #000;
+}
+#footer.dark-style .widget-item .feedback-holder textarea:focus {
+  color: #000;
+}
 @media (min-width: 768px) {
   .footer-mobile-view {
     display: none;
@@ -287,7 +293,7 @@ a.vc_btn3 {
   width: 250px;
   -moz-border-radius: 2px;
        border-radius: 2px;
-  z-index: 10;
+  z-index: 999;
   display: none;
 }
 .feedback-holder .close-feedback {
@@ -345,13 +351,15 @@ a.vc_btn3 {
 }
 @media (max-width: 767px) {
   .feedback-trigger {
-    bottom: 72px;
+    bottom: 120px;
+    right: 20px;
   }
 }
 .frm-star-group .star-rating,
 .frm-star-group input + label {
-  height: 25px;
+  height: 25px !important;
   text-indent: 0;
+  padding-left: 5px;
 }
 .main-navigation > ul > li:last-child span {
   background-color: #353b63;

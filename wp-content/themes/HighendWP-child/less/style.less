@@ -154,6 +154,13 @@ body{
 	}
 }
 
+#footer.dark-style .widget-item .feedback-holder input[type=text]:focus{
+    color: #000;
+}
+#footer.dark-style .widget-item .feedback-holder textarea:focus{
+    color: #000;
+}
+
 @media(min-width: 768px){
 	.footer-mobile-view{
 		display: none;
@@ -386,7 +393,7 @@ button, a.vc_btn3{
 	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
 	width: 250px;
 	border-radius: 2px;
-	z-index: 10;
+	z-index: 999;
 	display: none;
 	.close-feedback{
 		position: absolute;
@@ -445,13 +452,15 @@ button, a.vc_btn3{
 
 	@media(max-width: 767px){
 		// display: none;
-		bottom: 72px;
+		bottom: 120px;
+		right: 20px;
 	}
 }
 
 .frm-star-group .star-rating, .frm-star-group input + label{
-    height: 25px;
+    height: 25px !important;
     text-indent: 0;
+    padding-left: 5px;
 }
 
 // Home Page
