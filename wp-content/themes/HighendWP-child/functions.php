@@ -397,7 +397,7 @@ function so174837_registration_email_alert( $user_id ) {
     $user    = get_userdata( $user_id );
     $email   = $user->user_email;
     $message = $email . ' has registered for a webinar';
-    wp_mail( 'fiona@ajency.in', 'New User registration', $message );
+    wp_mail( 'fiona@ajency.in, marketing@axisrooms.com', 'New User registration', $message );
 }
 add_action('user_register', 'so174837_registration_email_alert');
 
