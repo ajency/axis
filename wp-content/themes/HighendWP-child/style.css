@@ -525,6 +525,16 @@ a.vc_btn3 {
 #mobile-menu .sub-menu .menu-item-object-custom:last-child {
   display: none;
 }
+#mobile-menu.interactive .open-submenu {
+  -moz-box-pack: end;
+       justify-content: flex-end;
+  width: 100%;
+  padding-right: 18px;
+}
+#mobile-menu.interactive .open-submenu.active,
+#mobile-menu.interactive .open-submenu:hover {
+  background-color: transparent !important;
+}
 .logout-dropdown.product-dropdown {
   width: 220px;
 }
