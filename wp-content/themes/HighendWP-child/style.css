@@ -3336,3 +3336,31 @@ input[type="checkbox"]:after {
   top: -80px;
   padding-top: 180px;
 }
+.page-template-page-paynow table td,
+.page-template-page-paynow table th {
+  border-left: 0;
+}
+.page-template-page-paynow table td {
+  padding: 15px 15px;
+}
+.page-template-page-paynow input[type=number] {
+  -moz-border-radius: 0;
+       border-radius: 0;
+  padding: 12px 12px 10px!important;
+  width: 100%;
+  border: 1px solid #e3e3e3;
+  color: #777;
+  transition: all .2s linear;
+  -moz-transition: all .2s linear;
+  -webkit-transition: all .2s linear;
+  -o-transition: all .2s linear;
+  outline: 0;
+  position: relative;
+  z-index: 9;
+}
+.page-template-page-paynow input {
+  background-color: transparent;
+}
+.page-template-page-paynow button[type=submit] {
+  border: none;
+}
