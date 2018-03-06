@@ -42,7 +42,7 @@ if ( vp_metabox('background_settings.hb_content_background_color') )
 				    </tr>
 				    <tr>
 				      <td>Amount:</td>
-				      <td><input type="number" name="amount" id="amount" value="0"></td>
+				      <td><input type="number" name="amount" id="amount" value="0" min="50"></td>
 				    </tr>
 
 				    <tr>
