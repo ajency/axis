@@ -697,19 +697,16 @@
       animation: fadeInOpacity 2s infinite;
 
 }
-.line{
-      animation: linejoint 4s infinite;
 
-}
 @keyframes linejoint {
     0% {
         opacity: 0;
     }
-    30% {
-        opacity: .5;
-    }
+
+
     100% {
         opacity: 1;
+
     }
 
 }
@@ -731,66 +728,6 @@
         opacity: 0;
     }
 }
-.arrow-left{
-        -webkit-transform: translate(22px, 1px);
-        opacity: 0;
-         animation: moveleft 2s infinite;
-}
-@keyframes moveleft {
-    0% {
-        opacity: 0;
-    }
-
-    100% {
-        opacity: 1;
-         -webkit-transform: translate(-408px, 1px);
-    }
-}
-.arrow-right{
-        -webkit-transform: translate(162px, 1px);
-        opacity: 0;
-         animation: moveright 2s infinite;
-}
-@keyframes moveright {
-    0% {
-        opacity: 0;
-    }
-
-    100% {
-        opacity: 1;
-         -webkit-transform: translate(-258px, 1px);
-    }
-}
-.arrow-down{
-        -webkit-transform: translate(50px, 1px);
-        opacity: 0;
-         animation: movedown 2s infinite;
-}
-@keyframes movedown {
-    0% {
-        opacity: 0;
-    }
-
-    100% {
-        opacity: 1;
-         -webkit-transform: translate(-150px, 1px);
-    }
-}
-.arrow-down2{
-        -webkit-transform: translate(50px, 1px);
-        opacity: 0;
-         animation: movedown2 2s infinite;
-}
-@keyframes movedown2 {
-    0% {
-        opacity: 0;
-    }
-
-    100% {
-        opacity: 1;
-         -webkit-transform: translate(-100px, 1px);
-    }
-}
 
 .myObject {
   transform: rotate(-360deg) ;
@@ -801,7 +738,7 @@
   animation: 2s  infinite linear;
 }
 
-.points{
+.active .points{
         opacity: 0;
          animation: pointer 2s infinite;
          transition: all 1s linear;
@@ -858,6 +795,120 @@
 @keyframes offset {
     100% {
         stroke-dashoffset: 0;
+    }
+}
+
+.active #Line-3{
+       stroke: #36485B;
+      stroke-width: 2px;
+    stroke-dasharray: 5;
+    stroke-dashoffset: 150;
+     -webkit-animation-duration: 2s;
+  -webkit-animation-name: line3;
+  -webkit-animation-iteration-count: 1;
+}
+@keyframes line3 {
+    100% {
+        stroke-dashoffset: 0;
+    }
+}
+
+.active #Path-174, .active #Path-175{
+       stroke: #36485B;
+      stroke-width: 2px;
+    stroke-dasharray: 5;
+    stroke-dashoffset: 150;
+    animation-delay: 2s;
+     -webkit-animation-duration: 2s;
+  -webkit-animation-name: line5;
+  -webkit-animation-iteration-count: 1;
+}
+.active .points{
+    opacity: .4;
+         animation-delay: 2.2s;
+     -webkit-animation-duration: 2.2s;
+  -webkit-animation-name: pointer;
+  -webkit-animation-iteration-count: 2;
+}
+.active #Line-5{
+       stroke: #36485B;
+      stroke-width: 2px;
+    stroke-dasharray: 5;
+    stroke-dashoffset: 150;
+    animation-delay: 3.5s;
+     -webkit-animation-duration:3.5s;
+  -webkit-animation-name: line5;
+  -webkit-animation-iteration-count: 1;
+}
+@keyframes line5 {
+    100% {
+        stroke-dashoffset: 0;
+    }
+}
+
+.active .line path{
+      stroke: #36485B;
+      stroke-width: 2px;
+    stroke-dasharray: 5;
+    stroke-dashoffset: 150;
+    animation-delay: 3.7s;
+    -webkit-animation-duration:3.7s;
+  -webkit-animation-name: line5;
+  -webkit-animation-iteration-count: 1;
+
+
+
+}
+
+
+.active #Line-2{
+       stroke: #36485B;
+      stroke-width: 2px;
+    stroke-dasharray: -5;
+    stroke-dashoffset: -150;
+      animation-delay: 5s;
+     -webkit-animation-duration: 2s;
+  -webkit-animation-name: line2;
+  -webkit-animation-iteration-count: 1;
+}
+@keyframes line2 {
+    100% {
+        stroke-dashoffset: 0;
+    }
+}
+.active .line23 path{
+      stroke: #36485B;
+      stroke-width: 2px;
+    stroke-dasharray: -5;
+    stroke-dashoffset: -150;
+    animation-delay: 5.5s;
+    -webkit-animation-duration:4s;
+  -webkit-animation-name: line5;
+  -webkit-animation-iteration-count: 1;
+
+
+
+}
+
+.active #Line-4{
+       stroke: #36485B;
+       stroke-width: 3px;
+     animation-delay: 6s;
+     -webkit-animation-duration: 3s;
+  -webkit-animation-name: line4;
+  -webkit-animation-iteration-count: 1;
+      animation-timing-function: 1;
+
+}
+@keyframes line4 {
+    0% {
+       stroke-width: 0px;
+    }
+    50% {
+       stroke-width: 3px;
+    }
+    100% {
+       stroke-width: 0px;
     }
 }
 

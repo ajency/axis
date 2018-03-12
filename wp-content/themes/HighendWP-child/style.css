@@ -1203,16 +1203,9 @@ a.vc_btn3 {
   -moz-animation: fadeInOpacity 2s infinite;
        animation: fadeInOpacity 2s infinite;
 }
-.line {
-  -moz-animation: linejoint 4s infinite;
-       animation: linejoint 4s infinite;
-}
 @-moz-keyframes linejoint {
   0% {
     opacity: 0;
-  }
-  30% {
-    opacity: .5;
   }
   100% {
     opacity: 1;
@@ -1221,9 +1214,6 @@ a.vc_btn3 {
 @keyframes linejoint {
   0% {
     opacity: 0;
-  }
-  30% {
-    opacity: .5;
   }
   100% {
     opacity: 1;
@@ -1263,102 +1253,6 @@ a.vc_btn3 {
     opacity: 0;
   }
 }
-.arrow-left {
-  -webkit-transform: translate(22px, 1px);
-  opacity: 0;
-  -moz-animation: moveleft 2s infinite;
-       animation: moveleft 2s infinite;
-}
-@-moz-keyframes moveleft {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-    -webkit-transform: translate(-408px, 1px);
-  }
-}
-@keyframes moveleft {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-    -webkit-transform: translate(-408px, 1px);
-  }
-}
-.arrow-right {
-  -webkit-transform: translate(162px, 1px);
-  opacity: 0;
-  -moz-animation: moveright 2s infinite;
-       animation: moveright 2s infinite;
-}
-@-moz-keyframes moveright {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-    -webkit-transform: translate(-258px, 1px);
-  }
-}
-@keyframes moveright {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-    -webkit-transform: translate(-258px, 1px);
-  }
-}
-.arrow-down {
-  -webkit-transform: translate(50px, 1px);
-  opacity: 0;
-  -moz-animation: movedown 2s infinite;
-       animation: movedown 2s infinite;
-}
-@-moz-keyframes movedown {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-    -webkit-transform: translate(-150px, 1px);
-  }
-}
-@keyframes movedown {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-    -webkit-transform: translate(-150px, 1px);
-  }
-}
-.arrow-down2 {
-  -webkit-transform: translate(50px, 1px);
-  opacity: 0;
-  -moz-animation: movedown2 2s infinite;
-       animation: movedown2 2s infinite;
-}
-@-moz-keyframes movedown2 {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-    -webkit-transform: translate(-100px, 1px);
-  }
-}
-@keyframes movedown2 {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-    -webkit-transform: translate(-100px, 1px);
-  }
-}
 .myObject {
   -moz-transform: rotate(-360deg);
        transform: rotate(-360deg);
@@ -1369,7 +1263,7 @@ a.vc_btn3 {
   -moz-animation: 2s  infinite linear;
        animation: 2s  infinite linear;
 }
-.points {
+.active .points {
   opacity: 0;
   -moz-animation: pointer 2s infinite;
        animation: pointer 2s infinite;
@@ -1453,6 +1347,142 @@ a.vc_btn3 {
 @keyframes offset {
   100% {
     stroke-dashoffset: 0;
+  }
+}
+.active #Line-3 {
+  stroke: #36485B;
+  stroke-width: 2px;
+  stroke-dasharray: 5;
+  stroke-dashoffset: 150;
+  -webkit-animation-duration: 2s;
+  -webkit-animation-name: line3;
+  -webkit-animation-iteration-count: 1;
+}
+@-moz-keyframes line3 {
+  100% {
+    stroke-dashoffset: 0;
+  }
+}
+@keyframes line3 {
+  100% {
+    stroke-dashoffset: 0;
+  }
+}
+.active #Path-174,
+.active #Path-175 {
+  stroke: #36485B;
+  stroke-width: 2px;
+  stroke-dasharray: 5;
+  stroke-dashoffset: 150;
+  -moz-animation-delay: 2s;
+       animation-delay: 2s;
+  -webkit-animation-duration: 2s;
+  -webkit-animation-name: line5;
+  -webkit-animation-iteration-count: 1;
+}
+.active .points {
+  opacity: .4;
+  -moz-animation-delay: 2.2s;
+       animation-delay: 2.2s;
+  -webkit-animation-duration: 2.2s;
+  -webkit-animation-name: pointer;
+  -webkit-animation-iteration-count: 2;
+}
+.active #Line-5 {
+  stroke: #36485B;
+  stroke-width: 2px;
+  stroke-dasharray: 5;
+  stroke-dashoffset: 150;
+  -moz-animation-delay: 3.5s;
+       animation-delay: 3.5s;
+  -webkit-animation-duration: 3.5s;
+  -webkit-animation-name: line5;
+  -webkit-animation-iteration-count: 1;
+}
+@-moz-keyframes line5 {
+  100% {
+    stroke-dashoffset: 0;
+  }
+}
+@keyframes line5 {
+  100% {
+    stroke-dashoffset: 0;
+  }
+}
+.active .line path {
+  stroke: #36485B;
+  stroke-width: 2px;
+  stroke-dasharray: 5;
+  stroke-dashoffset: 150;
+  -moz-animation-delay: 3.7s;
+       animation-delay: 3.7s;
+  -webkit-animation-duration: 3.7s;
+  -webkit-animation-name: line5;
+  -webkit-animation-iteration-count: 1;
+}
+.active #Line-2 {
+  stroke: #36485B;
+  stroke-width: 2px;
+  stroke-dasharray: -5;
+  stroke-dashoffset: -150;
+  -moz-animation-delay: 5s;
+       animation-delay: 5s;
+  -webkit-animation-duration: 2s;
+  -webkit-animation-name: line2;
+  -webkit-animation-iteration-count: 1;
+}
+@-moz-keyframes line2 {
+  100% {
+    stroke-dashoffset: 0;
+  }
+}
+@keyframes line2 {
+  100% {
+    stroke-dashoffset: 0;
+  }
+}
+.active .line23 path {
+  stroke: #36485B;
+  stroke-width: 2px;
+  stroke-dasharray: -5;
+  stroke-dashoffset: -150;
+  -moz-animation-delay: 5.5s;
+       animation-delay: 5.5s;
+  -webkit-animation-duration: 4s;
+  -webkit-animation-name: line5;
+  -webkit-animation-iteration-count: 1;
+}
+.active #Line-4 {
+  stroke: #36485B;
+  stroke-width: 3px;
+  -moz-animation-delay: 6s;
+       animation-delay: 6s;
+  -webkit-animation-duration: 3s;
+  -webkit-animation-name: line4;
+  -webkit-animation-iteration-count: 1;
+  -moz-animation-timing-function: 1;
+       animation-timing-function: 1;
+}
+@-moz-keyframes line4 {
+  0% {
+    stroke-width: 0px;
+  }
+  50% {
+    stroke-width: 3px;
+  }
+  100% {
+    stroke-width: 0px;
+  }
+}
+@keyframes line4 {
+  0% {
+    stroke-width: 0px;
+  }
+  50% {
+    stroke-width: 3px;
+  }
+  100% {
+    stroke-width: 0px;
   }
 }
 tspan {
@@ -3372,4 +3402,24 @@ input[type="checkbox"]:after {
 }
 .page-template-page-paynow button[type=submit] {
   border: none;
+}
+.benefits-row .feature-box i.ic-holder-1 {
+  height: 70px;
+  line-height: 70px;
+  width: 70px;
+}
+.benefits-row .feature-box.left-icon-box .feature-box-content {
+  margin-left: 90px;
+}
+.circle-bg .vc_single_image-wrapper {
+  -moz-border-radius: 50%;
+       border-radius: 50%;
+  -moz-box-shadow: 0 0 10px 0px rgba(0, 0, 0, 0.2);
+       box-shadow: 0 0 10px 0px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  -moz-box-sizing: border-box;
+       box-sizing: border-box;
+  width: 180px !important;
+  height: 180px !important;
+  line-height: 130px;
 }
