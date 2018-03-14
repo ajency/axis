@@ -323,7 +323,7 @@
         jQuery(document).ready(function () {
 
     function playslider(){
-          var $rows = $("svg").addClass("active");
+          var $rows = jQuery("svg").addClass("active");
            setTimeout(function() {
            $rows.removeClass("active");
        }, 19000);
