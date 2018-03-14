@@ -2308,7 +2308,8 @@ input[type="checkbox"]:after {
   }
 }
 @media (min-width: 768px) {
-  .frm_checkbox {
+  .frm_checkbox,
+  .frm_radio {
     width: 50%;
     float: left;
     margin: 0 0 15px 0 !important;
@@ -2384,6 +2385,9 @@ input[type="checkbox"]:after {
 }
 .form-privacy-text {
   text-align: center;
+}
+.frm_left_container label {
+  line-height: 22px;
 }
 .testimonial-customer-tabs img {
   width: 120px;
