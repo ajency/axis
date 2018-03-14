@@ -30,7 +30,7 @@ do_action('sjb_job_listing_grid_view_start');
 
 <!-- Start Jobs Grid View
 ================================================== -->
-<div class="col-md-6 col-sm-6 grid-item job-item">
+<div class="col-md-4 col-sm-6 grid-item job-item">
     <div class="list-data">
 
         <!-- Grid view header -->

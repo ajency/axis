@@ -1258,6 +1258,66 @@ a.vc_btn3 {
     opacity: 0;
   }
 }
+/*.arrow-left{
+        -webkit-transform: translate(22px, 1px);
+        opacity: 0;
+         animation: moveleft 2s infinite;
+}
+@keyframes moveleft {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+         -webkit-transform: translate(-408px, 1px);
+    }
+}
+.arrow-right{
+        -webkit-transform: translate(162px, 1px);
+        opacity: 0;
+         animation: moveright 2s infinite;
+}
+@keyframes moveright {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+         -webkit-transform: translate(-258px, 1px);
+    }
+}
+.arrow-down{
+        -webkit-transform: translate(50px, 1px);
+        opacity: 0;
+         animation: movedown 2s infinite;
+}
+@keyframes movedown {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+         -webkit-transform: translate(-150px, 1px);
+    }
+}
+.arrow-down2{
+        -webkit-transform: translate(50px, 1px);
+        opacity: 0;
+         animation: movedown2 2s infinite;
+}
+@keyframes movedown2 {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+         -webkit-transform: translate(-100px, 1px);
+    }
+}*/
 .myObject {
   -moz-transform: rotate(-360deg);
        transform: rotate(-360deg);
@@ -1379,28 +1439,35 @@ a.vc_btn3 {
   stroke-width: 2px;
   stroke-dasharray: 5;
   stroke-dashoffset: 150;
-  -moz-animation-delay: 2s;
-       animation-delay: 2s;
+  -moz-animation-delay: 3s;
+       animation-delay: 3s;
+  -webkit-animation-duration: 2s;
+  -webkit-animation-name: line5;
+  -webkit-animation-iteration-count: 1;
+}
+.active {
+  -moz-animation-delay: 3s;
+       animation-delay: 3s;
   -webkit-animation-duration: 2s;
   -webkit-animation-name: line5;
   -webkit-animation-iteration-count: 1;
 }
 .active .points {
   opacity: .4;
-  -moz-animation-delay: 2.2s;
-       animation-delay: 2.2s;
-  -webkit-animation-duration: 2.2s;
+  -moz-animation-delay: 4.3s;
+       animation-delay: 4.3s;
+  -webkit-animation-duration: 3s;
   -webkit-animation-name: pointer;
-  -webkit-animation-iteration-count: 2;
+  -webkit-animation-iteration-count: 1;
 }
 .active #Line-5 {
   stroke: #36485B;
   stroke-width: 2px;
   stroke-dasharray: 5;
   stroke-dashoffset: 150;
-  -moz-animation-delay: 3.5s;
-       animation-delay: 3.5s;
-  -webkit-animation-duration: 3.5s;
+  -moz-animation-delay: 6.5s;
+       animation-delay: 6.5s;
+  -webkit-animation-duration: 2s;
   -webkit-animation-name: line5;
   -webkit-animation-iteration-count: 1;
 }
@@ -1419,9 +1486,9 @@ a.vc_btn3 {
   stroke-width: 2px;
   stroke-dasharray: 5;
   stroke-dashoffset: 150;
-  -moz-animation-delay: 3.7s;
-       animation-delay: 3.7s;
-  -webkit-animation-duration: 3.7s;
+  -moz-animation-delay: 8s;
+       animation-delay: 8s;
+  -webkit-animation-duration: 2.7s;
   -webkit-animation-name: line5;
   -webkit-animation-iteration-count: 1;
 }
@@ -1430,8 +1497,8 @@ a.vc_btn3 {
   stroke-width: 2px;
   stroke-dasharray: -5;
   stroke-dashoffset: -150;
-  -moz-animation-delay: 5s;
-       animation-delay: 5s;
+  -moz-animation-delay: 10.5s;
+       animation-delay: 10.5s;
   -webkit-animation-duration: 2s;
   -webkit-animation-name: line2;
   -webkit-animation-iteration-count: 1;
@@ -1451,8 +1518,8 @@ a.vc_btn3 {
   stroke-width: 2px;
   stroke-dasharray: -5;
   stroke-dashoffset: -150;
-  -moz-animation-delay: 5.5s;
-       animation-delay: 5.5s;
+  -moz-animation-delay: 12.4s;
+       animation-delay: 12.4s;
   -webkit-animation-duration: 4s;
   -webkit-animation-name: line5;
   -webkit-animation-iteration-count: 1;
@@ -1460,8 +1527,8 @@ a.vc_btn3 {
 .active #Line-4 {
   stroke: #36485B;
   stroke-width: 3px;
-  -moz-animation-delay: 6s;
-       animation-delay: 6s;
+  -moz-animation-delay: 15s;
+       animation-delay: 15s;
   -webkit-animation-duration: 3s;
   -webkit-animation-name: line4;
   -webkit-animation-iteration-count: 1;
@@ -2949,10 +3016,10 @@ input[type="checkbox"]:after {
 .sjb-page {
   background-color: transparent;
 }
-.sjb-page .sjb-listing .grid-view .row .grid-item:nth-child(2n+1) {
+.sjb-page .sjb-listing .grid-view .row .grid-item:nth-child(3n+1) {
   clear: left;
 }
-.sjb-page .sjb-listing .grid-view .row .grid-item:nth-child(3n+1) {
+.sjb-page .sjb-listing .grid-view .row .grid-item:nth-child(4n+1) {
   clear: none;
 }
 .resume-image,
