@@ -179,11 +179,13 @@ body {
   font-size: 12px;
 }
 #demoModal,
-#enquireModal {
+#enquireModal,
+#feedbackModal {
   margin-bottom: 20px;
 }
 #demoModal .hb-box-cont-header,
-#enquireModal .hb-box-cont-header {
+#enquireModal .hb-box-cont-header,
+#feedbackModal .hb-box-cont-header {
   text-align: center;
   font-size: 22px;
   padding: 25px 30px;
@@ -192,15 +194,18 @@ body {
   border-color: #10c9a3;
 }
 #demoModal .hb-box-cont-header .close-modal,
-#enquireModal .hb-box-cont-header .close-modal {
+#enquireModal .hb-box-cont-header .close-modal,
+#feedbackModal .hb-box-cont-header .close-modal {
   color: #fff;
 }
 #demoModal .hb-box-cont-header .close-modal i,
-#enquireModal .hb-box-cont-header .close-modal i {
+#enquireModal .hb-box-cont-header .close-modal i,
+#feedbackModal .hb-box-cont-header .close-modal i {
   font-size: 0.6em;
 }
 #demoModal .hb-box-cont-body,
-#enquireModal .hb-box-cont-body {
+#enquireModal .hb-box-cont-body,
+#feedbackModal .hb-box-cont-body {
   padding-bottom: 0;
 }
 .axis-green-btn button,
