@@ -36,6 +36,19 @@ jQuery('body').on('click', '.menu-item-81 a, .menu-item-258 a', function(e) {
 	$body.addClass('no-scroll');
 });
 
+// Trigger Feedback Modal
+jQuery('body').on('click', '.feedback-modal-trigger', function(e) {
+	e.preventDefault();
+	var $modal_id = "feedbackModal";
+
+	jQuery('#'+$modal_id).parent().addClass('hb-visible-modal');
+
+	setTimeout(function () {
+		jQuery('#'+$modal_id).addClass('rendered animate-modal');
+	}, 220);
+	$body.addClass('no-scroll');
+});
+
 // Close modal on backdrop click
 jQuery('body').on('click touchstart', '.crop-here.hb-visible-modal', function (e) {
 	if (e.target == this){

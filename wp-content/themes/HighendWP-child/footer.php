@@ -6,6 +6,7 @@
 ?>
 
 <?php echo do_shortcode ('[menu_modal]'); ?>
+<?php echo do_shortcode ('[feedback_modal]'); ?>
 
 
 <?php if ( vp_metabox('misc_settings.hb_onepage') && !vp_metabox('misc_settings.hb_disable_navigation')) { ?>

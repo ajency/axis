@@ -55,6 +55,18 @@ function menu_enquire_shortcode($atts){
 }
 add_shortcode('menu_modal','menu_enquire_shortcode');
 
+function customer_feedback_shortcode($atts){
+   extract(shortcode_atts(array(
+
+      'button_text' => 'Provide Feedback',
+      'form_id' => '11',
+      'modal_window_title' => 'Customer Feedback'
+
+   ), $atts));
+   $modalshortcode =  do_shortcode('[modal_window title="'.$modal_window_title.'" invoke_title="'.$button_text.'" id="feedbackModal" show_on_load="no"] [formidable id='.$form_id.']  [/modal_window]');
+}
+add_shortcode('feedback_modal','customer_feedback_shortcode');
+
 
 
 function testimonials_gal_shortcode($atts)
