@@ -2386,7 +2386,7 @@ input[type="checkbox"]:after {
 .form-privacy-text {
   text-align: center;
 }
-.frm_left_container label {
+.frm_left_container > label {
   line-height: 22px;
 }
 .testimonial-customer-tabs img {
