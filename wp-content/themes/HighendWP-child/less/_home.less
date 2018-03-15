@@ -728,66 +728,6 @@
         opacity: 0;
     }
 }
-/*.arrow-left{
-        -webkit-transform: translate(22px, 1px);
-        opacity: 0;
-         animation: moveleft 2s infinite;
-}
-@keyframes moveleft {
-    0% {
-        opacity: 0;
-    }
-
-    100% {
-        opacity: 1;
-         -webkit-transform: translate(-408px, 1px);
-    }
-}
-.arrow-right{
-        -webkit-transform: translate(162px, 1px);
-        opacity: 0;
-         animation: moveright 2s infinite;
-}
-@keyframes moveright {
-    0% {
-        opacity: 0;
-    }
-
-    100% {
-        opacity: 1;
-         -webkit-transform: translate(-258px, 1px);
-    }
-}
-.arrow-down{
-        -webkit-transform: translate(50px, 1px);
-        opacity: 0;
-         animation: movedown 2s infinite;
-}
-@keyframes movedown {
-    0% {
-        opacity: 0;
-    }
-
-    100% {
-        opacity: 1;
-         -webkit-transform: translate(-150px, 1px);
-    }
-}
-.arrow-down2{
-        -webkit-transform: translate(50px, 1px);
-        opacity: 0;
-         animation: movedown2 2s infinite;
-}
-@keyframes movedown2 {
-    0% {
-        opacity: 0;
-    }
-
-    100% {
-        opacity: 1;
-         -webkit-transform: translate(-100px, 1px);
-    }
-}*/
 
 .myObject {
   transform: rotate(-360deg) ;
@@ -799,9 +739,9 @@
 }
 
 .active .points{
-        opacity: 0;
-         animation: pointer 2s infinite;
-         transition: all 1s linear;
+    opacity: 0;
+    animation: pointer 2s infinite;
+    transition: all 1s linear;
 }
 @keyframes pointer {
     0% {
@@ -823,9 +763,9 @@
 }
 
 .d1{
-        opacity: 0;
-         animation: distribution 1s infinite;
-         transition: all 1s linear;
+    opacity: 0;
+    animation: distribution 1s infinite;
+    transition: all 1s linear;
 
 }
 
@@ -883,12 +823,7 @@
   -webkit-animation-name: line5;
   -webkit-animation-iteration-count: 1;
 }
-.active{
-    animation-delay: 3s;
-     -webkit-animation-duration: 2s;
-  -webkit-animation-name: line5;
-  -webkit-animation-iteration-count: 1;
-}
+
 .active .points{
     opacity: .4;
          animation-delay:4.3s;
@@ -925,7 +860,20 @@
 
 
 }
-
+.active .text-highlight{
+    animation-delay: 8.2s;
+     -webkit-animation-duration: 5s;
+  -webkit-animation-name: textanimation;
+  -webkit-animation-iteration-count: 1;
+}
+@keyframes textanimation {
+    0%{
+      fill:#1fc0a1;
+    }
+    100% {
+       fill:#00000;
+    }
+}
 
 .active #Line-2{
        stroke: #36485B;
@@ -954,6 +902,12 @@
 
 
 
+}
+.active .text-highlight2{
+    animation-delay: 12.6s;
+     -webkit-animation-duration: 5s;
+  -webkit-animation-name: textanimation;
+  -webkit-animation-iteration-count: 1;
 }
 
 .active #Line-4{

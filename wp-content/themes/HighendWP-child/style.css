@@ -1258,66 +1258,6 @@ a.vc_btn3 {
     opacity: 0;
   }
 }
-/*.arrow-left{
-        -webkit-transform: translate(22px, 1px);
-        opacity: 0;
-         animation: moveleft 2s infinite;
-}
-@keyframes moveleft {
-    0% {
-        opacity: 0;
-    }
-
-    100% {
-        opacity: 1;
-         -webkit-transform: translate(-408px, 1px);
-    }
-}
-.arrow-right{
-        -webkit-transform: translate(162px, 1px);
-        opacity: 0;
-         animation: moveright 2s infinite;
-}
-@keyframes moveright {
-    0% {
-        opacity: 0;
-    }
-
-    100% {
-        opacity: 1;
-         -webkit-transform: translate(-258px, 1px);
-    }
-}
-.arrow-down{
-        -webkit-transform: translate(50px, 1px);
-        opacity: 0;
-         animation: movedown 2s infinite;
-}
-@keyframes movedown {
-    0% {
-        opacity: 0;
-    }
-
-    100% {
-        opacity: 1;
-         -webkit-transform: translate(-150px, 1px);
-    }
-}
-.arrow-down2{
-        -webkit-transform: translate(50px, 1px);
-        opacity: 0;
-         animation: movedown2 2s infinite;
-}
-@keyframes movedown2 {
-    0% {
-        opacity: 0;
-    }
-
-    100% {
-        opacity: 1;
-         -webkit-transform: translate(-100px, 1px);
-    }
-}*/
 .myObject {
   -moz-transform: rotate(-360deg);
        transform: rotate(-360deg);
@@ -1445,13 +1385,6 @@ a.vc_btn3 {
   -webkit-animation-name: line5;
   -webkit-animation-iteration-count: 1;
 }
-.active {
-  -moz-animation-delay: 3s;
-       animation-delay: 3s;
-  -webkit-animation-duration: 2s;
-  -webkit-animation-name: line5;
-  -webkit-animation-iteration-count: 1;
-}
 .active .points {
   opacity: .4;
   -moz-animation-delay: 4.3s;
@@ -1492,6 +1425,29 @@ a.vc_btn3 {
   -webkit-animation-name: line5;
   -webkit-animation-iteration-count: 1;
 }
+.active .text-highlight {
+  -moz-animation-delay: 8.2s;
+       animation-delay: 8.2s;
+  -webkit-animation-duration: 5s;
+  -webkit-animation-name: textanimation;
+  -webkit-animation-iteration-count: 1;
+}
+@-moz-keyframes textanimation {
+  0% {
+    fill: #1fc0a1;
+  }
+  100% {
+    fill: #00000;
+  }
+}
+@keyframes textanimation {
+  0% {
+    fill: #1fc0a1;
+  }
+  100% {
+    fill: #00000;
+  }
+}
 .active #Line-2 {
   stroke: #36485B;
   stroke-width: 2px;
@@ -1522,6 +1478,13 @@ a.vc_btn3 {
        animation-delay: 12.4s;
   -webkit-animation-duration: 4s;
   -webkit-animation-name: line5;
+  -webkit-animation-iteration-count: 1;
+}
+.active .text-highlight2 {
+  -moz-animation-delay: 12.6s;
+       animation-delay: 12.6s;
+  -webkit-animation-duration: 5s;
+  -webkit-animation-name: textanimation;
   -webkit-animation-iteration-count: 1;
 }
 .active #Line-4 {
