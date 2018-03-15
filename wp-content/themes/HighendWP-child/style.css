@@ -2582,6 +2582,15 @@ input[type="checkbox"]:after {
   color: #10c9a3;
   font-size: 14px;
 }
+.testimonial-slider-wrapper a.lazy-load-youtube {
+  height: 275px !important;
+  width: auto !important;
+}
+.testimonial-slider-wrapper .preview-youtube .lazy-load-youtube-div,
+.testimonial-slider-wrapper .lazy-load-vimeo-div {
+  height: 275px !important;
+  width: 100% !important;
+}
 @-moz-keyframes colorChange {
   0% {
     opacity: 0;
