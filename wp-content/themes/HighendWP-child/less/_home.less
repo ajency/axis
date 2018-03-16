@@ -729,6 +729,7 @@
     }
 }
 
+
 .myObject {
   transform: rotate(-360deg) ;
   transition: all 1s linear;
@@ -739,9 +740,9 @@
 }
 
 .active .points{
-    opacity: 0;
-    animation: pointer 2s infinite;
-    transition: all 1s linear;
+        opacity: 0;
+         animation: pointer 2s infinite;
+         transition: all 1s linear;
 }
 @keyframes pointer {
     0% {
@@ -763,9 +764,9 @@
 }
 
 .d1{
-    opacity: 0;
-    animation: distribution 1s infinite;
-    transition: all 1s linear;
+        opacity: 0;
+         animation: distribution 1s infinite;
+         transition: all 1s linear;
 
 }
 
@@ -785,18 +786,7 @@
 
     }
 }
-#Rectangle2{
-       stroke: #9E9E9E;
-    stroke-width: 4px;
-    stroke-dasharray: 5;
-    stroke-dashoffset: 150;
-    animation: offset 5s linear infinite;
-}
-@keyframes offset {
-    100% {
-        stroke-dashoffset: 0;
-    }
-}
+
 
 .active #Line-3{
        stroke: #36485B;
@@ -813,7 +803,17 @@
     }
 }
 
-.active #Path-174, .active #Path-175{
+.active #Path-174{
+       stroke: #36485B;
+      stroke-width: 2px;
+    stroke-dasharray: 5;
+    stroke-dashoffset: -150;
+    animation-delay: 3s;
+     -webkit-animation-duration: 2s;
+  -webkit-animation-name: line5;
+  -webkit-animation-iteration-count: 1;
+}
+.active #Path-175{
        stroke: #36485B;
       stroke-width: 2px;
     stroke-dasharray: 5;
@@ -860,7 +860,7 @@
 
 
 }
-.active .text-highlight{
+.active .circle-bubble{
     animation-delay: 8.2s;
      -webkit-animation-duration: 5s;
   -webkit-animation-name: textanimation;
@@ -868,10 +868,13 @@
 }
 @keyframes textanimation {
     0%{
-      fill:#1fc0a1;
+      stroke-dasharray: 5;
+    }
+    50% {
+       stroke-dashoffset: 150;
     }
     100% {
-       fill:#00000;
+       stroke-dashoffset: 0;
     }
 }
 
@@ -903,7 +906,7 @@
 
 
 }
-.active .text-highlight2{
+.active .circle-bubble2{
     animation-delay: 12.6s;
      -webkit-animation-duration: 5s;
   -webkit-animation-name: textanimation;

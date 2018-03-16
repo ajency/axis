@@ -1336,24 +1336,6 @@ a.vc_btn3 {
     opacity: 0;
   }
 }
-#Rectangle2 {
-  stroke: #9E9E9E;
-  stroke-width: 4px;
-  stroke-dasharray: 5;
-  stroke-dashoffset: 150;
-  -moz-animation: offset 5s linear infinite;
-       animation: offset 5s linear infinite;
-}
-@-moz-keyframes offset {
-  100% {
-    stroke-dashoffset: 0;
-  }
-}
-@keyframes offset {
-  100% {
-    stroke-dashoffset: 0;
-  }
-}
 .active #Line-3 {
   stroke: #36485B;
   stroke-width: 2px;
@@ -1373,7 +1355,17 @@ a.vc_btn3 {
     stroke-dashoffset: 0;
   }
 }
-.active #Path-174,
+.active #Path-174 {
+  stroke: #36485B;
+  stroke-width: 2px;
+  stroke-dasharray: 5;
+  stroke-dashoffset: -150;
+  -moz-animation-delay: 3s;
+       animation-delay: 3s;
+  -webkit-animation-duration: 2s;
+  -webkit-animation-name: line5;
+  -webkit-animation-iteration-count: 1;
+}
 .active #Path-175 {
   stroke: #36485B;
   stroke-width: 2px;
@@ -1425,7 +1417,7 @@ a.vc_btn3 {
   -webkit-animation-name: line5;
   -webkit-animation-iteration-count: 1;
 }
-.active .text-highlight {
+.active .circle-bubble {
   -moz-animation-delay: 8.2s;
        animation-delay: 8.2s;
   -webkit-animation-duration: 5s;
@@ -1434,18 +1426,24 @@ a.vc_btn3 {
 }
 @-moz-keyframes textanimation {
   0% {
-    fill: #1fc0a1;
+    stroke-dasharray: 5;
+  }
+  50% {
+    stroke-dashoffset: 150;
   }
   100% {
-    fill: #00000;
+    stroke-dashoffset: 0;
   }
 }
 @keyframes textanimation {
   0% {
-    fill: #1fc0a1;
+    stroke-dasharray: 5;
+  }
+  50% {
+    stroke-dashoffset: 150;
   }
   100% {
-    fill: #00000;
+    stroke-dashoffset: 0;
   }
 }
 .active #Line-2 {
@@ -1480,7 +1478,7 @@ a.vc_btn3 {
   -webkit-animation-name: line5;
   -webkit-animation-iteration-count: 1;
 }
-.active .text-highlight2 {
+.active .circle-bubble2 {
   -moz-animation-delay: 12.6s;
        animation-delay: 12.6s;
   -webkit-animation-duration: 5s;
