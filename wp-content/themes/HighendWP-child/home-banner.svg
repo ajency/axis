@@ -121,7 +121,7 @@
                 <text id="Pricing-Based-on-mul" font-family="OpenSans-Bold, Open Sans" font-size="20" font-weight="bold" letter-spacing="0.0363636389">
                     <tspan x="623.171236" y="48" fill="#353B63">Pricing</tspan>
                     <tspan x="692" y="48" font-family="OpenSans-Semibold, Open Sans" font-weight="500" fill="#353B63"></tspan>
-                    <tspan x="520" y="75" font-family="OpenSans, Open Sans" font-size="16" font-weight="normal" fill="#36485B">Based on multiple factors</tspan>
+                    <tspan x="500.5" y="75" font-family="OpenSans, Open Sans" font-size="16" font-weight="normal" fill="#36485B">Based on multiple factors</tspan>
                 </text>
                 <text id="Distribution-To-vari" font-family="OpenSans-Bold, Open Sans" font-size="20" font-weight="bold" letter-spacing="0.0363636389">
                     <tspan x="570.733558" y="392" fill="#353B63">Distribution</tspan>
