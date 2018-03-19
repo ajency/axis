@@ -326,7 +326,7 @@ a.vc_btn3 {
   position: fixed;
   text-align: center;
   right: 70px;
-  bottom: -52px;
+  bottom: 52px;
   color: #fff;
   cursor: pointer;
   z-index: 10000;
@@ -347,8 +347,7 @@ a.vc_btn3 {
   -moz-backface-visibility: hidden;
        backface-visibility: hidden;
 }
-.feedback-trigger.trigger-visible {
-  bottom: 52px;
+.feedback-trigger.hb-pop-class {
   opacity: 1;
 }
 .feedback-trigger:hover {

@@ -239,11 +239,11 @@ view_trigger = function() {
 
 	var st = jQuery(window).scrollTop();
  	if(st < 350) {
-		scroll_top_trigger.removeClass('trigger-visible');
+		scroll_top_trigger.removeClass('hb-pop-class');
 	}
 
-	else if(!scroll_top_trigger.is('.trigger-visible')) {
-		scroll_top_trigger.addClass('trigger-visible');
+	else if(!scroll_top_trigger.is('.hb-pop-class')) {
+		scroll_top_trigger.addClass('hb-pop-class');
 	}
 };
 jQuery(window).scroll(view_trigger);
