@@ -342,13 +342,13 @@ a.vc_btn3 {
   -moz-transition: all .1s linear;
   -webkit-transition: all .1s linear;
   -o-transition: all .1s linear;
-  opacity: 1;
-  visibility: visible;
   -moz-backface-visibility: hidden;
        backface-visibility: hidden;
+  visibility: hidden;
 }
 .feedback-trigger.hb-pop-class {
   opacity: 1;
+  visibility: visible;
 }
 .feedback-trigger:hover {
   background-color: #10c9a3;
