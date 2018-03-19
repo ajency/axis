@@ -365,10 +365,19 @@ a.vc_btn3 {
   margin-top: 1px!important;
   margin-right: 0!important;
 }
+.feedback-trigger.mobile-trigger {
+  display: none;
+}
 @media (max-width: 767px) {
   .feedback-trigger {
     bottom: 120px;
     right: 20px;
+  }
+  .feedback-trigger .desk-trigger {
+    display: none;
+  }
+  .feedback-trigger .mobile-trigger {
+    display: block;
   }
 }
 .frm-star-group .star-rating,
