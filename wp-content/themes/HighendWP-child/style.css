@@ -373,11 +373,14 @@ a.vc_btn3 {
     bottom: 120px;
     right: 20px;
   }
-  .feedback-trigger .desk-trigger {
+  .feedback-trigger.desk-trigger {
     display: none;
   }
-  .feedback-trigger .mobile-trigger {
+  .feedback-trigger.mobile-trigger {
     display: block;
+    width: 40px;
+    line-height: inherit;
+    padding: 0;
   }
 }
 .frm-star-group .star-rating,
