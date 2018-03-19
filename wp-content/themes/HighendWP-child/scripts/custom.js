@@ -246,4 +246,5 @@ view_trigger = function() {
 		scroll_top.addClass('trigger-visible');
 	}
 };
+jQuery(window).scroll(view_trigger);
 view_trigger();
