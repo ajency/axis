@@ -234,16 +234,16 @@ if ( jQuery('.init-testimonial-slider').length ){
 //     jQuery(this).hide();
 // });
 
-scroll_top = jQuery('.feedback-trigger.feedback-modal-trigger'),
+scroll_top_trigger = jQuery('.feedback-trigger.feedback-modal-trigger'),
 view_trigger = function() {
 
 	var st = jQuery(window).scrollTop();
  	if(st < 350) {
-		scroll_top.removeClass('trigger-visible');
+		scroll_top_trigger.removeClass('trigger-visible');
 	}
 
-	else if(!scroll_top.is('.trigger-visible')) {
-		scroll_top.addClass('trigger-visible');
+	else if(!scroll_top_trigger.is('.trigger-visible')) {
+		scroll_top_trigger.addClass('trigger-visible');
 	}
 };
 jQuery(window).scroll(view_trigger);
