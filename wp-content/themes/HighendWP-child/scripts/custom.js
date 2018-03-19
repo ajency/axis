@@ -223,3 +223,27 @@ if ( jQuery('.init-testimonial-slider').length ){
 		});
 	});
 }
+
+// Feedback popup trigger
+// jQuery("body").on("click", ".close-feedback", function(){
+//     jQuery(".feedback-holder").hide();
+//     jQuery(".feedback-trigger").show();
+// });
+// jQuery("body").on("click", ".feedback-trigger", function(){
+//     jQuery(".feedback-holder").show();
+//     jQuery(this).hide();
+// });
+
+scroll_top = jQuery('.feedback-trigger.feedback-modal-trigger'),
+view_trigger = function() {
+
+	var st = jQuery(window).scrollTop();
+ 	if(st < 350) {
+		scroll_top.removeClass('trigger-visible');
+	}
+
+	else if(!scroll_top.is('.trigger-visible')) {
+		scroll_top.addClass('trigger-visible');
+	}
+};
+view_trigger();

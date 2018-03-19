@@ -326,12 +326,15 @@ a.vc_btn3 {
   position: fixed;
   text-align: center;
   right: 70px;
-  bottom: 52px;
+  bottom: -52px;
   color: #fff;
   cursor: pointer;
   z-index: 10000;
   height: 40px;
-  width: 40px;
+  opacity: 0;
+  padding: 0px 12px;
+  font-weight: 600;
+  line-height: 38px;
   background-color: rgba(0, 0, 0, 0.4);
   background-repeat: no-repeat;
   background-position: center;
@@ -343,6 +346,10 @@ a.vc_btn3 {
   visibility: visible;
   -moz-backface-visibility: hidden;
        backface-visibility: hidden;
+}
+.feedback-trigger.trigger-visible {
+  bottom: 52px;
+  opacity: 1;
 }
 .feedback-trigger:hover {
   background-color: #10c9a3;

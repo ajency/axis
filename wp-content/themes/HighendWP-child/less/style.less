@@ -419,12 +419,16 @@ button, a.vc_btn3{
 	position: fixed;
 	text-align: center;
 	right: 70px;
-	bottom: 52px;
+	bottom: -52px;
 	color: #fff;
 	cursor: pointer;
 	z-index: 10000;
 	height: 40px;
-	width: 40px;
+	// width: 40px;
+	opacity: 0;
+	padding: 0px 12px;
+	font-weight: 600;
+	line-height: 38px;
 	background-color: rgba(0,0,0,.4);
 	background-repeat: no-repeat;
 	background-position: center;
@@ -436,6 +440,11 @@ button, a.vc_btn3{
 	visibility: visible;
 	-webkit-backface-visibility: hidden;
 	backface-visibility: hidden;
+
+	&.trigger-visible{
+		bottom: 52px;
+		opacity: 1;
+	}
 
 	&:hover{
 		background-color: @brand-primary;
