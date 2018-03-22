@@ -317,17 +317,17 @@
     if (notIE && !isChromium) {
 
        // checks for Firefox and other  NON IE Chrome versions
-       $(window).on("focusin", function () {
+       jQuery(window).on("focusin", function () {
 
            // tween resume() code goes here
            setTimeout(function(){
-              $("svg").addClass("active");
+              jQuery("svg").addClass("active");
            },300);
 
        }).on("focusout", function () {
 
            // tween pause() code goes here
-           $("svg").removeClass("active");
+           jQuery("svg").removeClass("active");
 
        });
 
@@ -341,7 +341,7 @@
 
                // tween resume() code goes here
                setTimeout(function(){
-                       $("svg").addClass("active");
+                       jQuery("svg").addClass("active");
                },300);
 
            }, false);
@@ -350,7 +350,7 @@
            window.addEventListener("blur", function (event) {
 
                // tween pause() code goes here
-                   $("svg").removeClass("active");
+                   jQuery("svg").removeClass("active");
 
            }, false);
 
@@ -361,7 +361,7 @@
 
                // tween resume() code goes here
                setTimeout(function(){
-                      $("svg").addClass("active");
+                      jQuery("svg").addClass("active");
                },300);
 
            });
@@ -370,7 +370,7 @@
            window.attachEvent("blur", function (event) {
 
                // tween pause() code goes here
-               $("svg").removeClass("active");
+               jQuery("svg").removeClass("active");
 
 
            });
