@@ -3180,6 +3180,9 @@ input[type="checkbox"]:after {
     min-height: 170px;
   }
 }
+.about-page #main-content {
+  padding-top: 0;
+}
 .page-template-page-blog .hb-logo-wrap img,
 .single-post .hb-logo-wrap img {
   -ms-filter: brightness(0%) invert(100%);
