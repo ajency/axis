@@ -309,4 +309,71 @@
         }
         playslider();
     });
+
+    // check if browser window has focus
+    var notIE = (document.documentMode === undefined),
+       isChromium = window.chrome;
+
+    if (notIE && !isChromium) {
+
+       // checks for Firefox and other  NON IE Chrome versions
+       $(window).on("focusin", function () {
+
+           // tween resume() code goes here
+           setTimeout(function(){
+              $("svg").addClass("active");
+           },300);
+
+       }).on("focusout", function () {
+
+           // tween pause() code goes here
+           $("svg").removeClass("active");
+
+       });
+
+    } else {
+
+       // checks for IE and Chromium versions
+       if (window.addEventListener) {
+
+           // bind focus event
+           window.addEventListener("focus", function (event) {
+
+               // tween resume() code goes here
+               setTimeout(function(){
+                       $("svg").addClass("active");
+               },300);
+
+           }, false);
+
+           // bind blur event
+           window.addEventListener("blur", function (event) {
+
+               // tween pause() code goes here
+                   $("svg").removeClass("active");
+
+           }, false);
+
+       } else {
+
+           // bind focus event
+           window.attachEvent("focus", function (event) {
+
+               // tween resume() code goes here
+               setTimeout(function(){
+                      $("svg").addClass("active");
+               },300);
+
+           });
+
+           // bind focus event
+           window.attachEvent("blur", function (event) {
+
+               // tween pause() code goes here
+               $("svg").removeClass("active");
+
+
+           });
+       }
+    }
 </script>
