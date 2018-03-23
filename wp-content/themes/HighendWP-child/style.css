@@ -3315,6 +3315,10 @@ input[type="checkbox"]:after {
   .axisrooms .vc_custom_1519198258064 {
     text-align: center !important;
   }
+  .axisrooms .vc_custom_1521630193666 {
+    padding-top: 140px !important;
+    padding-bottom: 0px !important;
+  }
 }
 .border-grid .vc_grid-item {
   border: 1px solid #eee;
