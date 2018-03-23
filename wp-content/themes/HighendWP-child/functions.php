@@ -406,6 +406,19 @@ function home_banner_shortcode($atts) {
 add_shortcode('home_banner', 'home_banner_shortcode');
 
 
+// Shortcode for Home banner - Mobile
+function home_banner_shortcode_mobile($atts) {
+
+   ob_start();
+
+   include(STYLESHEETPATH.'/home-banner-mobile.svg');
+
+   $content = ob_get_clean();
+   return $content;
+}
+add_shortcode('home_banner_mobile', 'home_banner_shortcode_mobile');
+
+
 // Webinar registration notification
 function so174837_registration_email_alert( $user_id ) {
     $user    = get_userdata( $user_id );

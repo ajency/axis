@@ -938,3 +938,210 @@
 tspan{
 	font-family: Open Sans, sans-serif;
 }
+
+
+// Home banner SVG - Mobile
+.mobile-svg-banner{
+	.building-fade-1 {
+	      animation: fadeInOpacity 1s infinite;
+
+	}
+	.building-fade-2 {
+	      animation: fadeInOpacity 2s infinite;
+
+	}
+
+	@keyframes fadeInOpacity {
+	    0% {
+	        opacity: 0;
+	    }
+	    30% {
+	        opacity: .5;
+	    }
+	    60% {
+	        opacity: 1;
+	    }
+	     90% {
+	        opacity: .4;
+	    }
+
+	    100% {
+	        opacity: 0;
+	    }
+	}
+
+
+	@keyframes pointer-mb {
+	    0% {
+	        stroke-width: 3;
+	    }
+
+	    50% {
+	        stroke-width: 10;
+	        stroke-dasharray: 0;
+	        stroke: #1abf9f;
+	    }
+	    100% {
+	        stroke-width: 3;
+
+	    }
+	}
+
+
+	@keyframes distribution {
+	    0% {
+	        opacity: 0;
+
+	    }
+	   50% {
+	        opacity: 1;
+
+
+	    }
+	    100% {
+	        opacity: 0;
+
+
+	    }
+	}
+
+
+	&.active2 #axis-line1{
+	       stroke: #36485B;
+	      stroke-width: 2px;
+	    stroke-dasharray: 5;
+	    stroke-dashoffset: 150;
+	      animation-delay: 1s;
+	     -webkit-animation-duration: 2s;
+	  -webkit-animation-name: axisline1;
+	  -webkit-animation-iteration-count: 1;
+	}
+	@keyframes axisline1 {
+	    100% {
+	        stroke-dashoffset: 0;
+	    }
+	}
+
+	&.active2 #pricing{
+
+	  animation-delay: 3s;
+	     -webkit-animation-duration: 5s;
+	  -webkit-animation-name: pricing;
+	  -webkit-animation-iteration-count: 1;
+	}
+	@keyframes pricing {
+	    0%{
+	      stroke-dasharray: 10;
+	    }
+	    50% {
+	       stroke-dashoffset: 150;
+	    }
+	    100% {
+	       stroke-dashoffset: 0;
+	    }
+	}
+
+	&.active2 #axis-line2{
+	     stroke: #36485B;
+	      stroke-width: 2px;
+	    stroke-dasharray: 5;
+	    stroke-dashoffset: 150;
+	      animation-delay: 4s;
+	     -webkit-animation-duration: 4s;
+	  -webkit-animation-name: axisline2;
+	  -webkit-animation-iteration-count: 1;
+	}
+	@keyframes axisline2 {
+	    100% {
+	        stroke-dashoffset: 0;
+	    }
+	}
+	&.active2 .cir_point{
+	         animation-delay:4.3s;
+	     -webkit-animation-duration: 3s;
+	  -webkit-animation-name: pointer-mb;
+	  -webkit-animation-iteration-count: 1;
+	}
+	&.active2 #Distribution-mb{
+
+	  animation-delay: 5s;
+	     -webkit-animation-duration: 5s;
+	  -webkit-animation-name: Distribution-mb;
+	  -webkit-animation-iteration-count: 1;
+	}
+	@keyframes Distribution-mb {
+	    0%{
+	      stroke-dasharray: 10;
+	    }
+	    50% {
+	       stroke-dashoffset: 150;
+	    }
+	    100% {
+	       stroke-dashoffset: 0;
+	    }
+	}
+
+	&.active2 #axis-line3{
+	     stroke: #36485B;
+	      stroke-width: 2px;
+	    stroke-dasharray: 5;
+	    stroke-dashoffset: 150;
+	      animation-delay: 5.5s;
+	     -webkit-animation-duration: 4s;
+	  -webkit-animation-name: axisline3;
+	  -webkit-animation-iteration-count: 1;
+	}
+	@keyframes axisline3 {
+	    100% {
+	        stroke-dashoffset: 0;
+	    }
+	}
+
+	&.active2 .cir_point2{
+	         animation-delay:5.8s;
+	     -webkit-animation-duration: 3s;
+	  -webkit-animation-name: pointer-mb;
+	  -webkit-animation-iteration-count: 1;
+	}
+
+	&.active2 #operation-mb{
+
+	 animation-delay: 6.3s;
+	     -webkit-animation-duration: 5s;
+	  -webkit-animation-name: operation-mb;
+	  -webkit-animation-iteration-count: 1;
+	}
+	@keyframes operation-mb {
+	    0%{
+	      stroke-dasharray: 10;
+	    }
+	    50% {
+	       stroke-dashoffset: 150;
+	    }
+	    100% {
+	       stroke-dashoffset: 0;
+	    }
+	}
+
+	&.active2 #axis-line4{
+	       stroke: #36485B;
+	       stroke-width: 3px;
+	     animation-delay: 7s;
+	     -webkit-animation-duration: 3s;
+	  -webkit-animation-name: axisline4;
+	  -webkit-animation-iteration-count: 1;
+	      animation-timing-function: 1;
+
+	}
+	@keyframes axisline4 {
+	    0% {
+	       stroke-width: 0px;
+	    }
+	    50% {
+	       stroke-width: 3px;
+	    }
+	    100% {
+	       stroke-width: 0px;
+	    }
+	}
+}

@@ -1539,6 +1539,265 @@ a.vc_btn3 {
 tspan {
   font-family: Open Sans, sans-serif;
 }
+.mobile-svg-banner .building-fade-1 {
+  -moz-animation: fadeInOpacity 1s infinite;
+       animation: fadeInOpacity 1s infinite;
+}
+.mobile-svg-banner .building-fade-2 {
+  -moz-animation: fadeInOpacity 2s infinite;
+       animation: fadeInOpacity 2s infinite;
+}
+@keyframes fadeInOpacity {
+  0% {
+    opacity: 0;
+  }
+  30% {
+    opacity: .5;
+  }
+  60% {
+    opacity: 1;
+  }
+  90% {
+    opacity: .4;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@-moz-keyframes pointer-mb {
+  0% {
+    stroke-width: 3;
+  }
+  50% {
+    stroke-width: 10;
+    stroke-dasharray: 0;
+    stroke: #1abf9f;
+  }
+  100% {
+    stroke-width: 3;
+  }
+}
+@keyframes pointer-mb {
+  0% {
+    stroke-width: 3;
+  }
+  50% {
+    stroke-width: 10;
+    stroke-dasharray: 0;
+    stroke: #1abf9f;
+  }
+  100% {
+    stroke-width: 3;
+  }
+}
+@keyframes distribution {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+.mobile-svg-banner.active2 #axis-line1 {
+  stroke: #36485B;
+  stroke-width: 2px;
+  stroke-dasharray: 5;
+  stroke-dashoffset: 150;
+  -moz-animation-delay: 1s;
+       animation-delay: 1s;
+  -webkit-animation-duration: 2s;
+  -webkit-animation-name: axisline1;
+  -webkit-animation-iteration-count: 1;
+}
+@-moz-keyframes axisline1 {
+  100% {
+    stroke-dashoffset: 0;
+  }
+}
+@keyframes axisline1 {
+  100% {
+    stroke-dashoffset: 0;
+  }
+}
+.mobile-svg-banner.active2 #pricing {
+  -moz-animation-delay: 3s;
+       animation-delay: 3s;
+  -webkit-animation-duration: 5s;
+  -webkit-animation-name: pricing;
+  -webkit-animation-iteration-count: 1;
+}
+@-moz-keyframes pricing {
+  0% {
+    stroke-dasharray: 10;
+  }
+  50% {
+    stroke-dashoffset: 150;
+  }
+  100% {
+    stroke-dashoffset: 0;
+  }
+}
+@keyframes pricing {
+  0% {
+    stroke-dasharray: 10;
+  }
+  50% {
+    stroke-dashoffset: 150;
+  }
+  100% {
+    stroke-dashoffset: 0;
+  }
+}
+.mobile-svg-banner.active2 #axis-line2 {
+  stroke: #36485B;
+  stroke-width: 2px;
+  stroke-dasharray: 5;
+  stroke-dashoffset: 150;
+  -moz-animation-delay: 4s;
+       animation-delay: 4s;
+  -webkit-animation-duration: 4s;
+  -webkit-animation-name: axisline2;
+  -webkit-animation-iteration-count: 1;
+}
+@-moz-keyframes axisline2 {
+  100% {
+    stroke-dashoffset: 0;
+  }
+}
+@keyframes axisline2 {
+  100% {
+    stroke-dashoffset: 0;
+  }
+}
+.mobile-svg-banner.active2 .cir_point {
+  -moz-animation-delay: 4.3s;
+       animation-delay: 4.3s;
+  -webkit-animation-duration: 3s;
+  -webkit-animation-name: pointer-mb;
+  -webkit-animation-iteration-count: 1;
+}
+.mobile-svg-banner.active2 #Distribution-mb {
+  -moz-animation-delay: 5s;
+       animation-delay: 5s;
+  -webkit-animation-duration: 5s;
+  -webkit-animation-name: Distribution-mb;
+  -webkit-animation-iteration-count: 1;
+}
+@-moz-keyframes Distribution-mb {
+  0% {
+    stroke-dasharray: 10;
+  }
+  50% {
+    stroke-dashoffset: 150;
+  }
+  100% {
+    stroke-dashoffset: 0;
+  }
+}
+@keyframes Distribution-mb {
+  0% {
+    stroke-dasharray: 10;
+  }
+  50% {
+    stroke-dashoffset: 150;
+  }
+  100% {
+    stroke-dashoffset: 0;
+  }
+}
+.mobile-svg-banner.active2 #axis-line3 {
+  stroke: #36485B;
+  stroke-width: 2px;
+  stroke-dasharray: 5;
+  stroke-dashoffset: 150;
+  -moz-animation-delay: 5.5s;
+       animation-delay: 5.5s;
+  -webkit-animation-duration: 4s;
+  -webkit-animation-name: axisline3;
+  -webkit-animation-iteration-count: 1;
+}
+@-moz-keyframes axisline3 {
+  100% {
+    stroke-dashoffset: 0;
+  }
+}
+@keyframes axisline3 {
+  100% {
+    stroke-dashoffset: 0;
+  }
+}
+.mobile-svg-banner.active2 .cir_point2 {
+  -moz-animation-delay: 5.8s;
+       animation-delay: 5.8s;
+  -webkit-animation-duration: 3s;
+  -webkit-animation-name: pointer-mb;
+  -webkit-animation-iteration-count: 1;
+}
+.mobile-svg-banner.active2 #operation-mb {
+  -moz-animation-delay: 6.3s;
+       animation-delay: 6.3s;
+  -webkit-animation-duration: 5s;
+  -webkit-animation-name: operation-mb;
+  -webkit-animation-iteration-count: 1;
+}
+@-moz-keyframes operation-mb {
+  0% {
+    stroke-dasharray: 10;
+  }
+  50% {
+    stroke-dashoffset: 150;
+  }
+  100% {
+    stroke-dashoffset: 0;
+  }
+}
+@keyframes operation-mb {
+  0% {
+    stroke-dasharray: 10;
+  }
+  50% {
+    stroke-dashoffset: 150;
+  }
+  100% {
+    stroke-dashoffset: 0;
+  }
+}
+.mobile-svg-banner.active2 #axis-line4 {
+  stroke: #36485B;
+  stroke-width: 3px;
+  -moz-animation-delay: 7s;
+       animation-delay: 7s;
+  -webkit-animation-duration: 3s;
+  -webkit-animation-name: axisline4;
+  -webkit-animation-iteration-count: 1;
+  -moz-animation-timing-function: 1;
+       animation-timing-function: 1;
+}
+@-moz-keyframes axisline4 {
+  0% {
+    stroke-width: 0px;
+  }
+  50% {
+    stroke-width: 3px;
+  }
+  100% {
+    stroke-width: 0px;
+  }
+}
+@keyframes axisline4 {
+  0% {
+    stroke-width: 0px;
+  }
+  50% {
+    stroke-width: 3px;
+  }
+  100% {
+    stroke-width: 0px;
+  }
+}
 .single-single-product .hb-logo-wrap img,
 .single-products .hb-logo-wrap img {
   -ms-filter: brightness(0%) invert(100%);
@@ -3182,6 +3441,9 @@ input[type="checkbox"]:after {
 }
 .about-page #main-content {
   padding-top: 0;
+}
+.about-page .minimal-skin #main-nav > li a:hover {
+  color: #fff;
 }
 .page-template-page-blog .hb-logo-wrap img,
 .single-post .hb-logo-wrap img {
