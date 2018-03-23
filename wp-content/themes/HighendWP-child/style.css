@@ -1628,8 +1628,8 @@ tspan {
   }
 }
 .mobile-svg-banner.active2 #pricing {
-  -moz-animation-delay: 3s;
-       animation-delay: 3s;
+  -moz-animation-delay: 3.8s;
+       animation-delay: 3.8s;
   -webkit-animation-duration: 5s;
   -webkit-animation-name: pricing;
   -webkit-animation-iteration-count: 1;
@@ -1661,8 +1661,8 @@ tspan {
   stroke-width: 2px;
   stroke-dasharray: 5;
   stroke-dashoffset: 150;
-  -moz-animation-delay: 4s;
-       animation-delay: 4s;
+  -moz-animation-delay: 5.5s;
+       animation-delay: 5.5s;
   -webkit-animation-duration: 4s;
   -webkit-animation-name: axisline2;
   -webkit-animation-iteration-count: 1;
@@ -1678,15 +1678,15 @@ tspan {
   }
 }
 .mobile-svg-banner.active2 .cir_point {
-  -moz-animation-delay: 4.3s;
-       animation-delay: 4.3s;
+  -moz-animation-delay: 6.3s;
+       animation-delay: 6.3s;
   -webkit-animation-duration: 3s;
   -webkit-animation-name: pointer-mb;
   -webkit-animation-iteration-count: 1;
 }
 .mobile-svg-banner.active2 #Distribution-mb {
-  -moz-animation-delay: 5s;
-       animation-delay: 5s;
+  -moz-animation-delay: 8s;
+       animation-delay: 8s;
   -webkit-animation-duration: 5s;
   -webkit-animation-name: Distribution-mb;
   -webkit-animation-iteration-count: 1;
@@ -1718,8 +1718,8 @@ tspan {
   stroke-width: 2px;
   stroke-dasharray: 5;
   stroke-dashoffset: 150;
-  -moz-animation-delay: 5.5s;
-       animation-delay: 5.5s;
+  -moz-animation-delay: 9.5s;
+       animation-delay: 9.5s;
   -webkit-animation-duration: 4s;
   -webkit-animation-name: axisline3;
   -webkit-animation-iteration-count: 1;
@@ -1735,15 +1735,15 @@ tspan {
   }
 }
 .mobile-svg-banner.active2 .cir_point2 {
-  -moz-animation-delay: 5.8s;
-       animation-delay: 5.8s;
+  -moz-animation-delay: 9.7s;
+       animation-delay: 9.7s;
   -webkit-animation-duration: 3s;
   -webkit-animation-name: pointer-mb;
   -webkit-animation-iteration-count: 1;
 }
 .mobile-svg-banner.active2 #operation-mb {
-  -moz-animation-delay: 6.3s;
-       animation-delay: 6.3s;
+  -moz-animation-delay: 13s;
+       animation-delay: 13s;
   -webkit-animation-duration: 5s;
   -webkit-animation-name: operation-mb;
   -webkit-animation-iteration-count: 1;
@@ -1773,8 +1773,8 @@ tspan {
 .mobile-svg-banner.active2 #axis-line4 {
   stroke: #36485B;
   stroke-width: 3px;
-  -moz-animation-delay: 7s;
-       animation-delay: 7s;
+  -moz-animation-delay: 14.7s;
+       animation-delay: 14.7s;
   -webkit-animation-duration: 3s;
   -webkit-animation-name: axisline4;
   -webkit-animation-iteration-count: 1;

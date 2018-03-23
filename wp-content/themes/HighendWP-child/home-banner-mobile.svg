@@ -199,13 +199,13 @@
 <script type="text/javascript">
     jQuery(document).ready(function () {
         function playslider(){
-              var $rows = jQuery("svg").addClass("active2");
+              var $rows = jQuery("svg").addClass("active");
                setTimeout(function() {
                $rows.removeClass("active2");
-           }, 10000);
+           }, 17000);
            setTimeout(function() {
                $rows.addClass("active2"),playslider();
-           }, 10030);
+           }, 17030);
         }
         playslider();
     });
