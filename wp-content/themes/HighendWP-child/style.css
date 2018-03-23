@@ -1193,6 +1193,11 @@ a.vc_btn3 {
   font-size: 30px;
   font-family: FontAwesome;
 }
+@media (max-width: 767px) {
+  .vc_row .vc_custom_1519799556921 {
+    margin-top: 50px !important;
+  }
+}
 /**
  * ----------------------------------------
  * animation slide-left
