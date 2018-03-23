@@ -199,7 +199,7 @@
 <script type="text/javascript">
     jQuery(document).ready(function () {
         function playslider(){
-              var $rows = jQuery("svg").addClass("active");
+              var $rows = jQuery("svg").addClass("active2");
                setTimeout(function() {
                $rows.removeClass("active2");
            }, 10000);
@@ -221,13 +221,13 @@
 
            // tween resume() code goes here
            setTimeout(function(){
-              jQuery("svg").addClass("active");
+              jQuery("svg").addClass("active2");
            },300);
 
        }).on("focusout", function () {
 
            // tween pause() code goes here
-           jQuery("svg").removeClass("active");
+           jQuery("svg").removeClass("active2");
 
        });
 
@@ -241,7 +241,7 @@
 
                // tween resume() code goes here
                setTimeout(function(){
-                       jQuery("svg").addClass("active");
+                       jQuery("svg").addClass("active2");
                },300);
 
            }, false);
@@ -250,7 +250,7 @@
            window.addEventListener("blur", function (event) {
 
                // tween pause() code goes here
-                   jQuery("svg").removeClass("active");
+                   jQuery("svg").removeClass("active2");
 
            }, false);
 
@@ -261,7 +261,7 @@
 
                // tween resume() code goes here
                setTimeout(function(){
-                      jQuery("svg").addClass("active");
+                      jQuery("svg").addClass("active2");
                },300);
 
            });
@@ -270,7 +270,7 @@
            window.attachEvent("blur", function (event) {
 
                // tween pause() code goes here
-               jQuery("svg").removeClass("active");
+               jQuery("svg").removeClass("active2");
 
 
            });
