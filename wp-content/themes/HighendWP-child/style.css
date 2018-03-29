@@ -1770,6 +1770,30 @@ tspan {
     stroke-dashoffset: 0;
   }
 }
+.mobile-svg-banner.active2 #circle-oval-1 {
+  stroke-dashoffset: 150;
+  -moz-animation-delay: 12.5s;
+       animation-delay: 12.5s;
+  -webkit-animation-duration: 4s;
+  -webkit-animation-name: circleoval;
+  -webkit-animation-iteration-count: 1;
+}
+@-moz-keyframes circleoval {
+  100% {
+    stroke: #36485B;
+    stroke-width: 2px;
+    stroke-dasharray: 5;
+    stroke-dashoffset: 0;
+  }
+}
+@keyframes circleoval {
+  100% {
+    stroke: #36485B;
+    stroke-width: 2px;
+    stroke-dasharray: 5;
+    stroke-dashoffset: 0;
+  }
+}
 .mobile-svg-banner.active2 #axis-line4 {
   stroke: #36485B;
   stroke-width: 3px;

@@ -1130,7 +1130,22 @@ tspan{
 	       stroke-dashoffset: 0;
 	    }
 	}
+	&.active2  #circle-oval-1{
 
+	    stroke-dashoffset: 150;
+	      animation-delay: 12.5s;
+	     -webkit-animation-duration: 4s;
+	  -webkit-animation-name: circleoval;
+	  -webkit-animation-iteration-count: 1;
+	}
+	@keyframes circleoval {
+	    100% {
+	          stroke: #36485B;
+	      stroke-width: 2px;
+	    stroke-dasharray: 5;
+	        stroke-dashoffset: 0;
+	    }
+	}
 	&.active2 #axis-line4{
 	       stroke: #36485B;
 	       stroke-width: 3px;
