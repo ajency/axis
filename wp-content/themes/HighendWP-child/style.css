@@ -2963,9 +2963,6 @@ input[type="checkbox"]:after {
   margin-top: 0;
   color: #999;
 }
-.strong-view.simple .strong-content .testimonial-client > div {
-  float: left;
-}
 .strong-view.simple .strong-content .testimonial-name {
   line-height: 1;
   font-weight: 700;
@@ -2985,6 +2982,7 @@ input[type="checkbox"]:after {
   font-size: 13px;
   line-height: 20px;
   font-family: Arial;
+  display: none;
 }
 .strong-view.simple .simplePagerNav li a {
   padding: 2px 8px;
