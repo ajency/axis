@@ -1194,7 +1194,8 @@ a.vc_btn3 {
   font-family: FontAwesome;
 }
 @media (max-width: 767px) {
-  .vc_row .vc_custom_1519799556921 {
+  .vc_row .vc_custom_1519799556921,
+  .vc_row .vc_custom_1521700928797 {
     margin-top: 50px !important;
   }
 }
@@ -2944,6 +2945,51 @@ input[type="checkbox"]:after {
   width: 0;
   border: 10px solid transparent;
   border-top-color: #10c9a3;
+}
+.strong-view.simple .strong-content .testimonial-inner {
+  display: -moz-box;
+  display: flex;
+}
+.strong-view.simple .strong-content .testimonial-inner .testimonial-image {
+  min-width: 40px;
+  margin-top: 0;
+  margin-right: 0.5em;
+}
+.strong-view.simple .strong-content .testimonial-inner .testimonial-image img {
+  -moz-border-radius: 50%;
+       border-radius: 50%;
+}
+.strong-view.simple .strong-content .testimonial-client {
+  margin-top: 0;
+  color: #999;
+}
+.strong-view.simple .strong-content .testimonial-client > div {
+  float: left;
+}
+.strong-view.simple .strong-content .testimonial-name {
+  line-height: 1;
+  font-weight: 700;
+  font-size: 13px;
+  color: #000;
+  margin-bottom: 3px;
+  width: 100%;
+  font-family: Arial;
+}
+.strong-view.simple .strong-content .strong-rating span.star:before {
+  padding: 0 5px 0 0;
+  font-size: 1.15em;
+}
+.strong-view.simple .strong-content .testimonial-review {
+  width: 100%;
+  color: #222;
+  font-size: 13px;
+  line-height: 20px;
+  font-family: Arial;
+}
+.strong-view.simple .simplePagerNav li a {
+  padding: 2px 8px;
+  font-size: 14px;
+  font-weight: 600;
 }
 .pricing-header-row + .fw-section {
   overflow: visible;
