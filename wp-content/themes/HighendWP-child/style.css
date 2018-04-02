@@ -2946,6 +2946,10 @@ input[type="checkbox"]:after {
   border: 10px solid transparent;
   border-top-color: #10c9a3;
 }
+.strong-view.simple .strong-content {
+  -moz-box-pack: start;
+       justify-content: flex-start;
+}
 .strong-view.simple .strong-content .testimonial-inner {
   display: -moz-box;
   display: flex;
