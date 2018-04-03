@@ -3018,6 +3018,11 @@ input[type="checkbox"]:after {
   margin-bottom: 0!important;
   width: 100%;
 }
+.reviews-link:hover,
+.reviews-link:focus {
+  background-image: none !important;
+  text-decoration: underline;
+}
 .pricing-header-row + .fw-section {
   overflow: visible;
 }
