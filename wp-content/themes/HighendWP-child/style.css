@@ -1149,7 +1149,8 @@ a.vc_btn3 {
 }
 .award-row.vertical h5 {
   border-color: transparent !important;
-  font-size: 20px;
+  font-size: 18px;
+  letter-spacing: 1px;
 }
 @media (max-width: 767px) {
   .award-row .wpb_wrapper {
@@ -1158,7 +1159,7 @@ a.vc_btn3 {
   .award-row h5 {
     margin-top: 10px;
     text-align: center;
-    font-size: 20px;
+    font-size: 18px;
   }
 }
 #main-content .award-row .wpb_content_element {
