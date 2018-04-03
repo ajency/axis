@@ -2995,6 +2995,7 @@ input[type="checkbox"]:after {
 }
 .average-rating {
   text-align: center;
+  margin-top: 25px;
 }
 .review-stars ul li {
   margin-right: 2px;
@@ -3014,6 +3015,7 @@ input[type="checkbox"]:after {
 }
 #main-content .wpb_content_element.vc_custom_1522739142883 {
   margin-bottom: 0!important;
+  width: 100%;
 }
 .pricing-header-row + .fw-section {
   overflow: visible;
