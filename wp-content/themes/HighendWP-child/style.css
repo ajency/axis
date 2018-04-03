@@ -2993,6 +2993,9 @@ input[type="checkbox"]:after {
   font-size: 14px;
   font-weight: 600;
 }
+.average-rating {
+  text-align: center;
+}
 .review-stars ul li {
   margin-right: 2px;
 }
