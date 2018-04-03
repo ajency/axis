@@ -2993,6 +2993,22 @@ input[type="checkbox"]:after {
   font-size: 14px;
   font-weight: 600;
 }
+.review-stars ul li {
+  margin-right: 2px;
+}
+.review-stars ul li:first-child {
+  float: none;
+  text-align: center;
+}
+.review-stars ul li:first-child i {
+  font-size: 50px;
+}
+.review-stars ul li i {
+  color: #EB6E00;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: normal;
+}
 .pricing-header-row + .fw-section {
   overflow: visible;
 }

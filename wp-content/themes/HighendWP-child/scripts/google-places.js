@@ -55,15 +55,15 @@
             $element.trigger('beforeRender.' + namespace);
 
             if(plugin.settings.render.indexOf('rating') > -1){
+            }
               renderRating(plugin.place_data.rating);
-            }
             // render specified sections
-            if(plugin.settings.render.indexOf('reviews') > -1){
-              renderReviews(plugin.place_data.reviews);
-              if(!!plugin.settings.rotateTime) {
-                  initRotation();
-              }
-            }
+            // if(plugin.settings.render.indexOf('reviews') > -1){
+            //   renderReviews(plugin.place_data.reviews);
+            //   if(!!plugin.settings.rotateTime) {
+            //       initRotation();
+            //   }
+            // }
             if(plugin.settings.render.indexOf('address') > -1){
               renderAddress(
                   capture_element(plugin.settings.address.displayElement)
@@ -162,20 +162,20 @@
             $element.append(html);
         }
 
-        var renderReviews = function(reviews){
-          reviews = sort_by_date(reviews);
-          reviews = filter_minimum_rating(reviews);
-          var html = "";
-          var row_count = (plugin.settings.max_rows > 0)? plugin.settings.max_rows - 1 : reviews.length - 1;
-          // make sure the row_count is not greater than available records
-          row_count = (row_count > reviews.length-1)? reviews.length -1 : row_count;
-          for (var i = row_count; i >= 0; i--) {
-            var stars = renderStars(reviews[i].rating);
-            var date = convertTime(reviews[i].time);
-            html = html+"<div class='review-item'><div class='review-meta'><span class='review-author'>"+reviews[i].author_name+"</span><span class='review-sep'>, </span><span class='review-date'>"+date+"</span></div>"+stars+"<p class='review-text'>"+reviews[i].text+"</p></div>"
-          };
-          $element.append(html);
-        }
+        // var renderReviews = function(reviews){
+        //   reviews = sort_by_date(reviews);
+        //   reviews = filter_minimum_rating(reviews);
+        //   var html = "";
+        //   var row_count = (plugin.settings.max_rows > 0)? plugin.settings.max_rows - 1 : reviews.length - 1;
+        //   // make sure the row_count is not greater than available records
+        //   row_count = (row_count > reviews.length-1)? reviews.length -1 : row_count;
+        //   for (var i = row_count; i >= 0; i--) {
+        //     var stars = renderStars(reviews[i].rating);
+        //     var date = convertTime(reviews[i].time);
+        //     html = html+"<div class='review-item'><div class='review-meta'><span class='review-author'>"+reviews[i].author_name+"</span><span class='review-sep'>, </span><span class='review-date'>"+date+"</span></div>"+stars+"<p class='review-text'>"+reviews[i].text+"</p></div>"
+        //   };
+        //   $element.append(html);
+        // }
 
         var renderHours = function(element, data){
           if(element instanceof jQuery){

@@ -5,7 +5,7 @@ function highend_child_theme_enqueue_styles() {
   $parent_style = 'highend-parent-style';
 
   wp_enqueue_style( $parent_style, get_template_directory_uri() . '/style.css' );
-  // wp_enqueue_style( 'reviews_style', get_stylesheet_directory_uri() . '/google-places.css' );
+  wp_enqueue_style( 'reviews_style', get_stylesheet_directory_uri() . '/google-places.css' );
 
   // wp_enqueue_style( 'highend-child-style',
   //     get_stylesheet_directory_uri() . '/style.css',
@@ -18,7 +18,7 @@ add_action( 'wp_enqueue_scripts', 'highend_child_theme_enqueue_styles' );
 function axis_adding_scripts() {
   wp_register_script('axis_custom_script', get_stylesheet_directory_uri() . '/scripts/custom.js', array('jquery'),'1.0', true);
   wp_enqueue_script('axis_custom_script');
-  // wp_enqueue_script('reviews_script', get_stylesheet_directory_uri() . '/scripts/google-places.js', array('jquery'),'1.0', true);
+  wp_enqueue_script('reviews_script', get_stylesheet_directory_uri() . '/scripts/google-places.js', array('jquery'),'1.0', true);
 }
 add_action( 'wp_enqueue_scripts', 'axis_adding_scripts', 11, 1 );
 
