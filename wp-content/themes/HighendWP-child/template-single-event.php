@@ -18,7 +18,20 @@
 <div id="main-content">
 	<div class="container">
 
-	<div class="row main-row">
+		<?php
+			$sidebar_layout = vp_metabox('layout_settings.hb_page_layout_sidebar');
+			$sidebar_name = vp_metabox('layout_settings.hb_choose_sidebar');
+
+			if ( $sidebar_layout == "default" || $sidebar_layout == "" ) {
+				$sidebar_layout = hb_options('hb_page_layout_sidebar');
+				$sidebar_name = hb_options('hb_choose_sidebar');
+			}
+
+			$pagination_style = vp_metabox('page_settings.hb_pagination_settings.0.hb_pagination_style');
+			$blog_grid_column_class = vp_metabox('page_settings.hb_blog_grid_settings.0.hb_grid_columns');
+		?>
+
+	<div class="row <?php echo $sidebar_layout; ?> main-row">
 
 	<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
 
@@ -86,5 +99,9 @@
 	</div>
 </div>
 <!-- END #main-content -->
+
+<script type="text/javascript">
+	jQuery('body').addClass('dark-footer');
+</script>
 
 <?php get_footer(); ?>
