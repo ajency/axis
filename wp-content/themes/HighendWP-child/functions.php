@@ -212,7 +212,7 @@ add_shortcode('testimonials_gal','testimonials_gal_shortcode');
 // Special Header style setting for product page
 function save_wpse44966_meta_box_cb( $post_id){
  if(isset($_REQUEST['post_type'])){
-   if($_REQUEST['post_type']=='products' || 'single-product'){
+   if($_REQUEST['post_type']=='products' || 'single-product' || 'tribe_events'){
 
      $misc_settings=array( 'hb_boxed_stretched_page' => "default" ,
        'hb_page_extra_class' => "dark-footer",

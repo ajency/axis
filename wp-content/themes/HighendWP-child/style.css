@@ -3014,7 +3014,8 @@ input[type="checkbox"]:after {
   font-style: normal;
   font-weight: normal;
 }
-#main-content .wpb_content_element.vc_custom_1522739142883 {
+#main-content .wpb_content_element.vc_custom_1522739142883,
+#main-content .wpb_content_element.vc_custom_1522759651751 {
   margin-bottom: 0!important;
   width: 100%;
 }
@@ -3846,6 +3847,58 @@ input[type="checkbox"]:after {
 }
 .page-template-page-paynow button[type=submit] {
   border: none;
+}
+.single-tribe_events .hb-logo-wrap img {
+  -ms-filter: brightness(0%) invert(100%);
+  filter: brightness(0%) invert(100%);
+}
+.single-tribe_events .event-header {
+  background: -webkit-linear-gradient(left, #56c3aa, #88d4f5);
+  padding: 160px 0 120px;
+  top: -80px;
+  position: relative;
+  text-align: center;
+}
+.single-tribe_events .event-header h1 {
+  color: #fff;
+  font-weight: 700;
+  font-size: 30px;
+}
+.single-tribe_events #main-content {
+  padding-top: 20px;
+}
+.single-tribe_events #main-content .row .col-8 {
+  width: 70.66%;
+}
+.single-tribe_events #main-content .row .col-4 {
+  width: 29.33%;
+}
+.single-tribe_events #main-content p {
+  font-size: 14px;
+  line-height: 24px;
+}
+.single-tribe_events .gray-bg {
+  background-color: #ebebeb;
+  padding: 20px;
+  margin-top: 30px;
+}
+.tribe-events-back a {
+  font-size: 15px;
+  font-weight: 600;
+}
+.tribe-events-back i {
+  font-size: 18px;
+  color: #304062;
+}
+.tribe-events-single-event-title {
+  font-size: 22px;
+  line-height: 28px;
+}
+.tribe-events-schedule h5 {
+  margin-bottom: 25px;
+}
+.tribe-events-single-event-description iframe {
+  width: 100%;
 }
 .benefits-row .feature-box i.ic-holder-1 {
   height: 70px;
