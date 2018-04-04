@@ -3894,6 +3894,10 @@ input[type="checkbox"]:after {
 .single-tribe_events .aj-list__date {
   font-size: 14px;
 }
+.page-template-template-single-event .aj-list__title,
+.single-tribe_events .aj-list__title {
+  white-space: normal;
+}
 .page-template-template-single-event .aj__address,
 .single-tribe_events .aj__address {
   display: none;
