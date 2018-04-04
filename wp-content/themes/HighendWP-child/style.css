@@ -3848,47 +3848,58 @@ input[type="checkbox"]:after {
 .page-template-page-paynow button[type=submit] {
   border: none;
 }
-.page-template-template-single-event .hb-logo-wrap img {
+.page-template-template-single-event .hb-logo-wrap img,
+.single-tribe_events .hb-logo-wrap img {
   -ms-filter: brightness(0%) invert(100%);
   filter: brightness(0%) invert(100%);
 }
-.page-template-template-single-event .event-header {
+.page-template-template-single-event .event-header,
+.single-tribe_events .event-header {
   background: -webkit-linear-gradient(left, #56c3aa, #88d4f5);
   padding: 160px 0 120px;
   top: -80px;
   position: relative;
   text-align: center;
 }
-.page-template-template-single-event .event-header h1 {
+.page-template-template-single-event .event-header h1,
+.single-tribe_events .event-header h1 {
   color: #fff;
   font-weight: 700;
   font-size: 30px;
 }
-.page-template-template-single-event #main-content {
+.page-template-template-single-event #main-content,
+.single-tribe_events #main-content {
   padding-top: 20px;
 }
-.page-template-template-single-event #main-content .row .col-8 {
+.page-template-template-single-event #main-content .row .col-8,
+.single-tribe_events #main-content .row .col-8 {
   width: 70.66%;
 }
-.page-template-template-single-event #main-content .row .col-4 {
+.page-template-template-single-event #main-content .row .col-4,
+.single-tribe_events #main-content .row .col-4 {
   width: 29.33%;
 }
-.page-template-template-single-event #main-content p {
+.page-template-template-single-event #main-content p,
+.single-tribe_events #main-content p {
   font-size: 14px;
   line-height: 24px;
 }
-.page-template-template-single-event .gray-bg {
+.page-template-template-single-event .gray-bg,
+.single-tribe_events .gray-bg {
   background-color: #ebebeb;
   padding: 20px;
   margin-top: 30px;
 }
-.page-template-template-single-event .aj-list__date {
+.page-template-template-single-event .aj-list__date,
+.single-tribe_events .aj-list__date {
   font-size: 14px;
 }
-.page-template-template-single-event .aj__address {
+.page-template-template-single-event .aj__address,
+.single-tribe_events .aj__address {
   display: none;
 }
-.page-template-template-single-event .aj-list__desc {
+.page-template-template-single-event .aj-list__desc,
+.single-tribe_events .aj-list__desc {
   margin-top: 1em;
 }
 .tribe-events-back a {

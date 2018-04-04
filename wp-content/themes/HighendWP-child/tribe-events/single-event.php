@@ -25,7 +25,7 @@ $event_id = get_the_ID();
 <div id="tribe-events-content" class="tribe-events-single">
 
 	<p class="tribe-events-back">
-		<a href="<?php echo esc_url( tribe_get_events_link() ); ?>"> <i class="hb-moon-arrow-left-4"></i> <?php printf( esc_html_x( 'All %s', '%s Events plural label', 'the-events-calendar' ), $events_label_plural ); ?></a>
+		<a href="<?php echo get_site_url() ?>/webinars"> <i class="hb-moon-arrow-left-4"></i> <?php printf( esc_html_x( 'All %s', '%s Events plural label', 'the-events-calendar' ), $events_label_plural ); ?></a>
 	</p>
 
 	<?php the_title( '<h1 class="tribe-events-single-event-title">', '</h1>' ); ?>
