@@ -2477,6 +2477,9 @@ textarea.wpcf7-not-valid {
     border-right: 0;
   }
 }
+.individual-contacts .country-block p {
+  font-size: 13px;
+}
 label {
   position: relative;
 }
