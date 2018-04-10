@@ -3924,13 +3924,15 @@ input[type="checkbox"]:after {
 .tribe-events-single-event-description iframe {
   width: 100%;
 }
+.speaker-wrapper {
+  margin-top: 30px;
+}
 .speaker-details {
   display: -moz-box;
   display: flex;
-  -moz-box-align: center;
-       align-items: center;
-  flex-wrap: wrap;
-  margin-top: 30px;
+  -moz-box-align: start;
+       align-items: flex-start;
+  line-height: 20px;
 }
 .speaker-details h5 {
   width: 100%;
@@ -3938,6 +3940,7 @@ input[type="checkbox"]:after {
 .speaker-details .speaker-img {
   height: 50px;
   width: 50px;
+  min-width: 50px;
   -moz-border-radius: 50%;
        border-radius: 50%;
   overflow: hidden;
