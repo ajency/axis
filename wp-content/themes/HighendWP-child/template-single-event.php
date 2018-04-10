@@ -11,8 +11,9 @@
 <?php get_header(); ?>
 
 <?php
-	$speaker_name = get_post_meta($post->ID, "wpcf-speaker-name", true);
-	$speaker_photo = get_post_meta($post->ID, "wpcf-speaker-photo", true);
+	$event_id = get_the_ID();
+	$speaker_name = get_post_meta($event_id, "wpcf-speaker-name", true);
+	$speaker_photo = get_post_meta($event_id, "wpcf-speaker-photo", true);
 ?>
 
 <div class="event-header">
