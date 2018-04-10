@@ -3924,6 +3924,38 @@ input[type="checkbox"]:after {
 .tribe-events-single-event-description iframe {
   width: 100%;
 }
+.speaker-details {
+  display: -moz-box;
+  display: flex;
+  -moz-box-align: center;
+       align-items: center;
+  flex-wrap: wrap;
+  margin-top: 30px;
+}
+.speaker-details h5 {
+  width: 100%;
+}
+.speaker-details .speaker-img {
+  height: 50px;
+  width: 50px;
+  -moz-border-radius: 50%;
+       border-radius: 50%;
+  overflow: hidden;
+  display: -moz-box;
+  display: flex;
+  -moz-box-pack: center;
+       justify-content: center;
+  -moz-box-align: center;
+       align-items: center;
+  margin-right: 10px;
+  -moz-box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.2);
+       box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.2);
+}
+.speaker-details h6 {
+  margin: 0;
+  font-weight: 600;
+  font-size: 15px;
+}
 .benefits-row .feature-box i.ic-holder-1 {
   height: 70px;
   line-height: 70px;
