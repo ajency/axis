@@ -90,7 +90,7 @@
 		<!-- END .hb-main-content -->
 
 		<div class="col-4">
-			<?php if (isset($speaker_name)  && ($speaker_name == true) ) { ?>
+			<?php if (isset($speaker_name) ) { ?>
 				<div class="speaker-details">
 					<h5>Speaker Details</h5>
 					<div class="speaker-img"><img src="<?php echo $speaker_photo; ?>"></div>
