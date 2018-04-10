@@ -10,11 +10,6 @@
 
 <?php get_header(); ?>
 
-<?php
-	$event_id = get_the_ID();
-	$speaker_name = get_post_meta(get_the_ID(), "wpcf-speaker-name", true);
-	$speaker_photo = get_post_meta($event_id, "wpcf-speaker-photo", true);
-?>
 
 <div class="event-header">
 	<h1>Webinars</h1>
@@ -91,11 +86,18 @@
 		<!-- END .hb-main-content -->
 
 		<div class="col-4">
-			<?php if (isset($speaker_name) ) { ?>
+
+			<?php
+				$event_id = get_the_ID();
+				$speaker_name = get_post_meta($event_id, "wpcf-speaker-name", true);
+				$speaker_photo = get_post_meta($event_id, "wpcf-speaker-photo", true);
+			?>
+
+			<?php if (isset($speaker_name) && ($speaker_name == true) ) { ?>
 				<div class="speaker-details">
 					<h5>Speaker Details</h5>
 					<div class="speaker-img"><img src="<?php echo $speaker_photo; ?>"></div>
-					<h6><?php echo get_post_meta(get_the_ID(), "wpcf-speaker-name", true); ?></h6>
+					<h6><?php echo $speaker_name; ?></h6>
 				</div>
 			<?php } ?>
 			<div class="gray-bg">
