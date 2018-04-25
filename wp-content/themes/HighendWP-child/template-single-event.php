@@ -92,6 +92,9 @@
 				$speaker_name = get_post_meta($event_id, "wpcf-speaker-name", true);
 				$speaker_photo = get_post_meta($event_id, "wpcf-speaker-photo", true);
 				$speaker_desc = get_post_meta($event_id, "wpcf-speaker-description", true);
+				$speaker_name2 = get_post_meta($event_id, "wpcf-second-speaker-name", true);
+				$speaker_photo2 = get_post_meta($event_id, "wpcf-second-speaker-photo", true);
+				$speaker_desc2 = get_post_meta($event_id, "wpcf-second-speaker-description", true);
 			?>
 
 			<?php if (isset($speaker_name) && ($speaker_name == true) ) { ?>
@@ -104,6 +107,17 @@
 							<?php echo $speaker_desc; ?>
 						</div>
 					</div>
+
+					<?php if (isset($speaker_name2) && ($speaker_name2 == true) ) { ?>
+						<hr>
+						<div class="speaker-details">
+							<div class="speaker-img"><img src="<?php echo $speaker_photo2; ?>"></div>
+							<div>
+								<h6><?php echo $speaker_name2; ?></h6>
+								<?php echo $speaker_desc2; ?>
+							</div>
+						</div>
+					<?php } ?>
 				</div>
 			<?php } ?>
 			<div class="gray-bg">
