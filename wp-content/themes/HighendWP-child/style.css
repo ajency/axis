@@ -389,6 +389,13 @@ a.vc_btn3 {
   text-indent: 0;
   padding-left: 5px;
 }
+.integrations-page #hb-page-title.hb-color-background {
+  top: -80px;
+  padding-top: 180px;
+}
+.integrations-page .hb-logo-wrap img {
+  filter: brightness(0%) invert(100%);
+}
 .main-navigation > ul > li:last-child span {
   background-color: #353b63;
   padding: 8px 10px !important;
