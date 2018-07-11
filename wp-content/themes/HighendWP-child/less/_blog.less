@@ -68,7 +68,7 @@
 }
 
 
-.axisrooms.category, .axisrooms.archive{
+.axisrooms.category, .axisrooms.archive, .axisrooms.search{
 	#main-nav > li > a{
 		color: #444;
 	}
@@ -81,7 +81,18 @@
 		top: 0;
 		margin-bottom: 0;
 	}
+
+	@media(max-width: 767px){
+		#header-inner-bg{
+			box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+			#show-nav-menu {
+			    color: @brand-primary;
+			}
+		}
+	}
 }
+
+// .axisrooms.category
 
 .axisrooms.category, .axisrooms.archive, .page-template-page-blog, .single-post{
 	.vc_row {
@@ -114,5 +125,11 @@
 		.vc_col-sm-1, .vc_col-sm-10, .vc_col-sm-11, .vc_col-sm-12, .vc_col-sm-2, .vc_col-sm-3, .vc_col-sm-4, .vc_col-sm-5, .vc_col-sm-6, .vc_col-sm-7, .vc_col-sm-8, .vc_col-sm-9{
 			float: left;
 		}
+	}
+}
+
+.axisrooms.search{
+	#main-content{
+		top: 0;
 	}
 }
